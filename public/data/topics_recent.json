@@ -1,11 +1,11 @@
 {
   "name": "root",
   "mode": "recent",
-  "updated_at": "2026-03-30T06:20:10.355845+00:00",
+  "updated_at": "2026-03-30T06:51:10.989821+00:00",
   "children": [
     {
       "cluster_id": 0,
-      "name": "Topic 0",
+      "name": "Leading with Confidence and Kids",
       "count": 32,
       "children": [
         {
@@ -54,7 +54,7 @@
     },
     {
       "cluster_id": 1,
-      "name": "Topic 1",
+      "name": "Novo Nordisk's GLP-1 Market Shift",
       "count": 15,
       "children": [
         {
@@ -96,7 +96,7 @@
     },
     {
       "cluster_id": 2,
-      "name": "Topic 2",
+      "name": "Mortgage Rates and Housing Market",
       "count": 17,
       "children": [
         {
@@ -124,7 +124,7 @@
     },
     {
       "cluster_id": 3,
-      "name": "Topic 3",
+      "name": "Pop Mart's IP Growth Concerns",
       "count": 13,
       "children": [
         {
@@ -159,7 +159,7 @@
     },
     {
       "cluster_id": 4,
-      "name": "Topic 4",
+      "name": "Retailers Face Weak Earnings Outlook",
       "count": 2,
       "children": [
         {
@@ -173,7 +173,7 @@
     },
     {
       "cluster_id": 5,
-      "name": "Topic 5",
+      "name": "India's Economy Under Pressure",
       "count": 16,
       "children": [
         {
@@ -215,7 +215,7 @@
     },
     {
       "cluster_id": 6,
-      "name": "Topic 6",
+      "name": "Prediction Markets Under Scrutiny",
       "count": 6,
       "children": [
         {
@@ -243,7 +243,7 @@
     },
     {
       "cluster_id": 7,
-      "name": "Topic 7",
+      "name": "US Government Shutdown Continues",
       "count": 12,
       "children": [
         {
@@ -285,7 +285,7 @@
     },
     {
       "cluster_id": 8,
-      "name": "Topic 8",
+      "name": "OpenAI's Shift in Business Strategy",
       "count": 1,
       "children": [
         {
@@ -299,7 +299,7 @@
     },
     {
       "cluster_id": 9,
-      "name": "Topic 9",
+      "name": "\"Space Tech Boom Accelerates\"",
       "count": 7,
       "children": [
         {
@@ -320,7 +320,7 @@
     },
     {
       "cluster_id": 10,
-      "name": "Topic 10",
+      "name": "Private Credit Market in Crisis",
       "count": 16,
       "children": [
         {
@@ -355,7 +355,7 @@
     },
     {
       "cluster_id": 11,
-      "name": "Topic 11",
+      "name": "Luxury Industry Hit by Iran",
       "count": 12,
       "children": [
         {
@@ -390,7 +390,7 @@
     },
     {
       "cluster_id": 12,
-      "name": "Topic 12",
+      "name": "Overcoming Entrepreneurial Burnout and Failure",
       "count": 6,
       "children": [
         {
@@ -404,7 +404,7 @@
     },
     {
       "cluster_id": 13,
-      "name": "Topic 13",
+      "name": "China's Shift to Private Sector",
       "count": 7,
       "children": [
         {
@@ -432,7 +432,7 @@
     },
     {
       "cluster_id": 14,
-      "name": "Topic 14",
+      "name": "Gold Prices Plummet Amid Tensions",
       "count": 6,
       "children": [
         {
@@ -460,7 +460,7 @@
     },
     {
       "cluster_id": 16,
-      "name": "Topic 16",
+      "name": "Fed Holds Interest Rates",
       "count": 52,
       "children": [
         {
@@ -593,7 +593,7 @@
     },
     {
       "cluster_id": 18,
-      "name": "Topic 18",
+      "name": "Tax Refunds Rise Amid Uncertainty",
       "count": 8,
       "children": [
         {
@@ -621,7 +621,7 @@
     },
     {
       "cluster_id": 19,
-      "name": "Topic 19",
+      "name": "US Threatens Cuba's Oil Supply",
       "count": 3,
       "children": [
         {
@@ -635,7 +635,7 @@
     },
     {
       "cluster_id": 20,
-      "name": "Topic 20",
+      "name": "US-China Trade Relations Tensions",
       "count": 5,
       "children": [
         {
@@ -656,7 +656,7 @@
     },
     {
       "cluster_id": 21,
-      "name": "Topic 21",
+      "name": "Fertilizer Prices Skyrocket Amid Conflict",
       "count": 7,
       "children": [
         {
@@ -670,7 +670,7 @@
     },
     {
       "cluster_id": 22,
-      "name": "Topic 22",
+      "name": "Rising Gas Prices Impact Economy",
       "count": 9,
       "children": [
         {
@@ -698,7 +698,7 @@
     },
     {
       "cluster_id": 23,
-      "name": "Topic 23",
+      "name": "Helium Supply Chain Disruptions",
       "count": 3,
       "children": [
         {
@@ -712,7 +712,7 @@
     },
     {
       "cluster_id": 24,
-      "name": "Topic 24",
+      "name": "\"AI's Impact on the Workforce\"",
       "count": 4,
       "children": [
         {
@@ -726,7 +726,7 @@
     },
     {
       "cluster_id": 25,
-      "name": "Topic 25",
+      "name": "Micron's AI-Driven Memory Surge",
       "count": 11,
       "children": [
         {
@@ -768,7 +768,7 @@
     },
     {
       "cluster_id": 26,
-      "name": "Topic 26",
+      "name": "Middle East Conflict Escalates",
       "count": 49,
       "children": [
         {
@@ -957,7 +957,7 @@
     },
     {
       "cluster_id": 30,
-      "name": "Topic 30",
+      "name": "Alibaba's AI and Restructuring Efforts",
       "count": 1,
       "children": [
         {
@@ -971,7 +971,7 @@
     },
     {
       "cluster_id": 31,
-      "name": "Topic 31",
+      "name": "Meta's AI Investment Struggles",
       "count": 7,
       "children": [
         {
@@ -999,7 +999,7 @@
     },
     {
       "cluster_id": 32,
-      "name": "Topic 32",
+      "name": "\"Tech Giants Face Liability\"",
       "count": 23,
       "children": [
         {
@@ -1055,7 +1055,7 @@
     },
     {
       "cluster_id": 34,
-      "name": "Topic 34",
+      "name": "Middle East Energy Attacks",
       "count": 5,
       "children": [
         {
@@ -1076,7 +1076,7 @@
     },
     {
       "cluster_id": 36,
-      "name": "Topic 36",
+      "name": "Global Oil Supply Disruption",
       "count": 74,
       "children": [
         {
