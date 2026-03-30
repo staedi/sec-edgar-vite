@@ -5,10 +5,12 @@ import { scaleOrdinal } from 'd3-scale'
 // ── Types ─────────────────────────────────────────────────────────────────────
 
 export interface ArticleNode {
-  name: string; hash: string; article_date: string; provider: string; value: number
+  name: string; summary?: string; hash: string
+  article_date: string; provider: string; value: number
 }
 export interface ClusterNode {
-  cluster_id: number; name: string; count: number; children: ArticleNode[]
+  cluster_id: number; name: string; count: number
+  children: ArticleNode[]; related_tickers?: string[]
 }
 export interface MetaCategoryNode {
   name: string; count: number; children: ClusterNode[]
@@ -19,6 +21,7 @@ export interface TopicsData {
 export interface CirclePackingProps {
   data: TopicsData; width: number; height: number
   activeCluster?: number | null; onClusterClick?: (id: number) => void
+  activeMeta?: string | null;    onMetaClick?:    (name: string) => void
 }
 
 // ── Palette ───────────────────────────────────────────────────────────────────
@@ -28,7 +31,12 @@ const PALETTE = [
   '#56b6c2','#e5c07b','#98c379','#f07178','#7986cb',
   '#4db6ac','#ff8a65',
 ]
-const colorScale = scaleOrdinal<string>().range(PALETTE)
+const META_PALETTE = [
+  '#7c8cf8','#f59e6b','#34d399','#f87171','#a78bfa',
+  '#22d3ee','#fbbf24','#4ade80',
+]
+const colorScale    = scaleOrdinal<string>().range(PALETTE)
+const metaColorScale = scaleOrdinal<string>().range(META_PALETTE)
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -55,16 +63,28 @@ function wrapLabel(label: string, maxChars: number): string[] {
 // ── Component ─────────────────────────────────────────────────────────────────
 
 export default function CirclePacking({
-  data, width, height, activeCluster: ext, onClusterClick,
+  data, width, height,
+  activeCluster: extCluster, onClusterClick,
+  activeMeta: extMeta,       onMetaClick,
 }: CirclePackingProps) {
-  const [tooltip, setTooltip] = useState<{x:number;y:number;label:string;sub:string}|null>(null)
-  const [internal, setInternal] = useState<number|null>(null)
-  const active = ext !== undefined ? ext : internal
+  const [tooltip, setTooltip] = useState<{
+    x: number; y: number; label: string; sub: string; extra?: string
+  } | null>(null)
+  const [internalCluster, setInternalCluster] = useState<number|null>(null)
+  const [internalMeta,    setInternalMeta]    = useState<string|null>(null)
 
-  const handleClick = useCallback((id: number) => {
+  const activeCluster = extCluster !== undefined ? extCluster : internalCluster
+  const activeMeta    = extMeta    !== undefined ? extMeta    : internalMeta
+
+  const handleClusterClick = useCallback((id: number) => {
     if (onClusterClick) onClusterClick(id)
-    else setInternal(p => p === id ? null : id)
+    else setInternalCluster(p => p === id ? null : id)
   }, [onClusterClick])
+
+  const handleMetaClick = useCallback((name: string) => {
+    if (onMetaClick) onMetaClick(name)
+    else setInternalMeta(p => p === name ? null : name)
+  }, [onMetaClick])
 
   const PAD = 12
 
@@ -84,50 +104,68 @@ export default function CirclePacking({
           {root.descendants().map((node, i) => {
             if (node.depth === 0) return null
 
-            // depth 1 = meta-category ring (subtle background, label at edge)
+            // ── depth 1: meta-category ring ──────────────────────────────
             if (node.depth === 1) {
-              const meta = node.data as MetaCategoryNode
-              const show = node.r > 48
-              const fs   = Math.min(11, Math.max(8, node.r / 8))
+              const meta     = node.data as MetaCategoryNode
+              const color    = metaColorScale(meta.name)
+              const isActive = activeMeta === null || activeMeta === meta.name
+              const show     = node.r > 52
+              const fs       = Math.min(11, Math.max(8, node.r / 8))
+
               return (
-                <g key={`m-${meta.name}`}>
+                <g key={`m-${meta.name}`} style={{ cursor: 'pointer' }}
+                  onClick={() => handleMetaClick(meta.name)}
+                  onMouseEnter={e => setTooltip({
+                    x: e.clientX, y: e.clientY,
+                    label: meta.name,
+                    sub: `${meta.children.length} cluster${meta.children.length !== 1 ? 's' : ''} · ${meta.count} articles`,
+                  })}
+                  onMouseLeave={() => setTooltip(null)}
+                >
                   <circle cx={node.x} cy={node.y} r={node.r}
-                    fill="var(--ink-7)" fillOpacity={0.6}
-                    stroke="var(--ink-5)" strokeWidth={1}
-                    strokeOpacity={0.4}
-                    style={{ pointerEvents:'none' }}
+                    fill={color} fillOpacity={isActive ? 0.07 : 0.02}
+                    stroke={color} strokeWidth={isActive ? 1.5 : 0.8}
+                    strokeOpacity={isActive ? 0.45 : 0.15}
+                    strokeDasharray="4 3"
+                    style={{ transition: 'all 0.18s ease' }}
                   />
                   {show && (
-                    <text x={node.x} y={node.y - node.r + fs + 4}
+                    <text x={node.x} y={node.y - node.r + fs + 5}
                       textAnchor="middle" fontSize={fs} fontWeight={500}
                       fontFamily="'DM Sans', system-ui, sans-serif"
-                      fill="var(--ink-3)" fillOpacity={0.7}
-                      style={{ pointerEvents:'none', userSelect:'none' }}
+                      fill={color} fillOpacity={isActive ? 0.75 : 0.25}
+                      style={{ pointerEvents: 'none', userSelect: 'none', transition: 'fill-opacity 0.18s' }}
                     >{fixEncoding(meta.name)}</text>
                   )}
                 </g>
               )
             }
 
-            // depth 2 = cluster bubble
+            // ── depth 2: cluster bubble ───────────────────────────────────
             if (node.depth === 2) {
-              const cd    = node.data as ClusterNode
-              const color = colorScale(String(cd.cluster_id))
-              const on    = active === null || active === cd.cluster_id
-              const fs    = Math.min(13, Math.max(9, node.r/5))
-              const lh    = fs*1.3
-              const maxC  = Math.max(8, Math.floor(node.r/5.2))
-              const lines = wrapLabel(fixEncoding(cd.name), maxC).slice(0,2)
-              const show  = node.r > 36
-              const ty    = node.y - (lines.length*lh)/2 + lh*0.4
+              const cd       = node.data as ClusterNode
+              const metaName = (node.parent!.data as MetaCategoryNode).name
+              const color    = colorScale(String(cd.cluster_id))
+              const metaOn   = activeMeta === null || activeMeta === metaName
+              const clusterOn = activeCluster === null || activeCluster === cd.cluster_id
+              const on       = metaOn && clusterOn
+              const fs       = Math.min(13, Math.max(9, node.r / 5))
+              const lh       = fs * 1.3
+              const maxC     = Math.max(8, Math.floor(node.r / 5.2))
+              const lines    = wrapLabel(fixEncoding(cd.name), maxC).slice(0, 2)
+              const show     = node.r > 36
+              const ty       = node.y - (lines.length * lh) / 2 + lh * 0.4
 
               return (
-                <g key={`c-${cd.cluster_id}`} style={{ cursor:'pointer' }}
-                  onClick={() => handleClick(cd.cluster_id)}
+                <g key={`c-${cd.cluster_id}`} style={{ cursor: 'pointer' }}
+                  onClick={() => handleClusterClick(cd.cluster_id)}
                   onMouseEnter={e => setTooltip({
-                    x:e.clientX, y:e.clientY,
+                    x: e.clientX, y: e.clientY,
                     label: fixEncoding(cd.name),
-                    sub: `${cd.count} article${cd.count!==1?'s':''}`,
+                    sub: `${cd.count} article${cd.count !== 1 ? 's' : ''}`,
+                    extra: cd.related_tickers?.length
+                      ? cd.related_tickers.join('  ·  ')
+                      : undefined,
                   })}
                   onMouseLeave={() => setTooltip(null)}
                 >
@@ -135,43 +173,47 @@ export default function CirclePacking({
                     fill={color} fillOpacity={on ? 0.13 : 0.03}
                     stroke={color} strokeWidth={on ? 1.5 : 0.8}
                     strokeOpacity={on ? 0.55 : 0.18}
-                    style={{ transition:'all 0.18s ease' }}
+                    style={{ transition: 'all 0.18s ease' }}
                   />
-                  {show && lines.map((line,li) => (
-                    <text key={li} x={node.x} y={ty+li*lh}
+                  {show && lines.map((line, li) => (
+                    <text key={li} x={node.x} y={ty + li * lh}
                       textAnchor="middle" fontSize={fs} fontWeight={600}
                       fontFamily="'DM Sans', system-ui, sans-serif"
                       fill={color} fillOpacity={on ? 0.88 : 0.22}
-                      style={{ transition:'fill-opacity 0.18s', pointerEvents:'none', userSelect:'none' }}
+                      style={{ transition: 'fill-opacity 0.18s', pointerEvents: 'none', userSelect: 'none' }}
                     >{line}</text>
                   ))}
                   {show && (
-                    <text x={node.x} y={node.y+node.r-9}
-                      textAnchor="middle" fontSize={Math.min(9,fs*0.8)}
+                    <text x={node.x} y={node.y + node.r - 9}
+                      textAnchor="middle" fontSize={Math.min(9, fs * 0.8)}
                       fontFamily="'DM Mono', monospace"
                       fill={color} fillOpacity={on ? 0.4 : 0.12}
-                      style={{ transition:'fill-opacity 0.18s', pointerEvents:'none', userSelect:'none' }}
+                      style={{ transition: 'fill-opacity 0.18s', pointerEvents: 'none', userSelect: 'none' }}
                     >{cd.count}</text>
                   )}
                 </g>
               )
             }
 
-            // depth 3 = article dot
-            const art   = node.data as ArticleNode
-            const cd    = node.parent!.data as ClusterNode
-            const color = colorScale(String(cd.cluster_id))
-            const on    = active === null || active === cd.cluster_id
+            // ── depth 3: article dot ──────────────────────────────────────
+            const art      = node.data as ArticleNode
+            const cd       = node.parent!.data as ClusterNode
+            const metaName = (node.parent!.parent!.data as MetaCategoryNode).name
+            const color    = colorScale(String(cd.cluster_id))
+            const metaOn   = activeMeta === null || activeMeta === metaName
+            const clusterOn = activeCluster === null || activeCluster === cd.cluster_id
+            const on       = metaOn && clusterOn
+
             return (
-              <circle key={`a-${art.hash||i}`}
-                cx={node.x} cy={node.y} r={Math.max(node.r,2.5)}
-                fill={color} fillOpacity={on ? 0.65 : 0.1}
+              <circle key={`a-${art.hash || i}`}
+                cx={node.x} cy={node.y} r={Math.max(node.r, 2.5)}
+                fill={color} fillOpacity={on ? 0.65 : 0.08}
                 stroke={color} strokeWidth={0.5} strokeOpacity={on ? 0.25 : 0}
-                style={{ transition:'all 0.18s ease', cursor:'default' }}
+                style={{ transition: 'all 0.18s ease', cursor: 'default' }}
                 onMouseEnter={e => setTooltip({
-                  x:e.clientX, y:e.clientY,
-                  label: truncate(art.name, 80),
-                  sub: `${art.provider} · ${art.article_date.slice(0,10)}`,
+                  x: e.clientX, y: e.clientY,
+                  label: truncate(art.summary || art.name, 120),
+                  sub: `${art.provider} · ${art.article_date.slice(0, 10)}`,
                 })}
                 onMouseLeave={() => setTooltip(null)}
               />
@@ -182,16 +224,22 @@ export default function CirclePacking({
 
       {tooltip && (
         <div style={{
-          position:'fixed', left:tooltip.x+14, top:tooltip.y-10,
-          zIndex:9999, pointerEvents:'none', maxWidth:280,
-          background:'rgba(15,17,23,0.93)', borderRadius:8,
-          padding:'8px 12px', boxShadow:'0 8px 24px rgba(0,0,0,0.18)',
-          border:'1px solid rgba(255,255,255,0.08)',
+          position: 'fixed', left: tooltip.x + 14, top: tooltip.y - 10,
+          zIndex: 9999, pointerEvents: 'none', maxWidth: 300,
+          background: 'rgba(15,17,23,0.93)', borderRadius: 8,
+          padding: '8px 12px', boxShadow: '0 8px 24px rgba(0,0,0,0.18)',
+          border: '1px solid rgba(255,255,255,0.08)',
         }}>
-          <p style={{ margin:0, fontSize:13, fontWeight:500, color:'#fff',
-            fontFamily:"'DM Sans',system-ui", lineHeight:1.4 }}>{tooltip.label}</p>
-          <p style={{ margin:'4px 0 0', fontSize:11, color:'#9ca3af',
-            fontFamily:"'DM Mono',monospace" }}>{tooltip.sub}</p>
+          <p style={{ margin: 0, fontSize: 13, fontWeight: 500, color: '#fff',
+            fontFamily: "'DM Sans',system-ui", lineHeight: 1.4 }}>{tooltip.label}</p>
+          <p style={{ margin: '4px 0 0', fontSize: 11, color: '#9ca3af',
+            fontFamily: "'DM Mono',monospace" }}>{tooltip.sub}</p>
+          {tooltip.extra && (
+            <p style={{ margin: '5px 0 0', fontSize: 11, color: '#7986cb',
+              fontFamily: "'DM Mono',monospace", letterSpacing: '0.03em' }}>
+              {tooltip.extra}
+            </p>
+          )}
         </div>
       )}
     </div>

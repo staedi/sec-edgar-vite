@@ -10,9 +10,13 @@ const PALETTE = [
   '#56b6c2','#e5c07b','#98c379','#f07178','#7986cb',
   '#4db6ac','#ff8a65',
 ]
-const colorScale = scaleOrdinal<string>().range(PALETTE)
+const META_PALETTE = [
+  '#7c8cf8','#f59e6b','#34d399','#f87171','#a78bfa',
+  '#22d3ee','#fbbf24','#4ade80',
+]
+const colorScale     = scaleOrdinal<string>().range(PALETTE)
+const metaColorScale = scaleOrdinal<string>().range(META_PALETTE)
 
-// Flatten all clusters across meta-categories
 function allClusters(data: TopicsData): ClusterNode[] {
   return data.children.flatMap((m: MetaCategoryNode) => m.children)
 }
@@ -22,20 +26,19 @@ export default function TopicsTab() {
   const [error,         setError]         = useState<string | null>(null)
   const [mode,          setMode]          = useState<'recent' | 'full'>('recent')
   const [activeCluster, setActiveCluster] = useState<number | null>(null)
+  const [activeMeta,    setActiveMeta]    = useState<string | null>(null)
 
-  // Width-only measurement — height comes from flex layout
   const vizRef  = useRef<HTMLDivElement>(null)
   const [width, setWidth] = useState<number | null>(null)
 
   useEffect(() => {
-    setData(null); setError(null); setActiveCluster(null)
+    setData(null); setError(null); setActiveCluster(null); setActiveMeta(null)
     fetch(`${BASE}/data/topics_${mode}.json`)
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() as Promise<TopicsData> })
       .then(setData)
       .catch((e: Error) => setError(e.message))
   }, [mode])
 
-  // Measure viz container width only — height is handled by flex
   useEffect(() => {
     const el = vizRef.current
     if (!el) return
@@ -49,23 +52,33 @@ export default function TopicsTab() {
     return () => { clearTimeout(t); ro.disconnect() }
   }, [])
 
-  const toggle = useCallback((id: number) =>
+  const toggleCluster = useCallback((id: number) =>
     setActiveCluster(p => p === id ? null : id), [])
+
+  const toggleMeta = useCallback((name: string) => {
+    setActiveMeta(p => p === name ? null : name)
+    setActiveCluster(null) // clear cluster selection when switching meta
+  }, [])
+
+  const clearAll = useCallback(() => {
+    setActiveCluster(null); setActiveMeta(null)
+  }, [])
 
   const updatedAt = data?.updated_at
     ? new Date(data.updated_at).toLocaleString('en-US', {
         month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })
     : null
 
+  const hasActive = activeCluster !== null || activeMeta !== null
+
   return (
-    // Outer panel: fills the main area entirely
     <div style={{
       flex: 1, display: 'flex', flexDirection: 'column',
       overflow: 'hidden', padding: '20px 28px 0',
       fontFamily: 'var(--font-ui)',
     }}>
 
-      {/* ── Top chrome: title + mode toggle + stats ── */}
+      {/* ── Top chrome ── */}
       <div style={{ flexShrink: 0, paddingBottom: 14, borderBottom: '1px solid var(--ink-6)' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 12 }}>
           <div>
@@ -78,8 +91,6 @@ export default function TopicsTab() {
               </p>
             )}
           </div>
-
-          {/* Mode toggle */}
           <div style={{
             display: 'flex', border: '1px solid var(--ink-5)',
             borderRadius: 'var(--radius-sm)', padding: 2, gap: 2,
@@ -98,7 +109,7 @@ export default function TopicsTab() {
           </div>
         </div>
 
-        {/* Stats row */}
+        {/* Stats */}
         {data && (
           <div style={{ display: 'flex', gap: 8 }}>
             {[
@@ -123,67 +134,96 @@ export default function TopicsTab() {
         )}
       </div>
 
-      {/* ── Viz: flex:1 fills all remaining height ── */}
-      <div ref={vizRef} style={{
-        flex: 1, position: 'relative', overflow: 'hidden', minHeight: 0,
-      }}>
+      {/* ── Viz ── */}
+      <div ref={vizRef} style={{ flex: 1, position: 'relative', overflow: 'hidden', minHeight: 0 }}>
         {error ? (
-          <Centered>
-            <span style={{ color: '#ef4444', fontSize: 13 }}>Could not load data — {error}</span>
-          </Centered>
+          <Centered><span style={{ color: '#ef4444', fontSize: 13 }}>Could not load data — {error}</span></Centered>
         ) : !data || !width ? (
-          <Centered>
-            <span style={{ color: 'var(--ink-4)', fontSize: 13 }}>Loading…</span>
-          </Centered>
+          <Centered><span style={{ color: 'var(--ink-4)', fontSize: 13 }}>Loading…</span></Centered>
         ) : data.children.length === 0 ? (
-          <Centered>
-            <span style={{ color: 'var(--ink-4)', fontSize: 13 }}>No clusters found.</span>
-          </Centered>
+          <Centered><span style={{ color: 'var(--ink-4)', fontSize: 13 }}>No clusters found.</span></Centered>
         ) : (
           <AutoHeightPacking
             data={data} width={width}
-            activeCluster={activeCluster} onClusterClick={toggle}
+            activeCluster={activeCluster} onClusterClick={toggleCluster}
+            activeMeta={activeMeta}       onMetaClick={toggleMeta}
           />
         )}
       </div>
 
-      {/* ── Legend: fixed-height strip at the bottom ── */}
+      {/* ── Legend: grouped by meta-category ── */}
       {data && data.children.length > 0 && (
         <div style={{
           flexShrink: 0, padding: '10px 0 14px',
           borderTop: '1px solid var(--ink-6)',
-          display: 'flex', flexWrap: 'wrap', gap: 6, alignItems: 'center',
+          display: 'flex', flexDirection: 'column', gap: 8,
         }}>
-          {allClusters(data).map(c => {
-            const color = colorScale(String(c.cluster_id))
-            const active = activeCluster === null || activeCluster === c.cluster_id
+          {data.children.map((meta: MetaCategoryNode) => {
+            const metaColor  = metaColorScale(meta.name)
+            const metaActive = activeMeta === null || activeMeta === meta.name
             return (
-              <button key={c.cluster_id} onClick={() => toggle(c.cluster_id)} title={c.name}
-                style={{
+              <div key={meta.name}>
+                {/* Meta-category header pill */}
+                <button onClick={() => toggleMeta(meta.name)} style={{
                   display: 'inline-flex', alignItems: 'center', gap: 5,
-                  padding: '3px 10px', borderRadius: 20,
-                  border: `1px solid ${active ? color : 'var(--ink-5)'}`,
-                  background: active ? `${color}15` : 'transparent',
-                  color: active ? color : 'var(--ink-4)',
-                  fontSize: 12, fontWeight: 500, fontFamily: 'var(--font-ui)',
-                  transition: 'all .12s', cursor: 'pointer',
+                  padding: '2px 10px', borderRadius: 20, marginBottom: 5,
+                  border: `1px solid ${metaActive ? metaColor : 'var(--ink-5)'}`,
+                  background: metaActive ? `${metaColor}18` : 'transparent',
+                  color: metaActive ? metaColor : 'var(--ink-4)',
+                  fontSize: 11, fontWeight: 600, fontFamily: 'var(--font-ui)',
+                  letterSpacing: '0.04em', textTransform: 'uppercase',
+                  cursor: 'pointer', transition: 'all .12s',
                 }}>
-                <span style={{
-                  width: 6, height: 6, borderRadius: '50%', flexShrink: 0,
-                  background: color, opacity: active ? 1 : 0.3, display: 'inline-block',
-                }} />
-                <span style={{ maxWidth: 140, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                  {c.name}
-                </span>
-                <span style={{ opacity: 0.45, fontFamily: 'var(--font-mono)', fontSize: 11 }}>
-                  {c.count}
-                </span>
-              </button>
+                  <span style={{
+                    width: 6, height: 6, borderRadius: 2, flexShrink: 0,
+                    background: metaColor, opacity: metaActive ? 1 : 0.3,
+                    display: 'inline-block',
+                  }} />
+                  {meta.name}
+                  <span style={{ opacity: 0.5, fontFamily: 'var(--font-mono)', fontWeight: 400 }}>
+                    {meta.count}
+                  </span>
+                </button>
+
+                {/* Cluster pills within this meta-category */}
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5, paddingLeft: 8 }}>
+                  {meta.children.map((c: ClusterNode) => {
+                    const color  = colorScale(String(c.cluster_id))
+                    const active = (activeMeta === null || activeMeta === meta.name)
+                                && (activeCluster === null || activeCluster === c.cluster_id)
+                    return (
+                      <button key={c.cluster_id} onClick={() => toggleCluster(c.cluster_id)}
+                        title={c.name} style={{
+                          display: 'inline-flex', alignItems: 'center', gap: 5,
+                          padding: '3px 10px', borderRadius: 20,
+                          border: `1px solid ${active ? color : 'var(--ink-5)'}`,
+                          background: active ? `${color}15` : 'transparent',
+                          color: active ? color : 'var(--ink-4)',
+                          fontSize: 12, fontWeight: 500, fontFamily: 'var(--font-ui)',
+                          transition: 'all .12s', cursor: 'pointer',
+                          opacity: (activeMeta !== null && activeMeta !== meta.name) ? 0.35 : 1,
+                        }}>
+                        <span style={{
+                          width: 6, height: 6, borderRadius: '50%', flexShrink: 0,
+                          background: color, opacity: active ? 1 : 0.3, display: 'inline-block',
+                        }} />
+                        <span style={{ maxWidth: 140, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                          {c.name}
+                        </span>
+                        <span style={{ opacity: 0.45, fontFamily: 'var(--font-mono)', fontSize: 11 }}>
+                          {c.count}
+                        </span>
+                      </button>
+                    )
+                  })}
+                </div>
+              </div>
             )
           })}
-          {activeCluster !== null && (
-            <button onClick={() => setActiveCluster(null)} style={{
-              padding: '3px 10px', borderRadius: 20,
+
+          {hasActive && (
+            <button onClick={clearAll} style={{
+              alignSelf: 'flex-start', padding: '3px 10px', borderRadius: 20,
               border: '1px solid var(--ink-5)', background: 'transparent',
               color: 'var(--ink-4)', fontSize: 12, fontFamily: 'var(--font-ui)',
               cursor: 'pointer', transition: 'all .12s',
@@ -197,10 +237,10 @@ export default function TopicsTab() {
   )
 }
 
-// Measures its own height via ResizeObserver, then passes exact px to CirclePacking
-function AutoHeightPacking({ data, width, activeCluster, onClusterClick }: {
+function AutoHeightPacking({ data, width, activeCluster, onClusterClick, activeMeta, onMetaClick }: {
   data: TopicsData; width: number
   activeCluster: number | null; onClusterClick: (id: number) => void
+  activeMeta: string | null;    onMetaClick: (name: string) => void
 }) {
   const ref = useRef<HTMLDivElement>(null)
   const [height, setHeight] = useState<number | null>(null)
@@ -221,6 +261,7 @@ function AutoHeightPacking({ data, width, activeCluster, onClusterClick }: {
         <CirclePacking
           data={data} width={width} height={height}
           activeCluster={activeCluster} onClusterClick={onClusterClick}
+          activeMeta={activeMeta}       onMetaClick={onMetaClick}
         />
       )}
     </div>
