@@ -10,8 +10,11 @@ export interface ArticleNode {
 export interface ClusterNode {
   cluster_id: number; name: string; count: number; children: ArticleNode[]
 }
+export interface MetaCategoryNode {
+  name: string; count: number; children: ClusterNode[]
+}
 export interface TopicsData {
-  name: 'root'; mode?: string; updated_at: string; children: ClusterNode[]
+  name: 'root'; mode?: string; updated_at: string; children: MetaCategoryNode[]
 }
 export interface CirclePackingProps {
   data: TopicsData; width: number; height: number
@@ -66,10 +69,10 @@ export default function CirclePacking({
   const PAD = 12
 
   const root = useMemo(() => {
-    const h = hierarchy<TopicsData|ClusterNode|ArticleNode>(data as TopicsData)
+    const h = hierarchy<TopicsData|MetaCategoryNode|ClusterNode|ArticleNode>(data as TopicsData)
       .sum(d => ('value' in d ? (d as ArticleNode).value : 0))
       .sort((a,b) => (b.value??0)-(a.value??0))
-    return pack<TopicsData|ClusterNode|ArticleNode>()
+    return pack<TopicsData|MetaCategoryNode|ClusterNode|ArticleNode>()
       .size([width-PAD*2, height-PAD*2])
       .padding(8)(h)
   }, [data, width, height])
@@ -80,14 +83,37 @@ export default function CirclePacking({
         <g transform={`translate(${PAD},${PAD})`}>
           {root.descendants().map((node, i) => {
             if (node.depth === 0) return null
-            const isCluster = node.depth === 1
-            const cd = isCluster
-              ? (node.data as ClusterNode)
-              : (node.parent!.data as ClusterNode)
-            const color = colorScale(String(cd.cluster_id))
-            const on = active === null || active === cd.cluster_id
 
-            if (isCluster) {
+            // depth 1 = meta-category ring (subtle background, label at edge)
+            if (node.depth === 1) {
+              const meta = node.data as MetaCategoryNode
+              const show = node.r > 48
+              const fs   = Math.min(11, Math.max(8, node.r / 8))
+              return (
+                <g key={`m-${meta.name}`}>
+                  <circle cx={node.x} cy={node.y} r={node.r}
+                    fill="var(--ink-7)" fillOpacity={0.6}
+                    stroke="var(--ink-5)" strokeWidth={1}
+                    strokeOpacity={0.4}
+                    style={{ pointerEvents:'none' }}
+                  />
+                  {show && (
+                    <text x={node.x} y={node.y - node.r + fs + 4}
+                      textAnchor="middle" fontSize={fs} fontWeight={500}
+                      fontFamily="'DM Sans', system-ui, sans-serif"
+                      fill="var(--ink-3)" fillOpacity={0.7}
+                      style={{ pointerEvents:'none', userSelect:'none' }}
+                    >{fixEncoding(meta.name)}</text>
+                  )}
+                </g>
+              )
+            }
+
+            // depth 2 = cluster bubble
+            if (node.depth === 2) {
+              const cd    = node.data as ClusterNode
+              const color = colorScale(String(cd.cluster_id))
+              const on    = active === null || active === cd.cluster_id
               const fs    = Math.min(13, Math.max(9, node.r/5))
               const lh    = fs*1.3
               const maxC  = Math.max(8, Math.floor(node.r/5.2))
@@ -97,18 +123,19 @@ export default function CirclePacking({
 
               return (
                 <g key={`c-${cd.cluster_id}`} style={{ cursor:'pointer' }}
-                  onClick={() => handleClick(cd.cluster_id)}>
+                  onClick={() => handleClick(cd.cluster_id)}
+                  onMouseEnter={e => setTooltip({
+                    x:e.clientX, y:e.clientY,
+                    label: fixEncoding(cd.name),
+                    sub: `${cd.count} article${cd.count!==1?'s':''}`,
+                  })}
+                  onMouseLeave={() => setTooltip(null)}
+                >
                   <circle cx={node.x} cy={node.y} r={node.r}
                     fill={color} fillOpacity={on ? 0.13 : 0.03}
                     stroke={color} strokeWidth={on ? 1.5 : 0.8}
                     strokeOpacity={on ? 0.55 : 0.18}
                     style={{ transition:'all 0.18s ease' }}
-                    onMouseEnter={e => setTooltip({
-                      x:e.clientX, y:e.clientY,
-                      label: fixEncoding(cd.name),
-                      sub: `${cd.count} article${cd.count!==1?'s':''}`,
-                    })}
-                    onMouseLeave={() => setTooltip(null)}
                   />
                   {show && lines.map((line,li) => (
                     <text key={li} x={node.x} y={ty+li*lh}
@@ -130,7 +157,11 @@ export default function CirclePacking({
               )
             }
 
-            const art = node.data as ArticleNode
+            // depth 3 = article dot
+            const art   = node.data as ArticleNode
+            const cd    = node.parent!.data as ClusterNode
+            const color = colorScale(String(cd.cluster_id))
+            const on    = active === null || active === cd.cluster_id
             return (
               <circle key={`a-${art.hash||i}`}
                 cx={node.x} cy={node.y} r={Math.max(node.r,2.5)}

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
 import { scaleOrdinal } from 'd3-scale'
 import CirclePacking from './CirclePacking'
-import type { TopicsData } from './CirclePacking'
+import type { TopicsData, MetaCategoryNode, ClusterNode } from './CirclePacking'
 
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, '')
 
@@ -11,6 +11,11 @@ const PALETTE = [
   '#4db6ac','#ff8a65',
 ]
 const colorScale = scaleOrdinal<string>().range(PALETTE)
+
+// Flatten all clusters across meta-categories
+function allClusters(data: TopicsData): ClusterNode[] {
+  return data.children.flatMap((m: MetaCategoryNode) => m.children)
+}
 
 export default function TopicsTab() {
   const [data,          setData]          = useState<TopicsData | null>(null)
@@ -97,9 +102,10 @@ export default function TopicsTab() {
         {data && (
           <div style={{ display: 'flex', gap: 8 }}>
             {[
-              { label: 'clusters', value: data.children.length },
-              { label: 'articles', value: data.children.reduce((s, c) => s + c.count, 0) },
-              { label: 'largest',  value: Math.max(...data.children.map(c => c.count)), suffix: ' art.' },
+              { label: 'topics',   value: data.children.length },
+              { label: 'clusters', value: allClusters(data).length },
+              { label: 'articles', value: allClusters(data).reduce((s, c) => s + c.count, 0) },
+              { label: 'largest',  value: Math.max(...allClusters(data).map(c => c.count)), suffix: ' art.' },
             ].map(({ label, value, suffix }) => (
               <div key={label} style={{
                 padding: '5px 12px', borderRadius: 'var(--radius-sm)',
@@ -148,7 +154,7 @@ export default function TopicsTab() {
           borderTop: '1px solid var(--ink-6)',
           display: 'flex', flexWrap: 'wrap', gap: 6, alignItems: 'center',
         }}>
-          {data.children.map(c => {
+          {allClusters(data).map(c => {
             const color = colorScale(String(c.cluster_id))
             const active = activeCluster === null || activeCluster === c.cluster_id
             return (
