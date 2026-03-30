@@ -1,11 +1,268 @@
 {
   "name": "root",
   "mode": "recent",
-  "updated_at": "2026-03-30T09:42:49.534072+00:00",
+  "updated_at": "2026-03-30T10:33:00.411148+00:00",
   "children": [
     {
-      "name": "Other",
-      "count": 429,
+      "name": "Business & Retail",
+      "count": 55,
+      "children": [
+        {
+          "cluster_id": 3,
+          "name": "Pop Mart's IP Growth Concerns",
+          "count": 13,
+          "children": [
+            {
+              "name": "Paramount-Warner Bros. film slate needs animation to rival Disney, Universal",
+              "hash": "3af4740d602dc8e5",
+              "article_date": "2026-03-28 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "What comes after Labubu? Inside Pop Martâs next grow play",
+              "hash": "471f7795ab4d03f5",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Pop Mart shares plunge over 22% as concerns over sustainability of Labubu sales dwarf stellar results",
+              "hash": "da1a80e1d5c49985",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "CNBC Daily Open: Iran rejects ceasefire, but reviews peace plan",
+              "hash": "ae61eeb75f3b53e2",
+              "article_date": "2026-03-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 8,
+          "name": "OpenAI's Shift in Business Strategy",
+          "count": 1,
+          "children": [
+            {
+              "name": "U.S.-Iran negotiations, Meta trial verdict and more: Morning Squawk",
+              "hash": "21d883fb2f3dc63e",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 11,
+          "name": "Luxury Industry Hit by Iran",
+          "count": 12,
+          "children": [
+            {
+              "name": "CNBC Daily Open: Trump's 'favorite thing' is Iranian oil",
+              "hash": "4db75c32720af0da",
+              "article_date": "2026-03-30 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Logan Paul made a record PokÃ©mon card sale. Here's why investors are watching",
+              "hash": "ecec1f3260246939",
+              "article_date": "2026-03-29 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Iran war wipes out $100 billion from luxury stocks",
+              "hash": "984e76ba06064151",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Infiniti hopes new SUV can turn around fortunes in the U.S.",
+              "hash": "22ace35f81a1a4f8",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 12,
+          "name": "Overcoming Entrepreneurial Burnout and Failure",
+          "count": 6,
+          "children": [
+            {
+              "name": "How AI is changing American entrepreneurship, small business",
+              "hash": "3b55908aae10025f",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 13,
+          "name": "China's Shift to Private Sector",
+          "count": 7,
+          "children": [
+            {
+              "name": "CNBC Daily Open: U.S. eyes ground operation as oil execs sound the alarm",
+              "hash": "52dbb1d3163cf763",
+              "article_date": "2026-03-30 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Beijing's surprise intervention on Meta's Manus rattles tech founders, VCs eyeing 'China shedding'Â",
+              "hash": "28a18f3fb10fb205",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "China industrial profits surge 15% to start year, but oil price shock threatens outlook",
+              "hash": "2a5d2b3da3a68a06",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 18,
+          "name": "Tax Refunds Rise Amid Uncertainty",
+          "count": 8,
+          "children": [
+            {
+              "name": "1.4 million filers face tax refund delays amid IRS paper check phaseout",
+              "hash": "9e9f59be8dbb4597",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Average IRS tax refund is up 10.9%, latest filing data shows",
+              "hash": "08616aafb1fdd5ef",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Higher gas prices from Iran war could offset Trump's bigger tax refunds",
+              "hash": "b9f2fbec9cc630ce",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 19,
+          "name": "US Threatens Cuba's Oil Supply",
+          "count": 3,
+          "children": [
+            {
+              "name": "Denmarkâs PM suffers election setback after standing up to Trump over Greenland",
+              "hash": "8f6cfeae7eba0aaf",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 20,
+          "name": "US-China Trade Relations Tensions",
+          "count": 5,
+          "children": [
+            {
+              "name": "Tiger Woods arrested for DUI after rollover car crash, Florida sheriff says",
+              "hash": "b1bec3bbbe692365",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump says Justices Barrett, Gorsuch âsicken meâ after Supreme Court tariff ruling",
+              "hash": "f5a2a97ffbdaaec0",
+              "article_date": "2026-03-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Economy & Trade",
+      "count": 18,
+      "children": [
+        {
+          "cluster_id": 4,
+          "name": "Retailers Face Weak Earnings Outlook",
+          "count": 2,
+          "children": [
+            {
+              "name": "Swiss sneaker maker On Holding shakes up leadership amid slowing growth",
+              "hash": "bc2db5dc03119dbc",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 5,
+          "name": "India's Economy Under Pressure",
+          "count": 16,
+          "children": [
+            {
+              "name": "Iran war sparks record exodus of foreign investors from Indian equities in March",
+              "hash": "acdb0bdb9ffe87da",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "India takes a âhuge hitâ on tax revenue to keep fuel prices from surging during the Iran war",
+              "hash": "906cf1fb5dc06068",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "CNBC Daily Open: Plan for peace or a wish list?",
+              "hash": "87826e48e32a0514",
+              "article_date": "2026-03-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Inside India newsletter: Ikea has big plans for the country",
+              "hash": "acc8b71bcb0e35f7",
+              "article_date": "2026-03-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "David Blitzer and Blackstone-backed group snaps up Indian cricket franchise for $1.8 billion",
+              "hash": "836c91847189fba8",
+              "article_date": "2026-03-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Finance & Markets",
+      "count": 151,
       "children": [
         {
           "cluster_id": 0,
@@ -127,97 +384,6 @@
           ]
         },
         {
-          "cluster_id": 3,
-          "name": "Pop Mart's Labubu Frenzy Fades",
-          "count": 13,
-          "children": [
-            {
-              "name": "Paramount-Warner Bros. film slate needs animation to rival Disney, Universal",
-              "hash": "3af4740d602dc8e5",
-              "article_date": "2026-03-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "What comes after Labubu? Inside Pop Martâs next grow play",
-              "hash": "471f7795ab4d03f5",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Pop Mart shares plunge over 22% as concerns over sustainability of Labubu sales dwarf stellar results",
-              "hash": "da1a80e1d5c49985",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "CNBC Daily Open: Iran rejects ceasefire, but reviews peace plan",
-              "hash": "ae61eeb75f3b53e2",
-              "article_date": "2026-03-24 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 4,
-          "name": "Retailers Face Weak Earnings Outlook",
-          "count": 2,
-          "children": [
-            {
-              "name": "Swiss sneaker maker On Holding shakes up leadership amid slowing growth",
-              "hash": "bc2db5dc03119dbc",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 5,
-          "name": "India's Economy Under Pressure",
-          "count": 16,
-          "children": [
-            {
-              "name": "Iran war sparks record exodus of foreign investors from Indian equities in March",
-              "hash": "acdb0bdb9ffe87da",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "India takes a âhuge hitâ on tax revenue to keep fuel prices from surging during the Iran war",
-              "hash": "906cf1fb5dc06068",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "CNBC Daily Open: Plan for peace or a wish list?",
-              "hash": "87826e48e32a0514",
-              "article_date": "2026-03-24 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Inside India newsletter: Ikea has big plans for the country",
-              "hash": "acc8b71bcb0e35f7",
-              "article_date": "2026-03-24 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "David Blitzer and Blackstone-backed group snaps up Indian cricket franchise for $1.8 billion",
-              "hash": "836c91847189fba8",
-              "article_date": "2026-03-24 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
           "cluster_id": 6,
           "name": "Prediction Markets Under Scrutiny",
           "count": 6,
@@ -240,62 +406,6 @@
               "name": "Prediction market bets on sports, election, war would be verboten under new bill",
               "hash": "0d27aed375a1454a",
               "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 7,
-          "name": "US Government Shutdown Continues",
-          "count": 12,
-          "children": [
-            {
-              "name": "Trump push for ban on investor homebuying may sacrifice bigger real estate deal",
-              "hash": "aa39e48b7c23ef56",
-              "article_date": "2026-03-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Pricy airfare, airport chaos test travelers' willingness to fly this year",
-              "hash": "34a3bae07ae6ae0d",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "TSA funding update: Senate tees up House vote to end DHS shutdown",
-              "hash": "6b386833034bcb9c",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "TSA officers will start getting paychecks as early as Monday, DHS says",
-              "hash": "68f4011b13ea05b2",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Reps Ro Khanna and Tim Burchett to push fraud probe across all 50 states",
-              "hash": "61db1cb0bf5df8f3",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 8,
-          "name": "OpenAI's Shift in Business Strategy",
-          "count": 1,
-          "children": [
-            {
-              "name": "U.S.-Iran negotiations, Meta trial verdict and more: Morning Squawk",
-              "hash": "21d883fb2f3dc63e",
-              "article_date": "2026-03-25 00:00:00",
               "provider": "CNBC",
               "value": 1
             }
@@ -358,83 +468,6 @@
           ]
         },
         {
-          "cluster_id": 11,
-          "name": "Luxury Industry Hit by Iran",
-          "count": 12,
-          "children": [
-            {
-              "name": "CNBC Daily Open: Trump's 'favorite thing' is Iranian oil",
-              "hash": "4db75c32720af0da",
-              "article_date": "2026-03-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Logan Paul made a record PokÃ©mon card sale. Here's why investors are watching",
-              "hash": "ecec1f3260246939",
-              "article_date": "2026-03-29 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Iran war wipes out $100 billion from luxury stocks",
-              "hash": "984e76ba06064151",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Infiniti hopes new SUV can turn around fortunes in the U.S.",
-              "hash": "22ace35f81a1a4f8",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 12,
-          "name": "Overcoming Entrepreneurial Burnout and Failure",
-          "count": 6,
-          "children": [
-            {
-              "name": "How AI is changing American entrepreneurship, small business",
-              "hash": "3b55908aae10025f",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 13,
-          "name": "China's Shift to Private Sector",
-          "count": 7,
-          "children": [
-            {
-              "name": "CNBC Daily Open: U.S. eyes ground operation as oil execs sound the alarm",
-              "hash": "52dbb1d3163cf763",
-              "article_date": "2026-03-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Beijing's surprise intervention on Meta's Manus rattles tech founders, VCs eyeing 'China shedding'Â",
-              "hash": "28a18f3fb10fb205",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "China industrial profits surge 15% to start year, but oil price shock threatens outlook",
-              "hash": "2a5d2b3da3a68a06",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
           "cluster_id": 14,
           "name": "Gold Prices Plummet Amid Tensions",
           "count": 6,
@@ -464,7 +497,7 @@
         },
         {
           "cluster_id": 16,
-          "name": "Fed Rate Cut Expectations",
+          "name": "Fed Holds Interest Rates",
           "count": 52,
           "children": [
             {
@@ -594,65 +627,50 @@
               "value": 1
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "Government & Politics",
+      "count": 205,
+      "children": [
         {
-          "cluster_id": 18,
-          "name": "Tax Refunds Rise Amid Uncertainty",
-          "count": 8,
+          "cluster_id": 7,
+          "name": "US Government Shutdown Continues",
+          "count": 12,
           "children": [
             {
-              "name": "1.4 million filers face tax refund delays amid IRS paper check phaseout",
-              "hash": "9e9f59be8dbb4597",
+              "name": "Trump push for ban on investor homebuying may sacrifice bigger real estate deal",
+              "hash": "aa39e48b7c23ef56",
+              "article_date": "2026-03-28 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Pricy airfare, airport chaos test travelers' willingness to fly this year",
+              "hash": "34a3bae07ae6ae0d",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "TSA funding update: Senate tees up House vote to end DHS shutdown",
+              "hash": "6b386833034bcb9c",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "TSA officers will start getting paychecks as early as Monday, DHS says",
+              "hash": "68f4011b13ea05b2",
               "article_date": "2026-03-26 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Average IRS tax refund is up 10.9%, latest filing data shows",
-              "hash": "08616aafb1fdd5ef",
+              "name": "Reps Ro Khanna and Tim Burchett to push fraud probe across all 50 states",
+              "hash": "61db1cb0bf5df8f3",
               "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Higher gas prices from Iran war could offset Trump's bigger tax refunds",
-              "hash": "b9f2fbec9cc630ce",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 19,
-          "name": "US Threatens Cuba's Oil Supply",
-          "count": 3,
-          "children": [
-            {
-              "name": "Denmarkâs PM suffers election setback after standing up to Trump over Greenland",
-              "hash": "8f6cfeae7eba0aaf",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 20,
-          "name": "US-China Trade Relations Tensions",
-          "count": 5,
-          "children": [
-            {
-              "name": "Tiger Woods arrested for DUI after rollover car crash, Florida sheriff says",
-              "hash": "b1bec3bbbe692365",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump says Justices Barrett, Gorsuch âsicken meâ after Supreme Court tariff ruling",
-              "hash": "f5a2a97ffbdaaec0",
-              "article_date": "2026-03-24 00:00:00",
               "provider": "CNBC",
               "value": 1
             }
@@ -674,7 +692,7 @@
         },
         {
           "cluster_id": 22,
-          "name": "\"Rising Gas Prices Impact Economy\"",
+          "name": "Rising Gas Prices Impact Economy",
           "count": 9,
           "children": [
             {
@@ -961,7 +979,7 @@
         },
         {
           "cluster_id": 30,
-          "name": "Alibaba's AI and Cloud Expansion",
+          "name": "Alibaba's AI and Restructuring Efforts",
           "count": 1,
           "children": [
             {
@@ -1080,7 +1098,7 @@
         },
         {
           "cluster_id": 36,
-          "name": "Middle East Oil Crisis Escalates",
+          "name": "Global Oil Supply Disruption",
           "count": 74,
           "children": [
             {
