@@ -151,86 +151,99 @@ export default function TopicsTab() {
         )}
       </div>
 
-      {/* ── Legend: grouped by meta-category ── */}
+      {/* ── Legend: meta-category pills, cluster pills expand on click ── */}
       {data && data.children.length > 0 && (
         <div style={{
-          flexShrink: 0, padding: '10px 0 14px',
+          flexShrink: 0, padding: '8px 0 12px',
           borderTop: '1px solid var(--ink-6)',
-          display: 'flex', flexDirection: 'column', gap: 8,
         }}>
-          {data.children.map((meta: MetaCategoryNode) => {
-            const metaColor  = metaColorScale(meta.name)
-            const metaActive = activeMeta === null || activeMeta === meta.name
-            return (
-              <div key={meta.name}>
-                {/* Meta-category header pill */}
-                <button onClick={() => toggleMeta(meta.name)} style={{
-                  display: 'inline-flex', alignItems: 'center', gap: 5,
-                  padding: '2px 10px', borderRadius: 20, marginBottom: 5,
-                  border: `1px solid ${metaActive ? metaColor : 'var(--ink-5)'}`,
-                  background: metaActive ? `${metaColor}18` : 'transparent',
-                  color: metaActive ? metaColor : 'var(--ink-4)',
-                  fontSize: 11, fontWeight: 600, fontFamily: 'var(--font-ui)',
-                  letterSpacing: '0.04em', textTransform: 'uppercase',
-                  cursor: 'pointer', transition: 'all .12s',
-                }}>
+          {/* Meta-category pills row */}
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5, alignItems: 'center' }}>
+            {data.children.map((meta: MetaCategoryNode) => {
+              const metaColor  = metaColorScale(meta.name)
+              const metaActive = activeMeta === null || activeMeta === meta.name
+              const expanded   = activeMeta === meta.name
+              return (
+                <button key={meta.name} onClick={() => toggleMeta(meta.name)}
+                  title={`${meta.count} articles · click to ${expanded ? 'collapse' : 'expand clusters'}`}
+                  style={{
+                    display: 'inline-flex', alignItems: 'center', gap: 5,
+                    padding: '3px 11px', borderRadius: 20,
+                    border: `1px solid ${metaActive ? metaColor : 'var(--ink-5)'}`,
+                    background: expanded ? `${metaColor}22` : metaActive ? `${metaColor}10` : 'transparent',
+                    color: metaActive ? metaColor : 'var(--ink-4)',
+                    fontSize: 11, fontWeight: 600, fontFamily: 'var(--font-ui)',
+                    letterSpacing: '0.03em', textTransform: 'uppercase',
+                    cursor: 'pointer', transition: 'all .12s',
+                    opacity: (activeMeta !== null && !metaActive) ? 0.4 : 1,
+                  }}>
                   <span style={{
                     width: 6, height: 6, borderRadius: 2, flexShrink: 0,
                     background: metaColor, opacity: metaActive ? 1 : 0.3,
                     display: 'inline-block',
                   }} />
                   {meta.name}
-                  <span style={{ opacity: 0.5, fontFamily: 'var(--font-mono)', fontWeight: 400 }}>
+                  <span style={{ opacity: 0.5, fontFamily: 'var(--font-mono)', fontWeight: 400, fontSize: 10 }}>
                     {meta.count}
                   </span>
+                  <span style={{ opacity: 0.4, fontSize: 9, marginLeft: 1 }}>
+                    {expanded ? '▲' : '▼'}
+                  </span>
                 </button>
+              )
+            })}
+            {hasActive && (
+              <button onClick={clearAll} style={{
+                padding: '3px 10px', borderRadius: 20,
+                border: '1px solid var(--ink-5)', background: 'transparent',
+                color: 'var(--ink-4)', fontSize: 11, fontFamily: 'var(--font-ui)',
+                cursor: 'pointer', transition: 'all .12s',
+              }}>Clear ×</button>
+            )}
+          </div>
 
-                {/* Cluster pills within this meta-category */}
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5, paddingLeft: 8 }}>
-                  {meta.children.map((c: ClusterNode) => {
-                    const color  = colorScale(String(c.cluster_id))
-                    const active = (activeMeta === null || activeMeta === meta.name)
-                                && (activeCluster === null || activeCluster === c.cluster_id)
-                    return (
-                      <button key={c.cluster_id} onClick={() => toggleCluster(c.cluster_id)}
-                        title={c.name} style={{
-                          display: 'inline-flex', alignItems: 'center', gap: 5,
-                          padding: '3px 10px', borderRadius: 20,
-                          border: `1px solid ${active ? color : 'var(--ink-5)'}`,
-                          background: active ? `${color}15` : 'transparent',
-                          color: active ? color : 'var(--ink-4)',
-                          fontSize: 12, fontWeight: 500, fontFamily: 'var(--font-ui)',
-                          transition: 'all .12s', cursor: 'pointer',
-                          opacity: (activeMeta !== null && activeMeta !== meta.name) ? 0.35 : 1,
-                        }}>
-                        <span style={{
-                          width: 6, height: 6, borderRadius: '50%', flexShrink: 0,
-                          background: color, opacity: active ? 1 : 0.3, display: 'inline-block',
-                        }} />
-                        <span style={{ maxWidth: 140, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                          {c.name}
-                        </span>
-                        <span style={{ opacity: 0.45, fontFamily: 'var(--font-mono)', fontSize: 11 }}>
-                          {c.count}
-                        </span>
-                      </button>
-                    )
-                  })}
-                </div>
+          {/* Cluster pills — only shown for the expanded meta-category */}
+          {activeMeta !== null && (() => {
+            const meta = data.children.find((m: MetaCategoryNode) => m.name === activeMeta)
+            if (!meta) return null
+            const metaColor = metaColorScale(meta.name)
+            return (
+              <div style={{
+                display: 'flex', flexWrap: 'wrap', gap: 5,
+                marginTop: 6, paddingTop: 6,
+                borderTop: `1px solid ${metaColor}30`,
+                paddingLeft: 4,
+              }}>
+                {meta.children.map((c: ClusterNode) => {
+                  const color  = colorScale(String(c.cluster_id))
+                  const active = activeCluster === null || activeCluster === c.cluster_id
+                  return (
+                    <button key={c.cluster_id} onClick={() => toggleCluster(c.cluster_id)}
+                      title={c.name} style={{
+                        display: 'inline-flex', alignItems: 'center', gap: 5,
+                        padding: '3px 10px', borderRadius: 20,
+                        border: `1px solid ${active ? color : 'var(--ink-5)'}`,
+                        background: active ? `${color}15` : 'transparent',
+                        color: active ? color : 'var(--ink-4)',
+                        fontSize: 12, fontWeight: 500, fontFamily: 'var(--font-ui)',
+                        transition: 'all .12s', cursor: 'pointer',
+                      }}>
+                      <span style={{
+                        width: 6, height: 6, borderRadius: '50%', flexShrink: 0,
+                        background: color, opacity: active ? 1 : 0.3, display: 'inline-block',
+                      }} />
+                      <span style={{ maxWidth: 160, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                        {c.name}
+                      </span>
+                      <span style={{ opacity: 0.45, fontFamily: 'var(--font-mono)', fontSize: 11 }}>
+                        {c.count}
+                      </span>
+                    </button>
+                  )
+                })}
               </div>
             )
-          })}
-
-          {hasActive && (
-            <button onClick={clearAll} style={{
-              alignSelf: 'flex-start', padding: '3px 10px', borderRadius: 20,
-              border: '1px solid var(--ink-5)', background: 'transparent',
-              color: 'var(--ink-4)', fontSize: 12, fontFamily: 'var(--font-ui)',
-              cursor: 'pointer', transition: 'all .12s',
-            }}>
-              Clear ×
-            </button>
-          )}
+          })()}
         </div>
       )}
     </div>
