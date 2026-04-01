@@ -5,7 +5,7 @@ import { scaleOrdinal } from 'd3-scale'
 // ── Types ─────────────────────────────────────────────────────────────────────
 
 export interface ArticleNode {
-  name: string; summary?: string; hash: string
+  name: string; summary?: string; hash: string; chunk_key?: string
   article_date: string; provider: string; value: number
 }
 export interface ClusterNode {
@@ -21,38 +21,38 @@ export interface TopicsData {
 export interface CirclePackingProps {
   data: TopicsData; width: number; height: number
   activeCluster?: number | null; onClusterClick?: (id: number) => void
-  activeMeta?: string | null;    onMetaClick?:    (name: string) => void
+  activeMeta?: string | null; onMetaClick?: (name: string) => void
 }
 
 // ── Palette ───────────────────────────────────────────────────────────────────
 
 const PALETTE = [
-  '#4e9af1','#f0a653','#5ec98b','#e06c75','#c792ea',
-  '#56b6c2','#e5c07b','#98c379','#f07178','#7986cb',
-  '#4db6ac','#ff8a65',
+  '#4e9af1', '#f0a653', '#5ec98b', '#e06c75', '#c792ea',
+  '#56b6c2', '#e5c07b', '#98c379', '#f07178', '#7986cb',
+  '#4db6ac', '#ff8a65',
 ]
 const META_PALETTE = [
-  '#7c8cf8','#f59e6b','#34d399','#f87171','#a78bfa',
-  '#22d3ee','#fbbf24','#4ade80',
+  '#7c8cf8', '#f59e6b', '#34d399', '#f87171', '#a78bfa',
+  '#22d3ee', '#fbbf24', '#4ade80',
 ]
-const colorScale    = scaleOrdinal<string>().range(PALETTE)
+const colorScale = scaleOrdinal<string>().range(PALETTE)
 const metaColorScale = scaleOrdinal<string>().range(META_PALETTE)
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 function fixEncoding(s: string) {
-  return s.replace(/â€™/g,'\u2019').replace(/â€œ/g,'\u201C')
-          .replace(/â€/g,'\u201D').replace(/â€"/g,'\u2013').replace(/â/g,'\u2019')
+  return s.replace(/â€™/g, '\u2019').replace(/â€œ/g, '\u201C')
+    .replace(/â€/g, '\u201D').replace(/â€"/g, '\u2013').replace(/â/g, '\u2019')
 }
 function truncate(s: string, n: number) {
-  const f = fixEncoding(s); return f.length > n ? f.slice(0,n-1)+'…' : f
+  const f = fixEncoding(s); return f.length > n ? f.slice(0, n - 1) + '…' : f
 }
 function wrapLabel(label: string, maxChars: number): string[] {
   const words = label.split(' ')
   const lines: string[] = []
   let cur = ''
   for (const w of words) {
-    const candidate = cur ? cur+' '+w : w
+    const candidate = cur ? cur + ' ' + w : w
     if (candidate.length > maxChars && cur) { lines.push(cur); cur = w }
     else cur = candidate
   }
@@ -65,16 +65,16 @@ function wrapLabel(label: string, maxChars: number): string[] {
 export default function CirclePacking({
   data, width, height,
   activeCluster: extCluster, onClusterClick,
-  activeMeta: extMeta,       onMetaClick,
+  activeMeta: extMeta, onMetaClick,
 }: CirclePackingProps) {
   const [tooltip, setTooltip] = useState<{
     x: number; y: number; label: string; sub: string; extra?: string
   } | null>(null)
-  const [internalCluster, setInternalCluster] = useState<number|null>(null)
-  const [internalMeta,    setInternalMeta]    = useState<string|null>(null)
+  const [internalCluster, setInternalCluster] = useState<number | null>(null)
+  const [internalMeta, setInternalMeta] = useState<string | null>(null)
 
   const activeCluster = extCluster !== undefined ? extCluster : internalCluster
-  const activeMeta    = extMeta    !== undefined ? extMeta    : internalMeta
+  const activeMeta = extMeta !== undefined ? extMeta : internalMeta
 
   const handleClusterClick = useCallback((id: number) => {
     if (onClusterClick) onClusterClick(id)
@@ -89,28 +89,28 @@ export default function CirclePacking({
   const PAD = 12
 
   const root = useMemo(() => {
-    const h = hierarchy<TopicsData|MetaCategoryNode|ClusterNode|ArticleNode>(data as TopicsData)
+    const h = hierarchy<TopicsData | MetaCategoryNode | ClusterNode | ArticleNode>(data as TopicsData)
       .sum(d => ('value' in d ? (d as ArticleNode).value : 0))
-      .sort((a,b) => (b.value??0)-(a.value??0))
-    return pack<TopicsData|MetaCategoryNode|ClusterNode|ArticleNode>()
-      .size([width-PAD*2, height-PAD*2])
+      .sort((a, b) => (b.value ?? 0) - (a.value ?? 0))
+    return pack<TopicsData | MetaCategoryNode | ClusterNode | ArticleNode>()
+      .size([width - PAD * 2, height - PAD * 2])
       .padding(8)(h)
   }, [data, width, height])
 
   return (
-    <div style={{ position:'relative', width, height, userSelect:'none' }}>
-      <svg width={width} height={height} style={{ display:'block', overflow:'visible' }}>
+    <div style={{ position: 'relative', width, height, userSelect: 'none' }}>
+      <svg width={width} height={height} style={{ display: 'block', overflow: 'visible' }}>
         <g transform={`translate(${PAD},${PAD})`}>
           {root.descendants().map((node, i) => {
             if (node.depth === 0) return null
 
             // ── depth 1: meta-category ring ──────────────────────────────
             if (node.depth === 1) {
-              const meta     = node.data as MetaCategoryNode
-              const color    = metaColorScale(meta.name)
+              const meta = node.data as MetaCategoryNode
+              const color = metaColorScale(meta.name)
               const isActive = activeMeta === null || activeMeta === meta.name
-              const show     = node.r > 52
-              const fs       = Math.min(11, Math.max(8, node.r / 8))
+              const show = node.r > 52
+              const fs = Math.min(11, Math.max(8, node.r / 8))
 
               return (
                 <g key={`m-${meta.name}`} style={{ cursor: 'pointer' }}
@@ -143,18 +143,19 @@ export default function CirclePacking({
 
             // ── depth 2: cluster bubble ───────────────────────────────────
             if (node.depth === 2) {
-              const cd       = node.data as ClusterNode
+              const cd = node.data as ClusterNode
               const metaName = (node.parent!.data as MetaCategoryNode).name
-              const color    = colorScale(String(cd.cluster_id))
-              const metaOn   = activeMeta === null || activeMeta === metaName
+              // const color    = colorScale(String(cd.cluster_id))
+              const color = PALETTE[cd.cluster_id % PALETTE.length]
+              const metaOn = activeMeta === null || activeMeta === metaName
               const clusterOn = activeCluster === null || activeCluster === cd.cluster_id
-              const on       = metaOn && clusterOn
-              const fs       = Math.min(13, Math.max(9, node.r / 5))
-              const lh       = fs * 1.3
-              const maxC     = Math.max(8, Math.floor(node.r / 5.2))
-              const lines    = wrapLabel(fixEncoding(cd.name), maxC).slice(0, 2)
-              const show     = node.r > 36
-              const ty       = node.y - (lines.length * lh) / 2 + lh * 0.4
+              const on = metaOn && clusterOn
+              const fs = Math.min(13, Math.max(9, node.r / 5))
+              const lh = fs * 1.3
+              const maxC = Math.max(8, Math.floor(node.r / 5.2))
+              const lines = wrapLabel(fixEncoding(cd.name), maxC).slice(0, 2)
+              const show = node.r > 36
+              const ty = node.y - (lines.length * lh) / 2 + lh * 0.4
 
               return (
                 <g key={`c-${cd.cluster_id}`} style={{ cursor: 'pointer' }}
@@ -196,13 +197,13 @@ export default function CirclePacking({
             }
 
             // ── depth 3: article dot ──────────────────────────────────────
-            const art      = node.data as ArticleNode
-            const cd       = node.parent!.data as ClusterNode
+            const art = node.data as ArticleNode
+            const cd = node.parent!.data as ClusterNode
             const metaName = (node.parent!.parent!.data as MetaCategoryNode).name
-            const color    = colorScale(String(cd.cluster_id))
-            const metaOn   = activeMeta === null || activeMeta === metaName
+            const color = colorScale(String(cd.cluster_id))
+            const metaOn = activeMeta === null || activeMeta === metaName
             const clusterOn = activeCluster === null || activeCluster === cd.cluster_id
-            const on       = metaOn && clusterOn
+            const on = metaOn && clusterOn
 
             return (
               <circle key={`a-${art.hash || i}`}
@@ -230,13 +231,19 @@ export default function CirclePacking({
           padding: '8px 12px', boxShadow: '0 8px 24px rgba(0,0,0,0.18)',
           border: '1px solid rgba(255,255,255,0.08)',
         }}>
-          <p style={{ margin: 0, fontSize: 13, fontWeight: 500, color: '#fff',
-            fontFamily: "'DM Sans',system-ui", lineHeight: 1.4 }}>{tooltip.label}</p>
-          <p style={{ margin: '4px 0 0', fontSize: 11, color: '#9ca3af',
-            fontFamily: "'DM Mono',monospace" }}>{tooltip.sub}</p>
+          <p style={{
+            margin: 0, fontSize: 13, fontWeight: 500, color: '#fff',
+            fontFamily: "'DM Sans',system-ui", lineHeight: 1.4
+          }}>{tooltip.label}</p>
+          <p style={{
+            margin: '4px 0 0', fontSize: 11, color: '#9ca3af',
+            fontFamily: "'DM Mono',monospace"
+          }}>{tooltip.sub}</p>
           {tooltip.extra && (
-            <p style={{ margin: '5px 0 0', fontSize: 11, color: '#7986cb',
-              fontFamily: "'DM Mono',monospace", letterSpacing: '0.03em' }}>
+            <p style={{
+              margin: '5px 0 0', fontSize: 11, color: '#7986cb',
+              fontFamily: "'DM Mono',monospace", letterSpacing: '0.03em'
+            }}>
               {tooltip.extra}
             </p>
           )}
