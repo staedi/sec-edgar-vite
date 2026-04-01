@@ -6,15 +6,15 @@ import type { TopicsData, MetaCategoryNode, ClusterNode } from './CirclePacking'
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, '')
 
 const PALETTE = [
-  '#4e9af1','#f0a653','#5ec98b','#e06c75','#c792ea',
-  '#56b6c2','#e5c07b','#98c379','#f07178','#7986cb',
-  '#4db6ac','#ff8a65',
+  '#4e9af1', '#f0a653', '#5ec98b', '#e06c75', '#c792ea',
+  '#56b6c2', '#e5c07b', '#98c379', '#f07178', '#7986cb',
+  '#4db6ac', '#ff8a65',
 ]
 const META_PALETTE = [
-  '#7c8cf8','#f59e6b','#34d399','#f87171','#a78bfa',
-  '#22d3ee','#fbbf24','#4ade80',
+  '#7c8cf8', '#f59e6b', '#34d399', '#f87171', '#a78bfa',
+  '#22d3ee', '#fbbf24', '#4ade80',
 ]
-const colorScale     = scaleOrdinal<string>().range(PALETTE)
+const colorScale = scaleOrdinal<string>().range(PALETTE)
 const metaColorScale = scaleOrdinal<string>().range(META_PALETTE)
 
 function allClusters(data: TopicsData): ClusterNode[] {
@@ -22,13 +22,13 @@ function allClusters(data: TopicsData): ClusterNode[] {
 }
 
 export default function TopicsTab() {
-  const [data,          setData]          = useState<TopicsData | null>(null)
-  const [error,         setError]         = useState<string | null>(null)
-  const [mode,          setMode]          = useState<'recent' | 'full'>('recent')
+  const [data, setData] = useState<TopicsData | null>(null)
+  const [error, setError] = useState<string | null>(null)
+  const [mode, setMode] = useState<'recent' | 'full'>('recent')
   const [activeCluster, setActiveCluster] = useState<number | null>(null)
-  const [activeMeta,    setActiveMeta]    = useState<string | null>(null)
+  const [activeMeta, setActiveMeta] = useState<string | null>(null)
 
-  const vizRef  = useRef<HTMLDivElement>(null)
+  const vizRef = useRef<HTMLDivElement>(null)
   const [width, setWidth] = useState<number | null>(null)
 
   useEffect(() => {
@@ -66,7 +66,8 @@ export default function TopicsTab() {
 
   const updatedAt = data?.updated_at
     ? new Date(data.updated_at).toLocaleString('en-US', {
-        month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })
+      month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
+    })
     : null
 
   const hasActive = activeCluster !== null || activeMeta !== null
@@ -101,7 +102,7 @@ export default function TopicsTab() {
                 fontSize: 12, fontWeight: 500, fontFamily: 'var(--font-ui)',
                 transition: 'all .12s',
                 background: mode === m ? 'var(--ink)' : 'transparent',
-                color:      mode === m ? 'var(--white)' : 'var(--ink-3)',
+                color: mode === m ? 'var(--white)' : 'var(--ink-3)',
               }}>
                 {m === 'recent' ? 'Recent' : 'All'}
               </button>
@@ -113,10 +114,10 @@ export default function TopicsTab() {
         {data && (
           <div style={{ display: 'flex', gap: 8 }}>
             {[
-              { label: 'topics',   value: data.children.length },
+              { label: 'topics', value: data.children.length },
               { label: 'clusters', value: allClusters(data).length },
               { label: 'articles', value: allClusters(data).reduce((s, c) => s + c.count, 0) },
-              { label: 'largest',  value: Math.max(...allClusters(data).map(c => c.count)), suffix: ' art.' },
+              { label: 'largest', value: Math.max(...allClusters(data).map(c => c.count)), suffix: ' art.' },
             ].map(({ label, value, suffix }) => (
               <div key={label} style={{
                 padding: '5px 12px', borderRadius: 'var(--radius-sm)',
@@ -146,7 +147,7 @@ export default function TopicsTab() {
           <AutoHeightPacking
             data={data} width={width}
             activeCluster={activeCluster} onClusterClick={toggleCluster}
-            activeMeta={activeMeta}       onMetaClick={toggleMeta}
+            activeMeta={activeMeta} onMetaClick={toggleMeta}
           />
         )}
       </div>
@@ -160,9 +161,9 @@ export default function TopicsTab() {
           {/* Meta-category pills row */}
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5, alignItems: 'center' }}>
             {data.children.map((meta: MetaCategoryNode) => {
-              const metaColor  = metaColorScale(meta.name)
+              const metaColor = metaColorScale(meta.name)
               const metaActive = activeMeta === null || activeMeta === meta.name
-              const expanded   = activeMeta === meta.name
+              const expanded = activeMeta === meta.name
               return (
                 <button key={meta.name} onClick={() => toggleMeta(meta.name)}
                   title={`${meta.count} articles · click to ${expanded ? 'collapse' : 'expand clusters'}`}
@@ -215,7 +216,8 @@ export default function TopicsTab() {
                 paddingLeft: 4,
               }}>
                 {meta.children.map((c: ClusterNode) => {
-                  const color  = colorScale(String(c.cluster_id))
+                  // const color  = colorScale(String(c.cluster_id))
+                  const color = PALETTE[c.cluster_id % PALETTE.length]
                   const active = activeCluster === null || activeCluster === c.cluster_id
                   return (
                     <button key={c.cluster_id} onClick={() => toggleCluster(c.cluster_id)}
@@ -253,7 +255,7 @@ export default function TopicsTab() {
 function AutoHeightPacking({ data, width, activeCluster, onClusterClick, activeMeta, onMetaClick }: {
   data: TopicsData; width: number
   activeCluster: number | null; onClusterClick: (id: number) => void
-  activeMeta: string | null;    onMetaClick: (name: string) => void
+  activeMeta: string | null; onMetaClick: (name: string) => void
 }) {
   const ref = useRef<HTMLDivElement>(null)
   const [height, setHeight] = useState<number | null>(null)
@@ -274,7 +276,7 @@ function AutoHeightPacking({ data, width, activeCluster, onClusterClick, activeM
         <CirclePacking
           data={data} width={width} height={height}
           activeCluster={activeCluster} onClusterClick={onClusterClick}
-          activeMeta={activeMeta}       onMetaClick={onMetaClick}
+          activeMeta={activeMeta} onMetaClick={onMetaClick}
         />
       )}
     </div>
