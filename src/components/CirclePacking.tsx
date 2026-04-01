@@ -127,7 +127,8 @@ export default function CirclePacking({
       })
     return pack<TopicsData | MetaCategoryNode | ClusterNode | ArticleNode>()
       .size([width - PAD * 2, height - PAD * 2])
-      .padding(node => node.depth === 0 ? 12 : node.depth === 1 ? 4 : 2)(h)
+      // .padding(node => node.depth === 0 ? 12 : node.depth === 1 ? 4 : 2)(h)
+      .padding(node => node.depth === 0 ? 16 : node.depth === 1 ? 8 : 4)(h)
   }, [data, width, height])
 
   const nodes = root.descendants()
@@ -142,7 +143,8 @@ export default function CirclePacking({
             const meta = node.data as MetaCategoryNode
             const color = metaColor(meta.name)
             const isActive = activeMeta === null || activeMeta === meta.name
-            const show = node.r > 52
+            // const show = node.r > 52
+            const show = node.r > 40
             const fs = Math.min(11, Math.max(8, node.r / 8))
             return (
               <g key={`m-${meta.name}`} style={{ cursor: 'pointer' }}
@@ -182,7 +184,8 @@ export default function CirclePacking({
             const lh = fs * 1.3
             const maxC = Math.max(8, Math.floor(node.r / 5.2))
             const lines = wrapLabel(fixEncoding(cd.name), maxC).slice(0, 2)
-            const show = node.r > 36
+            // const show = node.r > 36
+            const show = node.r > 32
             const ty = node.y - (lines.length * lh) / 2 + lh * 0.4
             return (
               <g key={`c-${cd.cluster_id}`} style={{ cursor: 'pointer' }}
