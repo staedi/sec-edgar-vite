@@ -42,6 +42,7 @@ export default function TopicsTab() {
 
   const vizRef = useRef<HTMLDivElement>(null)
   const [width, setWidth] = useState<number | null>(null)
+  const [height, setHeight] = useState<number | null>(null)
 
   useEffect(() => {
     setData(null); setError(null); setActiveCluster(null); setActiveMeta(null)
@@ -58,10 +59,14 @@ export default function TopicsTab() {
     let t: ReturnType<typeof setTimeout>
     const ro = new ResizeObserver(([entry]) => {
       clearTimeout(t)
-      t = setTimeout(() => setWidth(Math.floor(entry.contentRect.width)), 60)
+      t = setTimeout(() => {
+        setWidth(Math.floor(entry.contentRect.width))
+        setHeight(Math.floor(entry.contentRect.height))
+      }, 60)
     })
     ro.observe(el)
     setWidth(Math.floor(el.getBoundingClientRect().width))
+    setHeight(Math.floor(el.getBoundingClientRect().height))
     return () => { clearTimeout(t); ro.disconnect() }
   }, [])
 
@@ -152,11 +157,17 @@ export default function TopicsTab() {
       <div ref={vizRef} style={{ flex: 1, position: 'relative', overflow: 'hidden', minHeight: 0 }}>
         {error ? (
           <Centered><span style={{ color: '#ef4444', fontSize: 13 }}>Could not load data — {error}</span></Centered>
+          // ) : !data || !width || !height ? (
         ) : !data || !width ? (
           <Centered><span style={{ color: 'var(--ink-4)', fontSize: 13 }}>Loading…</span></Centered>
         ) : data.children.length === 0 ? (
           <Centered><span style={{ color: 'var(--ink-4)', fontSize: 13 }}>No clusters found.</span></Centered>
         ) : (
+          // <CirclePacking
+          //   data={data} width={width} height={height}
+          //   activeCluster={activeCluster} onClusterClick={toggleCluster}
+          //   activeMeta={activeMeta} onMetaClick={toggleMeta}
+          // />
           <AutoHeightPacking
             data={data} width={width}
             activeCluster={activeCluster} onClusterClick={toggleCluster}
@@ -274,11 +285,21 @@ function AutoHeightPacking({ data, width, activeCluster, onClusterClick, activeM
   activeMeta: string | null; onMetaClick: (name: string) => void
 }) {
   const ref = useRef<HTMLDivElement>(null)
-  const [height, setHeight] = useState<number | null>(null)
+
+  // const [height, setHeight] = useState<number | null>(null)
+  // Initialize synchronously to avoid second render
+  const [height, setHeight] = useState<number>(() => {
+    // Will be 0 on first render — ResizeObserver corrects it immediately
+    return 0
+  })
 
   useEffect(() => {
     const el = ref.current
     if (!el) return
+    // Set immediately before ResizeObserver fires
+    const initial = Math.floor(el.getBoundingClientRect().height)
+    if (initial > 0) setHeight(initial)
+
     const ro = new ResizeObserver(([entry]) =>
       setHeight(Math.floor(entry.contentRect.height)))
     ro.observe(el)
@@ -288,7 +309,7 @@ function AutoHeightPacking({ data, width, activeCluster, onClusterClick, activeM
 
   return (
     <div ref={ref} style={{ position: 'absolute', inset: 0 }}>
-      {height && (
+      {height > 0 && (
         <CirclePacking
           data={data} width={width} height={height}
           activeCluster={activeCluster} onClusterClick={onClusterClick}

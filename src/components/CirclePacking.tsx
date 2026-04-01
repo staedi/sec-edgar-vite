@@ -1,4 +1,4 @@
-import { useMemo, useState, useCallback, useRef, useEffect } from 'react'
+import { useMemo, useState, useCallback, useRef } from 'react'
 import { hierarchy, pack } from 'd3-hierarchy'
 
 // ── Types ─────────────────────────────────────────────────────────────────────
@@ -35,12 +35,10 @@ const META_PALETTE = [
   '#22d3ee', '#fbbf24', '#4ade80',
 ]
 
-// Deterministic color by cluster_id — stable across mode switches
 function clusterColor(cluster_id: number): string {
   return PALETTE[cluster_id % PALETTE.length]
 }
 function metaColor(metaName: string): string {
-  // Simple hash of the name string for stable color assignment
   let hash = 0
   for (let i = 0; i < metaName.length; i++) hash = (hash * 31 + metaName.charCodeAt(i)) >>> 0
   return META_PALETTE[hash % META_PALETTE.length]
@@ -75,18 +73,24 @@ export default function CirclePacking({
   activeCluster: extCluster, onClusterClick,
   activeMeta: extMeta, onMetaClick,
 }: CirclePackingProps) {
-  const [tooltip, setTooltip] = useState<{
-    x: number; y: number; label: string; sub: string; extra?: string
-  } | null>(null)
   const [internalCluster, setInternalCluster] = useState<number | null>(null)
   const [internalMeta, setInternalMeta] = useState<string | null>(null)
-
-  // Tooltip ref for direct DOM update — avoids re-rendering the SVG on hover
   const tooltipRef = useRef<HTMLDivElement>(null)
 
-  const showTooltip = useCallback((
-    x: number, y: number, label: string, sub: string, extra?: string
-  ) => {
+  const activeCluster = extCluster !== undefined ? extCluster : internalCluster
+  const activeMeta = extMeta !== undefined ? extMeta : internalMeta
+
+  const handleClusterClick = useCallback((id: number) => {
+    if (onClusterClick) onClusterClick(id)
+    else setInternalCluster(p => p === id ? null : id)
+  }, [onClusterClick])
+
+  const handleMetaClick = useCallback((name: string) => {
+    if (onMetaClick) onMetaClick(name)
+    else setInternalMeta(p => p === name ? null : name)
+  }, [onMetaClick])
+
+  const showTooltip = useCallback((x: number, y: number, label: string, sub: string, extra?: string) => {
     const el = tooltipRef.current
     if (!el) return
       ; (el.querySelector('[data-tt="label"]') as HTMLElement).textContent = label
@@ -103,142 +107,119 @@ export default function CirclePacking({
     if (tooltipRef.current) tooltipRef.current.style.display = 'none'
   }, [])
 
-  const activeCluster = extCluster !== undefined ? extCluster : internalCluster
-  const activeMeta = extMeta !== undefined ? extMeta : internalMeta
-
-  const handleClusterClick = useCallback((id: number) => {
-    if (onClusterClick) onClusterClick(id)
-    else setInternalCluster(p => p === id ? null : id)
-  }, [onClusterClick])
-
-  const handleMetaClick = useCallback((name: string) => {
-    if (onMetaClick) onMetaClick(name)
-    else setInternalMeta(p => p === name ? null : name)
-  }, [onMetaClick])
-
   const PAD = 12
-
-  // const dataKey = useMemo(() => 
-  //   data.updated_at + data.children.length, 
-  // [data.updated_at, data.children.length])
-
-  const dataKey = `${data.updated_at}-${data.children.length}`
 
   const root = useMemo(() => {
     const h = hierarchy<TopicsData | MetaCategoryNode | ClusterNode | ArticleNode>(data as TopicsData)
       .sum(d => ('value' in d ? (d as ArticleNode).value : 0))
       .sort((a, b) => {
-        // Primary: value descending
         const diff = (b.value ?? 0) - (a.value ?? 0)
         if (diff !== 0) return diff
-        // Stable tiebreaker by depth — use cluster_id at depth 2, hash at depth 3
         const aData = a.data as any
         const bData = b.data as any
-        const aKey = aData.cluster_id !== undefined
-          ? String(aData.cluster_id)
-          : aData.hash !== undefined
-            ? String(aData.hash)
+        const aKey = aData.cluster_id !== undefined ? String(aData.cluster_id)
+          : aData.hash !== undefined ? String(aData.hash)
             : String(aData.name ?? '')
-        const bKey = bData.cluster_id !== undefined
-          ? String(bData.cluster_id)
-          : bData.hash !== undefined
-            ? String(bData.hash)
+        const bKey = bData.cluster_id !== undefined ? String(bData.cluster_id)
+          : bData.hash !== undefined ? String(bData.hash)
             : String(bData.name ?? '')
         return aKey < bKey ? -1 : aKey > bKey ? 1 : 0
       })
     return pack<TopicsData | MetaCategoryNode | ClusterNode | ArticleNode>()
       .size([width - PAD * 2, height - PAD * 2])
       .padding(node => node.depth === 0 ? 12 : node.depth === 1 ? 4 : 2)(h)
-  }, [dataKey, width, height])
+  }, [data, width, height])
+
+  const nodes = root.descendants()
 
   return (
     <div style={{ position: 'relative', width, height, userSelect: 'none' }}>
       <svg width={width} height={height} style={{ display: 'block', overflow: 'visible' }}>
         <g transform={`translate(${PAD},${PAD})`}>
-          {root.descendants().map((node, i) => {
-            if (node.depth === 0) return null
 
-            // ── depth 1: meta-category ring ──────────────────────────────
-            if (node.depth === 1) {
-              const meta = node.data as MetaCategoryNode
-              const color = metaColor(meta.name)
-              const isActive = activeMeta === null || activeMeta === meta.name
-              const show = node.r > 52
-              const fs = Math.min(11, Math.max(8, node.r / 8))
+          {/* Layer 1: meta rings — rendered first (bottom) */}
+          {nodes.filter(n => n.depth === 1).map(node => {
+            const meta = node.data as MetaCategoryNode
+            const color = metaColor(meta.name)
+            const isActive = activeMeta === null || activeMeta === meta.name
+            const show = node.r > 52
+            const fs = Math.min(11, Math.max(8, node.r / 8))
+            return (
+              <g key={`m-${meta.name}`} style={{ cursor: 'pointer' }}
+                onClick={() => handleMetaClick(meta.name)}
+                onMouseEnter={e => showTooltip(e.clientX, e.clientY, meta.name,
+                  `${meta.children.length} cluster${meta.children.length !== 1 ? 's' : ''} · ${meta.count} articles`)}
+                onMouseLeave={hideTooltip}
+              >
+                <circle cx={node.x} cy={node.y} r={node.r}
+                  fill={color} fillOpacity={isActive ? 0.07 : 0.02}
+                  stroke={color} strokeWidth={isActive ? 1.5 : 0.8}
+                  strokeOpacity={isActive ? 0.45 : 0.15}
+                  strokeDasharray="4 3"
+                  style={{ transition: 'fill-opacity 0.18s ease, stroke-opacity 0.18s ease' }}
+                />
+                {show && (
+                  <text x={node.x} y={node.y - node.r + fs + 5}
+                    textAnchor="middle" fontSize={fs} fontWeight={500}
+                    fontFamily="'DM Sans', system-ui, sans-serif"
+                    fill={color} fillOpacity={isActive ? 0.75 : 0.25}
+                    style={{ pointerEvents: 'none', userSelect: 'none', transition: 'fill-opacity 0.18s' }}
+                  >{fixEncoding(meta.name)}</text>
+                )}
+              </g>
+            )
+          })}
 
-              return (
-                <g key={`m-${meta.name}`} style={{ cursor: 'pointer' }}
-                  onClick={() => handleMetaClick(meta.name)}
-                  onMouseEnter={e => showTooltip(e.clientX, e.clientY, meta.name, `${meta.children.length} cluster${meta.children.length !== 1 ? 's' : ''} · ${meta.count} articles`)}
-                  onMouseLeave={hideTooltip}
-                >
-                  <circle cx={node.x} cy={node.y} r={node.r}
-                    fill={color} fillOpacity={isActive ? 0.07 : 0.02}
-                    stroke={color} strokeWidth={isActive ? 1.5 : 0.8}
-                    strokeOpacity={isActive ? 0.45 : 0.15}
-                    strokeDasharray="4 3"
-                    style={{ transition: 'fill-opacity 0.18s ease, stroke-opacity 0.18s ease' }}
-                  />
-                  {show && (
-                    <text x={node.x} y={node.y - node.r + fs + 5}
-                      textAnchor="middle" fontSize={fs} fontWeight={500}
-                      fontFamily="'DM Sans', system-ui, sans-serif"
-                      fill={color} fillOpacity={isActive ? 0.75 : 0.25}
-                      style={{ pointerEvents: 'none', userSelect: 'none', transition: 'fill-opacity 0.18s' }}
-                    >{fixEncoding(meta.name)}</text>
-                  )}
-                </g>
-              )
-            }
+          {/* Layer 2: cluster bubbles */}
+          {nodes.filter(n => n.depth === 2).map(node => {
+            const cd = node.data as ClusterNode
+            const metaName = (node.parent!.data as MetaCategoryNode).name
+            const color = clusterColor(cd.cluster_id)
+            const metaOn = activeMeta === null || activeMeta === metaName
+            const clusterOn = activeCluster === null || activeCluster === cd.cluster_id
+            const on = metaOn && clusterOn
+            const fs = Math.min(13, Math.max(9, node.r / 5))
+            const lh = fs * 1.3
+            const maxC = Math.max(8, Math.floor(node.r / 5.2))
+            const lines = wrapLabel(fixEncoding(cd.name), maxC).slice(0, 2)
+            const show = node.r > 36
+            const ty = node.y - (lines.length * lh) / 2 + lh * 0.4
+            return (
+              <g key={`c-${cd.cluster_id}`} style={{ cursor: 'pointer' }}
+                onClick={() => handleClusterClick(cd.cluster_id)}
+                onMouseEnter={e => showTooltip(e.clientX, e.clientY, fixEncoding(cd.name),
+                  `${cd.count} article${cd.count !== 1 ? 's' : ''}`,
+                  cd.related_tickers?.length ? cd.related_tickers.join('  ·  ') : undefined)}
+                onMouseLeave={hideTooltip}
+              >
+                <circle cx={node.x} cy={node.y} r={node.r}
+                  fill={color} fillOpacity={on ? 0.13 : 0.03}
+                  stroke={color} strokeWidth={on ? 1.5 : 0.8}
+                  strokeOpacity={on ? 0.55 : 0.18}
+                  style={{ transition: 'fill-opacity 0.18s ease, stroke-opacity 0.18s ease' }}
+                />
+                {show && lines.map((line, li) => (
+                  <text key={li} x={node.x} y={ty + li * lh}
+                    textAnchor="middle" fontSize={fs} fontWeight={600}
+                    fontFamily="'DM Sans', system-ui, sans-serif"
+                    fill={color} fillOpacity={on ? 0.88 : 0.22}
+                    style={{ transition: 'fill-opacity 0.18s', pointerEvents: 'none', userSelect: 'none' }}
+                  >{line}</text>
+                ))}
+                {show && (
+                  <text x={node.x} y={node.y + node.r - 9}
+                    textAnchor="middle" fontSize={Math.min(9, fs * 0.8)}
+                    fontFamily="'DM Mono', monospace"
+                    fill={color} fillOpacity={on ? 0.4 : 0.12}
+                    style={{ transition: 'fill-opacity 0.18s', pointerEvents: 'none', userSelect: 'none' }}
+                  >{cd.count}</text>
+                )}
+              </g>
+            )
+          })}
 
-            // ── depth 2: cluster bubble ───────────────────────────────────
-            if (node.depth === 2) {
-              const cd = node.data as ClusterNode
-              const metaName = (node.parent!.data as MetaCategoryNode).name
-              const color = clusterColor(cd.cluster_id)
-              const metaOn = activeMeta === null || activeMeta === metaName
-              const clusterOn = activeCluster === null || activeCluster === cd.cluster_id
-              const on = metaOn && clusterOn
-              const fs = Math.min(13, Math.max(9, node.r / 5))
-              const lh = fs * 1.3
-              const maxC = Math.max(8, Math.floor(node.r / 5.2))
-              const lines = wrapLabel(fixEncoding(cd.name), maxC).slice(0, 2)
-              const show = node.r > 36
-              const ty = node.y - (lines.length * lh) / 2 + lh * 0.4
-
-              return (
-                <g key={`c-${cd.cluster_id}`} style={{ cursor: 'pointer' }}
-                  onClick={() => handleClusterClick(cd.cluster_id)}
-                  onMouseEnter={e => showTooltip(e.clientX, e.clientY, fixEncoding(cd.name), `${cd.count} article${cd.count !== 1 ? 's' : ''}`, cd.related_tickers?.length ? cd.related_tickers.join('  ·  ') : undefined)}
-                  onMouseLeave={hideTooltip}
-                >
-                  <circle cx={node.x} cy={node.y} r={node.r}
-                    fill={color} fillOpacity={on ? 0.13 : 0.03}
-                    stroke={color} strokeWidth={on ? 1.5 : 0.8}
-                    strokeOpacity={on ? 0.55 : 0.18}
-                    style={{ transition: 'fill-opacity 0.18s ease, stroke-opacity 0.18s ease' }}
-                  />
-                  {show && lines.map((line, li) => (
-                    <text key={li} x={node.x} y={ty + li * lh}
-                      textAnchor="middle" fontSize={fs} fontWeight={600}
-                      fontFamily="'DM Sans', system-ui, sans-serif"
-                      fill={color} fillOpacity={on ? 0.88 : 0.22}
-                      style={{ transition: 'fill-opacity 0.18s', pointerEvents: 'none', userSelect: 'none' }}
-                    >{line}</text>
-                  ))}
-                  {show && (
-                    <text x={node.x} y={node.y + node.r - 9}
-                      textAnchor="middle" fontSize={Math.min(9, fs * 0.8)}
-                      fontFamily="'DM Mono', monospace"
-                      fill={color} fillOpacity={on ? 0.4 : 0.12}
-                      style={{ transition: 'fill-opacity 0.18s', pointerEvents: 'none', userSelect: 'none' }}
-                    >{cd.count}</text>
-                  )}
-                </g>
-              )
-            }
-
-            // ── depth 3: article dot ──────────────────────────────────────
+          {/* Layer 3: article dots — rendered last (top) */}
+          {nodes.filter(n => n.depth === 3).map((node, i) => {
             const art = node.data as ArticleNode
             const cd = node.parent!.data as ClusterNode
             const metaName = (node.parent!.parent!.data as MetaCategoryNode).name
@@ -246,22 +227,24 @@ export default function CirclePacking({
             const metaOn = activeMeta === null || activeMeta === metaName
             const clusterOn = activeCluster === null || activeCluster === cd.cluster_id
             const on = metaOn && clusterOn
-
             return (
               <circle key={`a-${art.hash || i}`}
                 cx={node.x} cy={node.y} r={Math.max(node.r, 2.5)}
                 fill={color} fillOpacity={on ? 0.65 : 0.08}
                 stroke={color} strokeWidth={0.5} strokeOpacity={on ? 0.25 : 0}
                 style={{ transition: 'fill-opacity 0.18s ease, stroke-opacity 0.18s ease', cursor: 'default' }}
-                onMouseEnter={e => showTooltip(e.clientX, e.clientY, truncate(art.summary || art.name, 120), `${art.provider} · ${art.article_date.slice(0, 10)}`)}
+                onMouseEnter={e => showTooltip(e.clientX, e.clientY,
+                  truncate(art.summary || art.name, 120),
+                  `${art.provider} · ${art.article_date.slice(0, 10)}`)}
                 onMouseLeave={hideTooltip}
               />
             )
           })}
+
         </g>
       </svg>
 
-      {/* Tooltip — state-free to avoid SVG re-renders on hover */}
+      {/* Tooltip — direct DOM updates, no React state */}
       <div ref={tooltipRef} style={{
         display: 'none', position: 'fixed', zIndex: 9999,
         pointerEvents: 'none', maxWidth: 300,
