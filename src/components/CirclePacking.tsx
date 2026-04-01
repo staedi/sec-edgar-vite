@@ -4,17 +4,23 @@ import { hierarchy, pack } from 'd3-hierarchy'
 // ── Types ─────────────────────────────────────────────────────────────────────
 
 export interface ArticleNode {
-  name: string; hash: string; article_date: string; provider: string; value: number
+  name: string; summary?: string; hash: string; chunk_key?: string
+  article_date: string; provider: string; value: number
 }
 export interface ClusterNode {
-  cluster_id: number; name: string; count: number; children: ArticleNode[]
+  cluster_id: number; name: string; count: number
+  children: ArticleNode[]; related_tickers?: string[]
+}
+export interface MetaCategoryNode {
+  name: string; count: number; children: ClusterNode[]
 }
 export interface TopicsData {
-  name: 'root'; mode?: string; updated_at: string; children: ClusterNode[]
+  name: 'root'; mode?: string; updated_at: string; children: MetaCategoryNode[]
 }
 export interface CirclePackingProps {
   data: TopicsData; width: number; height: number
   activeCluster?: number | null; onClusterClick?: (id: number) => void
+  activeMeta?: string | null; onMetaClick?: (name: string) => void
 }
 
 // ── Palette ───────────────────────────────────────────────────────────────────
@@ -24,11 +30,20 @@ const PALETTE = [
   '#56b6c2', '#e5c07b', '#98c379', '#f07178', '#7986cb',
   '#4db6ac', '#ff8a65',
 ]
+const META_PALETTE = [
+  '#7c8cf8', '#f59e6b', '#34d399', '#f87171', '#a78bfa',
+  '#22d3ee', '#fbbf24', '#4ade80',
+]
 
-// Deterministic color by cluster_id — never changes regardless of which
-// clusters are present or in what order they appear in the data.
+// Deterministic color by cluster_id — stable across mode switches
 function clusterColor(cluster_id: number): string {
   return PALETTE[cluster_id % PALETTE.length]
+}
+function metaColor(metaName: string): string {
+  // Simple hash of the name string for stable color assignment
+  let hash = 0
+  for (let i = 0; i < metaName.length; i++) hash = (hash * 31 + metaName.charCodeAt(i)) >>> 0
+  return META_PALETTE[hash % META_PALETTE.length]
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -56,37 +71,52 @@ function wrapLabel(label: string, maxChars: number): string[] {
 // ── Component ─────────────────────────────────────────────────────────────────
 
 export default function CirclePacking({
-  data, width, height, activeCluster: ext, onClusterClick,
+  data, width, height,
+  activeCluster: extCluster, onClusterClick,
+  activeMeta: extMeta, onMetaClick,
 }: CirclePackingProps) {
-  const [tooltip, setTooltip] = useState<{ x: number; y: number; label: string; sub: string } | null>(null)
-  const [internal, setInternal] = useState<number | null>(null)
-  const active = ext !== undefined ? ext : internal
+  const [tooltip, setTooltip] = useState<{
+    x: number; y: number; label: string; sub: string; extra?: string
+  } | null>(null)
+  const [internalCluster, setInternalCluster] = useState<number | null>(null)
+  const [internalMeta, setInternalMeta] = useState<string | null>(null)
 
-  const handleClick = useCallback((id: number) => {
+  const activeCluster = extCluster !== undefined ? extCluster : internalCluster
+  const activeMeta = extMeta !== undefined ? extMeta : internalMeta
+
+  const handleClusterClick = useCallback((id: number) => {
     if (onClusterClick) onClusterClick(id)
-    else setInternal(p => p === id ? null : id)
+    else setInternalCluster(p => p === id ? null : id)
   }, [onClusterClick])
+
+  const handleMetaClick = useCallback((name: string) => {
+    if (onMetaClick) onMetaClick(name)
+    else setInternalMeta(p => p === name ? null : name)
+  }, [onMetaClick])
 
   const PAD = 12
 
   const root = useMemo(() => {
-    const h = hierarchy<TopicsData | ClusterNode | ArticleNode>(data as TopicsData)
+    const h = hierarchy<TopicsData | MetaCategoryNode | ClusterNode | ArticleNode>(data as TopicsData)
       .sum(d => ('value' in d ? (d as ArticleNode).value : 0))
       .sort((a, b) => {
         // Primary: value descending
         const diff = (b.value ?? 0) - (a.value ?? 0)
         if (diff !== 0) return diff
-        // Tiebreaker: stable sort by cluster_id or hash so layout is
-        // identical across mode switches
-        const aId = 'cluster_id' in a.data
-          ? (a.data as ClusterNode).cluster_id
-          : (a.data as ArticleNode).hash
-        const bId = 'cluster_id' in b.data
-          ? (b.data as ClusterNode).cluster_id
-          : (b.data as ArticleNode).hash
-        return String(aId) < String(bId) ? -1 : String(aId) > String(bId) ? 1 : 0
+        // Stable tiebreaker — prevents layout shift when switching modes
+        const aKey = 'cluster_id' in a.data
+          ? String((a.data as ClusterNode).cluster_id)
+          : 'hash' in a.data
+            ? (a.data as ArticleNode).hash
+            : (a.data as MetaCategoryNode).name
+        const bKey = 'cluster_id' in b.data
+          ? String((b.data as ClusterNode).cluster_id)
+          : 'hash' in b.data
+            ? (b.data as ArticleNode).hash
+            : (b.data as MetaCategoryNode).name
+        return aKey < bKey ? -1 : aKey > bKey ? 1 : 0
       })
-    return pack<TopicsData | ClusterNode | ArticleNode>()
+    return pack<TopicsData | MetaCategoryNode | ClusterNode | ArticleNode>()
       .size([width - PAD * 2, height - PAD * 2])
       .padding(8)(h)
   }, [data, width, height])
@@ -97,14 +127,52 @@ export default function CirclePacking({
         <g transform={`translate(${PAD},${PAD})`}>
           {root.descendants().map((node, i) => {
             if (node.depth === 0) return null
-            const isCluster = node.depth === 1
-            const cd = isCluster
-              ? (node.data as ClusterNode)
-              : (node.parent!.data as ClusterNode)
-            const color = clusterColor(cd.cluster_id)
-            const on = active === null || active === cd.cluster_id
 
-            if (isCluster) {
+            // ── depth 1: meta-category ring ──────────────────────────────
+            if (node.depth === 1) {
+              const meta = node.data as MetaCategoryNode
+              const color = metaColor(meta.name)
+              const isActive = activeMeta === null || activeMeta === meta.name
+              const show = node.r > 52
+              const fs = Math.min(11, Math.max(8, node.r / 8))
+
+              return (
+                <g key={`m-${meta.name}`} style={{ cursor: 'pointer' }}
+                  onClick={() => handleMetaClick(meta.name)}
+                  onMouseEnter={e => setTooltip({
+                    x: e.clientX, y: e.clientY,
+                    label: meta.name,
+                    sub: `${meta.children.length} cluster${meta.children.length !== 1 ? 's' : ''} · ${meta.count} articles`,
+                  })}
+                  onMouseLeave={() => setTooltip(null)}
+                >
+                  <circle cx={node.x} cy={node.y} r={node.r}
+                    fill={color} fillOpacity={isActive ? 0.07 : 0.02}
+                    stroke={color} strokeWidth={isActive ? 1.5 : 0.8}
+                    strokeOpacity={isActive ? 0.45 : 0.15}
+                    strokeDasharray="4 3"
+                    style={{ transition: 'all 0.18s ease' }}
+                  />
+                  {show && (
+                    <text x={node.x} y={node.y - node.r + fs + 5}
+                      textAnchor="middle" fontSize={fs} fontWeight={500}
+                      fontFamily="'DM Sans', system-ui, sans-serif"
+                      fill={color} fillOpacity={isActive ? 0.75 : 0.25}
+                      style={{ pointerEvents: 'none', userSelect: 'none', transition: 'fill-opacity 0.18s' }}
+                    >{fixEncoding(meta.name)}</text>
+                  )}
+                </g>
+              )
+            }
+
+            // ── depth 2: cluster bubble ───────────────────────────────────
+            if (node.depth === 2) {
+              const cd = node.data as ClusterNode
+              const metaName = (node.parent!.data as MetaCategoryNode).name
+              const color = clusterColor(cd.cluster_id)
+              const metaOn = activeMeta === null || activeMeta === metaName
+              const clusterOn = activeCluster === null || activeCluster === cd.cluster_id
+              const on = metaOn && clusterOn
               const fs = Math.min(13, Math.max(9, node.r / 5))
               const lh = fs * 1.3
               const maxC = Math.max(8, Math.floor(node.r / 5.2))
@@ -114,11 +182,14 @@ export default function CirclePacking({
 
               return (
                 <g key={`c-${cd.cluster_id}`} style={{ cursor: 'pointer' }}
-                  onClick={() => handleClick(cd.cluster_id)}
+                  onClick={() => handleClusterClick(cd.cluster_id)}
                   onMouseEnter={e => setTooltip({
                     x: e.clientX, y: e.clientY,
                     label: fixEncoding(cd.name),
                     sub: `${cd.count} article${cd.count !== 1 ? 's' : ''}`,
+                    extra: cd.related_tickers?.length
+                      ? cd.related_tickers.join('  ·  ')
+                      : undefined,
                   })}
                   onMouseLeave={() => setTooltip(null)}
                 >
@@ -148,16 +219,24 @@ export default function CirclePacking({
               )
             }
 
+            // ── depth 3: article dot ──────────────────────────────────────
             const art = node.data as ArticleNode
+            const cd = node.parent!.data as ClusterNode
+            const metaName = (node.parent!.parent!.data as MetaCategoryNode).name
+            const color = clusterColor(cd.cluster_id)
+            const metaOn = activeMeta === null || activeMeta === metaName
+            const clusterOn = activeCluster === null || activeCluster === cd.cluster_id
+            const on = metaOn && clusterOn
+
             return (
               <circle key={`a-${art.hash || i}`}
                 cx={node.x} cy={node.y} r={Math.max(node.r, 2.5)}
-                fill={color} fillOpacity={on ? 0.65 : 0.1}
+                fill={color} fillOpacity={on ? 0.65 : 0.08}
                 stroke={color} strokeWidth={0.5} strokeOpacity={on ? 0.25 : 0}
                 style={{ transition: 'all 0.18s ease', cursor: 'default' }}
                 onMouseEnter={e => setTooltip({
                   x: e.clientX, y: e.clientY,
-                  label: truncate(art.name, 80),
+                  label: truncate(art.summary || art.name, 120),
                   sub: `${art.provider} · ${art.article_date.slice(0, 10)}`,
                 })}
                 onMouseLeave={() => setTooltip(null)}
@@ -170,7 +249,7 @@ export default function CirclePacking({
       {tooltip && (
         <div style={{
           position: 'fixed', left: tooltip.x + 14, top: tooltip.y - 10,
-          zIndex: 9999, pointerEvents: 'none', maxWidth: 280,
+          zIndex: 9999, pointerEvents: 'none', maxWidth: 300,
           background: 'rgba(15,17,23,0.93)', borderRadius: 8,
           padding: '8px 12px', boxShadow: '0 8px 24px rgba(0,0,0,0.18)',
           border: '1px solid rgba(255,255,255,0.08)',
@@ -183,6 +262,14 @@ export default function CirclePacking({
             margin: '4px 0 0', fontSize: 11, color: '#9ca3af',
             fontFamily: "'DM Mono',monospace"
           }}>{tooltip.sub}</p>
+          {tooltip.extra && (
+            <p style={{
+              margin: '5px 0 0', fontSize: 11, color: '#7986cb',
+              fontFamily: "'DM Mono',monospace", letterSpacing: '0.03em'
+            }}>
+              {tooltip.extra}
+            </p>
+          )}
         </div>
       )}
     </div>
