@@ -1,4 +1,4 @@
-import { useMemo, useState, useCallback } from 'react'
+import { useMemo, useState, useCallback, useRef } from 'react'
 import { hierarchy, pack } from 'd3-hierarchy'
 
 // ── Types ─────────────────────────────────────────────────────────────────────
@@ -81,6 +81,9 @@ export default function CirclePacking({
   const [internalCluster, setInternalCluster] = useState<number | null>(null)
   const [internalMeta, setInternalMeta] = useState<string | null>(null)
 
+  // Tooltip ref for direct DOM update — avoids re-rendering the SVG on hover
+  const tooltipRef = useRef<HTMLDivElement>(null)
+
   const activeCluster = extCluster !== undefined ? extCluster : internalCluster
   const activeMeta = extMeta !== undefined ? extMeta : internalMeta
 
@@ -103,17 +106,19 @@ export default function CirclePacking({
         // Primary: value descending
         const diff = (b.value ?? 0) - (a.value ?? 0)
         if (diff !== 0) return diff
-        // Stable tiebreaker — prevents layout shift when switching modes
-        const aKey = 'cluster_id' in a.data
-          ? String((a.data as ClusterNode).cluster_id)
-          : 'hash' in a.data
-            ? (a.data as ArticleNode).hash
-            : (a.data as MetaCategoryNode).name
-        const bKey = 'cluster_id' in b.data
-          ? String((b.data as ClusterNode).cluster_id)
-          : 'hash' in b.data
-            ? (b.data as ArticleNode).hash
-            : (b.data as MetaCategoryNode).name
+        // Stable tiebreaker by depth — use cluster_id at depth 2, hash at depth 3
+        const aData = a.data as any
+        const bData = b.data as any
+        const aKey = aData.cluster_id !== undefined
+          ? String(aData.cluster_id)
+          : aData.hash !== undefined
+            ? String(aData.hash)
+            : String(aData.name ?? '')
+        const bKey = bData.cluster_id !== undefined
+          ? String(bData.cluster_id)
+          : bData.hash !== undefined
+            ? String(bData.hash)
+            : String(bData.name ?? '')
         return aKey < bKey ? -1 : aKey > bKey ? 1 : 0
       })
     return pack<TopicsData | MetaCategoryNode | ClusterNode | ArticleNode>()
@@ -139,12 +144,15 @@ export default function CirclePacking({
               return (
                 <g key={`m-${meta.name}`} style={{ cursor: 'pointer' }}
                   onClick={() => handleMetaClick(meta.name)}
-                  onMouseEnter={e => setTooltip({
-                    x: e.clientX, y: e.clientY,
-                    label: meta.name,
-                    sub: `${meta.children.length} cluster${meta.children.length !== 1 ? 's' : ''} · ${meta.count} articles`,
-                  })}
-                  onMouseLeave={() => setTooltip(null)}
+                  onMouseEnter={e => {
+                    if (tooltipRef.current) {
+                      tooltipRef.current.style.display = 'block'
+                      tooltipRef.current.style.left = `${e.clientX + 14}px`
+                      tooltipRef.current.style.top = `${e.clientY - 10}px`
+                      tooltipRef.current.innerHTML = `<p style="margin:0;font-size:13px;font-weight:500;color:#fff;font-family:'DM Sans',system-ui;line-height:1.4">${meta.name}</p><p style="margin:4px 0 0;font-size:11px;color:#9ca3af;font-family:'DM Mono',monospace">${meta.children.length} cluster${meta.children.length !== 1 ? 's' : ''} · ${meta.count} articles</p>`
+                    }
+                  }}
+                  onMouseLeave={() => { if (tooltipRef.current) tooltipRef.current.style.display = 'none' }}
                 >
                   <circle cx={node.x} cy={node.y} r={node.r}
                     fill={color} fillOpacity={isActive ? 0.07 : 0.02}
@@ -183,15 +191,16 @@ export default function CirclePacking({
               return (
                 <g key={`c-${cd.cluster_id}`} style={{ cursor: 'pointer' }}
                   onClick={() => handleClusterClick(cd.cluster_id)}
-                  onMouseEnter={e => setTooltip({
-                    x: e.clientX, y: e.clientY,
-                    label: fixEncoding(cd.name),
-                    sub: `${cd.count} article${cd.count !== 1 ? 's' : ''}`,
-                    extra: cd.related_tickers?.length
-                      ? cd.related_tickers.join('  ·  ')
-                      : undefined,
-                  })}
-                  onMouseLeave={() => setTooltip(null)}
+                  onMouseEnter={e => {
+                    if (tooltipRef.current) {
+                      const extra = cd.related_tickers?.length ? `<p style="margin:5px 0 0;font-size:11px;color:#7986cb;font-family:'DM Mono',monospace">${cd.related_tickers.join('  ·  ')}</p>` : ''
+                      tooltipRef.current.style.display = 'block'
+                      tooltipRef.current.style.left = `${e.clientX + 14}px`
+                      tooltipRef.current.style.top = `${e.clientY - 10}px`
+                      tooltipRef.current.innerHTML = `<p style="margin:0;font-size:13px;font-weight:500;color:#fff;font-family:'DM Sans',system-ui;line-height:1.4">${fixEncoding(cd.name)}</p><p style="margin:4px 0 0;font-size:11px;color:#9ca3af;font-family:'DM Mono',monospace">${cd.count} article${cd.count !== 1 ? 's' : ''}</p>${extra}`
+                    }
+                  }}
+                  onMouseLeave={() => { if (tooltipRef.current) tooltipRef.current.style.display = 'none' }}
                 >
                   <circle cx={node.x} cy={node.y} r={node.r}
                     fill={color} fillOpacity={on ? 0.13 : 0.03}
@@ -234,44 +243,29 @@ export default function CirclePacking({
                 fill={color} fillOpacity={on ? 0.65 : 0.08}
                 stroke={color} strokeWidth={0.5} strokeOpacity={on ? 0.25 : 0}
                 style={{ transition: 'all 0.18s ease', cursor: 'default' }}
-                onMouseEnter={e => setTooltip({
-                  x: e.clientX, y: e.clientY,
-                  label: truncate(art.summary || art.name, 120),
-                  sub: `${art.provider} · ${art.article_date.slice(0, 10)}`,
-                })}
-                onMouseLeave={() => setTooltip(null)}
+                onMouseEnter={e => {
+                  if (tooltipRef.current) {
+                    tooltipRef.current.style.display = 'block'
+                    tooltipRef.current.style.left = `${e.clientX + 14}px`
+                    tooltipRef.current.style.top = `${e.clientY - 10}px`
+                    tooltipRef.current.innerHTML = `<p style="margin:0;font-size:13px;font-weight:500;color:#fff;font-family:'DM Sans',system-ui;line-height:1.4">${truncate(art.summary || art.name, 120)}</p><p style="margin:4px 0 0;font-size:11px;color:#9ca3af;font-family:'DM Mono',monospace">${art.provider} · ${art.article_date.slice(0, 10)}</p>`
+                  }
+                }}
+                onMouseLeave={() => { if (tooltipRef.current) tooltipRef.current.style.display = 'none' }}
               />
             )
           })}
         </g>
       </svg>
 
-      {tooltip && (
-        <div style={{
-          position: 'fixed', left: tooltip.x + 14, top: tooltip.y - 10,
-          zIndex: 9999, pointerEvents: 'none', maxWidth: 300,
-          background: 'rgba(15,17,23,0.93)', borderRadius: 8,
-          padding: '8px 12px', boxShadow: '0 8px 24px rgba(0,0,0,0.18)',
-          border: '1px solid rgba(255,255,255,0.08)',
-        }}>
-          <p style={{
-            margin: 0, fontSize: 13, fontWeight: 500, color: '#fff',
-            fontFamily: "'DM Sans',system-ui", lineHeight: 1.4
-          }}>{tooltip.label}</p>
-          <p style={{
-            margin: '4px 0 0', fontSize: 11, color: '#9ca3af',
-            fontFamily: "'DM Mono',monospace"
-          }}>{tooltip.sub}</p>
-          {tooltip.extra && (
-            <p style={{
-              margin: '5px 0 0', fontSize: 11, color: '#7986cb',
-              fontFamily: "'DM Mono',monospace", letterSpacing: '0.03em'
-            }}>
-              {tooltip.extra}
-            </p>
-          )}
-        </div>
-      )}
+      {/* Tooltip — direct DOM updates avoid SVG re-renders on hover */}
+      <div ref={tooltipRef} style={{
+        display: 'none', position: 'fixed', zIndex: 9999,
+        pointerEvents: 'none', maxWidth: 300,
+        background: 'rgba(15,17,23,0.93)', borderRadius: 8,
+        padding: '8px 12px', boxShadow: '0 8px 24px rgba(0,0,0,0.18)',
+        border: '1px solid rgba(255,255,255,0.08)',
+      }} />
     </div>
   )
 }
