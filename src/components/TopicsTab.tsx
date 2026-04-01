@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
-import { scaleOrdinal } from 'd3-scale'
+// import { scaleOrdinal } from 'd3-scale'
 import CirclePacking from './CirclePacking'
 import type { TopicsData, MetaCategoryNode, ClusterNode } from './CirclePacking'
 
