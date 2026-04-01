@@ -14,8 +14,20 @@ const META_PALETTE = [
   '#7c8cf8', '#f59e6b', '#34d399', '#f87171', '#a78bfa',
   '#22d3ee', '#fbbf24', '#4ade80',
 ]
-const colorScale = scaleOrdinal<string>().range(PALETTE)
-const metaColorScale = scaleOrdinal<string>().range(META_PALETTE)
+// Remove these:
+// import { scaleOrdinal } from 'd3-scale'
+// const colorScale     = scaleOrdinal<string>().range(PALETTE)
+// const metaColorScale = scaleOrdinal<string>().range(META_PALETTE)
+
+// Add these instead:
+function clusterColor(cluster_id: number): string {
+  return PALETTE[cluster_id % PALETTE.length]
+}
+function metaClusterColor(metaName: string): string {
+  let hash = 0
+  for (let i = 0; i < metaName.length; i++) hash = (hash * 31 + metaName.charCodeAt(i)) >>> 0
+  return META_PALETTE[hash % META_PALETTE.length]
+}
 
 function allClusters(data: TopicsData): ClusterNode[] {
   return data.children.flatMap((m: MetaCategoryNode) => m.children)
@@ -161,7 +173,8 @@ export default function TopicsTab() {
           {/* Meta-category pills row */}
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5, alignItems: 'center' }}>
             {data.children.map((meta: MetaCategoryNode) => {
-              const metaColor = metaColorScale(meta.name)
+              // const metaColor = metaColorScale(meta.name)
+              const metaColor = metaClusterColor(meta.name)
               const metaActive = activeMeta === null || activeMeta === meta.name
               const expanded = activeMeta === meta.name
               return (
@@ -207,7 +220,8 @@ export default function TopicsTab() {
           {activeMeta !== null && (() => {
             const meta = data.children.find((m: MetaCategoryNode) => m.name === activeMeta)
             if (!meta) return null
-            const metaColor = metaColorScale(meta.name)
+            // const metaColor = metaColorScale(meta.name)
+            const metaColor = metaClusterColor(meta.name)
             return (
               <div style={{
                 display: 'flex', flexWrap: 'wrap', gap: 5,
@@ -217,7 +231,8 @@ export default function TopicsTab() {
               }}>
                 {meta.children.map((c: ClusterNode) => {
                   // const color  = colorScale(String(c.cluster_id))
-                  const color = PALETTE[c.cluster_id % PALETTE.length]
+                  // const color = PALETTE[c.cluster_id % PALETTE.length]
+                  const color = clusterColor(c.cluster_id)
                   const active = activeCluster === null || activeCluster === c.cluster_id
                   return (
                     <button key={c.cluster_id} onClick={() => toggleCluster(c.cluster_id)}
