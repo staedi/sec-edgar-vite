@@ -1,186 +1,12 @@
 {
   "name": "root",
   "mode": "full",
-  "updated_at": "2026-03-31T11:28:36.303395+00:00",
+  "updated_at": "2026-04-01T11:15:43.066342+00:00",
   "children": [
     {
       "name": "AI's Future of Work",
       "count": 58,
       "children": [
-        {
-          "cluster_id": 0,
-          "name": "Reevaluating Startup Growth Strategies",
-          "count": 3,
-          "children": [
-            {
-              "name": "How AI is changing American entrepreneurship, small business",
-              "summary": "Yeung and Spicer say they don't take salaries from their new businesses yet.",
-              "hash": "3b55908aae10025f",
-              "chunk_key": "3b55908aae10025f_c003",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "44-year-old left his tech job, started a halal burger jointâhis restaurants brought in over $4 million in 2025",
-              "summary": "Technology was his first passion: after earning a degree in management information systems from SUNY Old Westbury, he spent 24 years working in IT.",
-              "hash": "f98ea8cca2252200",
-              "chunk_key": "f98ea8cca2252200_c001",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "CEO of $5B startup once took 'shortcuts' to grow businessâuntil 'alarm bells' went off",
-              "summary": "The company risked joining the ranks of buzzy startups that never figure out how to turn their sky-high valuations into profitable, sustainable businesses — until a moment in April…",
-              "hash": "9d2e5366423320e3",
-              "chunk_key": "9d2e5366423320e3_c001",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 16,
-          "name": "OpenAI's Shift in Business Strategy",
-          "count": 6,
-          "children": [
-            {
-              "name": "U.S.-Iran negotiations, Meta trial verdict and more: Morning Squawk",
-              "summary": "Lin said the Pentagon's decision \"looks like an attempt to cripple\" the artificial intelligence startup. Sora was here for a good time, not a long time.",
-              "hash": "21d883fb2f3dc63e",
-              "chunk_key": "21d883fb2f3dc63e_c001",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "OpenAI's data center pivot underscores Wall Street spending concerns ahead of IPO",
-              "summary": "Oracle is leasing Stargate's data center campus in Abilene, and has been funding the buildout by taking on tens of billions of dollars in debt .",
-              "hash": "0f38d254ff5e55cc",
-              "chunk_key": "0f38d254ff5e55cc_c005",
-              "article_date": "2026-03-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "ChatGPT's ad pilot has the industry excited, but some insiders are frustrated",
-              "summary": "Despite some early frustrations, sources said they have been encouraged by OpenAI's response to feedback and how quickly the company has been able to make changes, and more recentl…",
-              "hash": "0db0c76c2d54bb74",
-              "chunk_key": "0db0c76c2d54bb74_c002",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "OpenAI's first try at online shopping stumbled. It's preparing for the next wave",
-              "summary": "In this article When OpenAI announced its Instant Checkout feature last fall, retailers sprang into action.",
-              "hash": "a15d81f22ba253ed",
-              "chunk_key": "a15d81f22ba253ed_c000",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "OpenAI to create desktop super app, combining ChatGPT app, browser and Codex app",
-              "summary": "OpenAI will combine its web browser, ChatGPT app and Codex coding app into a singular desktop super app, CNBC confirmed on Thursday.",
-              "hash": "dd12e2a982cb7bd0",
-              "chunk_key": "dd12e2a982cb7bd0_c000",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "OpenAI preps for IPO by year end, tells employees ChatGPT must be 'productivity tool'",
-              "summary": "CFO Sarah Friar is building out OpenAI's finance team ahead of a market debut, hiring Ajmere Dale, the former chief accounting officer at Block, and Cynthia Gaylor, the former CFO …",
-              "hash": "a95d58ce3040dc23",
-              "chunk_key": "a95d58ce3040dc23_c001",
-              "article_date": "2026-03-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 22,
-          "name": "\"AI's Impact on the Workforce\"",
-          "count": 8,
-          "children": [
-            {
-              "name": "BlackRocks Larry Fink says missing the market's best days can halve returns",
-              "summary": "The old model of global capitalism is fracturing. Countries are spending enormous sums to become self-reliant — in energy, in defense, in technology.",
-              "hash": "ea22a2c6ad9036e3",
-              "chunk_key": "ea22a2c6ad9036e3_c001",
-              "article_date": "2026-03-22 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Companies doing more with less in AI era. Workers can take advantage",
-              "summary": "Paul Marchand, chief human resources officer at Charter Communications , the telecoms company that employs more than 90,000 people, said there is a \"virtuous cycle\" when it comes t…",
-              "hash": "1672b20223f26140",
-              "chunk_key": "1672b20223f26140_c001",
-              "article_date": "2026-03-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "FedEx starting to deliver 'promotion-ready' AI training to over 400,000 workers",
-              "summary": "We decided to make sure that we were comprehensive in providing this program and training for everyone, and more importantly, we were meeting the training program at the point on w…",
-              "hash": "af82e12fff517828",
-              "chunk_key": "af82e12fff517828_c005",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Nvidia's Huang pitches AI tokens on top of salary as agents reshape how humans work",
-              "summary": "The AI-fueled anxiety over labor displacement has been hard to contain, even as companies struggle to find skilled workers.",
-              "hash": "b07aed5c5aa0fac5",
-              "chunk_key": "b07aed5c5aa0fac5_c003",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Who's most optimistic about AI â and who isn't, according to Anthropic",
-              "summary": "People in Sub-Saharan Africa and Asia are more optimistic about artificial intelligence than those in Western Europe and North America, according to a report by Anthropic that surv…",
-              "hash": "55651bea9f128ec3",
-              "chunk_key": "55651bea9f128ec3_c000",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "How the AI data center boom is igniting demand for a new, lucrative career path: trade workers",
-              "summary": "For cooling — or HVAC — system engineers, the growth rate was 67%, and vacancies for industrial automation technicians grew by 51%.",
-              "hash": "b00771dfab82a350",
-              "chunk_key": "b00771dfab82a350_c001",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "CNBC Daily Open: Markets reel as Fed holds rates steady and Iran hits a key Qatar gas hub",
-              "summary": "Gas prices aren't the only ones rising; memory chip prices are also surging amid intense AI demand.",
-              "hash": "ebfa5fce18214266",
-              "chunk_key": "ebfa5fce18214266_c001",
-              "article_date": "2026-03-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Meta up in premarket after Reuters report of layoff plans",
-              "summary": "Jack Dorsey's Block said it's laying off 4,000 employees in February to enable the firm \"to move faster with smaller, highly talented teams using AI to automate more work.",
-              "hash": "de7ac3b59ba39a92",
-              "chunk_key": "de7ac3b59ba39a92_c001",
-              "article_date": "2026-03-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
         {
           "cluster_id": 23,
           "name": "Meta's AI Strategy Faces Challenges",
@@ -556,6 +382,180 @@
               "value": 1
             }
           ]
+        },
+        {
+          "cluster_id": 22,
+          "name": "\"AI's Impact on the Workforce\"",
+          "count": 8,
+          "children": [
+            {
+              "name": "BlackRocks Larry Fink says missing the market's best days can halve returns",
+              "summary": "The old model of global capitalism is fracturing. Countries are spending enormous sums to become self-reliant — in energy, in defense, in technology.",
+              "hash": "ea22a2c6ad9036e3",
+              "chunk_key": "ea22a2c6ad9036e3_c001",
+              "article_date": "2026-03-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Companies doing more with less in AI era. Workers can take advantage",
+              "summary": "Paul Marchand, chief human resources officer at Charter Communications , the telecoms company that employs more than 90,000 people, said there is a \"virtuous cycle\" when it comes t…",
+              "hash": "1672b20223f26140",
+              "chunk_key": "1672b20223f26140_c001",
+              "article_date": "2026-03-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "FedEx starting to deliver 'promotion-ready' AI training to over 400,000 workers",
+              "summary": "We decided to make sure that we were comprehensive in providing this program and training for everyone, and more importantly, we were meeting the training program at the point on w…",
+              "hash": "af82e12fff517828",
+              "chunk_key": "af82e12fff517828_c005",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Nvidia's Huang pitches AI tokens on top of salary as agents reshape how humans work",
+              "summary": "The AI-fueled anxiety over labor displacement has been hard to contain, even as companies struggle to find skilled workers.",
+              "hash": "b07aed5c5aa0fac5",
+              "chunk_key": "b07aed5c5aa0fac5_c003",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Who's most optimistic about AI â and who isn't, according to Anthropic",
+              "summary": "People in Sub-Saharan Africa and Asia are more optimistic about artificial intelligence than those in Western Europe and North America, according to a report by Anthropic that surv…",
+              "hash": "55651bea9f128ec3",
+              "chunk_key": "55651bea9f128ec3_c000",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "How the AI data center boom is igniting demand for a new, lucrative career path: trade workers",
+              "summary": "For cooling — or HVAC — system engineers, the growth rate was 67%, and vacancies for industrial automation technicians grew by 51%.",
+              "hash": "b00771dfab82a350",
+              "chunk_key": "b00771dfab82a350_c001",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "CNBC Daily Open: Markets reel as Fed holds rates steady and Iran hits a key Qatar gas hub",
+              "summary": "Gas prices aren't the only ones rising; memory chip prices are also surging amid intense AI demand.",
+              "hash": "ebfa5fce18214266",
+              "chunk_key": "ebfa5fce18214266_c001",
+              "article_date": "2026-03-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Meta up in premarket after Reuters report of layoff plans",
+              "summary": "Jack Dorsey's Block said it's laying off 4,000 employees in February to enable the firm \"to move faster with smaller, highly talented teams using AI to automate more work.",
+              "hash": "de7ac3b59ba39a92",
+              "chunk_key": "de7ac3b59ba39a92_c001",
+              "article_date": "2026-03-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 16,
+          "name": "OpenAI's Shift in Business Strategy",
+          "count": 6,
+          "children": [
+            {
+              "name": "U.S.-Iran negotiations, Meta trial verdict and more: Morning Squawk",
+              "summary": "Lin said the Pentagon's decision \"looks like an attempt to cripple\" the artificial intelligence startup. Sora was here for a good time, not a long time.",
+              "hash": "21d883fb2f3dc63e",
+              "chunk_key": "21d883fb2f3dc63e_c001",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "OpenAI's data center pivot underscores Wall Street spending concerns ahead of IPO",
+              "summary": "Oracle is leasing Stargate's data center campus in Abilene, and has been funding the buildout by taking on tens of billions of dollars in debt .",
+              "hash": "0f38d254ff5e55cc",
+              "chunk_key": "0f38d254ff5e55cc_c005",
+              "article_date": "2026-03-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "ChatGPT's ad pilot has the industry excited, but some insiders are frustrated",
+              "summary": "Despite some early frustrations, sources said they have been encouraged by OpenAI's response to feedback and how quickly the company has been able to make changes, and more recentl…",
+              "hash": "0db0c76c2d54bb74",
+              "chunk_key": "0db0c76c2d54bb74_c002",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "OpenAI's first try at online shopping stumbled. It's preparing for the next wave",
+              "summary": "In this article When OpenAI announced its Instant Checkout feature last fall, retailers sprang into action.",
+              "hash": "a15d81f22ba253ed",
+              "chunk_key": "a15d81f22ba253ed_c000",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "OpenAI to create desktop super app, combining ChatGPT app, browser and Codex app",
+              "summary": "OpenAI will combine its web browser, ChatGPT app and Codex coding app into a singular desktop super app, CNBC confirmed on Thursday.",
+              "hash": "dd12e2a982cb7bd0",
+              "chunk_key": "dd12e2a982cb7bd0_c000",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "OpenAI preps for IPO by year end, tells employees ChatGPT must be 'productivity tool'",
+              "summary": "CFO Sarah Friar is building out OpenAI's finance team ahead of a market debut, hiring Ajmere Dale, the former chief accounting officer at Block, and Cynthia Gaylor, the former CFO …",
+              "hash": "a95d58ce3040dc23",
+              "chunk_key": "a95d58ce3040dc23_c001",
+              "article_date": "2026-03-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 0,
+          "name": "Reevaluating Startup Growth Strategies",
+          "count": 3,
+          "children": [
+            {
+              "name": "How AI is changing American entrepreneurship, small business",
+              "summary": "Yeung and Spicer say they don't take salaries from their new businesses yet.",
+              "hash": "3b55908aae10025f",
+              "chunk_key": "3b55908aae10025f_c003",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "44-year-old left his tech job, started a halal burger jointâhis restaurants brought in over $4 million in 2025",
+              "summary": "Technology was his first passion: after earning a degree in management information systems from SUNY Old Westbury, he spent 24 years working in IT.",
+              "hash": "f98ea8cca2252200",
+              "chunk_key": "f98ea8cca2252200_c001",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "CEO of $5B startup once took 'shortcuts' to grow businessâuntil 'alarm bells' went off",
+              "summary": "The company risked joining the ranks of buzzy startups that never figure out how to turn their sky-high valuations into profitable, sustainable businesses — until a moment in April…",
+              "hash": "9d2e5366423320e3",
+              "chunk_key": "9d2e5366423320e3_c001",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
         }
       ]
     },
@@ -563,101 +563,6 @@
       "name": "Economic Policy Shifts",
       "count": 33,
       "children": [
-        {
-          "cluster_id": 12,
-          "name": "Tax Refunds Rise Amid Inflation",
-          "count": 5,
-          "children": [
-            {
-              "name": "1.4 million filers face tax refund delays amid IRS paper check phaseout",
-              "summary": "A growing number of filers are facing tax refund delays amid a government-wide phaseout of paper checks .",
-              "hash": "9e9f59be8dbb4597",
-              "chunk_key": "9e9f59be8dbb4597_c000",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Average IRS tax refund is up 10.9%, latest filing data shows",
-              "summary": "The average tax refund is 10.9% higher so far this season, compared with about the same period in 2025, according to the latest IRS filing data.",
-              "hash": "08616aafb1fdd5ef",
-              "chunk_key": "08616aafb1fdd5ef_c000",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Higher gas prices from Iran war could offset Trump's bigger tax refunds",
-              "summary": "This season's bigger tax refunds come as both parties focus on Americans' affordability concerns .",
-              "hash": "b9f2fbec9cc630ce",
-              "chunk_key": "b9f2fbec9cc630ce_c001",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "9% of ACA health-care plan enrollees uninsured after enhanced subsidies expire: Poll",
-              "summary": "Even those who kept their ACA health insurance coverage aren't doing so painlessly.",
-              "hash": "ce9534dd5db79cd2",
-              "chunk_key": "ce9534dd5db79cd2_c002",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Average IRS tax refund is up 10.8%, new filing data shows",
-              "summary": "The average tax refund is 10.8% higher so far this season, compared with about the same period in 2025, according to the latest IRS filing data.",
-              "hash": "da16bd3a5e4f7eb3",
-              "chunk_key": "da16bd3a5e4f7eb3_c000",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 14,
-          "name": "Housing Affordability Act Passes",
-          "count": 4,
-          "children": [
-            {
-              "name": "Trump push for ban on investor homebuying may sacrifice bigger real estate deal",
-              "summary": "The National Association of Realtors has expressed its support for the Senate bill in a statement from its executive vice president and chief advocacy officer Shannon McGahn.",
-              "hash": "aa39e48b7c23ef56",
-              "chunk_key": "aa39e48b7c23ef56_c003",
-              "article_date": "2026-03-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Mortgage demand drops more than 10% as rates hit the highest level since October",
-              "summary": "Mortgage rates rose last week to the highest level since last fall, and that pushed mortgage demand off a cliff. Total mortgage application volume dropped 10.",
-              "hash": "697def81134d41a9",
-              "chunk_key": "697def81134d41a9_c000",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "January new home sales plunge to the lowest pace since 2022",
-              "summary": "Sales of newly built homes in January dropped 17.6% month over month to a seasonally adjusted, annualized pace of 587,000 units, according to the U.S. Census Bureau.",
-              "hash": "3b6a5ac606c7ef61",
-              "chunk_key": "3b6a5ac606c7ef61_c000",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Mortgage refinance demand plunges 19% after interest rates shoot higher",
-              "summary": "Mortgage rates last week jumped to the highest level since the end of last year, causing a slowdown in the growing refinance demand the market had been seeing at the start of this …",
-              "hash": "6f89a3557b5f1d17",
-              "chunk_key": "6f89a3557b5f1d17_c000",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
         {
           "cluster_id": 15,
           "name": "US Government Shutdown Continues",
@@ -756,67 +661,6 @@
           ]
         },
         {
-          "cluster_id": 17,
-          "name": "US Threatens Cuba with Takeover",
-          "count": 6,
-          "children": [
-            {
-              "name": "How Chinese, Russian Arctic ambitions are fueling a U.S. polar icebreaker mission",
-              "summary": "This is fundamentally protecting the United States, and the Golden Dome , the president is trying to do.",
-              "hash": "5f4d4f593e4d1a91",
-              "chunk_key": "5f4d4f593e4d1a91_c004",
-              "article_date": "2026-03-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Denmarkâs PM suffers election setback after standing up to Trump over Greenland",
-              "summary": "Denmark's Prime Minister Mette Frederiksen suffered an election setback as her left-leaning bloc appeared to have fallen short of winning enough votes to form a government, followi…",
-              "hash": "8f6cfeae7eba0aaf",
-              "chunk_key": "8f6cfeae7eba0aaf_c000",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "U.S. says Cuba is prohibited from taking Russian oil as tankers head to island",
-              "summary": "The Hong Kong-flagged ship is estimated to be carrying around 190,000 barrels of Russian gasoil and tracking suggests it could be set to deliver its cargo in the coming days.",
-              "hash": "8c6e4f2478d2e37d",
-              "chunk_key": "8c6e4f2478d2e37d_c001",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Opinion: As Trump eyes Cuba, my trips there remind me how different things were",
-              "summary": "Obama's visit the following March only added to that feeling. Travel restrictions for Americans were relaxed and limited trade began to restart.",
-              "hash": "c77ea15283a07837",
-              "chunk_key": "c77ea15283a07837_c003",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Cuba partially restores power and vows âunyielding resistanceâ to U.S. oil blockade",
-              "summary": "Cuba's President Miguel Díaz-Canel on Wednesday lashed out at the \"almost daily\" threats from the U.S.",
-              "hash": "46e46d1ec056c032",
-              "chunk_key": "46e46d1ec056c032_c000",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump says he thinks he will have the 'honor' of 'taking Cuba'",
-              "summary": "President Donald Trump on Monday said he thinks he will have the \"honor\" of \"taking Cuba ,\" speaking during an executive order signing at the White House.",
-              "hash": "0cd064d08b8118c5",
-              "chunk_key": "0cd064d08b8118c5_c000",
-              "article_date": "2026-03-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
           "cluster_id": 27,
           "name": "US Launches Trade Investigations",
           "count": 8,
@@ -894,6 +738,162 @@
               "value": 1
             }
           ]
+        },
+        {
+          "cluster_id": 17,
+          "name": "US Threatens Cuba with Takeover",
+          "count": 6,
+          "children": [
+            {
+              "name": "How Chinese, Russian Arctic ambitions are fueling a U.S. polar icebreaker mission",
+              "summary": "This is fundamentally protecting the United States, and the Golden Dome , the president is trying to do.",
+              "hash": "5f4d4f593e4d1a91",
+              "chunk_key": "5f4d4f593e4d1a91_c004",
+              "article_date": "2026-03-28 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Denmarkâs PM suffers election setback after standing up to Trump over Greenland",
+              "summary": "Denmark's Prime Minister Mette Frederiksen suffered an election setback as her left-leaning bloc appeared to have fallen short of winning enough votes to form a government, followi…",
+              "hash": "8f6cfeae7eba0aaf",
+              "chunk_key": "8f6cfeae7eba0aaf_c000",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "U.S. says Cuba is prohibited from taking Russian oil as tankers head to island",
+              "summary": "The Hong Kong-flagged ship is estimated to be carrying around 190,000 barrels of Russian gasoil and tracking suggests it could be set to deliver its cargo in the coming days.",
+              "hash": "8c6e4f2478d2e37d",
+              "chunk_key": "8c6e4f2478d2e37d_c001",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Opinion: As Trump eyes Cuba, my trips there remind me how different things were",
+              "summary": "Obama's visit the following March only added to that feeling. Travel restrictions for Americans were relaxed and limited trade began to restart.",
+              "hash": "c77ea15283a07837",
+              "chunk_key": "c77ea15283a07837_c003",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Cuba partially restores power and vows âunyielding resistanceâ to U.S. oil blockade",
+              "summary": "Cuba's President Miguel Díaz-Canel on Wednesday lashed out at the \"almost daily\" threats from the U.S.",
+              "hash": "46e46d1ec056c032",
+              "chunk_key": "46e46d1ec056c032_c000",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump says he thinks he will have the 'honor' of 'taking Cuba'",
+              "summary": "President Donald Trump on Monday said he thinks he will have the \"honor\" of \"taking Cuba ,\" speaking during an executive order signing at the White House.",
+              "hash": "0cd064d08b8118c5",
+              "chunk_key": "0cd064d08b8118c5_c000",
+              "article_date": "2026-03-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 12,
+          "name": "Tax Refunds Rise Amid Inflation",
+          "count": 5,
+          "children": [
+            {
+              "name": "1.4 million filers face tax refund delays amid IRS paper check phaseout",
+              "summary": "A growing number of filers are facing tax refund delays amid a government-wide phaseout of paper checks .",
+              "hash": "9e9f59be8dbb4597",
+              "chunk_key": "9e9f59be8dbb4597_c000",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Average IRS tax refund is up 10.9%, latest filing data shows",
+              "summary": "The average tax refund is 10.9% higher so far this season, compared with about the same period in 2025, according to the latest IRS filing data.",
+              "hash": "08616aafb1fdd5ef",
+              "chunk_key": "08616aafb1fdd5ef_c000",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Higher gas prices from Iran war could offset Trump's bigger tax refunds",
+              "summary": "This season's bigger tax refunds come as both parties focus on Americans' affordability concerns .",
+              "hash": "b9f2fbec9cc630ce",
+              "chunk_key": "b9f2fbec9cc630ce_c001",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "9% of ACA health-care plan enrollees uninsured after enhanced subsidies expire: Poll",
+              "summary": "Even those who kept their ACA health insurance coverage aren't doing so painlessly.",
+              "hash": "ce9534dd5db79cd2",
+              "chunk_key": "ce9534dd5db79cd2_c002",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Average IRS tax refund is up 10.8%, new filing data shows",
+              "summary": "The average tax refund is 10.8% higher so far this season, compared with about the same period in 2025, according to the latest IRS filing data.",
+              "hash": "da16bd3a5e4f7eb3",
+              "chunk_key": "da16bd3a5e4f7eb3_c000",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 14,
+          "name": "Housing Affordability Act Passes",
+          "count": 4,
+          "children": [
+            {
+              "name": "Trump push for ban on investor homebuying may sacrifice bigger real estate deal",
+              "summary": "The National Association of Realtors has expressed its support for the Senate bill in a statement from its executive vice president and chief advocacy officer Shannon McGahn.",
+              "hash": "aa39e48b7c23ef56",
+              "chunk_key": "aa39e48b7c23ef56_c003",
+              "article_date": "2026-03-28 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Mortgage demand drops more than 10% as rates hit the highest level since October",
+              "summary": "Mortgage rates rose last week to the highest level since last fall, and that pushed mortgage demand off a cliff. Total mortgage application volume dropped 10.",
+              "hash": "697def81134d41a9",
+              "chunk_key": "697def81134d41a9_c000",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "January new home sales plunge to the lowest pace since 2022",
+              "summary": "Sales of newly built homes in January dropped 17.6% month over month to a seasonally adjusted, annualized pace of 587,000 units, according to the U.S. Census Bureau.",
+              "hash": "3b6a5ac606c7ef61",
+              "chunk_key": "3b6a5ac606c7ef61_c000",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Mortgage refinance demand plunges 19% after interest rates shoot higher",
+              "summary": "Mortgage rates last week jumped to the highest level since the end of last year, causing a slowdown in the growing refinance demand the market had been seeing at the start of this …",
+              "hash": "6f89a3557b5f1d17",
+              "chunk_key": "6f89a3557b5f1d17_c000",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
         }
       ]
     },
@@ -950,1061 +950,6 @@
       "name": "Global Economic Uncertainty",
       "count": 251,
       "children": [
-        {
-          "cluster_id": 2,
-          "name": "India's Economy Hit by Oil Crisis",
-          "count": 13,
-          "children": [
-            {
-              "name": "Iran war sparks record exodus of foreign investors from Indian equities in March",
-              "summary": "An increase in India's energy bill and slowdown in remittances from the Middle East are projected to widen India's current account deficits and fiscal deficit, Luchnikava-Schorsch …",
-              "hash": "acdb0bdb9ffe87da",
-              "chunk_key": "acdb0bdb9ffe87da_c002",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "India takes a âhuge hitâ on tax revenue to keep fuel prices from surging during the Iran war",
-              "summary": "Finance Minister Nirmala Sitharaman said it was done to \"ensure adequate availability of these products for domestic consumption.",
-              "hash": "906cf1fb5dc06068",
-              "chunk_key": "906cf1fb5dc06068_c001",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "CNBC Daily Open: Plan for peace or a wish list?",
-              "summary": "Blitzer is among the world's most prominent sports investors and holds stakes in franchises across major leagues, including the English Premier League, National Basketball Associat…",
-              "hash": "87826e48e32a0514",
-              "chunk_key": "87826e48e32a0514_c002",
-              "article_date": "2026-03-24 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Inside India newsletter: Ikea has big plans for the country",
-              "summary": "Europe accounts for more than 70% of its sales, followed by North America (17%) and Asia (around 9%).",
-              "hash": "acc8b71bcb0e35f7",
-              "chunk_key": "acc8b71bcb0e35f7_c002",
-              "article_date": "2026-03-24 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "David Blitzer and Blackstone-backed group snaps up Indian cricket franchise for $1.8 billion",
-              "summary": "In this article A consortium comprising Blackstone, serial American sports investor David Blitzer, among others, has acquired the Indian Premier League's Royal Challengers Bengalur…",
-              "hash": "836c91847189fba8",
-              "chunk_key": "836c91847189fba8_c000",
-              "article_date": "2026-03-24 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "The Iran war is sending shockwaves through the world's busiest IPO market",
-              "summary": "In this article Global volatility is threatening a pipeline of multibillion-dollar stock market listings in India, the world's busiest IPO market.",
-              "hash": "3458d6007104d283",
-              "chunk_key": "3458d6007104d283_c000",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "HDFC Bank shares fall 5% as part-time chair of Indiaâs largest private bank resigns over 'ethics'",
-              "summary": "Shares of India's HDFC Bank slid 5% Thursday after Atanu Chakraborty, its part‑time chairman, resigned after flagging governance and ethical concerns within the institution.",
-              "hash": "337a5c22ca378e45",
-              "chunk_key": "337a5c22ca378e45_c000",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Inside India newsletter: Why loans against gold are thriving in India",
-              "summary": "India's Modi reaches out to Iran.",
-              "hash": "2101e09edc691f34",
-              "chunk_key": "2101e09edc691f34_c004",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "UniCredit to strengthen stake in Commerzbank to 30%",
-              "summary": "UniCredit has launched an offer to build its stake in Commerzbank above 30%, a key regulatory threshold if the lender is to launch a full takeover bid.",
-              "hash": "f7e3a57777f77b71",
-              "chunk_key": "f7e3a57777f77b71_c000",
-              "article_date": "2026-03-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "How Indiaâs U.S.-Israel tilt is testing ties with Iran",
-              "summary": "Though India's Foreign Secretary Vikram Misri did sign a condolence book in the Iranian embassy in India on Mar. 5, per local media reports. \"India has bought into the U.S.",
-              "hash": "d27586b38f09abfc",
-              "chunk_key": "d27586b38f09abfc_c002",
-              "article_date": "2026-03-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Indiaâs consumer inflation rises to 3.21% in February as oil risks loom",
-              "summary": "India's consumer inflation rose for the fourth straight month to 3.21% in February, up from 2.75% in the previous month.",
-              "hash": "9632d7050bf48aca",
-              "chunk_key": "9632d7050bf48aca_c000",
-              "article_date": "2026-03-12 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Inside India newsletter: Middle East war to determine India's trade route to Europe",
-              "summary": "While IMEC is set to emerge as a clear winner between India's two connectivity bets, experts warn that its success hinges on a crucial element: regional stability — something which…",
-              "hash": "117ada9766764b46",
-              "chunk_key": "117ada9766764b46_c003",
-              "article_date": "2026-03-11 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "India-China reset? Relaxed rules allow Beijing to invest in India after about six years of friction",
-              "summary": "India while maintaining access to Chinese inputs,\" said Arpit Chaturvedi, South Asia advisor at Teneo.",
-              "hash": "66529cd326996719",
-              "chunk_key": "66529cd326996719_c001",
-              "article_date": "2026-03-11 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 7,
-          "name": "Automakers Face Middle East Uncertainty",
-          "count": 4,
-          "children": [
-            {
-              "name": "Iran war wipes out $100 billion from luxury stocks",
-              "summary": "In this article A version of this article first appeared in CNBC's Inside Wealth newsletter with Robert Frank, a weekly guide to the high-net-worth investor and consumer.",
-              "hash": "984e76ba06064151",
-              "chunk_key": "984e76ba06064151_c000",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Infiniti hopes new SUV can turn around fortunes in the U.S.",
-              "summary": "In this article Japanese brand Infiniti on Thursday unveiled a new midsize luxury SUV, called the QX65, as it tries to mount a comeback in the U.S.",
-              "hash": "22ace35f81a1a4f8",
-              "chunk_key": "22ace35f81a1a4f8_c000",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Nissanâs new hybrid is a U.S.-first that mixes EV driving with a gas engine",
-              "summary": "Unlike traditional gas-powered vehicles, the e-Power system also does not require a traditional transmission to shift gears or a driveshaft that transfers torque from the transmiss…",
-              "hash": "21f3113e971546a0",
-              "chunk_key": "21f3113e971546a0_c003",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Iran war poses challenges to high-margin Middle East car market",
-              "summary": "In this article The instability brought on by the Iran war and rising geopolitical tensions pose a threat to automakers with a presence in the Middle East.",
-              "hash": "0269f4bc824b1734",
-              "chunk_key": "0269f4bc824b1734_c000",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 11,
-          "name": "Federal Reserve Interest Rate Outlook",
-          "count": 54,
-          "children": [
-            {
-              "name": "Markets see the Fed's next move as a potential hike as oil prices, inflation fears rise",
-              "summary": "Surging energy prices, rising import costs and mounting stagflation concerns are pushing markets to consider that the Federal Reserve's next move could be a rate hike.",
-              "hash": "624e88b4d04222dc",
-              "chunk_key": "624e88b4d04222dc_c000",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "New fees, fewer flights: Higher fuel prices pinch budgets beyond the gas pump",
-              "summary": "Americans are growing less confident about the economy as they brace for higher inflation, according to data from the University of Michigan's Surveys of Consumers released Friday.",
-              "hash": "00452c3b9158ea00",
-              "chunk_key": "00452c3b9158ea00_c003",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump's Iran extension, DHS funding deal and more: Morning Squawk",
-              "summary": "The Massachusetts Democrat said Warsh's prior tenure at the Fed between 2006 and 2011 \"should disqualify you from a promotion.",
-              "hash": "513ecba42b8e21f8",
-              "chunk_key": "513ecba42b8e21f8_c002",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "European borrowing costs hit 15-year highs amid rising inflation fears",
-              "summary": "Markets are currently pricing in more than a 90% chance of the ECB hiking interest rates by June.",
-              "hash": "346786100a3bb24f",
-              "chunk_key": "346786100a3bb24f_c002",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Treasury yields tick higher after Trump extends Iran deal deadline",
-              "summary": "In this article Yields on U.S. Treasurys edged higher on Friday, as investors continued to monitor developments in the Iran war.",
-              "hash": "168f790227d2e9e6",
-              "chunk_key": "168f790227d2e9e6_c000",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Oil prices rise 3% as Iran rejects direct U.S. talks despite proposal review",
-              "summary": "Speaking in the Oval Office, Trump said he had backed off from earlier threats to strike Iranian energy infrastructure \"based on the fact we're negotiating.",
-              "hash": "731d4d0640973c11",
-              "chunk_key": "731d4d0640973c11_c001",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Analysis: What might trip up Kevin Warsh and his agenda as Fed chair",
-              "summary": "Fed Governor Chris Waller , in a recent CNBC interview , said he supported reducing the amount of reserves the Fed holds so long as banks' demand for reserves also fell.",
-              "hash": "afdb717c867b079e",
-              "chunk_key": "afdb717c867b079e_c005",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Global forecasting group sees U.S. inflation at 4.2% this year, much higher than Fed estimate",
-              "summary": "The Iran war and its impact on the global energy market will keep headline U.S.",
-              "hash": "1baba42913054f0d",
-              "chunk_key": "1baba42913054f0d_c000",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Treasury yields rise as Iran ceasefire optimism fades",
-              "summary": "In this article Treasury yields rose on Thursday as investors digested mixed messages around the state of negotiations between the U.S. and Iran.",
-              "hash": "fd6ee45916fa1150",
-              "chunk_key": "fd6ee45916fa1150_c000",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Treasury yields tumble as Trump talks up Iran ceasefire plan",
-              "summary": "In this article U.S. Treasury yields fell sharply on Wednesday as investors weighed reports that a potential plan to end the Middle East conflict could be in sight.",
-              "hash": "40dc8ea879121f74",
-              "chunk_key": "40dc8ea879121f74_c000",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Warren, Blumenthal: DOD answers lack anti-corruption protocols for Trump children",
-              "summary": "Sen.",
-              "hash": "f88707629f5766e1",
-              "chunk_key": "f88707629f5766e1_c000",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "CNBC Daily Open: Could the Strait of Hormuz be close to reopening? Markets cast doubt",
-              "summary": "While the impact of the war in Iran is sparing no major global economy , the U.K.",
-              "hash": "d6755826c520c72e",
-              "chunk_key": "d6755826c520c72e_c002",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Recession odds climb on Wall Street as economy shows cracks beneath the surface",
-              "summary": "Federal Reserve Chair Jerome Powell last week pushed back when asked whether stagflation posed a threat to the U.S. economy.",
-              "hash": "362f4e788a87a994",
-              "chunk_key": "362f4e788a87a994_c000",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Iran war may further 'chill' an already frozen job market, economist says",
-              "summary": "Heading into the year, employers had already faced uncertainty around a number of different policies, experts said.",
-              "hash": "8712d8d3d68b150c",
-              "chunk_key": "8712d8d3d68b150c_c002",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "UK inflation unchanged in February â but a 'brutal' surge could be coming",
-              "summary": "The U.K. is particularly exposed to rising energy prices due to its reliance on oil and gas imports, and lack of gas storage facilities.",
-              "hash": "20e5b80a8f8754da",
-              "chunk_key": "20e5b80a8f8754da_c001",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Warren rips Fed chair pick Warsh: 'You have learned nothing from your failures'",
-              "summary": "In her letter to Warsh on Thursday, Warren said that when he began his service on the Board of Governors, there were \"warning signs of the coming crisis\" in the subprime home-lendi…",
-              "hash": "42327616303668e5",
-              "chunk_key": "42327616303668e5_c003",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Why UK bonds bore the brunt of the Iran sell-off",
-              "summary": "A second is that interest rate expectations for the U.K. have changed more dramatically than any other G7 economy.",
-              "hash": "1c183b71191bc190",
-              "chunk_key": "1c183b71191bc190_c002",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Republicans block Democratic push for Trump Jr. subpoena",
-              "summary": "Republicans on a House Natural Resources subcommittee blocked a Democratic motion to subpoena Donald Trump Jr.",
-              "hash": "cd6326057bb8f7db",
-              "chunk_key": "cd6326057bb8f7db_c000",
-              "article_date": "2026-03-24 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "The firm whose AI paper knocked the whole market is out with another big call",
-              "summary": "Citrini Research, the firm that rattled markets earlier this year with a provocative bearish call on artificial intelligence, is out with another warning — this time arguing an oil…",
-              "hash": "a803241b0641e01f",
-              "chunk_key": "a803241b0641e01f_c000",
-              "article_date": "2026-03-24 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Treasury yields slide after Trump announces five-day hold on strikes against Iran",
-              "summary": "In this article Treasury yields fell sharply Monday morning, reversing course after President Donald Trump said further military strikes against Iran had been postponed after produ…",
-              "hash": "4575c837db6b186b",
-              "chunk_key": "4575c837db6b186b_c000",
-              "article_date": "2026-03-23 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate",
-              "summary": "Chicago Federal Reserve President Austan Goolsbee said Monday that he's more worried about inflation now than he is unemployment, even with apparent progress made on the war with I…",
-              "hash": "e17c0456861e65ee",
-              "chunk_key": "e17c0456861e65ee_c000",
-              "article_date": "2026-03-22 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "U.S. Treasury yields edge higher as Iran war drives inflation pressure",
-              "summary": "In this article U.S.",
-              "hash": "e8af532040332243",
-              "chunk_key": "e8af532040332243_c000",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Analysis: Trump's unshackled presidency puts him at the center of the economy",
-              "summary": "The Supreme Court in February struck down many of the president's tariffs, but he immediately responded by implementing new ones.",
-              "hash": "c7a96f3b802c48d0",
-              "chunk_key": "c7a96f3b802c48d0_c003",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Elizabeth Warren demands answers on costs, economic impact of 'illegal and reckless war'",
-              "summary": "Official government inflation figures are not available yet for March, but surging energy costs — and pass-through effects — are likely to boost prices at least as long as the figh…",
-              "hash": "8c74d6c39cf58b1a",
-              "chunk_key": "8c74d6c39cf58b1a_c001",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "ECB, BOE, Swiss National Bank, Riksbank interest rate decisions",
-              "summary": "In this article Before the war on Iran began in late February, Europe's central banks enjoyed a more benign inflation outlook as interest rates looked set to remain stable or keep …",
-              "hash": "b68805e840f77095",
-              "chunk_key": "b68805e840f77095_c000",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Treasury yields jump as inflation fears weigh on sentiment",
-              "summary": "In this article U.S.",
-              "hash": "fff6adc6d529d295",
-              "chunk_key": "fff6adc6d529d295_c000",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Bond markets face âperfect stormâ as Iran war rattles Europe's central banks",
-              "summary": "Ed Hutchings, head of rates at Aviva Investors, said that the chances of a rate hike from the BoE over the coming months have increased.",
-              "hash": "e454651cb1a6c36b",
-              "chunk_key": "e454651cb1a6c36b_c001",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump signals DOJ should continue Powell probe, complicating Warsh Fed nomination",
-              "summary": "President Donald Trump on Thursday signaled his continued support for a Department of Justice investigation into Federal Reserve Chair Jerome Powell — a stance that could further d…",
-              "hash": "58bce0404c5be07d",
-              "chunk_key": "58bce0404c5be07d_c000",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Fed Gov. Waller urges caution for now, says rate cuts possible later in the year",
-              "summary": "Federal Reserve Governor Christopher Waller on Friday expressed caution about current economic conditions but still sees the opportunity for interest rate cuts later this year.",
-              "hash": "2084a34e7af8023d",
-              "chunk_key": "2084a34e7af8023d_c000",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Traders now see little chance of an interest rate cut this year following Fed decision",
-              "summary": "All of the positive economic talk out of this week's Federal Reserve meeting had a negative impact on investors, who have now taken expectations for even one interest rate cut this…",
-              "hash": "24fd818c0f778500",
-              "chunk_key": "24fd818c0f778500_c000",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Pain at the pump causes political headaches",
-              "summary": "The protests were sparked by tax increases due to the fuel price escalator, a measure aimed at tackling climate change, under which fuel duty would rise by more than inflation annu…",
-              "hash": "e6a856f8e2bbe550",
-              "chunk_key": "e6a856f8e2bbe550_c002",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "CNBC Daily Open: Iran retaliates in 'revenge' attacks",
-              "summary": "Here's what to expect The Federal Reserve has little choice but to stay on the sidelines this week as it navigates a mix of complicated and conflicting forces playing out in the U.",
-              "hash": "b9d67923c808d810",
-              "chunk_key": "b9d67923c808d810_c002",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Treasury yields move lower as attention turns to Fed meeting",
-              "summary": "In this article Treasury yields fell on Wednesday as investors await the Federal Reserve's next policy decision on interest rates, due later in the session.",
-              "hash": "380132bab8f01900",
-              "chunk_key": "380132bab8f01900_c000",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Fed to still cut rates this year, even as high oil prices spark an uptick in inflation: CNBC Fed Survey",
-              "summary": "Three weeks into the U.S.",
-              "hash": "0bd69433fed0c01d",
-              "chunk_key": "0bd69433fed0c01d_c000",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Wholesale prices rose 0.7% in February, much more than expected and up 3.4% annually",
-              "summary": "Wholesale prices rose sharply in February, providing another sign that inflation continues to percolate even aside from rising energy prices.",
-              "hash": "5e135b33fe6417f6",
-              "chunk_key": "5e135b33fe6417f6_c000",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Here are the five key takeaways from this week's Fed meeting",
-              "summary": "The Federal Reserve on Wednesday voted to hold its benchmark interest rate steady , while adjusting its projections for the economy and the future path of monetary policy.",
-              "hash": "9fc0040a3495d92f",
-              "chunk_key": "9fc0040a3495d92f_c000",
-              "article_date": "2026-03-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Here's what changed in the new Fed statement",
-              "summary": "This is a comparison of Wednesday's Federal Open Market Committee statement with the one issued after the Fed's previous policymaking meeting in January.",
-              "hash": "e51b098c72ef210b",
-              "chunk_key": "e51b098c72ef210b_c000",
-              "article_date": "2026-03-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Powell says he will stay on as head of the Fed until Warsh is confirmed",
-              "summary": "A federal judge last week blocked grand jury subpoenas issued as part of Powell's criminal investigation.",
-              "hash": "413c2cf6751783f4",
-              "chunk_key": "413c2cf6751783f4_c001",
-              "article_date": "2026-03-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Analysis: Powell just delivered a new blow to Warsh's plans for swift rate cuts",
-              "summary": "Federal Reserve chair nominee Kevin Warsh wants to lower interest rates .",
-              "hash": "f836c28ed9951961",
-              "chunk_key": "f836c28ed9951961_c000",
-              "article_date": "2026-03-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "The Fed keeps rates unchanged in March: What that means for you",
-              "summary": "Amid geopolitical turmoil, the Federal Reserve held interest rates steady at the conclusion of its policy meeting on Wednesday.",
-              "hash": "470c9a459b7bf6d3",
-              "chunk_key": "470c9a459b7bf6d3_c000",
-              "article_date": "2026-03-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Expectations for next Fed rate cut get pushed back after hot inflation report",
-              "summary": "Update : Fed votes to hold rates steady, notes ‘uncertain’ impacts from Iran war A hotter-than-expected wholesale inflation reading for February had traders contemplating the possi…",
-              "hash": "782f6d050c9c11fb",
-              "chunk_key": "782f6d050c9c11fb_c000",
-              "article_date": "2026-03-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Fed still expects to cut rates once this year despite spiking oil prices",
-              "summary": "The Federal Reserve is still expecting to cut interest rates once this year in spite of a spike in oil prices from the Iran war.",
-              "hash": "1c3c2ce6a15f92e7",
-              "chunk_key": "1c3c2ce6a15f92e7_c000",
-              "article_date": "2026-03-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Fed votes to hold rates steady, notes 'uncertain' impacts from Iran war",
-              "summary": "WASHINGTON – The Federal Reserve on Wednesday voted to hold its key interest rate steady as policymakers navigate their way through higher-than-expected inflation readings, mixed s…",
-              "hash": "feeea2f999e8efa7",
-              "chunk_key": "feeea2f999e8efa7_c000",
-              "article_date": "2026-03-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Treasury yields rise amid oil surge, Iran tensions and Fed decision",
-              "summary": "In this article Treasury yields edged higher Tuesday as investors weighed escalating tensions in the Middle East and rising oil prices ahead of the Federal Reserve's policy decisio…",
-              "hash": "fb9701ed49ee3750",
-              "chunk_key": "fb9701ed49ee3750_c000",
-              "article_date": "2026-03-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump goes alone in the Iran war â as allies spurn requests to join",
-              "summary": "In an ironic framing of events, political America is looking to go fast and alone, while tech America is looking to go far and together.",
-              "hash": "d4a2da0253a210b1",
-              "chunk_key": "d4a2da0253a210b1_c002",
-              "article_date": "2026-03-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Treasury yields move lower as investors track oil prices",
-              "summary": "In this article U.S. Treasury yields moved lower to start the week as investors monitored oil prices amid the U.S.",
-              "hash": "b8e5e805c6c8d031",
-              "chunk_key": "b8e5e805c6c8d031_c000",
-              "article_date": "2026-03-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "The Fed issues its latest interest rate decision Wednesday. Here's what to expect",
-              "summary": "Instead, they expected the FOMC would wait until June, then cut at least once more before the end of the year, according to the CME Group's FedWatch pricing.",
-              "hash": "48e6c4073b8be74a",
-              "chunk_key": "48e6c4073b8be74a_c001",
-              "article_date": "2026-03-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat?",
-              "summary": "Statistics reported that the economy lost 92,000 jobs in February while the unemployment rate edged higher to 4.4%.",
-              "hash": "283eb9ba4e190f69",
-              "chunk_key": "283eb9ba4e190f69_c001",
-              "article_date": "2026-03-12 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Fourth-quarter GDP revised down to just 0.7% growth; January core inflation was 3.1%",
-              "summary": "The largest contribution for the downward revision from services, specifically health care spending, according to the release.",
-              "hash": "449a80a4c1f8451f",
-              "chunk_key": "449a80a4c1f8451f_c001",
-              "article_date": "2026-03-12 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "British horse racing in the spotlight â and under pressure",
-              "summary": "This report is from this week's CNBC's UK Exchange newsletter. Yesterday saw the start of the Cheltenham Festival, the jump racing calendar's biggest annual event.",
-              "hash": "5ee9de71b553a013",
-              "chunk_key": "5ee9de71b553a013_c000",
-              "article_date": "2026-03-11 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "U.S. deficit tops $1 trillion through February but runs below year-ago pace",
-              "summary": "The U.S.",
-              "hash": "d692b79c1132cf7d",
-              "chunk_key": "d692b79c1132cf7d_c000",
-              "article_date": "2026-03-11 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Markets' hopes for Fed interest rate cuts are rapidly fading away",
-              "summary": "Other market players aren't so sure.",
-              "hash": "6358e0773b1a1b09",
-              "chunk_key": "6358e0773b1a1b09_c001",
-              "article_date": "2026-03-11 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Europe weighs 2022-style inflation shock as Iran crisis rattles energy markets",
-              "summary": "Sharp moves in bond yields underline the market uncertainty, chiming with the huge swings in oil and gas since the conflict began, as analysts say that persistent higher-for-longer…",
-              "hash": "7e2df61d32e2176e",
-              "chunk_key": "7e2df61d32e2176e_c003",
-              "article_date": "2026-03-11 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Consumer prices rose 2.4% annually in February, as expected",
-              "summary": "The U.S.-Israel attack on Iran dramatically changed the outlook, at least in the near term.",
-              "hash": "b2b16eb64757a22d",
-              "chunk_key": "b2b16eb64757a22d_c002",
-              "article_date": "2026-03-10 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 13,
-          "name": "\"Metals Fall Amid Global Uncertainty\"",
-          "count": 9,
-          "children": [
-            {
-              "name": "Bahrain aluminum giant says Iranian attack targeted its facility",
-              "summary": "Aluminium Bahrain, which hosts the world's largest smelter of the metal, said on Sunday its facility was subjected to an Iranian attack as the U.S.",
-              "hash": "c8e2a1448b77eede",
-              "chunk_key": "c8e2a1448b77eede_c000",
-              "article_date": "2026-03-29 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Gold and silver in freefall as investors flee safe haven metals trade",
-              "summary": "In this article Gold, silver and platinum resumed their recent sell-off this week, falling sharply as investors continue to retreat from precious metals as a safe haven trade amid …",
-              "hash": "0f84c47da7cc5eba",
-              "chunk_key": "0f84c47da7cc5eba_c000",
-              "article_date": "2026-03-23 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Asia markets tumble as Middle East conflict spiral with no sign of abating",
-              "summary": "Expectations that war-driven inflation will keep interest rates elevated weighed on the non-yielding metal's appeal relative to interest-bearing assets.",
-              "hash": "43f369559e272d56",
-              "chunk_key": "43f369559e272d56_c002",
-              "article_date": "2026-03-23 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Gold miners' bull run squeezed as prices plummet and energy costs soar",
-              "summary": "While gold bullion is a pure commodities play, miners bring additional equity risk that leaves them sensitive to an increasingly volatile macroeconomic environment.",
-              "hash": "01486f2551c85649",
-              "chunk_key": "01486f2551c85649_c001",
-              "article_date": "2026-03-23 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Gold rebounds, but silver extends losses as oscillating oil prices spark market volatility",
-              "summary": "Gold prices rebounded slightly on Friday, but silver prices sank further, after both metals suffered heavy selling pressure in the previous session. By 6:17 a.m.",
-              "hash": "c05d95ac3fab4ea4",
-              "chunk_key": "c05d95ac3fab4ea4_c000",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Gold and silver sell off as inflation fears grip global markets",
-              "summary": "In this article Gold and silver joined a broad sell-off on Thursday, with the metals shedding 2% and 5.5% as fears about the Iran war and inflation gripped global markets.",
-              "hash": "f18e59525888e2c6",
-              "chunk_key": "f18e59525888e2c6_c000",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Copper joins gold in broad commodities sell-off. There's a worrying reason behind it",
-              "summary": "But that has changed as growth concerns begin to weigh on these industrial metals. Industrial metals are used in practical ways.",
-              "hash": "59ff023c873b43a4",
-              "chunk_key": "59ff023c873b43a4_c001",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Aluminum prices surge as Iran conflict disrupts supply",
-              "summary": "CRU principal analyst Guillaume Osouf wrote in a recent article that the LME price would likely be much higher now if it wasn't for weak global demand for the metal.",
-              "hash": "6a266db7c71fbeb5",
-              "chunk_key": "6a266db7c71fbeb5_c001",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Why gold hasnât moved since Iran conflict and where it could go next",
-              "summary": "In this article Gold surged during the 12-day war with Iran last year and then gave up its gains when a ceasefire was announced.",
-              "hash": "c177d5c0e2d90045",
-              "chunk_key": "c177d5c0e2d90045_c000",
-              "article_date": "2026-03-12 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 19,
-          "name": "Helium Shortages in Semiconductors",
-          "count": 4,
-          "children": [
-            {
-              "name": "Russia poised to benefit from the helium supply crunch amid Iran war",
-              "summary": "Helium is used in chipmaking to transfer heat due to its cooling properties in a number of processes.",
-              "hash": "6eb892c501a56690",
-              "chunk_key": "6eb892c501a56690_c001",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Asia tech stocks sink as oil spike and Qatar attacks threaten chip supply chain",
-              "summary": "Missile attacks on QatarEnergy's Ras Laffan Industrial City on Wednesday caused damage to one of the world's most strategically important gas hubs, and are likely to raise concerns…",
-              "hash": "b9ffbe6ed47f7992",
-              "chunk_key": "b9ffbe6ed47f7992_c001",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Chip deliveries to Europe delayed as Iran war hits air freight",
-              "summary": "As a result, buyers looking to import goods from Asia to Europe are having to pay premium costs for delivery.",
-              "hash": "f57c5c7854c2bee8",
-              "chunk_key": "f57c5c7854c2bee8_c002",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "The Iran war is threatening supply of a little-thought-of resource â helium",
-              "summary": "The war in the Middle East could pose a threat to the semiconductor industry and other sectors dependent on a resource produced in the Gulf — helium.",
-              "hash": "0182f3193aef4b07",
-              "chunk_key": "0182f3193aef4b07_c000",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 20,
-          "name": "China's Economy Shows Resilience",
-          "count": 8,
-          "children": [
-            {
-              "name": "China industrial profits surge 15% to start year, but oil price shock threatens outlook",
-              "summary": "Chinese industrial firms saw their profits surge in the first two months of this year as officials pressed ahead with efforts to contain the fallout from industrial overcapacity an…",
-              "hash": "2a5d2b3da3a68a06",
-              "chunk_key": "2a5d2b3da3a68a06_c000",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "U.S. execs revamp China market push as trade truce lingers",
-              "summary": "CEO David A. Ricks told CNBC's Eunice Yoon that he sees \"significant\" potential in China for the company's GLP-1 obesity drug, if there are better reimbursement systems.",
-              "hash": "7ed755465e12d6a8",
-              "chunk_key": "7ed755465e12d6a8_c002",
-              "article_date": "2026-03-22 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Japan wanted inflation and Iran war could grant that wish. But it's not the type Tokyo desires",
-              "summary": "Suzuki said that while the impact on inflation in Japan is limited for the time being, for every 20% increase in oil prices, Japan's CPI will increase by 0.3%.",
-              "hash": "2c417f8dd2d49158",
-              "chunk_key": "2c417f8dd2d49158_c002",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Bank of Japan keeps rates steady as expected, warns Iran war may push up inflation",
-              "summary": "Krishna Bhimavarapu, APAC Economist at State Street Investment Management, said that the move was a \"very important dovish pivot,\" adding that the Iran conflict is entering a phase…",
-              "hash": "10c37d3856d90959",
-              "chunk_key": "10c37d3856d90959_c001",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Japan exports beat forecasts with 4.2% growth in February, but shipments to China and U.S. slump",
-              "summary": "In this article Japan's exports climbed 4.2% from a year earlier in February, marking a sharp slowdown after hitting an over-three-year high in January.",
-              "hash": "495fb3523f9c096f",
-              "chunk_key": "495fb3523f9c096f_c000",
-              "article_date": "2026-03-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Holiday spending, export demand drive Chinaâs economic momentum as Iran war headwinds loom",
-              "summary": "Investment in fixed assets, which includes property, rose 1.8% from a year earlier, compared with estimates of a 2.1% drop.",
-              "hash": "5ffa697ecdb07716",
-              "chunk_key": "5ffa697ecdb07716_c001",
-              "article_date": "2026-03-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Volkswagen pushes into driver-assist EVs without Nvidia, exec says",
-              "summary": "Meanwhile, Volkswagen's joint venture with Horizon, called Carizon, is developing its first advanced automotive chip , with expected delivery in three to five years.",
-              "hash": "aef39f4ef1d5c2c9",
-              "chunk_key": "aef39f4ef1d5c2c9_c002",
-              "article_date": "2026-03-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "CNBC's The China Connection newsletter: Beijing can't afford another crackdown on its tech companies",
-              "summary": "In this article This report is from this week's CNBC's The China Connection newsletter, which brings you insights and analysis on what's driving the world's second-largest economy.",
-              "hash": "7dda56bf4e06d1b8",
-              "chunk_key": "7dda56bf4e06d1b8_c000",
-              "article_date": "2026-03-11 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 21,
-          "name": "Fuel Prices Impact Airlines",
-          "count": 6,
-          "children": [
-            {
-              "name": "Why Iran war should make you as afraid of petrochemicals as oil prices",
-              "summary": "Altana data shows that raw feedstocks comprising $733 billion in petrochemicals, intermediates, and finished products combined — 22% of the world's total supply including ethylene,…",
-              "hash": "a576311e11eb529d",
-              "chunk_key": "a576311e11eb529d_c005",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "New fees, fewer flights: Higher fuel prices pinch budgets beyond the gas pump",
-              "summary": "In this article As the U.S.-Iran war enters its fifth week, consumers are facing economic consequences that impact everything from travel planning to mail delivery.",
-              "hash": "00452c3b9158ea00",
-              "chunk_key": "00452c3b9158ea00_c000",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Pricy airfare, airport chaos test travelers' willingness to fly this year",
-              "summary": "The conflict has meant crisis for the aviation industry, particularly in the Middle East, where airspace closures have forced carriers to cancel flights and take longer and costlie…",
-              "hash": "34a3bae07ae6ae0d",
-              "chunk_key": "34a3bae07ae6ae0d_c001",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Delta raises revenue guidance as CEO says travel demand has been 'great'",
-              "summary": "In this article Delta Air Lines said Tuesday that the company was maintaining its profit guidance for the first quarter and raising revenue expectations, despite airlines dealing w…",
-              "hash": "f366cbe324dab3a1",
-              "chunk_key": "f366cbe324dab3a1_c000",
-              "article_date": "2026-03-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Gig workers feel pain at the pump as gas prices hit 21-month highs",
-              "summary": "For these Americans, the price at the pump is the latest challenge after a rocky past few years.",
-              "hash": "ccc10c274fa7cf72",
-              "chunk_key": "ccc10c274fa7cf72_c004",
-              "article_date": "2026-03-14 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Why flights are getting more expensive after jet fuel spike",
-              "summary": "In 2014, American Airlines said it would switch to digital manuals for flight attendants, following changes for pilots.",
-              "hash": "3903e36aba45aa2d",
-              "chunk_key": "3903e36aba45aa2d_c004",
-              "article_date": "2026-03-12 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "cluster_id": 25,
-          "name": "Micron's AI-Driven Memory Surge",
-          "count": 13,
-          "children": [
-            {
-              "name": "CNBC Daily Open: Trump's 'favorite thing' is Iranian oil",
-              "summary": "Here’s why investors are watching Pokémon cards aren't just childhood collectibles anymore.",
-              "hash": "4db75c32720af0da",
-              "chunk_key": "4db75c32720af0da_c002",
-              "article_date": "2026-03-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Logan Paul made a record PokÃ©mon card sale. Here's why investors are watching",
-              "summary": "In this article Pokémon cards aren't just childhood collectibles anymore.",
-              "hash": "ecec1f3260246939",
-              "chunk_key": "ecec1f3260246939_c000",
-              "article_date": "2026-03-29 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Russia poised to benefit from the helium supply crunch amid Iran war",
-              "summary": "Memory chip giant SK Hynix revealed it made a confidential filing with the U.S. Securities and Exchange Commission on Wednesday for a potential listing on Wall Street this year.",
-              "hash": "6eb892c501a56690",
-              "chunk_key": "6eb892c501a56690_c003",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Tech stocks suffer worst week in nearly a year on war worries, Meta legal woes",
-              "summary": "Micron shares plunged more than 15% for the week, though they're still up almost 300% over the past 12 months.",
-              "hash": "69704dfd40ab1ae2",
-              "chunk_key": "69704dfd40ab1ae2_c001",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Sony hikes PS5 prices by up to $150 citing 'pressures' in global economy",
-              "summary": "In this article Sony on Friday said it will raise prices on its range of flagship PlayStation 5 consoles for the second time in less than a year, citing \"pressures in the global ec…",
-              "hash": "c11e6b9291aad556",
-              "chunk_key": "c11e6b9291aad556_c000",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "A Google AI breakthrough is pressuring memory chip stocks from Samsung to Micron",
-              "summary": "In this article Google's latest research which claims to make AI models more efficient is putting pressure on memory stocks, with investors concerned the breakthrough could see a s…",
-              "hash": "94094412d0469c0e",
-              "chunk_key": "94094412d0469c0e_c000",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Arm jumps 15% as company expects revenue windfall from new chip",
-              "summary": "It is the incremental profit and cash flow that is the driver of shareholder value,\" they added.",
-              "hash": "049573b4270cba20",
-              "chunk_key": "049573b4270cba20_c001",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Micron falls 5.6% after blockbuster earnings. Here's what analysts say",
-              "summary": "In this article Blockbuster earnings were not enough to prevent a sharp drop in Micron Technology shares in premarket trading.",
-              "hash": "c8416e22368697ea",
-              "chunk_key": "c8416e22368697ea_c000",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Memory crisis latest: What we learned from the world's top producers this week",
-              "summary": "In this article The world's top memory chip makers made plenty of headlines this week, capped by Micron delivering one of the strongest earnings reports of this artificial intellig…",
-              "hash": "e3dd24a9fde0fbc3",
-              "chunk_key": "e3dd24a9fde0fbc3_c000",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Micron rides memory price spike into earnings with stock up 62%, drubbing peers",
-              "summary": "You need faster memory.",
-              "hash": "3c9f01c723da8f44",
-              "chunk_key": "3c9f01c723da8f44_c001",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Fed Day, Macy's earnings and more: Morning Squawk",
-              "summary": "As CNBC's Jordan Novet reports, Micron's surge is thanks to a memory shortage .",
-              "hash": "ca3ec842e20a3fee",
-              "chunk_key": "ca3ec842e20a3fee_c002",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Micron revenue almost triples, tops estimates as demand for memory soars",
-              "summary": "Net income climbed to $13.8 billion, or $12.07 per share, from $1.58 billion, or $1.41 per share, in the same quarter last year.",
-              "hash": "acac6748e4ddd99e",
-              "chunk_key": "acac6748e4ddd99e_c002",
-              "article_date": "2026-03-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Nintendo jumps 18% this week as surprise PokÃ©mon hit drives hope of sales bump",
-              "summary": "In this article Nintendo shares have rallied 18% so far this week after a Pokémon game became a surprise viral hit, raising hopes it could drive sales of the company's flagship Swi…",
-              "hash": "ebbcbcaf5bf71ca8",
-              "chunk_key": "ebbcbcaf5bf71ca8_c000",
-              "article_date": "2026-03-12 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
         {
           "cluster_id": 28,
           "name": "Oil Prices Amid Middle East Tensions",
@@ -3271,6 +2216,1061 @@
               "value": 1
             }
           ]
+        },
+        {
+          "cluster_id": 11,
+          "name": "Federal Reserve Interest Rate Outlook",
+          "count": 54,
+          "children": [
+            {
+              "name": "Markets see the Fed's next move as a potential hike as oil prices, inflation fears rise",
+              "summary": "Surging energy prices, rising import costs and mounting stagflation concerns are pushing markets to consider that the Federal Reserve's next move could be a rate hike.",
+              "hash": "624e88b4d04222dc",
+              "chunk_key": "624e88b4d04222dc_c000",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "New fees, fewer flights: Higher fuel prices pinch budgets beyond the gas pump",
+              "summary": "Americans are growing less confident about the economy as they brace for higher inflation, according to data from the University of Michigan's Surveys of Consumers released Friday.",
+              "hash": "00452c3b9158ea00",
+              "chunk_key": "00452c3b9158ea00_c003",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump's Iran extension, DHS funding deal and more: Morning Squawk",
+              "summary": "The Massachusetts Democrat said Warsh's prior tenure at the Fed between 2006 and 2011 \"should disqualify you from a promotion.",
+              "hash": "513ecba42b8e21f8",
+              "chunk_key": "513ecba42b8e21f8_c002",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "European borrowing costs hit 15-year highs amid rising inflation fears",
+              "summary": "Markets are currently pricing in more than a 90% chance of the ECB hiking interest rates by June.",
+              "hash": "346786100a3bb24f",
+              "chunk_key": "346786100a3bb24f_c002",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Treasury yields tick higher after Trump extends Iran deal deadline",
+              "summary": "In this article Yields on U.S. Treasurys edged higher on Friday, as investors continued to monitor developments in the Iran war.",
+              "hash": "168f790227d2e9e6",
+              "chunk_key": "168f790227d2e9e6_c000",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Oil prices rise 3% as Iran rejects direct U.S. talks despite proposal review",
+              "summary": "Speaking in the Oval Office, Trump said he had backed off from earlier threats to strike Iranian energy infrastructure \"based on the fact we're negotiating.",
+              "hash": "731d4d0640973c11",
+              "chunk_key": "731d4d0640973c11_c001",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Analysis: What might trip up Kevin Warsh and his agenda as Fed chair",
+              "summary": "Fed Governor Chris Waller , in a recent CNBC interview , said he supported reducing the amount of reserves the Fed holds so long as banks' demand for reserves also fell.",
+              "hash": "afdb717c867b079e",
+              "chunk_key": "afdb717c867b079e_c005",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Global forecasting group sees U.S. inflation at 4.2% this year, much higher than Fed estimate",
+              "summary": "The Iran war and its impact on the global energy market will keep headline U.S.",
+              "hash": "1baba42913054f0d",
+              "chunk_key": "1baba42913054f0d_c000",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Treasury yields rise as Iran ceasefire optimism fades",
+              "summary": "In this article Treasury yields rose on Thursday as investors digested mixed messages around the state of negotiations between the U.S. and Iran.",
+              "hash": "fd6ee45916fa1150",
+              "chunk_key": "fd6ee45916fa1150_c000",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Treasury yields tumble as Trump talks up Iran ceasefire plan",
+              "summary": "In this article U.S. Treasury yields fell sharply on Wednesday as investors weighed reports that a potential plan to end the Middle East conflict could be in sight.",
+              "hash": "40dc8ea879121f74",
+              "chunk_key": "40dc8ea879121f74_c000",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Warren, Blumenthal: DOD answers lack anti-corruption protocols for Trump children",
+              "summary": "Sen.",
+              "hash": "f88707629f5766e1",
+              "chunk_key": "f88707629f5766e1_c000",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "CNBC Daily Open: Could the Strait of Hormuz be close to reopening? Markets cast doubt",
+              "summary": "While the impact of the war in Iran is sparing no major global economy , the U.K.",
+              "hash": "d6755826c520c72e",
+              "chunk_key": "d6755826c520c72e_c002",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Recession odds climb on Wall Street as economy shows cracks beneath the surface",
+              "summary": "Federal Reserve Chair Jerome Powell last week pushed back when asked whether stagflation posed a threat to the U.S. economy.",
+              "hash": "362f4e788a87a994",
+              "chunk_key": "362f4e788a87a994_c000",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Iran war may further 'chill' an already frozen job market, economist says",
+              "summary": "Heading into the year, employers had already faced uncertainty around a number of different policies, experts said.",
+              "hash": "8712d8d3d68b150c",
+              "chunk_key": "8712d8d3d68b150c_c002",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "UK inflation unchanged in February â but a 'brutal' surge could be coming",
+              "summary": "The U.K. is particularly exposed to rising energy prices due to its reliance on oil and gas imports, and lack of gas storage facilities.",
+              "hash": "20e5b80a8f8754da",
+              "chunk_key": "20e5b80a8f8754da_c001",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Warren rips Fed chair pick Warsh: 'You have learned nothing from your failures'",
+              "summary": "In her letter to Warsh on Thursday, Warren said that when he began his service on the Board of Governors, there were \"warning signs of the coming crisis\" in the subprime home-lendi…",
+              "hash": "42327616303668e5",
+              "chunk_key": "42327616303668e5_c003",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Why UK bonds bore the brunt of the Iran sell-off",
+              "summary": "A second is that interest rate expectations for the U.K. have changed more dramatically than any other G7 economy.",
+              "hash": "1c183b71191bc190",
+              "chunk_key": "1c183b71191bc190_c002",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Republicans block Democratic push for Trump Jr. subpoena",
+              "summary": "Republicans on a House Natural Resources subcommittee blocked a Democratic motion to subpoena Donald Trump Jr.",
+              "hash": "cd6326057bb8f7db",
+              "chunk_key": "cd6326057bb8f7db_c000",
+              "article_date": "2026-03-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "The firm whose AI paper knocked the whole market is out with another big call",
+              "summary": "Citrini Research, the firm that rattled markets earlier this year with a provocative bearish call on artificial intelligence, is out with another warning — this time arguing an oil…",
+              "hash": "a803241b0641e01f",
+              "chunk_key": "a803241b0641e01f_c000",
+              "article_date": "2026-03-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Treasury yields slide after Trump announces five-day hold on strikes against Iran",
+              "summary": "In this article Treasury yields fell sharply Monday morning, reversing course after President Donald Trump said further military strikes against Iran had been postponed after produ…",
+              "hash": "4575c837db6b186b",
+              "chunk_key": "4575c837db6b186b_c000",
+              "article_date": "2026-03-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Fed's Goolsbee says he's worried about inflation in 'fraught but intense' climate",
+              "summary": "Chicago Federal Reserve President Austan Goolsbee said Monday that he's more worried about inflation now than he is unemployment, even with apparent progress made on the war with I…",
+              "hash": "e17c0456861e65ee",
+              "chunk_key": "e17c0456861e65ee_c000",
+              "article_date": "2026-03-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "U.S. Treasury yields edge higher as Iran war drives inflation pressure",
+              "summary": "In this article U.S.",
+              "hash": "e8af532040332243",
+              "chunk_key": "e8af532040332243_c000",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Analysis: Trump's unshackled presidency puts him at the center of the economy",
+              "summary": "The Supreme Court in February struck down many of the president's tariffs, but he immediately responded by implementing new ones.",
+              "hash": "c7a96f3b802c48d0",
+              "chunk_key": "c7a96f3b802c48d0_c003",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Elizabeth Warren demands answers on costs, economic impact of 'illegal and reckless war'",
+              "summary": "Official government inflation figures are not available yet for March, but surging energy costs — and pass-through effects — are likely to boost prices at least as long as the figh…",
+              "hash": "8c74d6c39cf58b1a",
+              "chunk_key": "8c74d6c39cf58b1a_c001",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "ECB, BOE, Swiss National Bank, Riksbank interest rate decisions",
+              "summary": "In this article Before the war on Iran began in late February, Europe's central banks enjoyed a more benign inflation outlook as interest rates looked set to remain stable or keep …",
+              "hash": "b68805e840f77095",
+              "chunk_key": "b68805e840f77095_c000",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Treasury yields jump as inflation fears weigh on sentiment",
+              "summary": "In this article U.S.",
+              "hash": "fff6adc6d529d295",
+              "chunk_key": "fff6adc6d529d295_c000",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Bond markets face âperfect stormâ as Iran war rattles Europe's central banks",
+              "summary": "Ed Hutchings, head of rates at Aviva Investors, said that the chances of a rate hike from the BoE over the coming months have increased.",
+              "hash": "e454651cb1a6c36b",
+              "chunk_key": "e454651cb1a6c36b_c001",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump signals DOJ should continue Powell probe, complicating Warsh Fed nomination",
+              "summary": "President Donald Trump on Thursday signaled his continued support for a Department of Justice investigation into Federal Reserve Chair Jerome Powell — a stance that could further d…",
+              "hash": "58bce0404c5be07d",
+              "chunk_key": "58bce0404c5be07d_c000",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Fed Gov. Waller urges caution for now, says rate cuts possible later in the year",
+              "summary": "Federal Reserve Governor Christopher Waller on Friday expressed caution about current economic conditions but still sees the opportunity for interest rate cuts later this year.",
+              "hash": "2084a34e7af8023d",
+              "chunk_key": "2084a34e7af8023d_c000",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Traders now see little chance of an interest rate cut this year following Fed decision",
+              "summary": "All of the positive economic talk out of this week's Federal Reserve meeting had a negative impact on investors, who have now taken expectations for even one interest rate cut this…",
+              "hash": "24fd818c0f778500",
+              "chunk_key": "24fd818c0f778500_c000",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Pain at the pump causes political headaches",
+              "summary": "The protests were sparked by tax increases due to the fuel price escalator, a measure aimed at tackling climate change, under which fuel duty would rise by more than inflation annu…",
+              "hash": "e6a856f8e2bbe550",
+              "chunk_key": "e6a856f8e2bbe550_c002",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "CNBC Daily Open: Iran retaliates in 'revenge' attacks",
+              "summary": "Here's what to expect The Federal Reserve has little choice but to stay on the sidelines this week as it navigates a mix of complicated and conflicting forces playing out in the U.",
+              "hash": "b9d67923c808d810",
+              "chunk_key": "b9d67923c808d810_c002",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Treasury yields move lower as attention turns to Fed meeting",
+              "summary": "In this article Treasury yields fell on Wednesday as investors await the Federal Reserve's next policy decision on interest rates, due later in the session.",
+              "hash": "380132bab8f01900",
+              "chunk_key": "380132bab8f01900_c000",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Fed to still cut rates this year, even as high oil prices spark an uptick in inflation: CNBC Fed Survey",
+              "summary": "Three weeks into the U.S.",
+              "hash": "0bd69433fed0c01d",
+              "chunk_key": "0bd69433fed0c01d_c000",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Wholesale prices rose 0.7% in February, much more than expected and up 3.4% annually",
+              "summary": "Wholesale prices rose sharply in February, providing another sign that inflation continues to percolate even aside from rising energy prices.",
+              "hash": "5e135b33fe6417f6",
+              "chunk_key": "5e135b33fe6417f6_c000",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Here are the five key takeaways from this week's Fed meeting",
+              "summary": "The Federal Reserve on Wednesday voted to hold its benchmark interest rate steady , while adjusting its projections for the economy and the future path of monetary policy.",
+              "hash": "9fc0040a3495d92f",
+              "chunk_key": "9fc0040a3495d92f_c000",
+              "article_date": "2026-03-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Here's what changed in the new Fed statement",
+              "summary": "This is a comparison of Wednesday's Federal Open Market Committee statement with the one issued after the Fed's previous policymaking meeting in January.",
+              "hash": "e51b098c72ef210b",
+              "chunk_key": "e51b098c72ef210b_c000",
+              "article_date": "2026-03-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Powell says he will stay on as head of the Fed until Warsh is confirmed",
+              "summary": "A federal judge last week blocked grand jury subpoenas issued as part of Powell's criminal investigation.",
+              "hash": "413c2cf6751783f4",
+              "chunk_key": "413c2cf6751783f4_c001",
+              "article_date": "2026-03-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Analysis: Powell just delivered a new blow to Warsh's plans for swift rate cuts",
+              "summary": "Federal Reserve chair nominee Kevin Warsh wants to lower interest rates .",
+              "hash": "f836c28ed9951961",
+              "chunk_key": "f836c28ed9951961_c000",
+              "article_date": "2026-03-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "The Fed keeps rates unchanged in March: What that means for you",
+              "summary": "Amid geopolitical turmoil, the Federal Reserve held interest rates steady at the conclusion of its policy meeting on Wednesday.",
+              "hash": "470c9a459b7bf6d3",
+              "chunk_key": "470c9a459b7bf6d3_c000",
+              "article_date": "2026-03-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Expectations for next Fed rate cut get pushed back after hot inflation report",
+              "summary": "Update : Fed votes to hold rates steady, notes ‘uncertain’ impacts from Iran war A hotter-than-expected wholesale inflation reading for February had traders contemplating the possi…",
+              "hash": "782f6d050c9c11fb",
+              "chunk_key": "782f6d050c9c11fb_c000",
+              "article_date": "2026-03-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Fed still expects to cut rates once this year despite spiking oil prices",
+              "summary": "The Federal Reserve is still expecting to cut interest rates once this year in spite of a spike in oil prices from the Iran war.",
+              "hash": "1c3c2ce6a15f92e7",
+              "chunk_key": "1c3c2ce6a15f92e7_c000",
+              "article_date": "2026-03-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Fed votes to hold rates steady, notes 'uncertain' impacts from Iran war",
+              "summary": "WASHINGTON – The Federal Reserve on Wednesday voted to hold its key interest rate steady as policymakers navigate their way through higher-than-expected inflation readings, mixed s…",
+              "hash": "feeea2f999e8efa7",
+              "chunk_key": "feeea2f999e8efa7_c000",
+              "article_date": "2026-03-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Treasury yields rise amid oil surge, Iran tensions and Fed decision",
+              "summary": "In this article Treasury yields edged higher Tuesday as investors weighed escalating tensions in the Middle East and rising oil prices ahead of the Federal Reserve's policy decisio…",
+              "hash": "fb9701ed49ee3750",
+              "chunk_key": "fb9701ed49ee3750_c000",
+              "article_date": "2026-03-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump goes alone in the Iran war â as allies spurn requests to join",
+              "summary": "In an ironic framing of events, political America is looking to go fast and alone, while tech America is looking to go far and together.",
+              "hash": "d4a2da0253a210b1",
+              "chunk_key": "d4a2da0253a210b1_c002",
+              "article_date": "2026-03-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Treasury yields move lower as investors track oil prices",
+              "summary": "In this article U.S. Treasury yields moved lower to start the week as investors monitored oil prices amid the U.S.",
+              "hash": "b8e5e805c6c8d031",
+              "chunk_key": "b8e5e805c6c8d031_c000",
+              "article_date": "2026-03-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "The Fed issues its latest interest rate decision Wednesday. Here's what to expect",
+              "summary": "Instead, they expected the FOMC would wait until June, then cut at least once more before the end of the year, according to the CME Group's FedWatch pricing.",
+              "hash": "48e6c4073b8be74a",
+              "chunk_key": "48e6c4073b8be74a_c001",
+              "article_date": "2026-03-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat?",
+              "summary": "Statistics reported that the economy lost 92,000 jobs in February while the unemployment rate edged higher to 4.4%.",
+              "hash": "283eb9ba4e190f69",
+              "chunk_key": "283eb9ba4e190f69_c001",
+              "article_date": "2026-03-12 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Fourth-quarter GDP revised down to just 0.7% growth; January core inflation was 3.1%",
+              "summary": "The largest contribution for the downward revision from services, specifically health care spending, according to the release.",
+              "hash": "449a80a4c1f8451f",
+              "chunk_key": "449a80a4c1f8451f_c001",
+              "article_date": "2026-03-12 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "British horse racing in the spotlight â and under pressure",
+              "summary": "This report is from this week's CNBC's UK Exchange newsletter. Yesterday saw the start of the Cheltenham Festival, the jump racing calendar's biggest annual event.",
+              "hash": "5ee9de71b553a013",
+              "chunk_key": "5ee9de71b553a013_c000",
+              "article_date": "2026-03-11 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "U.S. deficit tops $1 trillion through February but runs below year-ago pace",
+              "summary": "The U.S.",
+              "hash": "d692b79c1132cf7d",
+              "chunk_key": "d692b79c1132cf7d_c000",
+              "article_date": "2026-03-11 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Markets' hopes for Fed interest rate cuts are rapidly fading away",
+              "summary": "Other market players aren't so sure.",
+              "hash": "6358e0773b1a1b09",
+              "chunk_key": "6358e0773b1a1b09_c001",
+              "article_date": "2026-03-11 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Europe weighs 2022-style inflation shock as Iran crisis rattles energy markets",
+              "summary": "Sharp moves in bond yields underline the market uncertainty, chiming with the huge swings in oil and gas since the conflict began, as analysts say that persistent higher-for-longer…",
+              "hash": "7e2df61d32e2176e",
+              "chunk_key": "7e2df61d32e2176e_c003",
+              "article_date": "2026-03-11 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Consumer prices rose 2.4% annually in February, as expected",
+              "summary": "The U.S.-Israel attack on Iran dramatically changed the outlook, at least in the near term.",
+              "hash": "b2b16eb64757a22d",
+              "chunk_key": "b2b16eb64757a22d_c002",
+              "article_date": "2026-03-10 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 2,
+          "name": "India's Economy Hit by Oil Crisis",
+          "count": 13,
+          "children": [
+            {
+              "name": "Iran war sparks record exodus of foreign investors from Indian equities in March",
+              "summary": "An increase in India's energy bill and slowdown in remittances from the Middle East are projected to widen India's current account deficits and fiscal deficit, Luchnikava-Schorsch …",
+              "hash": "acdb0bdb9ffe87da",
+              "chunk_key": "acdb0bdb9ffe87da_c002",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "India takes a âhuge hitâ on tax revenue to keep fuel prices from surging during the Iran war",
+              "summary": "Finance Minister Nirmala Sitharaman said it was done to \"ensure adequate availability of these products for domestic consumption.",
+              "hash": "906cf1fb5dc06068",
+              "chunk_key": "906cf1fb5dc06068_c001",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "CNBC Daily Open: Plan for peace or a wish list?",
+              "summary": "Blitzer is among the world's most prominent sports investors and holds stakes in franchises across major leagues, including the English Premier League, National Basketball Associat…",
+              "hash": "87826e48e32a0514",
+              "chunk_key": "87826e48e32a0514_c002",
+              "article_date": "2026-03-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Inside India newsletter: Ikea has big plans for the country",
+              "summary": "Europe accounts for more than 70% of its sales, followed by North America (17%) and Asia (around 9%).",
+              "hash": "acc8b71bcb0e35f7",
+              "chunk_key": "acc8b71bcb0e35f7_c002",
+              "article_date": "2026-03-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "David Blitzer and Blackstone-backed group snaps up Indian cricket franchise for $1.8 billion",
+              "summary": "In this article A consortium comprising Blackstone, serial American sports investor David Blitzer, among others, has acquired the Indian Premier League's Royal Challengers Bengalur…",
+              "hash": "836c91847189fba8",
+              "chunk_key": "836c91847189fba8_c000",
+              "article_date": "2026-03-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "The Iran war is sending shockwaves through the world's busiest IPO market",
+              "summary": "In this article Global volatility is threatening a pipeline of multibillion-dollar stock market listings in India, the world's busiest IPO market.",
+              "hash": "3458d6007104d283",
+              "chunk_key": "3458d6007104d283_c000",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "HDFC Bank shares fall 5% as part-time chair of Indiaâs largest private bank resigns over 'ethics'",
+              "summary": "Shares of India's HDFC Bank slid 5% Thursday after Atanu Chakraborty, its part‑time chairman, resigned after flagging governance and ethical concerns within the institution.",
+              "hash": "337a5c22ca378e45",
+              "chunk_key": "337a5c22ca378e45_c000",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Inside India newsletter: Why loans against gold are thriving in India",
+              "summary": "India's Modi reaches out to Iran.",
+              "hash": "2101e09edc691f34",
+              "chunk_key": "2101e09edc691f34_c004",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "UniCredit to strengthen stake in Commerzbank to 30%",
+              "summary": "UniCredit has launched an offer to build its stake in Commerzbank above 30%, a key regulatory threshold if the lender is to launch a full takeover bid.",
+              "hash": "f7e3a57777f77b71",
+              "chunk_key": "f7e3a57777f77b71_c000",
+              "article_date": "2026-03-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "How Indiaâs U.S.-Israel tilt is testing ties with Iran",
+              "summary": "Though India's Foreign Secretary Vikram Misri did sign a condolence book in the Iranian embassy in India on Mar. 5, per local media reports. \"India has bought into the U.S.",
+              "hash": "d27586b38f09abfc",
+              "chunk_key": "d27586b38f09abfc_c002",
+              "article_date": "2026-03-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Indiaâs consumer inflation rises to 3.21% in February as oil risks loom",
+              "summary": "India's consumer inflation rose for the fourth straight month to 3.21% in February, up from 2.75% in the previous month.",
+              "hash": "9632d7050bf48aca",
+              "chunk_key": "9632d7050bf48aca_c000",
+              "article_date": "2026-03-12 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Inside India newsletter: Middle East war to determine India's trade route to Europe",
+              "summary": "While IMEC is set to emerge as a clear winner between India's two connectivity bets, experts warn that its success hinges on a crucial element: regional stability — something which…",
+              "hash": "117ada9766764b46",
+              "chunk_key": "117ada9766764b46_c003",
+              "article_date": "2026-03-11 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "India-China reset? Relaxed rules allow Beijing to invest in India after about six years of friction",
+              "summary": "India while maintaining access to Chinese inputs,\" said Arpit Chaturvedi, South Asia advisor at Teneo.",
+              "hash": "66529cd326996719",
+              "chunk_key": "66529cd326996719_c001",
+              "article_date": "2026-03-11 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 25,
+          "name": "Micron's AI-Driven Memory Surge",
+          "count": 13,
+          "children": [
+            {
+              "name": "CNBC Daily Open: Trump's 'favorite thing' is Iranian oil",
+              "summary": "Here’s why investors are watching Pokémon cards aren't just childhood collectibles anymore.",
+              "hash": "4db75c32720af0da",
+              "chunk_key": "4db75c32720af0da_c002",
+              "article_date": "2026-03-30 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Logan Paul made a record PokÃ©mon card sale. Here's why investors are watching",
+              "summary": "In this article Pokémon cards aren't just childhood collectibles anymore.",
+              "hash": "ecec1f3260246939",
+              "chunk_key": "ecec1f3260246939_c000",
+              "article_date": "2026-03-29 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Russia poised to benefit from the helium supply crunch amid Iran war",
+              "summary": "Memory chip giant SK Hynix revealed it made a confidential filing with the U.S. Securities and Exchange Commission on Wednesday for a potential listing on Wall Street this year.",
+              "hash": "6eb892c501a56690",
+              "chunk_key": "6eb892c501a56690_c003",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Tech stocks suffer worst week in nearly a year on war worries, Meta legal woes",
+              "summary": "Micron shares plunged more than 15% for the week, though they're still up almost 300% over the past 12 months.",
+              "hash": "69704dfd40ab1ae2",
+              "chunk_key": "69704dfd40ab1ae2_c001",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Sony hikes PS5 prices by up to $150 citing 'pressures' in global economy",
+              "summary": "In this article Sony on Friday said it will raise prices on its range of flagship PlayStation 5 consoles for the second time in less than a year, citing \"pressures in the global ec…",
+              "hash": "c11e6b9291aad556",
+              "chunk_key": "c11e6b9291aad556_c000",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "A Google AI breakthrough is pressuring memory chip stocks from Samsung to Micron",
+              "summary": "In this article Google's latest research which claims to make AI models more efficient is putting pressure on memory stocks, with investors concerned the breakthrough could see a s…",
+              "hash": "94094412d0469c0e",
+              "chunk_key": "94094412d0469c0e_c000",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Arm jumps 15% as company expects revenue windfall from new chip",
+              "summary": "It is the incremental profit and cash flow that is the driver of shareholder value,\" they added.",
+              "hash": "049573b4270cba20",
+              "chunk_key": "049573b4270cba20_c001",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Micron falls 5.6% after blockbuster earnings. Here's what analysts say",
+              "summary": "In this article Blockbuster earnings were not enough to prevent a sharp drop in Micron Technology shares in premarket trading.",
+              "hash": "c8416e22368697ea",
+              "chunk_key": "c8416e22368697ea_c000",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Memory crisis latest: What we learned from the world's top producers this week",
+              "summary": "In this article The world's top memory chip makers made plenty of headlines this week, capped by Micron delivering one of the strongest earnings reports of this artificial intellig…",
+              "hash": "e3dd24a9fde0fbc3",
+              "chunk_key": "e3dd24a9fde0fbc3_c000",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Micron rides memory price spike into earnings with stock up 62%, drubbing peers",
+              "summary": "You need faster memory.",
+              "hash": "3c9f01c723da8f44",
+              "chunk_key": "3c9f01c723da8f44_c001",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Fed Day, Macy's earnings and more: Morning Squawk",
+              "summary": "As CNBC's Jordan Novet reports, Micron's surge is thanks to a memory shortage .",
+              "hash": "ca3ec842e20a3fee",
+              "chunk_key": "ca3ec842e20a3fee_c002",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Micron revenue almost triples, tops estimates as demand for memory soars",
+              "summary": "Net income climbed to $13.8 billion, or $12.07 per share, from $1.58 billion, or $1.41 per share, in the same quarter last year.",
+              "hash": "acac6748e4ddd99e",
+              "chunk_key": "acac6748e4ddd99e_c002",
+              "article_date": "2026-03-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Nintendo jumps 18% this week as surprise PokÃ©mon hit drives hope of sales bump",
+              "summary": "In this article Nintendo shares have rallied 18% so far this week after a Pokémon game became a surprise viral hit, raising hopes it could drive sales of the company's flagship Swi…",
+              "hash": "ebbcbcaf5bf71ca8",
+              "chunk_key": "ebbcbcaf5bf71ca8_c000",
+              "article_date": "2026-03-12 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 13,
+          "name": "\"Metals Fall Amid Global Uncertainty\"",
+          "count": 9,
+          "children": [
+            {
+              "name": "Bahrain aluminum giant says Iranian attack targeted its facility",
+              "summary": "Aluminium Bahrain, which hosts the world's largest smelter of the metal, said on Sunday its facility was subjected to an Iranian attack as the U.S.",
+              "hash": "c8e2a1448b77eede",
+              "chunk_key": "c8e2a1448b77eede_c000",
+              "article_date": "2026-03-29 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Gold and silver in freefall as investors flee safe haven metals trade",
+              "summary": "In this article Gold, silver and platinum resumed their recent sell-off this week, falling sharply as investors continue to retreat from precious metals as a safe haven trade amid …",
+              "hash": "0f84c47da7cc5eba",
+              "chunk_key": "0f84c47da7cc5eba_c000",
+              "article_date": "2026-03-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Asia markets tumble as Middle East conflict spiral with no sign of abating",
+              "summary": "Expectations that war-driven inflation will keep interest rates elevated weighed on the non-yielding metal's appeal relative to interest-bearing assets.",
+              "hash": "43f369559e272d56",
+              "chunk_key": "43f369559e272d56_c002",
+              "article_date": "2026-03-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Gold miners' bull run squeezed as prices plummet and energy costs soar",
+              "summary": "While gold bullion is a pure commodities play, miners bring additional equity risk that leaves them sensitive to an increasingly volatile macroeconomic environment.",
+              "hash": "01486f2551c85649",
+              "chunk_key": "01486f2551c85649_c001",
+              "article_date": "2026-03-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Gold rebounds, but silver extends losses as oscillating oil prices spark market volatility",
+              "summary": "Gold prices rebounded slightly on Friday, but silver prices sank further, after both metals suffered heavy selling pressure in the previous session. By 6:17 a.m.",
+              "hash": "c05d95ac3fab4ea4",
+              "chunk_key": "c05d95ac3fab4ea4_c000",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Gold and silver sell off as inflation fears grip global markets",
+              "summary": "In this article Gold and silver joined a broad sell-off on Thursday, with the metals shedding 2% and 5.5% as fears about the Iran war and inflation gripped global markets.",
+              "hash": "f18e59525888e2c6",
+              "chunk_key": "f18e59525888e2c6_c000",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Copper joins gold in broad commodities sell-off. There's a worrying reason behind it",
+              "summary": "But that has changed as growth concerns begin to weigh on these industrial metals. Industrial metals are used in practical ways.",
+              "hash": "59ff023c873b43a4",
+              "chunk_key": "59ff023c873b43a4_c001",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Aluminum prices surge as Iran conflict disrupts supply",
+              "summary": "CRU principal analyst Guillaume Osouf wrote in a recent article that the LME price would likely be much higher now if it wasn't for weak global demand for the metal.",
+              "hash": "6a266db7c71fbeb5",
+              "chunk_key": "6a266db7c71fbeb5_c001",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Why gold hasnât moved since Iran conflict and where it could go next",
+              "summary": "In this article Gold surged during the 12-day war with Iran last year and then gave up its gains when a ceasefire was announced.",
+              "hash": "c177d5c0e2d90045",
+              "chunk_key": "c177d5c0e2d90045_c000",
+              "article_date": "2026-03-12 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 20,
+          "name": "China's Economy Shows Resilience",
+          "count": 8,
+          "children": [
+            {
+              "name": "China industrial profits surge 15% to start year, but oil price shock threatens outlook",
+              "summary": "Chinese industrial firms saw their profits surge in the first two months of this year as officials pressed ahead with efforts to contain the fallout from industrial overcapacity an…",
+              "hash": "2a5d2b3da3a68a06",
+              "chunk_key": "2a5d2b3da3a68a06_c000",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "U.S. execs revamp China market push as trade truce lingers",
+              "summary": "CEO David A. Ricks told CNBC's Eunice Yoon that he sees \"significant\" potential in China for the company's GLP-1 obesity drug, if there are better reimbursement systems.",
+              "hash": "7ed755465e12d6a8",
+              "chunk_key": "7ed755465e12d6a8_c002",
+              "article_date": "2026-03-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Japan wanted inflation and Iran war could grant that wish. But it's not the type Tokyo desires",
+              "summary": "Suzuki said that while the impact on inflation in Japan is limited for the time being, for every 20% increase in oil prices, Japan's CPI will increase by 0.3%.",
+              "hash": "2c417f8dd2d49158",
+              "chunk_key": "2c417f8dd2d49158_c002",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Bank of Japan keeps rates steady as expected, warns Iran war may push up inflation",
+              "summary": "Krishna Bhimavarapu, APAC Economist at State Street Investment Management, said that the move was a \"very important dovish pivot,\" adding that the Iran conflict is entering a phase…",
+              "hash": "10c37d3856d90959",
+              "chunk_key": "10c37d3856d90959_c001",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Japan exports beat forecasts with 4.2% growth in February, but shipments to China and U.S. slump",
+              "summary": "In this article Japan's exports climbed 4.2% from a year earlier in February, marking a sharp slowdown after hitting an over-three-year high in January.",
+              "hash": "495fb3523f9c096f",
+              "chunk_key": "495fb3523f9c096f_c000",
+              "article_date": "2026-03-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Holiday spending, export demand drive Chinaâs economic momentum as Iran war headwinds loom",
+              "summary": "Investment in fixed assets, which includes property, rose 1.8% from a year earlier, compared with estimates of a 2.1% drop.",
+              "hash": "5ffa697ecdb07716",
+              "chunk_key": "5ffa697ecdb07716_c001",
+              "article_date": "2026-03-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Volkswagen pushes into driver-assist EVs without Nvidia, exec says",
+              "summary": "Meanwhile, Volkswagen's joint venture with Horizon, called Carizon, is developing its first advanced automotive chip , with expected delivery in three to five years.",
+              "hash": "aef39f4ef1d5c2c9",
+              "chunk_key": "aef39f4ef1d5c2c9_c002",
+              "article_date": "2026-03-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "CNBC's The China Connection newsletter: Beijing can't afford another crackdown on its tech companies",
+              "summary": "In this article This report is from this week's CNBC's The China Connection newsletter, which brings you insights and analysis on what's driving the world's second-largest economy.",
+              "hash": "7dda56bf4e06d1b8",
+              "chunk_key": "7dda56bf4e06d1b8_c000",
+              "article_date": "2026-03-11 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 21,
+          "name": "Fuel Prices Impact Airlines",
+          "count": 6,
+          "children": [
+            {
+              "name": "Why Iran war should make you as afraid of petrochemicals as oil prices",
+              "summary": "Altana data shows that raw feedstocks comprising $733 billion in petrochemicals, intermediates, and finished products combined — 22% of the world's total supply including ethylene,…",
+              "hash": "a576311e11eb529d",
+              "chunk_key": "a576311e11eb529d_c005",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "New fees, fewer flights: Higher fuel prices pinch budgets beyond the gas pump",
+              "summary": "In this article As the U.S.-Iran war enters its fifth week, consumers are facing economic consequences that impact everything from travel planning to mail delivery.",
+              "hash": "00452c3b9158ea00",
+              "chunk_key": "00452c3b9158ea00_c000",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Pricy airfare, airport chaos test travelers' willingness to fly this year",
+              "summary": "The conflict has meant crisis for the aviation industry, particularly in the Middle East, where airspace closures have forced carriers to cancel flights and take longer and costlie…",
+              "hash": "34a3bae07ae6ae0d",
+              "chunk_key": "34a3bae07ae6ae0d_c001",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Delta raises revenue guidance as CEO says travel demand has been 'great'",
+              "summary": "In this article Delta Air Lines said Tuesday that the company was maintaining its profit guidance for the first quarter and raising revenue expectations, despite airlines dealing w…",
+              "hash": "f366cbe324dab3a1",
+              "chunk_key": "f366cbe324dab3a1_c000",
+              "article_date": "2026-03-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Gig workers feel pain at the pump as gas prices hit 21-month highs",
+              "summary": "For these Americans, the price at the pump is the latest challenge after a rocky past few years.",
+              "hash": "ccc10c274fa7cf72",
+              "chunk_key": "ccc10c274fa7cf72_c004",
+              "article_date": "2026-03-14 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Why flights are getting more expensive after jet fuel spike",
+              "summary": "In 2014, American Airlines said it would switch to digital manuals for flight attendants, following changes for pilots.",
+              "hash": "3903e36aba45aa2d",
+              "chunk_key": "3903e36aba45aa2d_c004",
+              "article_date": "2026-03-12 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 7,
+          "name": "Automakers Face Middle East Uncertainty",
+          "count": 4,
+          "children": [
+            {
+              "name": "Iran war wipes out $100 billion from luxury stocks",
+              "summary": "In this article A version of this article first appeared in CNBC's Inside Wealth newsletter with Robert Frank, a weekly guide to the high-net-worth investor and consumer.",
+              "hash": "984e76ba06064151",
+              "chunk_key": "984e76ba06064151_c000",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Infiniti hopes new SUV can turn around fortunes in the U.S.",
+              "summary": "In this article Japanese brand Infiniti on Thursday unveiled a new midsize luxury SUV, called the QX65, as it tries to mount a comeback in the U.S.",
+              "hash": "22ace35f81a1a4f8",
+              "chunk_key": "22ace35f81a1a4f8_c000",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Nissanâs new hybrid is a U.S.-first that mixes EV driving with a gas engine",
+              "summary": "Unlike traditional gas-powered vehicles, the e-Power system also does not require a traditional transmission to shift gears or a driveshaft that transfers torque from the transmiss…",
+              "hash": "21f3113e971546a0",
+              "chunk_key": "21f3113e971546a0_c003",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Iran war poses challenges to high-margin Middle East car market",
+              "summary": "In this article The instability brought on by the Iran war and rising geopolitical tensions pose a threat to automakers with a presence in the Middle East.",
+              "hash": "0269f4bc824b1734",
+              "chunk_key": "0269f4bc824b1734_c000",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 19,
+          "name": "Helium Shortages in Semiconductors",
+          "count": 4,
+          "children": [
+            {
+              "name": "Russia poised to benefit from the helium supply crunch amid Iran war",
+              "summary": "Helium is used in chipmaking to transfer heat due to its cooling properties in a number of processes.",
+              "hash": "6eb892c501a56690",
+              "chunk_key": "6eb892c501a56690_c001",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Asia tech stocks sink as oil spike and Qatar attacks threaten chip supply chain",
+              "summary": "Missile attacks on QatarEnergy's Ras Laffan Industrial City on Wednesday caused damage to one of the world's most strategically important gas hubs, and are likely to raise concerns…",
+              "hash": "b9ffbe6ed47f7992",
+              "chunk_key": "b9ffbe6ed47f7992_c001",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Chip deliveries to Europe delayed as Iran war hits air freight",
+              "summary": "As a result, buyers looking to import goods from Asia to Europe are having to pay premium costs for delivery.",
+              "hash": "f57c5c7854c2bee8",
+              "chunk_key": "f57c5c7854c2bee8_c002",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "The Iran war is threatening supply of a little-thought-of resource â helium",
+              "summary": "The war in the Middle East could pose a threat to the semiconductor industry and other sectors dependent on a resource produced in the Gulf — helium.",
+              "hash": "0182f3193aef4b07",
+              "chunk_key": "0182f3193aef4b07_c000",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
         }
       ]
     },
@@ -3458,49 +3458,6 @@
       "name": "Wealth Management Strategies",
       "count": 41,
       "children": [
-        {
-          "cluster_id": 3,
-          "name": "\"Warren Buffett's Philanthropic Efforts\"",
-          "count": 4,
-          "children": [
-            {
-              "name": "Walmart digital price tags are coming to every store in U.S. by end of 2026",
-              "summary": "A Walmart spokeswoman said the company is engaging with legislators to allay concerns and that the labels are about improving store-level customer service.",
-              "hash": "0c64098f7f0dd583",
-              "chunk_key": "0c64098f7f0dd583_c005",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Buffett defends 'Giving Pledge' against Thiel and 'billionaire backlash'",
-              "summary": "Buffett was also quoted in another major publication this week.",
-              "hash": "e8d32368ca608045",
-              "chunk_key": "e8d32368ca608045_c003",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "CNBC Daily Open: Iran vows 'eye-for-eye' in energy attack escalation",
-              "summary": "Meanwhile, Fed Chair Jerome Powell said he will continue to serve as head of the central bank if his nominated successor, Kevin Warsh, is not confirmed by the time his term is up i…",
-              "hash": "af8ea66cb8c7f244",
-              "chunk_key": "af8ea66cb8c7f244_c002",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Inside India newsletter: Why loans against gold are thriving in India",
-              "summary": "Alpine Macro, adding that the RBI data only captures personal gold loans from certain commercial banks.",
-              "hash": "2101e09edc691f34",
-              "chunk_key": "2101e09edc691f34_c002",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ]
-        },
         {
           "cluster_id": 4,
           "name": "Leading Financially Aware Relationships",
@@ -3807,6 +3764,49 @@
               "hash": "827f6d2c20a8dc66",
               "chunk_key": "827f6d2c20a8dc66_c000",
               "article_date": "2026-03-10 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "cluster_id": 3,
+          "name": "\"Warren Buffett's Philanthropic Efforts\"",
+          "count": 4,
+          "children": [
+            {
+              "name": "Walmart digital price tags are coming to every store in U.S. by end of 2026",
+              "summary": "A Walmart spokeswoman said the company is engaging with legislators to allay concerns and that the labels are about improving store-level customer service.",
+              "hash": "0c64098f7f0dd583",
+              "chunk_key": "0c64098f7f0dd583_c005",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Buffett defends 'Giving Pledge' against Thiel and 'billionaire backlash'",
+              "summary": "Buffett was also quoted in another major publication this week.",
+              "hash": "e8d32368ca608045",
+              "chunk_key": "e8d32368ca608045_c003",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "CNBC Daily Open: Iran vows 'eye-for-eye' in energy attack escalation",
+              "summary": "Meanwhile, Fed Chair Jerome Powell said he will continue to serve as head of the central bank if his nominated successor, Kevin Warsh, is not confirmed by the time his term is up i…",
+              "hash": "af8ea66cb8c7f244",
+              "chunk_key": "af8ea66cb8c7f244_c002",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Inside India newsletter: Why loans against gold are thriving in India",
+              "summary": "Alpine Macro, adding that the RBI data only captures personal gold loans from certain commercial banks.",
+              "hash": "2101e09edc691f34",
+              "chunk_key": "2101e09edc691f34_c002",
+              "article_date": "2026-03-18 00:00:00",
               "provider": "CNBC",
               "value": 1
             }
