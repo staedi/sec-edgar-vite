@@ -118,7 +118,7 @@ export default function CirclePacking({
       })
     return pack<TopicsData | MetaCategoryNode | ClusterNode | ArticleNode>()
       .size([width - PAD * 2, height - PAD * 2])
-      .padding(8)(h)
+      .padding(node => node.depth === 0 ? 12 : node.depth === 1 ? 4 : 2)(h)
   }, [data, width, height])
 
   return (
