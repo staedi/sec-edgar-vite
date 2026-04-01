@@ -118,6 +118,12 @@ export default function CirclePacking({
 
   const PAD = 12
 
+  // const dataKey = useMemo(() => 
+  //   data.updated_at + data.children.length, 
+  // [data.updated_at, data.children.length])
+
+  const dataKey = `${data.updated_at}-${data.children.length}`
+
   const root = useMemo(() => {
     const h = hierarchy<TopicsData | MetaCategoryNode | ClusterNode | ArticleNode>(data as TopicsData)
       .sum(d => ('value' in d ? (d as ArticleNode).value : 0))
@@ -143,7 +149,7 @@ export default function CirclePacking({
     return pack<TopicsData | MetaCategoryNode | ClusterNode | ArticleNode>()
       .size([width - PAD * 2, height - PAD * 2])
       .padding(node => node.depth === 0 ? 12 : node.depth === 1 ? 4 : 2)(h)
-  }, [data, width, height])
+  }, [dataKey, width, height])
 
   return (
     <div style={{ position: 'relative', width, height, userSelect: 'none' }}>

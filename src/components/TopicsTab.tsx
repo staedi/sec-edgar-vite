@@ -47,7 +47,8 @@ export default function TopicsTab() {
     setData(null); setError(null); setActiveCluster(null); setActiveMeta(null)
     fetch(`${BASE}/data/topics_${mode}.json`)
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() as Promise<TopicsData> })
-      .then(setData)
+      // .then(setData)
+      .then(d => setData(d))
       .catch((e: Error) => setError(e.message))
   }, [mode])
 
