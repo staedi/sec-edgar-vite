@@ -1,4 +1,4 @@
-import { useMemo, useState, useCallback, useRef } from 'react'
+import { useMemo, useState, useCallback, useRef, useEffect } from 'react'
 import { hierarchy, pack } from 'd3-hierarchy'
 
 // ── Types ─────────────────────────────────────────────────────────────────────
@@ -84,6 +84,25 @@ export default function CirclePacking({
   // Tooltip ref for direct DOM update — avoids re-rendering the SVG on hover
   const tooltipRef = useRef<HTMLDivElement>(null)
 
+  const showTooltip = useCallback((
+    x: number, y: number, label: string, sub: string, extra?: string
+  ) => {
+    const el = tooltipRef.current
+    if (!el) return
+      ; (el.querySelector('[data-tt="label"]') as HTMLElement).textContent = label
+      ; (el.querySelector('[data-tt="sub"]') as HTMLElement).textContent = sub
+    const extraEl = el.querySelector('[data-tt="extra"]') as HTMLElement
+    if (extra) { extraEl.textContent = extra; extraEl.style.display = 'block' }
+    else { extraEl.style.display = 'none' }
+    el.style.left = `${x + 14}px`
+    el.style.top = `${y - 10}px`
+    el.style.display = 'block'
+  }, [])
+
+  const hideTooltip = useCallback(() => {
+    if (tooltipRef.current) tooltipRef.current.style.display = 'none'
+  }, [])
+
   const activeCluster = extCluster !== undefined ? extCluster : internalCluster
   const activeMeta = extMeta !== undefined ? extMeta : internalMeta
 
@@ -144,22 +163,15 @@ export default function CirclePacking({
               return (
                 <g key={`m-${meta.name}`} style={{ cursor: 'pointer' }}
                   onClick={() => handleMetaClick(meta.name)}
-                  onMouseEnter={e => {
-                    if (tooltipRef.current) {
-                      tooltipRef.current.style.display = 'block'
-                      tooltipRef.current.style.left = `${e.clientX + 14}px`
-                      tooltipRef.current.style.top = `${e.clientY - 10}px`
-                      tooltipRef.current.innerHTML = `<p style="margin:0;font-size:13px;font-weight:500;color:#fff;font-family:'DM Sans',system-ui;line-height:1.4">${meta.name}</p><p style="margin:4px 0 0;font-size:11px;color:#9ca3af;font-family:'DM Mono',monospace">${meta.children.length} cluster${meta.children.length !== 1 ? 's' : ''} · ${meta.count} articles</p>`
-                    }
-                  }}
-                  onMouseLeave={() => { if (tooltipRef.current) tooltipRef.current.style.display = 'none' }}
+                  onMouseEnter={e => showTooltip(e.clientX, e.clientY, meta.name, `${meta.children.length} cluster${meta.children.length !== 1 ? 's' : ''} · ${meta.count} articles`)}
+                  onMouseLeave={hideTooltip}
                 >
                   <circle cx={node.x} cy={node.y} r={node.r}
                     fill={color} fillOpacity={isActive ? 0.07 : 0.02}
                     stroke={color} strokeWidth={isActive ? 1.5 : 0.8}
                     strokeOpacity={isActive ? 0.45 : 0.15}
                     strokeDasharray="4 3"
-                    style={{ transition: 'all 0.18s ease' }}
+                    style={{ transition: 'fill-opacity 0.18s ease, stroke-opacity 0.18s ease' }}
                   />
                   {show && (
                     <text x={node.x} y={node.y - node.r + fs + 5}
@@ -191,22 +203,14 @@ export default function CirclePacking({
               return (
                 <g key={`c-${cd.cluster_id}`} style={{ cursor: 'pointer' }}
                   onClick={() => handleClusterClick(cd.cluster_id)}
-                  onMouseEnter={e => {
-                    if (tooltipRef.current) {
-                      const extra = cd.related_tickers?.length ? `<p style="margin:5px 0 0;font-size:11px;color:#7986cb;font-family:'DM Mono',monospace">${cd.related_tickers.join('  ·  ')}</p>` : ''
-                      tooltipRef.current.style.display = 'block'
-                      tooltipRef.current.style.left = `${e.clientX + 14}px`
-                      tooltipRef.current.style.top = `${e.clientY - 10}px`
-                      tooltipRef.current.innerHTML = `<p style="margin:0;font-size:13px;font-weight:500;color:#fff;font-family:'DM Sans',system-ui;line-height:1.4">${fixEncoding(cd.name)}</p><p style="margin:4px 0 0;font-size:11px;color:#9ca3af;font-family:'DM Mono',monospace">${cd.count} article${cd.count !== 1 ? 's' : ''}</p>${extra}`
-                    }
-                  }}
-                  onMouseLeave={() => { if (tooltipRef.current) tooltipRef.current.style.display = 'none' }}
+                  onMouseEnter={e => showTooltip(e.clientX, e.clientY, fixEncoding(cd.name), `${cd.count} article${cd.count !== 1 ? 's' : ''}`, cd.related_tickers?.length ? cd.related_tickers.join('  ·  ') : undefined)}
+                  onMouseLeave={hideTooltip}
                 >
                   <circle cx={node.x} cy={node.y} r={node.r}
                     fill={color} fillOpacity={on ? 0.13 : 0.03}
                     stroke={color} strokeWidth={on ? 1.5 : 0.8}
                     strokeOpacity={on ? 0.55 : 0.18}
-                    style={{ transition: 'all 0.18s ease' }}
+                    style={{ transition: 'fill-opacity 0.18s ease, stroke-opacity 0.18s ease' }}
                   />
                   {show && lines.map((line, li) => (
                     <text key={li} x={node.x} y={ty + li * lh}
@@ -242,30 +246,36 @@ export default function CirclePacking({
                 cx={node.x} cy={node.y} r={Math.max(node.r, 2.5)}
                 fill={color} fillOpacity={on ? 0.65 : 0.08}
                 stroke={color} strokeWidth={0.5} strokeOpacity={on ? 0.25 : 0}
-                style={{ transition: 'all 0.18s ease', cursor: 'default' }}
-                onMouseEnter={e => {
-                  if (tooltipRef.current) {
-                    tooltipRef.current.style.display = 'block'
-                    tooltipRef.current.style.left = `${e.clientX + 14}px`
-                    tooltipRef.current.style.top = `${e.clientY - 10}px`
-                    tooltipRef.current.innerHTML = `<p style="margin:0;font-size:13px;font-weight:500;color:#fff;font-family:'DM Sans',system-ui;line-height:1.4">${truncate(art.summary || art.name, 120)}</p><p style="margin:4px 0 0;font-size:11px;color:#9ca3af;font-family:'DM Mono',monospace">${art.provider} · ${art.article_date.slice(0, 10)}</p>`
-                  }
-                }}
-                onMouseLeave={() => { if (tooltipRef.current) tooltipRef.current.style.display = 'none' }}
+                style={{ transition: 'fill-opacity 0.18s ease, stroke-opacity 0.18s ease', cursor: 'default' }}
+                onMouseEnter={e => showTooltip(e.clientX, e.clientY, truncate(art.summary || art.name, 120), `${art.provider} · ${art.article_date.slice(0, 10)}`)}
+                onMouseLeave={hideTooltip}
               />
             )
           })}
         </g>
       </svg>
 
-      {/* Tooltip — direct DOM updates avoid SVG re-renders on hover */}
+      {/* Tooltip — state-free to avoid SVG re-renders on hover */}
       <div ref={tooltipRef} style={{
         display: 'none', position: 'fixed', zIndex: 9999,
         pointerEvents: 'none', maxWidth: 300,
         background: 'rgba(15,17,23,0.93)', borderRadius: 8,
         padding: '8px 12px', boxShadow: '0 8px 24px rgba(0,0,0,0.18)',
         border: '1px solid rgba(255,255,255,0.08)',
-      }} />
+      }}>
+        <p data-tt="label" style={{
+          margin: 0, fontSize: 13, fontWeight: 500,
+          color: '#fff', fontFamily: "'DM Sans',system-ui", lineHeight: 1.4
+        }} />
+        <p data-tt="sub" style={{
+          margin: '4px 0 0', fontSize: 11,
+          color: '#9ca3af', fontFamily: "'DM Mono',monospace"
+        }} />
+        <p data-tt="extra" style={{
+          display: 'none', margin: '5px 0 0',
+          fontSize: 11, color: '#7986cb', fontFamily: "'DM Mono',monospace"
+        }} />
+      </div>
     </div>
   )
 }
