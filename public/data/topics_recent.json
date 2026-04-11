@@ -1,7 +1,7 @@
 {
   "name": "root",
   "mode": "recent",
-  "updated_at": "2026-04-10T23:01:58.791872+00:00",
+  "updated_at": "2026-04-11T22:50:38.336739+00:00",
   "children": [
     {
       "name": "Family Financial Focus",
@@ -13,7 +13,7 @@
           "count": 10,
           "children": [
             {
-              "name": "34-year-old product manager opened a restaurant after being laid offâit brings in up to $140,000 a month",
+              "name": "34-year-old product manager opened a restaurant after being laid off—it brings in up to $140,000 a month",
               "summary": "He hopes \"this flavor profile continues to spread across the country, and it just becomes a normal part of American cuisine.",
               "hash": "5fcc4da50a353750",
               "chunk_key": "5fcc4da50a353750_c005",
@@ -31,7 +31,7 @@
               "value": 1
             },
             {
-              "name": "What actually leads to high-paying jobsâit has nothing to do with your college major, says expert",
+              "name": "What actually leads to high-paying jobs—it has nothing to do with your college major, says expert",
               "summary": "That part is real. But what happens after is far less predictable. As Inside Higher Ed notes, graduates with adaptable skills often continue to grow while others plateau.",
               "hash": "bcc1152397b725ff",
               "chunk_key": "bcc1152397b725ff_c002",
@@ -85,7 +85,7 @@
               "value": 1
             },
             {
-              "name": "Phia founders made early hires from their DMsâthe 3-sentence pitch that gets their attention",
+              "name": "Phia founders made early hires from their DMs—the 3-sentence pitch that gets their attention",
               "summary": "Gates and Kianni said they've hired some employees not only by keeping an eye out for promising DMs, but also by sending cold messages to people they want to work with and through …",
               "hash": "f671565bd4c1a889",
               "chunk_key": "f671565bd4c1a889_c003",
@@ -102,7 +102,9 @@
               "provider": "CNBC",
               "value": 1
             }
-          ]
+          ],
+          "related_tickers_named": [],
+          "related_tickers_semantic": []
         },
         {
           "cluster_id": 6,
@@ -163,6 +165,34 @@
               "provider": "CNBC",
               "value": 1
             }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "HOOD",
+              "name": "Robinhood Markets"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "DVN",
+              "name": "Devon Energy"
+            },
+            {
+              "ticker": "BHF",
+              "name": "Brighthouse Financial"
+            },
+            {
+              "ticker": "VOYA",
+              "name": "Voya Financial"
+            },
+            {
+              "ticker": "UGI",
+              "name": "UGI"
+            },
+            {
+              "ticker": "LNC",
+              "name": "Lincoln National"
+            }
           ]
         },
         {
@@ -188,6 +218,38 @@
               "provider": "CNBC",
               "value": 1
             }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "GM",
+              "name": "General Motors"
+            },
+            {
+              "ticker": "F",
+              "name": "Ford Motor"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "GNTX",
+              "name": "Gentex"
+            },
+            {
+              "ticker": "AN",
+              "name": "Autonation"
+            },
+            {
+              "ticker": "CAR",
+              "name": "Avis Budget Group"
+            },
+            {
+              "ticker": "APTV",
+              "name": "Aptiv PLC"
+            },
+            {
+              "ticker": "LEA",
+              "name": "Lear"
+            }
           ]
         }
       ]
@@ -211,7 +273,7 @@
               "value": 1
             },
             {
-              "name": "Here's the inflation breakdown for March 2026 â in one chart",
+              "name": "Here's the inflation breakdown for March 2026 — in one chart",
               "summary": "Companies are doing this to offset higher jet fuel prices, one of airlines' largest operational costs. Airfares rose 14.9% over the past 12 months, according to the CPI data.",
               "hash": "c489cb1705a2cee0",
               "chunk_key": "c489cb1705a2cee0_c003",
@@ -236,6 +298,42 @@
               "article_date": "2026-04-07 00:00:00",
               "provider": "CNBC",
               "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "UAL",
+              "name": "United Airlines"
+            },
+            {
+              "ticker": "RJF",
+              "name": "Raymond James"
+            },
+            {
+              "ticker": "RPM",
+              "name": "RPM International"
+            },
+            {
+              "ticker": "LUV",
+              "name": "Southwest Airlines"
+            },
+            {
+              "ticker": "MGM",
+              "name": "MGM Resorts International"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "AAL",
+              "name": "American Airlines Group"
+            },
+            {
+              "ticker": "DAL",
+              "name": "Delta AIR Lines"
+            },
+            {
+              "ticker": "AL",
+              "name": "AIR Lease"
             }
           ]
         }
@@ -323,7 +421,7 @@
               "value": 1
             },
             {
-              "name": "Here's the inflation breakdown for March 2026 â in one chart",
+              "name": "Here's the inflation breakdown for March 2026 — in one chart",
               "summary": "In this article Inflation spiked in March as the Iran war pushed up gasoline and other prices for consumers. The consumer price index, a key inflation measure, rose 3.",
               "hash": "c489cb1705a2cee0",
               "chunk_key": "c489cb1705a2cee0_c000",
@@ -429,6 +527,38 @@
               "article_date": "2026-04-06 00:00:00",
               "provider": "CNBC",
               "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "EVR",
+              "name": "Evercore"
+            },
+            {
+              "ticker": "C",
+              "name": "Citigroup"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "SRE",
+              "name": "Sempra"
+            },
+            {
+              "ticker": "APLS",
+              "name": "Apellis Pharmaceuticals"
+            },
+            {
+              "ticker": "EQT",
+              "name": "EQT"
+            },
+            {
+              "ticker": "RRC",
+              "name": "Range Resources"
+            },
+            {
+              "ticker": "LNG",
+              "name": "Cheniere Energy"
             }
           ]
         },
@@ -599,6 +729,34 @@
               "provider": "CNBC",
               "value": 1
             }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "AAPL",
+              "name": "Apple"
+            },
+            {
+              "ticker": "STZ",
+              "name": "Constellation Brands"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "TAP",
+              "name": "Molson Coors Brewing"
+            },
+            {
+              "ticker": "TIGO",
+              "name": "Millicom International Cellular SA"
+            },
+            {
+              "ticker": "NWL",
+              "name": "Newell Brands"
+            },
+            {
+              "ticker": "BF-B",
+              "name": "Brown Forman"
+            }
           ]
         },
         {
@@ -607,7 +765,7 @@
           "count": 1,
           "children": [
             {
-              "name": "Trump praises Hungary PM Viktor OrbÃ¡nÂ after Vance calls him at Budapest rally",
+              "name": "Trump praises Hungary PM Viktor Orbán after Vance calls him at Budapest rally",
               "summary": "President Donald Trump on Tuesday heaped praise on Hungarian Prime Minister Viktor Orbán after Vice President JD Vance called his boss from the stage of a political rally at a socc…",
               "hash": "3a3e00cd001b90fc",
               "chunk_key": "3a3e00cd001b90fc_c000",
@@ -615,7 +773,9 @@
               "provider": "CNBC",
               "value": 1
             }
-          ]
+          ],
+          "related_tickers_named": [],
+          "related_tickers_semantic": []
         }
       ]
     },
@@ -646,7 +806,9 @@
               "provider": "CNBC",
               "value": 1
             }
-          ]
+          ],
+          "related_tickers_named": [],
+          "related_tickers_semantic": []
         }
       ]
     },
@@ -660,7 +822,7 @@
           "count": 12,
           "children": [
             {
-              "name": "34-year-old product manager opened a restaurant after being laid offâit brings in up to $140,000 a month",
+              "name": "34-year-old product manager opened a restaurant after being laid off—it brings in up to $140,000 a month",
               "summary": "Sitting in the kitchen watching Food Network, he'd think, \"I want to recreate that. But I have a different spice cabinet.",
               "hash": "5fcc4da50a353750",
               "chunk_key": "5fcc4da50a353750_c001",
@@ -750,7 +912,7 @@
               "value": 1
             },
             {
-              "name": "Phia founders made early hires from their DMsâthe 3-sentence pitch that gets their attention",
+              "name": "Phia founders made early hires from their DMs—the 3-sentence pitch that gets their attention",
               "summary": "A typical job opening in 2025 attracted an average of 244 applications, more than double the number in 2022, according to data from Greenhouse.",
               "hash": "f671565bd4c1a889",
               "chunk_key": "f671565bd4c1a889_c001",
@@ -766,6 +928,50 @@
               "article_date": "2026-04-06 00:00:00",
               "provider": "CNBC",
               "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "MS",
+              "name": "Morgan Stanley"
+            },
+            {
+              "ticker": "ON",
+              "name": "ON Semiconductor"
+            },
+            {
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
+            },
+            {
+              "ticker": "AAPL",
+              "name": "Apple"
+            },
+            {
+              "ticker": "DXC",
+              "name": "DXC Technology"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "CACC",
+              "name": "Credit Acceptance"
+            },
+            {
+              "ticker": "NTRA",
+              "name": "Natera"
+            },
+            {
+              "ticker": "MDLN",
+              "name": "Medline"
+            },
+            {
+              "ticker": "DJT",
+              "name": "Trump Media Technology Group"
+            },
+            {
+              "ticker": "VOYA",
+              "name": "Voya Financial"
             }
           ]
         },
@@ -882,7 +1088,9 @@
               "provider": "CNBC",
               "value": 1
             }
-          ]
+          ],
+          "related_tickers_named": [],
+          "related_tickers_semantic": []
         },
         {
           "cluster_id": 25,
@@ -898,7 +1106,9 @@
               "provider": "CNBC",
               "value": 1
             }
-          ]
+          ],
+          "related_tickers_named": [],
+          "related_tickers_semantic": []
         }
       ]
     }

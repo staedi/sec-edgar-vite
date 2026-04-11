@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
-// import { scaleOrdinal } from 'd3-scale'
 import CirclePacking from './CirclePacking'
-import type { TopicsData, MetaCategoryNode, ClusterNode } from './CirclePacking'
+import type { TopicsData, MetaCategoryNode, ClusterNode, ArticleNode, TickerInfo } from './CirclePacking'
 
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, '')
 
@@ -14,12 +13,7 @@ const META_PALETTE = [
   '#7c8cf8', '#f59e6b', '#34d399', '#f87171', '#a78bfa',
   '#22d3ee', '#fbbf24', '#4ade80',
 ]
-// Remove these:
-// import { scaleOrdinal } from 'd3-scale'
-// const colorScale     = scaleOrdinal<string>().range(PALETTE)
-// const metaColorScale = scaleOrdinal<string>().range(META_PALETTE)
 
-// Add these instead:
 function clusterColor(cluster_id: number): string {
   return PALETTE[cluster_id % PALETTE.length]
 }
@@ -33,6 +27,166 @@ function allClusters(data: TopicsData): ClusterNode[] {
   return data.children.flatMap((m: MetaCategoryNode) => m.children)
 }
 
+function fixEncoding(s: string): string {
+  return s
+    .replace(/â€™/g, '\u2019').replace(/â€˜/g, '\u2018')
+    .replace(/â€œ/g, '\u201C').replace(/â€/g, '\u201D')
+    .replace(/â€"/g, '\u2013').replace(/â€"/g, '\u2014')
+    .replace(/â/g, '\u2019').replace(/Ã©/g, '\u00e9')
+    .replace(/Ã /g, '\u00e0').replace(/Ã¨/g, '\u00e8')
+    // catch remaining multi-byte mojibake via TextDecoder if available
+    .replace(/[\uFFFD]/g, '')
+}
+
+// ── Detail pane ───────────────────────────────────────────────────────────────
+
+const PANE_W = 272
+
+function DetailPane({ cluster, metaName, onClose }: {
+  cluster: ClusterNode
+  metaName: string
+  onClose: () => void
+}) {
+  const [tickerMode, setTickerMode] = useState<'named' | 'semantic'>('named')
+  const color = clusterColor(cluster.cluster_id)
+  const named = cluster.related_tickers_named ?? []
+  const semantic = cluster.related_tickers_semantic ?? []
+  const tickers: TickerInfo[] = tickerMode === 'named' ? named : semantic
+  const hasNamed = named.length > 0
+  const hasSemantic = semantic.length > 0
+  const hasAnyTickers = hasNamed || hasSemantic
+
+  return (
+    <div style={{
+      position: 'absolute', top: 0, right: 0, bottom: 0, width: PANE_W,
+      background: 'var(--white)', borderLeft: '1px solid var(--ink-6)',
+      display: 'flex', flexDirection: 'column', fontFamily: 'var(--font-ui)',
+      zIndex: 10, boxShadow: '-4px 0 16px rgba(0,0,0,0.04)',
+    }}>
+
+      {/* Header — fixed */}
+      <div style={{ flexShrink: 0, padding: '16px 16px 12px', borderBottom: '1px solid var(--ink-6)' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <p style={{
+              margin: 0, fontSize: 10, fontWeight: 600, letterSpacing: '0.06em',
+              textTransform: 'uppercase', color: 'var(--ink-4)'
+            }}>
+              {metaName}
+            </p>
+            <h3 style={{
+              margin: '4px 0 0', fontSize: 15, fontWeight: 700, color: 'var(--ink)',
+              lineHeight: 1.25, letterSpacing: '-0.01em',
+              display: '-webkit-box', WebkitLineClamp: 2,
+              WebkitBoxOrient: 'vertical', overflow: 'hidden',
+            }}>
+              {cluster.name.replace(/^"|"$/g, '')}
+            </h3>
+          </div>
+          <button onClick={onClose} style={{
+            border: 'none', background: 'transparent', cursor: 'pointer',
+            color: 'var(--ink-4)', fontSize: 18, lineHeight: 1,
+            padding: '0 4px', marginTop: -2, flexShrink: 0,
+          }}>×</button>
+        </div>
+        {/* Stats row */}
+        <div style={{ marginTop: 10, display: 'flex', gap: 20 }}>
+          {[
+            { label: 'Articles', value: cluster.count },
+            { label: 'Named', value: named.length },
+            { label: 'Semantic', value: semantic.length },
+          ].map(({ label, value }) => (
+            <div key={label}>
+              <p style={{
+                margin: 0, fontSize: 10, fontWeight: 600, letterSpacing: '0.05em',
+                textTransform: 'uppercase', color: 'var(--ink-4)'
+              }}>{label}</p>
+              <p style={{
+                margin: '1px 0 0', fontSize: 17, fontWeight: 700,
+                color: 'var(--ink)', fontVariantNumeric: 'tabular-nums'
+              }}>{value}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Tickers — fixed, no scroll */}
+      {hasAnyTickers && (
+        <div style={{ flexShrink: 0, padding: '10px 16px 12px', borderBottom: '1px solid var(--ink-6)' }}>
+          {hasNamed && hasSemantic && (
+            <div style={{
+              display: 'flex', marginBottom: 10,
+              border: '1px solid var(--ink-5)', borderRadius: 6, padding: 2, gap: 2,
+            }}>
+              {(['named', 'semantic'] as const).map(m => (
+                <button key={m} onClick={() => setTickerMode(m)} style={{
+                  flex: 1, padding: '3px 0', borderRadius: 4, border: 'none',
+                  fontSize: 11, fontWeight: 600, fontFamily: 'var(--font-ui)',
+                  cursor: 'pointer', transition: 'all .12s',
+                  background: tickerMode === m ? 'var(--ink)' : 'transparent',
+                  color: tickerMode === m ? 'var(--white)' : 'var(--ink-3)',
+                }}>
+                  {m === 'named' ? 'Named' : 'Semantic'}
+                </button>
+              ))}
+            </div>
+          )}
+          {tickers.length > 0 ? (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+              {tickers.map(t => (
+                <div key={t.ticker} style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}>
+                  <span style={{
+                    fontSize: 12, fontWeight: 700, color,
+                    letterSpacing: '0.02em', flexShrink: 0,
+                    fontVariantNumeric: 'tabular-nums',
+                  }}>{t.ticker}</span>
+                  <span style={{
+                    fontSize: 12, fontWeight: 400, color: 'var(--ink-3)',
+                    overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+                  }}>{t.name}</span>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p style={{ margin: 0, fontSize: 11, color: 'var(--ink-4)' }}>
+              No {tickerMode} tickers found
+            </p>
+          )}
+        </div>
+      )}
+
+      {/* Articles — scrollable, fills remaining height */}
+      <div style={{ flex: 1, overflowY: 'auto', minHeight: 0 }}>
+        <p style={{
+          margin: '10px 16px 6px', fontSize: 10, fontWeight: 600,
+          letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--ink-4)'
+        }}>
+          Articles
+        </p>
+        {cluster.children.map((art: ArticleNode) => (
+          <div key={art.hash} style={{ padding: '7px 16px', borderBottom: '1px solid var(--ink-7)' }}>
+            <p style={{
+              margin: 0, fontSize: 12, fontWeight: 500,
+              color: 'var(--ink)', lineHeight: 1.35
+            }}>
+              {fixEncoding(art.name.replace(/^In this article[,\s]*/i, ''))}
+            </p>
+            <p style={{
+              margin: '3px 0 0', fontSize: 10, fontWeight: 400,
+              color: 'var(--ink-4)', fontVariantNumeric: 'tabular-nums'
+            }}>
+              {art.provider} · {art.article_date.slice(0, 10)}
+            </p>
+          </div>
+        ))}
+      </div>
+
+    </div>
+  )
+}
+
+// ── Main component ────────────────────────────────────────────────────────────
+
 export default function TopicsTab() {
   const [data, setData] = useState<TopicsData | null>(null)
   const [error, setError] = useState<string | null>(null)
@@ -42,13 +196,11 @@ export default function TopicsTab() {
 
   const vizRef = useRef<HTMLDivElement>(null)
   const [width, setWidth] = useState<number | null>(null)
-  const [height, setHeight] = useState<number | null>(null)
 
   useEffect(() => {
     setData(null); setError(null); setActiveCluster(null); setActiveMeta(null)
     fetch(`${BASE}/data/topics_${mode}.json`)
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() as Promise<TopicsData> })
-      // .then(setData)
       .then(d => setData(d))
       .catch((e: Error) => setError(e.message))
   }, [mode])
@@ -59,23 +211,29 @@ export default function TopicsTab() {
     let t: ReturnType<typeof setTimeout>
     const ro = new ResizeObserver(([entry]) => {
       clearTimeout(t)
-      t = setTimeout(() => {
-        setWidth(Math.floor(entry.contentRect.width))
-        setHeight(Math.floor(entry.contentRect.height))
-      }, 60)
+      t = setTimeout(() => setWidth(Math.floor(entry.contentRect.width)), 60)
     })
     ro.observe(el)
     setWidth(Math.floor(el.getBoundingClientRect().width))
-    setHeight(Math.floor(el.getBoundingClientRect().height))
     return () => { clearTimeout(t); ro.disconnect() }
   }, [])
 
-  const toggleCluster = useCallback((id: number) =>
-    setActiveCluster(p => p === id ? null : id), [])
+  const toggleCluster = useCallback((id: number) => {
+    setActiveCluster(p => {
+      if (p === id) return null
+      if (data) {
+        const parentMeta = data.children.find((m: MetaCategoryNode) =>
+          m.children.some((c: ClusterNode) => c.cluster_id === id)
+        )
+        if (parentMeta) setActiveMeta(parentMeta.name)
+      }
+      return id
+    })
+  }, [data])
 
   const toggleMeta = useCallback((name: string) => {
     setActiveMeta(p => p === name ? null : name)
-    setActiveCluster(null) // clear cluster selection when switching meta
+    setActiveCluster(null)
   }, [])
 
   const clearAll = useCallback(() => {
@@ -89,6 +247,13 @@ export default function TopicsTab() {
     : null
 
   const hasActive = activeCluster !== null || activeMeta !== null
+
+  const selectedCluster = activeCluster !== null && data
+    ? allClusters(data).find(c => c.cluster_id === activeCluster) ?? null
+    : null
+  const selectedMeta = selectedCluster && data
+    ? data.children.find(m => m.children.some(c => c.cluster_id === activeCluster))?.name ?? ''
+    : ''
 
   return (
     <div style={{
@@ -105,7 +270,7 @@ export default function TopicsTab() {
               News Topics
             </h2>
             {updatedAt && (
-              <p style={{ fontSize: 11, color: 'var(--ink-4)', marginTop: 2, fontFamily: 'var(--font-mono)' }}>
+              <p style={{ fontSize: 11, color: 'var(--ink-4)', marginTop: 2, fontVariantNumeric: 'tabular-nums' }}>
                 {updatedAt}
               </p>
             )}
@@ -132,20 +297,23 @@ export default function TopicsTab() {
         {data && (
           <div style={{ display: 'flex', gap: 8 }}>
             {[
-              { label: 'topics', value: data.children.length },
-              { label: 'clusters', value: allClusters(data).length },
-              { label: 'articles', value: allClusters(data).reduce((s, c) => s + c.count, 0) },
-              { label: 'largest', value: Math.max(...allClusters(data).map(c => c.count)), suffix: ' art.' },
-            ].map(({ label, value, suffix }) => (
+              { label: 'Topics', value: data.children.length },
+              { label: 'Clusters', value: allClusters(data).length },
+              { label: 'Articles', value: allClusters(data).reduce((s, c) => s + c.count, 0) },
+              { label: 'Top Cluster', value: Math.max(...allClusters(data).map(c => c.count)) },
+            ].map(({ label, value }) => (
               <div key={label} style={{
                 padding: '5px 12px', borderRadius: 'var(--radius-sm)',
                 border: '1px solid var(--ink-6)', background: 'var(--ink-7)',
               }}>
-                <span style={{ fontSize: 18, fontWeight: 600, color: 'var(--ink)', fontFamily: 'var(--font-mono)' }}>
+                <span style={{
+                  fontSize: 18, fontWeight: 700, color: 'var(--ink)',
+                  fontVariantNumeric: 'tabular-nums'
+                }}>
                   {value.toLocaleString()}
                 </span>
                 <span style={{ fontSize: 11, color: 'var(--ink-4)', marginLeft: 5 }}>
-                  {suffix ?? ''}{label}
+                  {label}
                 </span>
               </div>
             ))}
@@ -153,39 +321,38 @@ export default function TopicsTab() {
         )}
       </div>
 
-      {/* ── Viz ── */}
+      {/* ── Viz + detail pane ── */}
       <div ref={vizRef} style={{ flex: 1, position: 'relative', overflow: 'hidden', minHeight: 0 }}>
         {error ? (
           <Centered><span style={{ color: '#ef4444', fontSize: 13 }}>Could not load data — {error}</span></Centered>
-          // ) : !data || !width || !height ? (
         ) : !data || !width ? (
           <Centered><span style={{ color: 'var(--ink-4)', fontSize: 13 }}>Loading…</span></Centered>
         ) : data.children.length === 0 ? (
           <Centered><span style={{ color: 'var(--ink-4)', fontSize: 13 }}>No clusters found.</span></Centered>
         ) : (
-          // <CirclePacking
-          //   data={data} width={width} height={height}
-          //   activeCluster={activeCluster} onClusterClick={toggleCluster}
-          //   activeMeta={activeMeta} onMetaClick={toggleMeta}
-          // />
-          <AutoHeightPacking
-            data={data} width={width}
-            activeCluster={activeCluster} onClusterClick={toggleCluster}
-            activeMeta={activeMeta} onMetaClick={toggleMeta}
-          />
+          <>
+            <AutoHeightPacking
+              data={data} width={width}
+              activeCluster={activeCluster} onClusterClick={toggleCluster}
+              activeMeta={activeMeta} onMetaClick={toggleMeta}
+            />
+            {selectedCluster && (
+              <DetailPane
+                cluster={selectedCluster}
+                metaName={selectedMeta}
+                onClose={clearAll}
+              />
+            )}
+          </>
         )}
       </div>
 
-      {/* ── Legend: meta-category pills, cluster pills expand on click ── */}
+      {/* ── Legend ── */}
       {data && data.children.length > 0 && (
-        <div style={{
-          flexShrink: 0, padding: '8px 0 12px',
-          borderTop: '1px solid var(--ink-6)',
-        }}>
-          {/* Meta-category pills row */}
+        <div style={{ flexShrink: 0, padding: '8px 0 12px', borderTop: '1px solid var(--ink-6)' }}>
+          {/* Meta pills */}
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5, alignItems: 'center' }}>
             {data.children.map((meta: MetaCategoryNode) => {
-              // const metaColor = metaColorScale(meta.name)
               const metaColor = metaClusterColor(meta.name)
               const metaActive = activeMeta === null || activeMeta === meta.name
               const expanded = activeMeta === meta.name
@@ -205,11 +372,13 @@ export default function TopicsTab() {
                   }}>
                   <span style={{
                     width: 6, height: 6, borderRadius: 2, flexShrink: 0,
-                    background: metaColor, opacity: metaActive ? 1 : 0.3,
-                    display: 'inline-block',
+                    background: metaColor, opacity: metaActive ? 1 : 0.3, display: 'inline-block',
                   }} />
                   {meta.name}
-                  <span style={{ opacity: 0.5, fontFamily: 'var(--font-mono)', fontWeight: 400, fontSize: 10 }}>
+                  <span style={{
+                    opacity: 0.5, fontWeight: 400, fontSize: 10,
+                    fontVariantNumeric: 'tabular-nums'
+                  }}>
                     {meta.count}
                   </span>
                   <span style={{ opacity: 0.4, fontSize: 9, marginLeft: 1 }}>
@@ -228,43 +397,40 @@ export default function TopicsTab() {
             )}
           </div>
 
-          {/* Cluster pills — only shown for the expanded meta-category */}
+          {/* Cluster pills — only for expanded meta */}
           {activeMeta !== null && (() => {
             const meta = data.children.find((m: MetaCategoryNode) => m.name === activeMeta)
             if (!meta) return null
-            // const metaColor = metaColorScale(meta.name)
             const metaColor = metaClusterColor(meta.name)
             return (
               <div style={{
                 display: 'flex', flexWrap: 'wrap', gap: 5,
                 marginTop: 6, paddingTop: 6,
-                borderTop: `1px solid ${metaColor}30`,
-                paddingLeft: 4,
+                borderTop: `1px solid ${metaColor}30`, paddingLeft: 4,
               }}>
                 {meta.children.map((c: ClusterNode) => {
-                  // const color  = colorScale(String(c.cluster_id))
-                  // const color = PALETTE[c.cluster_id % PALETTE.length]
                   const color = clusterColor(c.cluster_id)
-                  const active = activeCluster === null || activeCluster === c.cluster_id
+                  const isSelected = activeCluster === c.cluster_id
+                  const dimmed = activeCluster !== null && !isSelected
                   return (
                     <button key={c.cluster_id} onClick={() => toggleCluster(c.cluster_id)}
                       title={c.name} style={{
                         display: 'inline-flex', alignItems: 'center', gap: 5,
                         padding: '3px 10px', borderRadius: 20,
-                        border: `1px solid ${active ? color : 'var(--ink-5)'}`,
-                        background: active ? `${color}15` : 'transparent',
-                        color: active ? color : 'var(--ink-4)',
-                        fontSize: 12, fontWeight: 500, fontFamily: 'var(--font-ui)',
-                        transition: 'all .12s', cursor: 'pointer',
+                        border: `1px solid ${isSelected ? color : dimmed ? 'var(--ink-6)' : 'var(--ink-5)'}`,
+                        background: isSelected ? `${color}30` : 'transparent',
+                        color: isSelected ? color : dimmed ? 'var(--ink-5)' : 'var(--ink-4)',
+                        fontSize: 12, fontWeight: isSelected ? 700 : 500, fontFamily: 'var(--font-ui)',
+                        transition: 'all .12s', cursor: 'pointer', opacity: dimmed ? 0.5 : 1,
                       }}>
                       <span style={{
                         width: 6, height: 6, borderRadius: '50%', flexShrink: 0,
-                        background: color, opacity: active ? 1 : 0.3, display: 'inline-block',
+                        background: color, opacity: isSelected ? 1 : 0.3, display: 'inline-block',
                       }} />
                       <span style={{ maxWidth: 160, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                         {c.name}
                       </span>
-                      <span style={{ opacity: 0.45, fontFamily: 'var(--font-mono)', fontSize: 11 }}>
+                      <span style={{ opacity: 0.45, fontSize: 11, fontVariantNumeric: 'tabular-nums' }}>
                         {c.count}
                       </span>
                     </button>
@@ -279,31 +445,24 @@ export default function TopicsTab() {
   )
 }
 
+// ── Helpers ───────────────────────────────────────────────────────────────────
+
 function AutoHeightPacking({ data, width, activeCluster, onClusterClick, activeMeta, onMetaClick }: {
   data: TopicsData; width: number
   activeCluster: number | null; onClusterClick: (id: number) => void
   activeMeta: string | null; onMetaClick: (name: string) => void
 }) {
   const ref = useRef<HTMLDivElement>(null)
-
-  // const [height, setHeight] = useState<number | null>(null)
-  // Initialize synchronously to avoid second render
-  const [height, setHeight] = useState<number>(() => {
-    // Will be 0 on first render — ResizeObserver corrects it immediately
-    return 0
-  })
+  const [height, setHeight] = useState<number>(0)
 
   useEffect(() => {
     const el = ref.current
     if (!el) return
-    // Set immediately before ResizeObserver fires
     const initial = Math.floor(el.getBoundingClientRect().height)
     if (initial > 0) setHeight(initial)
-
     const ro = new ResizeObserver(([entry]) =>
       setHeight(Math.floor(entry.contentRect.height)))
     ro.observe(el)
-    setHeight(Math.floor(el.getBoundingClientRect().height))
     return () => ro.disconnect()
   }, [])
 

@@ -7,9 +7,12 @@ export interface ArticleNode {
   name: string; summary?: string; hash: string; chunk_key?: string
   article_date: string; provider: string; value: number
 }
+export interface TickerInfo { ticker: string; name: string }
 export interface ClusterNode {
   cluster_id: number; name: string; count: number
-  children: ArticleNode[]; related_tickers?: string[]
+  children: ArticleNode[]
+  related_tickers_named?: TickerInfo[]
+  related_tickers_semantic?: TickerInfo[]
 }
 export interface MetaCategoryNode {
   name: string; count: number; children: ClusterNode[]
@@ -90,7 +93,7 @@ export default function CirclePacking({
     else setInternalMeta(p => p === name ? null : name)
   }, [onMetaClick])
 
-  const showTooltip = useCallback((x: number, y: number, label: string, sub: string, extra?: string) => {
+  const showTooltip = useCallback((x: number, y: number, label: string, sub: string, extra?: string, extra2?: string) => {
     const el = tooltipRef.current
     if (!el) return
       ; (el.querySelector('[data-tt="label"]') as HTMLElement).textContent = label
@@ -98,6 +101,9 @@ export default function CirclePacking({
     const extraEl = el.querySelector('[data-tt="extra"]') as HTMLElement
     if (extra) { extraEl.textContent = extra; extraEl.style.display = 'block' }
     else { extraEl.style.display = 'none' }
+    const extra2El = el.querySelector('[data-tt="extra2"]') as HTMLElement
+    if (extra2) { extra2El.textContent = extra2; extra2El.style.display = 'block' }
+    else { extra2El.style.display = 'none' }
     el.style.left = `${x + 14}px`
     el.style.top = `${y - 10}px`
     el.style.display = 'block'
@@ -190,9 +196,17 @@ export default function CirclePacking({
             return (
               <g key={`c-${cd.cluster_id}`} style={{ cursor: 'pointer' }}
                 onClick={() => handleClusterClick(cd.cluster_id)}
-                onMouseEnter={e => showTooltip(e.clientX, e.clientY, fixEncoding(cd.name),
-                  `${cd.count} article${cd.count !== 1 ? 's' : ''}`,
-                  cd.related_tickers?.length ? cd.related_tickers.join('  ·  ') : undefined)}
+                onMouseEnter={e => {
+                  const named = cd.related_tickers_named ?? []
+                  const semantic = cd.related_tickers_semantic ?? []
+                  showTooltip(
+                    e.clientX, e.clientY,
+                    fixEncoding(cd.name),
+                    `${cd.count} article${cd.count !== 1 ? 's' : ''}`,
+                    named.length ? `Named: ${named.map(t => t.ticker).join('  ·  ')}` : undefined,
+                    semantic.length ? `Semantic: ${semantic.map(t => t.ticker).join('  ·  ')}` : undefined,
+                  )
+                }}
                 onMouseLeave={hideTooltip}
               >
                 <circle cx={node.x} cy={node.y} r={node.r}
@@ -265,6 +279,10 @@ export default function CirclePacking({
         }} />
         <p data-tt="extra" style={{
           display: 'none', margin: '5px 0 0',
+          fontSize: 11, color: '#7986cb', fontFamily: "'DM Mono',monospace"
+        }} />
+        <p data-tt="extra2" style={{
+          display: 'none', margin: '3px 0 0',
           fontSize: 11, color: '#7986cb', fontFamily: "'DM Mono',monospace"
         }} />
       </div>
