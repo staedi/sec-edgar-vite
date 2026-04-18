@@ -1,7 +1,7 @@
 {
   "name": "root",
   "mode": "full",
-  "updated_at": "2026-04-17T23:07:48.751081+00:00",
+  "updated_at": "2026-04-18T03:04:37.082882+00:00",
   "children": [
     {
       "name": "AI's Impact on Society",
@@ -473,20 +473,20 @@
               "name": "Nvidia"
             },
             {
-              "ticker": "TSLA",
-              "name": "Tesla"
+              "ticker": "GOOG",
+              "name": "Alphabet"
             },
             {
-              "ticker": "AAPL",
-              "name": "Apple"
+              "ticker": "TSLA",
+              "name": "Tesla"
             },
             {
               "ticker": "MSFT",
               "name": "Microsoft"
             },
             {
-              "ticker": "GOOG",
-              "name": "Alphabet"
+              "ticker": "AAPL",
+              "name": "Apple"
             },
             {
               "ticker": "AMZN",
@@ -716,8 +716,8 @@
               "name": "Amazon"
             },
             {
-              "ticker": "CBSH",
-              "name": "Commerce Bancshares"
+              "ticker": "GOOG",
+              "name": "Alphabet"
             },
             {
               "ticker": "NVDA",
@@ -950,6 +950,10 @@
           ],
           "related_tickers_named": [
             {
+              "ticker": "GOOG",
+              "name": "Alphabet"
+            },
+            {
               "ticker": "META",
               "name": "Meta Platforms"
             },
@@ -962,20 +966,16 @@
               "name": "Amazon"
             },
             {
+              "ticker": "NVDA",
+              "name": "Nvidia"
+            },
+            {
               "ticker": "ORCL",
               "name": "Oracle"
             },
             {
               "ticker": "AAPL",
               "name": "Apple"
-            },
-            {
-              "ticker": "TFC",
-              "name": "Truist Financial"
-            },
-            {
-              "ticker": "ACGL",
-              "name": "Arch Capital Group"
             }
           ],
           "related_tickers_semantic": [
@@ -1120,28 +1120,28 @@
               "name": "Palantir Technologies"
             },
             {
-              "ticker": "DJT",
-              "name": "Trump Media Technology Group"
-            },
-            {
               "ticker": "NVDA",
               "name": "Nvidia"
             },
             {
-              "ticker": "PANW",
-              "name": "Palo Alto Networks"
+              "ticker": "AAPL",
+              "name": "Apple"
             },
             {
-              "ticker": "FBIN",
-              "name": "Fortune Brands Innovations"
+              "ticker": "AMZN",
+              "name": "Amazon"
+            },
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet"
             },
             {
               "ticker": "MSFT",
               "name": "Microsoft"
             },
             {
-              "ticker": "AMZN",
-              "name": "Amazon"
+              "ticker": "PANW",
+              "name": "Palo Alto Networks"
             }
           ],
           "related_tickers_semantic": [
@@ -1467,14 +1467,6 @@
               "name": "Berkshire Hathaway"
             },
             {
-              "ticker": "BF-B",
-              "name": "Brown Forman"
-            },
-            {
-              "ticker": "AAL",
-              "name": "American Airlines Group"
-            },
-            {
               "ticker": "WMT",
               "name": "Walmart"
             },
@@ -1485,6 +1477,14 @@
             {
               "ticker": "DVN",
               "name": "Devon Energy"
+            },
+            {
+              "ticker": "ACGL",
+              "name": "Arch Capital Group"
+            },
+            {
+              "ticker": "RHI",
+              "name": "Robert Half"
             }
           ],
           "related_tickers_semantic": [
@@ -1619,16 +1619,16 @@
               "name": "Walmart"
             },
             {
-              "ticker": "JLL",
-              "name": "Jones Lang Lasalle"
-            },
-            {
               "ticker": "DVN",
               "name": "Devon Energy"
             },
             {
               "ticker": "ACGL",
               "name": "Arch Capital Group"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon"
             },
             {
               "ticker": "RBA",
@@ -1724,48 +1724,11 @@
           ],
           "related_tickers_named": [
             {
-              "ticker": "BK",
-              "name": "Bank of NEW York Mellon"
-            },
-            {
               "ticker": "INTU",
               "name": "Intuit"
-            },
-            {
-              "ticker": "MMM",
-              "name": "M"
             }
           ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "BFAM",
-              "name": "Bright Horizons Family Solutions I"
-            },
-            {
-              "ticker": "NU",
-              "name": "NU"
-            },
-            {
-              "ticker": "SSNC",
-              "name": "SS and C Technologies"
-            },
-            {
-              "ticker": "CAVA",
-              "name": "Cava Group"
-            },
-            {
-              "ticker": "OKE",
-              "name": "Oneok"
-            },
-            {
-              "ticker": "MRP",
-              "name": "Millrose Properties"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            }
-          ]
+          "related_tickers_semantic": []
         }
       ]
     },
@@ -2231,14 +2194,6 @@
           ],
           "related_tickers_named": [
             {
-              "ticker": "DJT",
-              "name": "Trump Media Technology Group"
-            },
-            {
-              "ticker": "UAL",
-              "name": "United Airlines"
-            },
-            {
               "ticker": "NVDA",
               "name": "Nvidia"
             },
@@ -2247,16 +2202,24 @@
               "name": "Central Bancompany"
             },
             {
+              "ticker": "GOOG",
+              "name": "Alphabet"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon"
+            },
+            {
+              "ticker": "MSFT",
+              "name": "Microsoft"
+            },
+            {
+              "ticker": "UAL",
+              "name": "United Airlines"
+            },
+            {
               "ticker": "SPGI",
               "name": "S P Global"
-            },
-            {
-              "ticker": "ORI",
-              "name": "OLD Republic International"
-            },
-            {
-              "ticker": "RBA",
-              "name": "RB Global"
             }
           ],
           "related_tickers_semantic": [
@@ -2752,28 +2715,28 @@
               "name": "Central Bancompany"
             },
             {
-              "ticker": "BAC",
-              "name": "Bank of America"
-            },
-            {
               "ticker": "GS",
               "name": "Goldman Sachs Group"
             },
             {
-              "ticker": "RBA",
-              "name": "RB Global"
+              "ticker": "BAC",
+              "name": "Bank of America"
             },
             {
-              "ticker": "DJT",
-              "name": "Trump Media Technology Group"
+              "ticker": "MCO",
+              "name": "Moodys"
             },
             {
-              "ticker": "CNM",
-              "name": "Core Main"
+              "ticker": "MS",
+              "name": "Morgan Stanley"
             },
             {
-              "ticker": "ACGL",
-              "name": "Arch Capital Group"
+              "ticker": "CME",
+              "name": "CME Group"
+            },
+            {
+              "ticker": "TFC",
+              "name": "Truist Financial"
             }
           ],
           "related_tickers_semantic": [
@@ -3098,10 +3061,6 @@
               "name": "Nvidia"
             },
             {
-              "ticker": "SPGI",
-              "name": "S P Global"
-            },
-            {
               "ticker": "JPM",
               "name": "Jpmorgan Chase"
             },
@@ -3110,16 +3069,20 @@
               "name": "Wells Fargo"
             },
             {
-              "ticker": "DOW",
-              "name": "DOW"
-            },
-            {
               "ticker": "NDAQ",
               "name": "Nasdaq"
             },
             {
-              "ticker": "BLK",
-              "name": "Blackrock"
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
+            },
+            {
+              "ticker": "MS",
+              "name": "Morgan Stanley"
+            },
+            {
+              "ticker": "BAC",
+              "name": "Bank of America"
             }
           ],
           "related_tickers_semantic": [
@@ -3350,16 +3313,20 @@
           ],
           "related_tickers_named": [
             {
+              "ticker": "DIS",
+              "name": "Walt Disney"
+            },
+            {
+              "ticker": "NFLX",
+              "name": "Netflix"
+            },
+            {
               "ticker": "WBD",
               "name": "Warner Bros Discovery Series"
             },
             {
               "ticker": "AMZN",
               "name": "Amazon"
-            },
-            {
-              "ticker": "NFLX",
-              "name": "Netflix"
             },
             {
               "ticker": "AAPL",
@@ -3370,12 +3337,8 @@
               "name": "Versant Media Group"
             },
             {
-              "ticker": "CFG",
-              "name": "Citizens Financial Group"
-            },
-            {
-              "ticker": "EXR",
-              "name": "Extra Space Storage Reit"
+              "ticker": "CMCSA",
+              "name": "Comcast"
             }
           ],
           "related_tickers_semantic": [
@@ -3606,14 +3569,6 @@
               "name": "United Airlines"
             },
             {
-              "ticker": "DAL",
-              "name": "Delta AIR Lines"
-            },
-            {
-              "ticker": "AAL",
-              "name": "American Airlines Group"
-            },
-            {
               "ticker": "KEX",
               "name": "Kirby"
             },
@@ -3622,8 +3577,16 @@
               "name": "Carrier Global"
             },
             {
+              "ticker": "DAL",
+              "name": "Delta AIR Lines"
+            },
+            {
               "ticker": "LUV",
               "name": "Southwest Airlines"
+            },
+            {
+              "ticker": "AAL",
+              "name": "American Airlines Group"
             },
             {
               "ticker": "AMZN",
@@ -3844,28 +3807,28 @@
               "name": "Apollo Global Management"
             },
             {
-              "ticker": "ARES",
-              "name": "Ares Management"
-            },
-            {
               "ticker": "OWL",
               "name": "Blue OWL Capital"
-            },
-            {
-              "ticker": "BLK",
-              "name": "Blackrock"
             },
             {
               "ticker": "MS",
               "name": "Morgan Stanley"
             },
             {
-              "ticker": "MSTR",
-              "name": "Strategy"
+              "ticker": "ARES",
+              "name": "Ares Management"
             },
             {
               "ticker": "CRM",
               "name": "Salesforce"
+            },
+            {
+              "ticker": "MCO",
+              "name": "Moodys"
+            },
+            {
+              "ticker": "BX",
+              "name": "Blackstone"
             }
           ],
           "related_tickers_semantic": [
@@ -4050,20 +4013,20 @@
               "name": "Revolution Medicines"
             },
             {
-              "ticker": "NOV",
-              "name": "NOV"
-            },
-            {
-              "ticker": "DJT",
-              "name": "Trump Media Technology Group"
+              "ticker": "WBD",
+              "name": "Warner Bros Discovery Series"
             },
             {
               "ticker": "F",
               "name": "Ford Motor"
             },
             {
-              "ticker": "ABT",
-              "name": "Abbott Laboratories"
+              "ticker": "NFLX",
+              "name": "Netflix"
+            },
+            {
+              "ticker": "NVDA",
+              "name": "Nvidia"
             }
           ],
           "related_tickers_semantic": [
@@ -4231,10 +4194,6 @@
           ],
           "related_tickers_named": [
             {
-              "ticker": "DJT",
-              "name": "Trump Media Technology Group"
-            },
-            {
               "ticker": "HOOD",
               "name": "Robinhood Markets"
             },
@@ -4249,10 +4208,6 @@
             {
               "ticker": "CME",
               "name": "CME Group"
-            },
-            {
-              "ticker": "RBA",
-              "name": "RB Global"
             }
           ],
           "related_tickers_semantic": [
@@ -4428,24 +4383,24 @@
               "name": "General Motors"
             },
             {
-              "ticker": "TSLA",
-              "name": "Tesla"
-            },
-            {
               "ticker": "AAPL",
               "name": "Apple"
             },
             {
-              "ticker": "UAL",
-              "name": "United Airlines"
+              "ticker": "SPGI",
+              "name": "S P Global"
             },
             {
-              "ticker": "AS",
-              "name": "Amer Sports"
+              "ticker": "PNFP",
+              "name": "Pinnacle Financial Partners"
             },
             {
-              "ticker": "AEP",
-              "name": "American Electric Power"
+              "ticker": "TSLA",
+              "name": "Tesla"
+            },
+            {
+              "ticker": "CB",
+              "name": "Chubb"
             }
           ],
           "related_tickers_semantic": [
@@ -4600,14 +4555,6 @@
           ],
           "related_tickers_named": [
             {
-              "ticker": "RBA",
-              "name": "RB Global"
-            },
-            {
-              "ticker": "SPGI",
-              "name": "S P Global"
-            },
-            {
               "ticker": "BX",
               "name": "Blackstone"
             },
@@ -4616,16 +4563,24 @@
               "name": "Morgan Stanley"
             },
             {
-              "ticker": "CF",
-              "name": "CF Industries"
+              "ticker": "SPGI",
+              "name": "S P Global"
             },
             {
-              "ticker": "RS",
-              "name": "Reliance Steel Aluminum"
+              "ticker": "RBA",
+              "name": "RB Global"
+            },
+            {
+              "ticker": "C",
+              "name": "Citigroup"
             },
             {
               "ticker": "WMT",
               "name": "Walmart"
+            },
+            {
+              "ticker": "VRSK",
+              "name": "Verisk Analytics"
             }
           ],
           "related_tickers_semantic": [
@@ -4796,6 +4751,10 @@
               "name": "Goldman Sachs Group"
             },
             {
+              "ticker": "WFC",
+              "name": "Wells Fargo"
+            },
+            {
               "ticker": "MS",
               "name": "Morgan Stanley"
             },
@@ -4804,12 +4763,8 @@
               "name": "Citigroup"
             },
             {
-              "ticker": "WFC",
-              "name": "Wells Fargo"
-            },
-            {
-              "ticker": "ARES",
-              "name": "Ares Management"
+              "ticker": "RVMD",
+              "name": "Revolution Medicines"
             }
           ],
           "related_tickers_semantic": [
@@ -4959,32 +4914,32 @@
           ],
           "related_tickers_named": [
             {
-              "ticker": "DJT",
-              "name": "Trump Media Technology Group"
-            },
-            {
-              "ticker": "UAL",
-              "name": "United Airlines"
-            },
-            {
               "ticker": "WMT",
               "name": "Walmart"
-            },
-            {
-              "ticker": "PG",
-              "name": "Procter Gamble"
             },
             {
               "ticker": "F",
               "name": "Ford Motor"
             },
             {
-              "ticker": "AIG",
-              "name": "American International Group"
+              "ticker": "PG",
+              "name": "Procter Gamble"
             },
             {
               "ticker": "GS",
               "name": "Goldman Sachs Group"
+            },
+            {
+              "ticker": "UAL",
+              "name": "United Airlines"
+            },
+            {
+              "ticker": "MCO",
+              "name": "Moodys"
+            },
+            {
+              "ticker": "THO",
+              "name": "Thor Industries"
             }
           ],
           "related_tickers_semantic": [
@@ -5093,28 +5048,28 @@
               "name": "Builders Firstsource"
             },
             {
-              "ticker": "TPL",
-              "name": "Texas Pacific Land"
+              "ticker": "WFC",
+              "name": "Wells Fargo"
             },
             {
-              "ticker": "HD",
-              "name": "Home Depot"
+              "ticker": "BAC",
+              "name": "Bank of America"
             },
             {
               "ticker": "APO",
               "name": "Apollo Global Management"
             },
             {
-              "ticker": "WST",
-              "name": "West Pharmaceutical Services"
+              "ticker": "AXP",
+              "name": "American Express"
+            },
+            {
+              "ticker": "JPM",
+              "name": "Jpmorgan Chase"
             },
             {
               "ticker": "RBA",
               "name": "RB Global"
-            },
-            {
-              "ticker": "WFC",
-              "name": "Wells Fargo"
             }
           ],
           "related_tickers_semantic": [
@@ -5200,6 +5155,10 @@
             {
               "ticker": "REGN",
               "name": "Regeneron Pharmaceuticals"
+            },
+            {
+              "ticker": "META",
+              "name": "Meta Platforms"
             }
           ],
           "related_tickers_semantic": []
@@ -5389,10 +5348,6 @@
           ],
           "related_tickers_named": [
             {
-              "ticker": "DJT",
-              "name": "Trump Media Technology Group"
-            },
-            {
               "ticker": "HOOD",
               "name": "Robinhood Markets"
             },
@@ -5409,12 +5364,16 @@
               "name": "Truist Financial"
             },
             {
-              "ticker": "SCI",
-              "name": "Service"
+              "ticker": "SOFI",
+              "name": "Sofi Technologies"
             },
             {
-              "ticker": "BILL",
-              "name": "Bill"
+              "ticker": "BAC",
+              "name": "Bank of America"
+            },
+            {
+              "ticker": "SCHW",
+              "name": "Charles Schwab"
             }
           ],
           "related_tickers_semantic": [
@@ -5609,32 +5568,28 @@
           ],
           "related_tickers_named": [
             {
-              "ticker": "BILL",
-              "name": "Bill"
-            },
-            {
               "ticker": "INTU",
               "name": "Intuit"
-            },
-            {
-              "ticker": "FRT",
-              "name": "Federal Realty Investment Trust RE"
             },
             {
               "ticker": "CHTR",
               "name": "Charter Communications"
             },
             {
-              "ticker": "SNA",
-              "name": "Snap ON"
+              "ticker": "PRU",
+              "name": "Prudential Financial"
             },
             {
-              "ticker": "BLK",
-              "name": "Blackrock"
+              "ticker": "JHG",
+              "name": "Janus Henderson Group PLC"
             },
             {
-              "ticker": "HAYW",
-              "name": "Hayward"
+              "ticker": "SLM",
+              "name": "SLM"
+            },
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet"
             }
           ],
           "related_tickers_semantic": [
@@ -5826,32 +5781,32 @@
           ],
           "related_tickers_named": [
             {
-              "ticker": "DJT",
-              "name": "Trump Media Technology Group"
-            },
-            {
               "ticker": "BLDR",
               "name": "Builders Firstsource"
             },
             {
-              "ticker": "TSLA",
-              "name": "Tesla"
+              "ticker": "ALAB",
+              "name": "Astera Labs"
             },
             {
-              "ticker": "BILL",
-              "name": "Bill"
+              "ticker": "KEX",
+              "name": "Kirby"
             },
             {
-              "ticker": "JCI",
-              "name": "Johnson Controls International PLC"
+              "ticker": "ALK",
+              "name": "Alaska AIR Group"
             },
             {
-              "ticker": "ORI",
-              "name": "OLD Republic International"
+              "ticker": "UAL",
+              "name": "United Airlines"
             },
             {
-              "ticker": "SO",
-              "name": "Southern"
+              "ticker": "JPM",
+              "name": "Jpmorgan Chase"
+            },
+            {
+              "ticker": "CARR",
+              "name": "Carrier Global"
             }
           ],
           "related_tickers_semantic": [
@@ -6037,60 +5992,15 @@
           ],
           "related_tickers_named": [
             {
-              "ticker": "DJT",
-              "name": "Trump Media Technology Group"
-            },
-            {
-              "ticker": "COLM",
-              "name": "Columbia Sportswear"
-            },
-            {
-              "ticker": "BRO",
-              "name": "Brown Brown"
-            },
-            {
               "ticker": "MS",
               "name": "Morgan Stanley"
-            },
-            {
-              "ticker": "MLI",
-              "name": "Mueller Industries"
             },
             {
               "ticker": "CBC",
               "name": "Central Bancompany"
             }
           ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "PNC",
-              "name": "PNC Financial Services Group"
-            },
-            {
-              "ticker": "JPM",
-              "name": "Jpmorgan Chase"
-            },
-            {
-              "ticker": "BAC",
-              "name": "Bank of America"
-            },
-            {
-              "ticker": "STT",
-              "name": "State Street"
-            },
-            {
-              "ticker": "KEY",
-              "name": "Keycorp"
-            },
-            {
-              "ticker": "BPOP",
-              "name": "Popular"
-            },
-            {
-              "ticker": "WFC",
-              "name": "Wells Fargo"
-            }
-          ]
+          "related_tickers_semantic": []
         },
         {
           "cluster_id": 12,
@@ -6188,58 +6098,8 @@
               "value": 1
             }
           ],
-          "related_tickers_named": [
-            {
-              "ticker": "DJT",
-              "name": "Trump Media Technology Group"
-            },
-            {
-              "ticker": "UAL",
-              "name": "United Airlines"
-            },
-            {
-              "ticker": "GTES",
-              "name": "Gates Industrial PLC"
-            },
-            {
-              "ticker": "FOX",
-              "name": "FOX"
-            },
-            {
-              "ticker": "NSA",
-              "name": "National Storage Affiliates Trust"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "NFLX",
-              "name": "Netflix"
-            },
-            {
-              "ticker": "ADBE",
-              "name": "Adobe"
-            }
-          ]
+          "related_tickers_named": [],
+          "related_tickers_semantic": []
         }
       ]
     }
