@@ -1,7 +1,7 @@
 {
   "name": "root",
   "mode": "full",
-  "updated_at": "2026-04-18T03:04:37.082882+00:00",
+  "updated_at": "2026-04-18T14:15:05.965599+00:00",
   "children": [
     {
       "name": "AI's Impact on Society",
@@ -490,7 +490,7 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             }
           ],
           "related_tickers_semantic": [
@@ -508,11 +508,11 @@
             },
             {
               "ticker": "UNH",
-              "name": "Unitedhealth Group"
+              "name": "UnitedHealth Group"
             },
             {
               "ticker": "TXN",
-              "name": "Texas Instrument"
+              "name": "Texas Instruments"
             },
             {
               "ticker": "AMKR",
@@ -713,7 +713,7 @@
           "related_tickers_named": [
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "GOOG",
@@ -725,7 +725,7 @@
             },
             {
               "ticker": "FDX",
-              "name": "Fedex"
+              "name": "FedEx"
             },
             {
               "ticker": "ADBE",
@@ -737,7 +737,7 @@
             },
             {
               "ticker": "CTSH",
-              "name": "Cognizant Technology Solutions COR"
+              "name": "Cognizant Technology Solutions"
             }
           ],
           "related_tickers_semantic": [
@@ -747,7 +747,7 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "MSFT",
@@ -954,16 +954,16 @@
               "name": "Alphabet"
             },
             {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
               "ticker": "META",
               "name": "Meta Platforms"
             },
             {
               "ticker": "MSFT",
               "name": "Microsoft"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon"
             },
             {
               "ticker": "NVDA",
@@ -993,7 +993,7 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "NFLX",
@@ -1124,24 +1124,24 @@
               "name": "Nvidia"
             },
             {
-              "ticker": "AAPL",
-              "name": "Apple"
+              "ticker": "CRWD",
+              "name": "CrowdStrike"
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
+              "name": "Amazon.com"
             },
             {
               "ticker": "MSFT",
               "name": "Microsoft"
             },
             {
-              "ticker": "PANW",
-              "name": "Palo Alto Networks"
+              "ticker": "GOOG",
+              "name": "Alphabet"
+            },
+            {
+              "ticker": "AAPL",
+              "name": "Apple"
             }
           ],
           "related_tickers_semantic": [
@@ -1155,7 +1155,7 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "GOOG",
@@ -1494,11 +1494,11 @@
             },
             {
               "ticker": "MSM",
-              "name": "MSC Industrial"
+              "name": "MSC Industrial Direct"
             },
             {
               "ticker": "AMAT",
-              "name": "Applied Material"
+              "name": "Applied Materials"
             },
             {
               "ticker": "BA",
@@ -1627,12 +1627,12 @@
               "name": "Arch Capital Group"
             },
             {
-              "ticker": "AMZN",
-              "name": "Amazon"
-            },
-            {
               "ticker": "RBA",
               "name": "RB Global"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
             }
           ],
           "related_tickers_semantic": [
@@ -1642,7 +1642,7 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "TGT",
@@ -1654,7 +1654,7 @@
             },
             {
               "ticker": "JAZZ",
-              "name": "Jazz Pharmaceuticals PLC"
+              "name": "Jazz Pharmaceuticals"
             },
             {
               "ticker": "WMT",
@@ -2207,7 +2207,7 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "MSFT",
@@ -2219,7 +2219,7 @@
             },
             {
               "ticker": "SPGI",
-              "name": "S P Global"
+              "name": "S&P Global"
             }
           ],
           "related_tickers_semantic": [
@@ -2229,7 +2229,7 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "MSFT",
@@ -2237,7 +2237,7 @@
             },
             {
               "ticker": "JPM",
-              "name": "Jpmorgan Chase"
+              "name": "JPMorgan Chase"
             },
             {
               "ticker": "MRK",
@@ -2724,7 +2724,7 @@
             },
             {
               "ticker": "MCO",
-              "name": "Moodys"
+              "name": "Moody's"
             },
             {
               "ticker": "MS",
@@ -2754,11 +2754,11 @@
             },
             {
               "ticker": "UNH",
-              "name": "Unitedhealth Group"
+              "name": "UnitedHealth Group"
             },
             {
               "ticker": "JAZZ",
-              "name": "Jazz Pharmaceuticals PLC"
+              "name": "Jazz Pharmaceuticals"
             },
             {
               "ticker": "COO",
@@ -3062,7 +3062,7 @@
             },
             {
               "ticker": "JPM",
-              "name": "Jpmorgan Chase"
+              "name": "JPMorgan Chase"
             },
             {
               "ticker": "WFC",
@@ -3088,7 +3088,7 @@
           "related_tickers_semantic": [
             {
               "ticker": "BLK",
-              "name": "Blackrock"
+              "name": "BlackRock"
             },
             {
               "ticker": "MSFT",
@@ -3096,11 +3096,11 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "JHX",
-              "name": "James Hardie Industries PLC"
+              "name": "James Hardie Industries"
             },
             {
               "ticker": "HLI",
@@ -3108,7 +3108,7 @@
             },
             {
               "ticker": "EQIX",
-              "name": "Equinix Reit"
+              "name": "Equinix"
             },
             {
               "ticker": "BX",
@@ -3317,16 +3317,16 @@
               "name": "Walt Disney"
             },
             {
+              "ticker": "WBD",
+              "name": "Warner Bros Discovery"
+            },
+            {
               "ticker": "NFLX",
               "name": "Netflix"
             },
             {
-              "ticker": "WBD",
-              "name": "Warner Bros Discovery Series"
-            },
-            {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "AAPL",
@@ -3348,7 +3348,7 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "NFLX",
@@ -3577,12 +3577,12 @@
               "name": "Carrier Global"
             },
             {
-              "ticker": "DAL",
-              "name": "Delta AIR Lines"
-            },
-            {
               "ticker": "LUV",
               "name": "Southwest Airlines"
+            },
+            {
+              "ticker": "DAL",
+              "name": "Delta Air Lines"
             },
             {
               "ticker": "AAL",
@@ -3590,17 +3590,17 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             }
           ],
           "related_tickers_semantic": [
             {
               "ticker": "DAL",
-              "name": "Delta AIR Lines"
+              "name": "Delta Air Lines"
             },
             {
               "ticker": "ALK",
-              "name": "Alaska AIR Group"
+              "name": "Alaska Air Group"
             },
             {
               "ticker": "AL",
@@ -3808,7 +3808,7 @@
             },
             {
               "ticker": "OWL",
-              "name": "Blue OWL Capital"
+              "name": "Blue Owl Capital"
             },
             {
               "ticker": "MS",
@@ -3824,7 +3824,7 @@
             },
             {
               "ticker": "MCO",
-              "name": "Moodys"
+              "name": "Moody's"
             },
             {
               "ticker": "BX",
@@ -3854,7 +3854,7 @@
             },
             {
               "ticker": "SSNC",
-              "name": "SS and C Technologies"
+              "name": "SS&C Technologies"
             }
           ]
         },
@@ -4002,7 +4002,7 @@
           "related_tickers_named": [
             {
               "ticker": "LLY",
-              "name": "ELI Lilly"
+              "name": "Eli Lilly and"
             },
             {
               "ticker": "MRK",
@@ -4014,19 +4014,19 @@
             },
             {
               "ticker": "WBD",
-              "name": "Warner Bros Discovery Series"
+              "name": "Warner Bros Discovery"
             },
             {
               "ticker": "F",
               "name": "Ford Motor"
             },
             {
-              "ticker": "NFLX",
-              "name": "Netflix"
-            },
-            {
               "ticker": "NVDA",
               "name": "Nvidia"
+            },
+            {
+              "ticker": "NFLX",
+              "name": "Netflix"
             }
           ],
           "related_tickers_semantic": [
@@ -4048,7 +4048,7 @@
             },
             {
               "ticker": "JAZZ",
-              "name": "Jazz Pharmaceuticals PLC"
+              "name": "Jazz Pharmaceuticals"
             },
             {
               "ticker": "GILD",
@@ -4225,7 +4225,7 @@
             },
             {
               "ticker": "JPM",
-              "name": "Jpmorgan Chase"
+              "name": "JPMorgan Chase"
             },
             {
               "ticker": "GS",
@@ -4388,19 +4388,19 @@
             },
             {
               "ticker": "SPGI",
-              "name": "S P Global"
+              "name": "S&P Global"
             },
             {
               "ticker": "PNFP",
               "name": "Pinnacle Financial Partners"
             },
             {
-              "ticker": "TSLA",
-              "name": "Tesla"
+              "ticker": "CB",
+              "name": "Chubb Limited"
             },
             {
-              "ticker": "CB",
-              "name": "Chubb"
+              "ticker": "C",
+              "name": "Citigroup"
             }
           ],
           "related_tickers_semantic": [
@@ -4418,11 +4418,11 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "PEP",
-              "name": "Pepsico"
+              "name": "PepsiCo"
             },
             {
               "ticker": "MRK",
@@ -4564,7 +4564,7 @@
             },
             {
               "ticker": "SPGI",
-              "name": "S P Global"
+              "name": "S&P Global"
             },
             {
               "ticker": "RBA",
@@ -4594,7 +4594,7 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "GOOG",
@@ -4610,7 +4610,7 @@
             },
             {
               "ticker": "JHX",
-              "name": "James Hardie Industries PLC"
+              "name": "James Hardie Industries"
             }
           ]
         },
@@ -4740,7 +4740,7 @@
           "related_tickers_named": [
             {
               "ticker": "JPM",
-              "name": "Jpmorgan Chase"
+              "name": "JPMorgan Chase"
             },
             {
               "ticker": "BAC",
@@ -4751,16 +4751,16 @@
               "name": "Goldman Sachs Group"
             },
             {
+              "ticker": "C",
+              "name": "Citigroup"
+            },
+            {
               "ticker": "WFC",
               "name": "Wells Fargo"
             },
             {
               "ticker": "MS",
               "name": "Morgan Stanley"
-            },
-            {
-              "ticker": "C",
-              "name": "Citigroup"
             },
             {
               "ticker": "RVMD",
@@ -4782,11 +4782,11 @@
             },
             {
               "ticker": "STWD",
-              "name": "Starwood Property Trust Reit"
+              "name": "Starwood Property Trust"
             },
             {
               "ticker": "JHX",
-              "name": "James Hardie Industries PLC"
+              "name": "James Hardie Industries"
             },
             {
               "ticker": "EVR",
@@ -4794,7 +4794,7 @@
             },
             {
               "ticker": "TIGO",
-              "name": "Millicom International Cellular SA"
+              "name": "Millicom International"
             }
           ]
         },
@@ -4918,28 +4918,28 @@
               "name": "Walmart"
             },
             {
-              "ticker": "F",
-              "name": "Ford Motor"
-            },
-            {
               "ticker": "PG",
               "name": "Procter Gamble"
             },
             {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
+              "ticker": "F",
+              "name": "Ford Motor"
             },
             {
               "ticker": "UAL",
               "name": "United Airlines"
             },
             {
-              "ticker": "MCO",
-              "name": "Moodys"
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
             },
             {
-              "ticker": "THO",
-              "name": "Thor Industries"
+              "ticker": "MCO",
+              "name": "Moody's"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
             }
           ],
           "related_tickers_semantic": [
@@ -4949,7 +4949,7 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "MSFT",
@@ -4957,7 +4957,7 @@
             },
             {
               "ticker": "JPM",
-              "name": "Jpmorgan Chase"
+              "name": "JPMorgan Chase"
             },
             {
               "ticker": "V",
@@ -4969,7 +4969,7 @@
             },
             {
               "ticker": "PYPL",
-              "name": "Paypal"
+              "name": "PayPal"
             }
           ]
         },
@@ -5045,31 +5045,31 @@
           "related_tickers_named": [
             {
               "ticker": "BLDR",
-              "name": "Builders Firstsource"
+              "name": "Builders FirstSource"
+            },
+            {
+              "ticker": "JPM",
+              "name": "JPMorgan Chase"
+            },
+            {
+              "ticker": "RBA",
+              "name": "RB Global"
             },
             {
               "ticker": "WFC",
               "name": "Wells Fargo"
             },
             {
-              "ticker": "BAC",
-              "name": "Bank of America"
+              "ticker": "AXP",
+              "name": "American Express"
             },
             {
               "ticker": "APO",
               "name": "Apollo Global Management"
             },
             {
-              "ticker": "AXP",
-              "name": "American Express"
-            },
-            {
-              "ticker": "JPM",
-              "name": "Jpmorgan Chase"
-            },
-            {
-              "ticker": "RBA",
-              "name": "RB Global"
+              "ticker": "BAC",
+              "name": "Bank of America"
             }
           ],
           "related_tickers_semantic": [
@@ -5079,15 +5079,15 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "CBRE",
-              "name": "Cbre Group"
+              "name": "CBRE Group"
             },
             {
               "ticker": "JLL",
-              "name": "Jones Lang Lasalle"
+              "name": "Jones Lang LaSalle"
             },
             {
               "ticker": "GS",
@@ -5357,23 +5357,23 @@
             },
             {
               "ticker": "JPM",
-              "name": "Jpmorgan Chase"
+              "name": "JPMorgan Chase"
             },
             {
               "ticker": "TFC",
               "name": "Truist Financial"
             },
             {
-              "ticker": "SOFI",
-              "name": "Sofi Technologies"
+              "ticker": "SCHW",
+              "name": "Charles Schwab"
             },
             {
               "ticker": "BAC",
               "name": "Bank of America"
             },
             {
-              "ticker": "SCHW",
-              "name": "Charles Schwab"
+              "ticker": "SOFI",
+              "name": "SoFi Technologies"
             }
           ],
           "related_tickers_semantic": [
@@ -5383,7 +5383,7 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "MSFT",
@@ -5395,11 +5395,11 @@
             },
             {
               "ticker": "JPM",
-              "name": "Jpmorgan Chase"
+              "name": "JPMorgan Chase"
             },
             {
               "ticker": "PYPL",
-              "name": "Paypal"
+              "name": "PayPal"
             },
             {
               "ticker": "NFLX",
@@ -5581,7 +5581,7 @@
             },
             {
               "ticker": "JHG",
-              "name": "Janus Henderson Group PLC"
+              "name": "Janus Henderson Group"
             },
             {
               "ticker": "SLM",
@@ -5599,7 +5599,7 @@
             },
             {
               "ticker": "AMZN",
-              "name": "Amazon"
+              "name": "Amazon.com"
             },
             {
               "ticker": "MSFT",
@@ -5607,11 +5607,11 @@
             },
             {
               "ticker": "JPM",
-              "name": "Jpmorgan Chase"
+              "name": "JPMorgan Chase"
             },
             {
               "ticker": "VTR",
-              "name": "Ventas Reit"
+              "name": "Ventas"
             },
             {
               "ticker": "CVS",
@@ -5782,11 +5782,15 @@
           "related_tickers_named": [
             {
               "ticker": "BLDR",
-              "name": "Builders Firstsource"
+              "name": "Builders FirstSource"
             },
             {
               "ticker": "ALAB",
-              "name": "Astera Labs"
+              "name": "Astera Labs,"
+            },
+            {
+              "ticker": "AAL",
+              "name": "American Airlines Group"
             },
             {
               "ticker": "KEX",
@@ -5794,7 +5798,7 @@
             },
             {
               "ticker": "ALK",
-              "name": "Alaska AIR Group"
+              "name": "Alaska Air Group"
             },
             {
               "ticker": "UAL",
@@ -5802,11 +5806,7 @@
             },
             {
               "ticker": "JPM",
-              "name": "Jpmorgan Chase"
-            },
-            {
-              "ticker": "CARR",
-              "name": "Carrier Global"
+              "name": "JPMorgan Chase"
             }
           ],
           "related_tickers_semantic": [
