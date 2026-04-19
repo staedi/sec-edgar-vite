@@ -1,0 +1,6442 @@
+{
+  "mode": "full",
+  "updated_at": "2026-04-19T13:52:17.946675+00:00",
+  "entities": [
+    {
+      "entity": "Nvidia",
+      "ticker": "NVDA",
+      "pos": 91,
+      "neg": 15,
+      "neu": 1,
+      "total": 107,
+      "score": 0.71,
+      "categories": {
+        "Business": {
+          "pos": 87,
+          "neg": 14,
+          "neu": 1
+        },
+        "Bankruptcy": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 0
+        },
+        "Company": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 49,
+          "neg": 5,
+          "neu": 0,
+          "total": 54,
+          "score": 0.815
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 10,
+          "neg": 3,
+          "neu": 0,
+          "total": 13,
+          "score": 0.538
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 8,
+          "neg": 1,
+          "neu": 0,
+          "total": 9,
+          "score": 0.778
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 2,
+          "neu": 0,
+          "total": 5,
+          "score": 0.2
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 4,
+          "neg": 0,
+          "neu": 0,
+          "total": 4,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 24,
+          "label": "EV Demand Boosted by Crisis",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 2,
+          "neu": 0,
+          "total": 3,
+          "score": -0.333
+        },
+        {
+          "cluster_id": 7,
+          "label": "Anthropic's AI Amid Government Tensions",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 1,
+          "neu": 0,
+          "total": 2,
+          "score": 0.0
+        },
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 8,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Nvidia's once-tight bond with gamers is cracking over AI: 'That breaks my heart'",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Perspective: AI demand is inflated, and only Anthropic is being realistic",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The Nasdaq's win streak, Netflix earnings and more: Morning Squawk",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Nvidia AI chip rivals attract record funding as competition heats up",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "JPMorgan",
+      "ticker": "JPM",
+      "pos": 35,
+      "neg": 2,
+      "neu": 0,
+      "total": 37,
+      "score": 0.892,
+      "categories": {
+        "Business": {
+          "pos": 35,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 23,
+          "neg": 1,
+          "neu": 0,
+          "total": 24,
+          "score": 0.917
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 5,
+          "neg": 0,
+          "neu": 0,
+          "total": 5,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 11,
+          "label": "Mortgage Rates and Housing Market",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 6,
+          "label": "US Government Shutdown Continues",
+          "meta_category": "Washington Scandals",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Dimon says Anthropic's Mythos reveals 'more vulnerabilities' for cyberattacks",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "JPMorgan tops estimates on Wall Street results, Dimon warns of 'complex' risks",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Cramer warns of ‘overconfident’ market after U.S.-Iran ceasefire",
+          "date": "2026-04-09 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Jamie Dimon in annual letter cites risks in geopolitics, AI and private markets",
+          "date": "2026-04-05 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Zohran Mamdani and the business exodus? NYC office market is up under new mayor",
+          "date": "2026-04-04 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Amazon",
+      "ticker": "AMZN",
+      "pos": 44,
+      "neg": 5,
+      "neu": 1,
+      "total": 50,
+      "score": 0.78,
+      "categories": {
+        "Business": {
+          "pos": 44,
+          "neg": 5,
+          "neu": 1
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 24,
+          "neg": 5,
+          "neu": 0,
+          "total": 29,
+          "score": 0.655
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 6,
+          "neg": 0,
+          "neu": 0,
+          "total": 6,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 5,
+          "neg": 0,
+          "neu": 0,
+          "total": 5,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 4,
+          "neg": 0,
+          "neu": 0,
+          "total": 4,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 0,
+          "label": "\"Streaming's Profitability and Growth Concerns\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 1,
+          "total": 2,
+          "score": 0.5
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 18,
+          "label": "Entrepreneurship in the AI Era",
+          "meta_category": "Empowering Future Leaders",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 9,
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "OpenAI loses two executives in latest leadership shakeup",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "TSMC and ASML failed to rally on strong earnings reports. Here's why",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The new big tech concentration risk is in bond market, and it's here to stay",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Nvidia AI chip rivals attract record funding as competition heats up",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Intel",
+      "ticker": "INTC",
+      "pos": 15,
+      "neg": 0,
+      "neu": 0,
+      "total": 15,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 14,
+          "neg": 0,
+          "neu": 0
+        },
+        "Company": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 11,
+          "neg": 0,
+          "neu": 0,
+          "total": 11,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Jim Cramer on the market's 'remarkable' rally — and what to watch ahead",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "TSMC and ASML failed to rally on strong earnings reports. Here's why",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The new big tech concentration risk is in bond market, and it's here to stay",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Intel stock on historic 9-day winning streak, up 58% over that run",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Trump warns Iran '48 hours before all Hell will reign down on them'",
+          "date": "2026-04-03 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Morgan Stanley",
+      "ticker": "MS",
+      "pos": 28,
+      "neg": 4,
+      "neu": 1,
+      "total": 33,
+      "score": 0.727,
+      "categories": {
+        "Business": {
+          "pos": 23,
+          "neg": 3,
+          "neu": 1
+        },
+        "Banking": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 4,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 7,
+          "neg": 1,
+          "neu": 0,
+          "total": 8,
+          "score": 0.75
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 5,
+          "neg": 1,
+          "neu": 0,
+          "total": 6,
+          "score": 0.667
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 5,
+          "neg": 0,
+          "neu": 0,
+          "total": 5,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 24,
+          "label": "EV Demand Boosted by Crisis",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 17,
+          "label": "Powell Investigation Clouds Fed Nomination",
+          "meta_category": "Washington Scandals",
+          "pos": 0,
+          "neg": 2,
+          "neu": 0,
+          "total": 2,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 4,
+          "label": "India's Economy Under Pressure",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 0,
+          "label": "\"Streaming's Profitability and Growth Concerns\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 0,
+          "neu": 1,
+          "total": 1,
+          "score": 0.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Morgan Stanley tops estimates as trading revenue beats by nearly $1 billion",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "JPMorgan tops estimates on Wall Street results, Dimon warns of 'complex' risks",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Cramer warns of ‘overconfident’ market after U.S.-Iran ceasefire",
+          "date": "2026-04-09 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Walmart",
+      "ticker": "WMT",
+      "pos": 11,
+      "neg": 0,
+      "neu": 0,
+      "total": 11,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 11,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 4,
+          "neg": 0,
+          "neu": 0,
+          "total": 4,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 9,
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 18,
+          "label": "Entrepreneurship in the AI Era",
+          "meta_category": "Empowering Future Leaders",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 23,
+          "label": "\"Leading with Confidence and Effectiveness\"",
+          "meta_category": "Empowering Future Leaders",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 8,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 4,
+          "label": "India's Economy Under Pressure",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Bessent: Recent college grads need AI literacy to succeed in today's job market",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Trump tariff fallout: Industries grapple with lingering effects one year later",
+          "date": "2026-04-02 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Thorne on pace for $650 million in sales as Gen Z fuels supplement boom — despite subscription fatigue",
+          "date": "2026-04-02 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The Iran war is sending shockwaves through the world's busiest IPO market",
+          "date": "2026-03-20 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Walmart digital price tags are coming to every store in U.S. by end of 2026",
+          "date": "2026-03-20 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Netflix",
+      "ticker": "NFLX",
+      "pos": 24,
+      "neg": 4,
+      "neu": 0,
+      "total": 28,
+      "score": 0.714,
+      "categories": {
+        "Business": {
+          "pos": 22,
+          "neg": 4,
+          "neu": 0
+        },
+        "Financials": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "label": "\"Streaming's Profitability and Growth Concerns\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 19,
+          "neg": 4,
+          "neu": 0,
+          "total": 23,
+          "score": 0.652
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 8,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Netflix was long 'a builder not a buyer.' Is that era over?",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The Nasdaq's win streak, Netflix earnings and more: Morning Squawk",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Netflix posts massive earnings beat, announces Reed Hastings to exit board",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Wall Street still loves streaming, but are its affections well placed?",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "A Netflix cooking show is changing how people travel",
+          "date": "2026-03-21 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Citigroup",
+      "ticker": "C",
+      "pos": 10,
+      "neg": 0,
+      "neu": 0,
+      "total": 10,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 8,
+          "neg": 0,
+          "neu": 0
+        },
+        "Financials": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 6,
+          "neg": 0,
+          "neu": 0,
+          "total": 6,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Citigroup beats estimates, boosted by gains in fixed income",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "JPMorgan tops estimates on Wall Street results, Dimon warns of 'complex' risks",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Cramer warns of ‘overconfident’ market after U.S.-Iran ceasefire",
+          "date": "2026-04-09 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Google",
+      "ticker": "GOOG",
+      "pos": 61,
+      "neg": 19,
+      "neu": 0,
+      "total": 80,
+      "score": 0.525,
+      "categories": {
+        "Business": {
+          "pos": 56,
+          "neg": 15,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        },
+        "Legal": {
+          "pos": 0,
+          "neg": 4,
+          "neu": 0
+        },
+        "Platform": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "Company": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 32,
+          "neg": 15,
+          "neu": 0,
+          "total": 47,
+          "score": 0.362
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 8,
+          "neg": 2,
+          "neu": 0,
+          "total": 10,
+          "score": 0.6
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 6,
+          "neg": 3,
+          "neu": 0,
+          "total": 9,
+          "score": 0.333
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 6,
+          "neg": 0,
+          "neu": 0,
+          "total": 6,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 7,
+          "label": "Anthropic's AI Amid Government Tensions",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 10,
+          "label": "Retirement Savings and Planning Concerns",
+          "meta_category": "Tax Season Savings",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "There's an 'art' to writing AI prompts for personal finance, MIT professor says",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Google will let users connect their photos to the Gemini chatbot and Nano Banana",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "TSMC and ASML failed to rally on strong earnings reports. Here's why",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The new big tech concentration risk is in bond market, and it's here to stay",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "U.S. tech companies ramp up government lobbying amid Iran war uncertainty",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Blackstone",
+      "ticker": "BX",
+      "pos": 9,
+      "neg": 0,
+      "neu": 0,
+      "total": 9,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 9,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 4,
+          "neg": 0,
+          "neu": 0,
+          "total": 4,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 4,
+          "label": "India's Economy Under Pressure",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Jim Cramer on the market's 'remarkable' rally — and what to watch ahead",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Blackstone’s Solotar: Investors should separate private credit ‘signal from the noise’",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Wall Street banks eye comeback as strains emerge in private credit",
+          "date": "2026-03-26 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "CNBC Daily Open: Plan for peace or a wish list?",
+          "date": "2026-03-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "David Blitzer and Blackstone-backed group snaps up Indian cricket franchise for $1.8 billion",
+          "date": "2026-03-24 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "United",
+      "ticker": "UAL",
+      "pos": 9,
+      "neg": 0,
+      "neu": 0,
+      "total": 9,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 9,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 9,
+          "neg": 0,
+          "neu": 0,
+          "total": 9,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "What a United-American merger would mean, from antitrust hurdles to airfare",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Basic business class is here with new, stripped-down United Polaris fares",
+          "date": "2026-04-03 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "U.S.-Iran war 'tax' begins to hit American businesses and consumers",
+          "date": "2026-04-03 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Why flights are getting more expensive after jet fuel spike",
+          "date": "2026-03-12 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Ford",
+      "ticker": "F",
+      "pos": 11,
+      "neg": 1,
+      "neu": 0,
+      "total": 12,
+      "score": 0.833,
+      "categories": {
+        "Business": {
+          "pos": 11,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 24,
+          "label": "EV Demand Boosted by Crisis",
+          "meta_category": "Global Market Turmoil",
+          "pos": 10,
+          "neg": 1,
+          "neu": 0,
+          "total": 11,
+          "score": 0.818
+        },
+        {
+          "cluster_id": 9,
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 8,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Ford EV chief leaving automaker amid new restructuring efforts",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Trump tariff fallout: Industries grapple with lingering effects one year later",
+          "date": "2026-04-02 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Lilly",
+      "ticker": "LLY",
+      "pos": 11,
+      "neg": 1,
+      "neu": 0,
+      "total": 12,
+      "score": 0.833,
+      "categories": {
+        "Business": {
+          "pos": 11,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 8,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Turmoil",
+          "pos": 11,
+          "neg": 1,
+          "neu": 0,
+          "total": 12,
+          "score": 0.833
+        }
+      ],
+      "articles": [
+        {
+          "headline": "FDA approves Eli Lilly's GLP-1 pill, opening next phase for weight loss drugs",
+          "date": "2026-04-01 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Eli Lilly opposes White House push to codify most favored nation drug pricing",
+          "date": "2026-04-01 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Eli Lilly reaches deal to bring AI-developed drugs to global market",
+          "date": "2026-03-30 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Indian generic makers trigger price war in GLP-1 drugs — How vulnerable is Novo?",
+          "date": "2026-03-23 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Eli Lilly’s obesity drug retatrutide clears first late-stage diabetes trial",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "FedEx",
+      "ticker": "FDX",
+      "pos": 7,
+      "neg": 0,
+      "neu": 0,
+      "total": 7,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 7,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 7,
+          "neg": 0,
+          "neu": 0,
+          "total": 7,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "FedEx starting to deliver 'promotion-ready' AI training to over 400,000 workers",
+          "date": "2026-03-20 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "FedEx beats on top and bottom lines, raises guidance on strong performance",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Microsoft",
+      "ticker": "MSFT",
+      "pos": 29,
+      "neg": 8,
+      "neu": 0,
+      "total": 37,
+      "score": 0.568,
+      "categories": {
+        "Business": {
+          "pos": 29,
+          "neg": 8,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 8,
+          "neg": 4,
+          "neu": 0,
+          "total": 12,
+          "score": 0.333
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 10,
+          "neg": 2,
+          "neu": 0,
+          "total": 12,
+          "score": 0.667
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 3,
+          "neu": 0,
+          "total": 6,
+          "score": 0.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 7,
+          "label": "Anthropic's AI Amid Government Tensions",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Nvidia's once-tight bond with gamers is cracking over AI: 'That breaks my heart'",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The new big tech concentration risk is in bond market, and it's here to stay",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "U.S. tech companies ramp up government lobbying amid Iran war uncertainty",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Bank of America",
+      "ticker": "BAC",
+      "pos": 16,
+      "neg": 3,
+      "neu": 0,
+      "total": 19,
+      "score": 0.684,
+      "categories": {
+        "Business": {
+          "pos": 14,
+          "neg": 3,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 4,
+          "neg": 0,
+          "neu": 0,
+          "total": 4,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 0,
+          "neg": 2,
+          "neu": 0,
+          "total": 2,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 2,
+          "label": "\"Prediction Markets Under Scrutiny\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 5,
+          "label": "Tax Refunds Increase This Season",
+          "meta_category": "Tax Season Savings",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 11,
+          "label": "Mortgage Rates and Housing Market",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "U.S.-Iran war, $4 gas, have taken all the fun out of consumer spending",
+          "date": "2026-04-18 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Cattle prices soar to record highs as grilling season heats up",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Prediction markets will grow to $1 trillion by 2030, Bernstein estimates",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Bank of America tops estimates, CEO Moynihan says consumer banking is 'healthy'",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Wholesale prices rose 0.5% in March, much less than expected despite war impact",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Goldman Sachs",
+      "ticker": "GS",
+      "pos": 16,
+      "neg": 3,
+      "neu": 0,
+      "total": 19,
+      "score": 0.684,
+      "categories": {
+        "Business": {
+          "pos": 15,
+          "neg": 3,
+          "neu": 0
+        },
+        "Banking": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 5,
+          "neg": 1,
+          "neu": 0,
+          "total": 6,
+          "score": 0.667
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 5,
+          "label": "Tax Refunds Increase This Season",
+          "meta_category": "Tax Season Savings",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 9,
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Here are all the ways the Iran war has affected the U.S. economy so far",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Blackstone’s Solotar: Investors should separate private credit ‘signal from the noise’",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Bank of America tops estimates, CEO Moynihan says consumer banking is 'healthy'",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Goldman tops estimates on record equities trading",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "JPMorgan Chase",
+      "ticker": "JPM",
+      "pos": 10,
+      "neg": 1,
+      "neu": 0,
+      "total": 11,
+      "score": 0.818,
+      "categories": {
+        "Business": {
+          "pos": 9,
+          "neg": 1,
+          "neu": 0
+        },
+        "Bankruptcy": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 6,
+          "neg": 1,
+          "neu": 0,
+          "total": 7,
+          "score": 0.714
+        },
+        {
+          "cluster_id": 5,
+          "label": "Tax Refunds Increase This Season",
+          "meta_category": "Tax Season Savings",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Dimon says Anthropic's Mythos reveals 'more vulnerabilities' for cyberattacks",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "JPMorgan tops estimates on Wall Street results, Dimon warns of 'complex' risks",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Trump Accounts put Robinhood in front of the next generation: CEO Tenev",
+          "date": "2026-04-06 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Jamie Dimon in annual letter cites risks in geopolitics, AI and private markets",
+          "date": "2026-04-05 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Apple",
+      "ticker": "AAPL",
+      "pos": 28,
+      "neg": 8,
+      "neu": 0,
+      "total": 36,
+      "score": 0.556,
+      "categories": {
+        "Business": {
+          "pos": 28,
+          "neg": 8,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 10,
+          "neg": 4,
+          "neu": 0,
+          "total": 14,
+          "score": 0.429
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 3,
+          "neu": 0,
+          "total": 4,
+          "score": -0.5
+        },
+        {
+          "cluster_id": 24,
+          "label": "EV Demand Boosted by Crisis",
+          "meta_category": "Global Market Turmoil",
+          "pos": 4,
+          "neg": 0,
+          "neu": 0,
+          "total": 4,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 0,
+          "label": "\"Streaming's Profitability and Growth Concerns\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 18,
+          "label": "Entrepreneurship in the AI Era",
+          "meta_category": "Empowering Future Leaders",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 7,
+          "label": "Anthropic's AI Amid Government Tensions",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "TSMC and ASML failed to rally on strong earnings reports. Here's why",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "U.S. tech companies ramp up government lobbying amid Iran war uncertainty",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Ford EV chief leaving automaker amid new restructuring efforts",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Kardashian ally Emma Grede on being an ambitious woman and billions",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Wall Street still loves streaming, but are its affections well placed?",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Oracle",
+      "ticker": "ORCL",
+      "pos": 15,
+      "neg": 3,
+      "neu": 0,
+      "total": 18,
+      "score": 0.667,
+      "categories": {
+        "Business": {
+          "pos": 15,
+          "neg": 3,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 8,
+          "neg": 2,
+          "neu": 0,
+          "total": 10,
+          "score": 0.6
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 4,
+          "neg": 0,
+          "neu": 0,
+          "total": 4,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 1,
+          "neu": 0,
+          "total": 2,
+          "score": 0.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Oracle jumps for second day, Bloom Energy soars 22% on AI datacenter power deal",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Oracle pops nearly 12%, leading bounce back rally in software stocks",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "OpenAI touts Amazon alliance, says Microsoft has 'limited our ability' to reach clients",
+          "date": "2026-04-12 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Elon Musk",
+      "ticker": "TSLA",
+      "pos": 11,
+      "neg": 2,
+      "neu": 0,
+      "total": 13,
+      "score": 0.692,
+      "categories": {
+        "Business": {
+          "pos": 11,
+          "neg": 1,
+          "neu": 0
+        },
+        "Legal": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 6,
+          "neg": 1,
+          "neu": 0,
+          "total": 7,
+          "score": 0.714
+        },
+        {
+          "cluster_id": 5,
+          "label": "Tax Refunds Increase This Season",
+          "meta_category": "Tax Season Savings",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 24,
+          "label": "EV Demand Boosted by Crisis",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 6,
+          "label": "US Government Shutdown Continues",
+          "meta_category": "Washington Scandals",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Nvidia's once-tight bond with gamers is cracking over AI: 'That breaks my heart'",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "NAACP sues Elon Musk's xAI over Memphis data center air pollution",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Democrats romp in Wisconsin Supreme Court race, narrow margins in Georgia",
+          "date": "2026-04-08 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Jet fuel supply concerns grow with Iran war as airlines cut flights",
+          "date": "2026-04-07 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Procter & Gamble",
+      "ticker": "PG",
+      "pos": 5,
+      "neg": 0,
+      "neu": 0,
+      "total": 5,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 5,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 9,
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 8,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Jim Cramer on the market's 'remarkable' rally — and what to watch ahead",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Trump tariff fallout: Industries grapple with lingering effects one year later",
+          "date": "2026-04-02 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The price of menstrual products is skyrocketing from inflation, tariffs",
+          "date": "2026-03-21 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Berkshire Hathaway",
+      "ticker": "BRK-B",
+      "pos": 5,
+      "neg": 0,
+      "neu": 0,
+      "total": 5,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 5,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 23,
+          "label": "\"Leading with Confidence and Effectiveness\"",
+          "meta_category": "Empowering Future Leaders",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "What to do when a former boss now reports to you, work experts say",
+          "date": "2026-04-06 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Warren Buffett teams up with NBA superstar Stephen Curry for charity lunch",
+          "date": "2026-03-30 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Warren Buffett says he sold Apple too soon and would buy more of it, though not in this market",
+          "date": "2026-03-30 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Warren Buffett says he's still making calls on investments at Berkshire",
+          "date": "2026-03-30 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Buffett defends 'Giving Pledge' against Thiel and 'billionaire backlash'",
+          "date": "2026-03-20 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Visa",
+      "ticker": "V",
+      "pos": 5,
+      "neg": 0,
+      "neu": 0,
+      "total": 5,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 5,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 5,
+          "neg": 0,
+          "neu": 0,
+          "total": 5,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Visa launches new AI tools to manage the charge dispute process",
+          "date": "2026-03-31 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Citi",
+      "ticker": "C",
+      "pos": 8,
+      "neg": 1,
+      "neu": 0,
+      "total": 9,
+      "score": 0.778,
+      "categories": {
+        "Business": {
+          "pos": 7,
+          "neg": 1,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 24,
+          "label": "EV Demand Boosted by Crisis",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 4,
+          "label": "India's Economy Under Pressure",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Jim Cramer's top 10 things to watch in the stock market Monday",
+          "date": "2026-04-12 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "'Anything but autos': is defense enough to save Europe’s car industry?",
+          "date": "2026-04-04 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "South Korea braces for 'worst-case scenarios' as Iran oil shock deepens",
+          "date": "2026-03-25 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Arm jumps 15% as company expects revenue windfall from new chip",
+          "date": "2026-03-25 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The Iran war is sending shockwaves through the world's busiest IPO market",
+          "date": "2026-03-20 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Palantir",
+      "ticker": "PLTR",
+      "pos": 8,
+      "neg": 1,
+      "neu": 0,
+      "total": 9,
+      "score": 0.778,
+      "categories": {
+        "Business": {
+          "pos": 8,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 7,
+          "label": "Anthropic's AI Amid Government Tensions",
+          "meta_category": "AI's Impact on Society",
+          "pos": 6,
+          "neg": 1,
+          "neu": 0,
+          "total": 7,
+          "score": 0.714
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Trump praises Palantir as stock posts dismal week and Iran conflict drags on",
+          "date": "2026-04-10 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Michael Burry says he's still betting against Palantir after Trump boosts stock",
+          "date": "2026-04-10 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Trump warns Iran '48 hours before all Hell will reign down on them'",
+          "date": "2026-04-03 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The Iran war is defense tech's chance to shine, but few systems are ready",
+          "date": "2026-03-27 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Karp: Palantir is still using Anthropic's Claude as Pentagon blacklist plays out",
+          "date": "2026-03-12 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Meta",
+      "ticker": "META",
+      "pos": 49,
+      "neg": 20,
+      "neu": 3,
+      "total": 72,
+      "score": 0.403,
+      "categories": {
+        "Business": {
+          "pos": 49,
+          "neg": 18,
+          "neu": 0
+        },
+        "Performance": {
+          "pos": 0,
+          "neg": 0,
+          "neu": 1
+        },
+        "Legal": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 2
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 41,
+          "neg": 19,
+          "neu": 3,
+          "total": 63,
+          "score": 0.349
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 3,
+          "neg": 1,
+          "neu": 0,
+          "total": 4,
+          "score": 0.5
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 1,
+          "neu": 0,
+          "total": 4,
+          "score": 0.5
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 4,
+          "label": "India's Economy Under Pressure",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 0,
+          "label": "\"Streaming's Profitability and Growth Concerns\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "OpenAI loses two executives in latest leadership shakeup",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The new big tech concentration risk is in bond market, and it's here to stay",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Nvidia stock is on a 10-day winning streak and up 18% over that stretch",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Meta commits to 1 GW of custom chips with Broadcom, as Hock Tan to leave board",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "CoreWeave stock pops 11% on deal to power Anthropic's Claude",
+          "date": "2026-04-10 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Wells Fargo",
+      "ticker": "WFC",
+      "pos": 10,
+      "neg": 2,
+      "neu": 0,
+      "total": 12,
+      "score": 0.667,
+      "categories": {
+        "Business": {
+          "pos": 10,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 1,
+          "neu": 0,
+          "total": 4,
+          "score": 0.5
+        },
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 5,
+          "label": "Tax Refunds Increase This Season",
+          "meta_category": "Tax Season Savings",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 11,
+          "label": "Mortgage Rates and Housing Market",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Goldman tops estimates on record equities trading",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "JPMorgan tops estimates on Wall Street results, Dimon warns of 'complex' risks",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Cramer warns of ‘overconfident’ market after U.S.-Iran ceasefire",
+          "date": "2026-04-09 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Trump Accounts put Robinhood in front of the next generation: CEO Tenev",
+          "date": "2026-04-06 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "S&P Global",
+      "ticker": "SPGI",
+      "pos": 5,
+      "neg": 0,
+      "neu": 1,
+      "total": 6,
+      "score": 0.833,
+      "categories": {
+        "NewsRelease": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 1
+        },
+        "Business": {
+          "pos": 4,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 1,
+          "total": 4,
+          "score": 0.75
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "The Iran war is compounding California's energy crunch",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "0"
+        },
+        {
+          "headline": "Hormuz traffic grinds to a halt ahead of blockade as risk of misstep rises",
+          "date": "2026-04-12 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Russia poised to benefit from the helium supply crunch amid Iran war",
+          "date": "2026-03-27 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Treasury yields slide after Trump announces five-day hold on strikes against Iran",
+          "date": "2026-03-23 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "World has 'never experienced' refining margins like this, TotalEnergies CEO says",
+          "date": "2026-03-23 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "pos": 4,
+      "neg": 0,
+      "neu": 0,
+      "total": 4,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 4,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Nvidia's once-tight bond with gamers is cracking over AI: 'That breaks my heart'",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Intel jumps 9% after buying back Ireland chip fab in sign of renewed strength",
+          "date": "2026-04-01 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Broadcom",
+      "ticker": "AVGO",
+      "pos": 4,
+      "neg": 0,
+      "neu": 0,
+      "total": 4,
+      "score": 1.0,
+      "categories": {
+        "Performance": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "Business": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Meta commits to 1 GW of custom chips with Broadcom, as Hock Tan to leave board",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "OpenAI touts Amazon alliance, says Microsoft has 'limited our ability' to reach clients",
+          "date": "2026-04-12 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Broadcom agrees to expanded chip deals with Google, Anthropic",
+          "date": "2026-04-06 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Boeing",
+      "ticker": "BA",
+      "pos": 4,
+      "neg": 0,
+      "neu": 0,
+      "total": 4,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 4,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Jim Cramer on the market's 'remarkable' rally — and what to watch ahead",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Trump warns Iran '48 hours before all Hell will reign down on them'",
+          "date": "2026-04-03 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The cost to fly private is up as much as 20% with fuel prices soaring",
+          "date": "2026-04-02 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Delta Air Lines taps Amazon Leo for in-flight Wi-Fi as streaming wars heat up",
+          "date": "2026-03-31 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Robinhood",
+      "ticker": "HOOD",
+      "pos": 4,
+      "neg": 0,
+      "neu": 0,
+      "total": 4,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 4,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 5,
+          "label": "Tax Refunds Increase This Season",
+          "meta_category": "Tax Season Savings",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 2,
+          "label": "\"Prediction Markets Under Scrutiny\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Anthropic's Mythos isn't threatening bitcoin. The real AI risk is at crypto exchanges",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Prediction markets will grow to $1 trillion by 2030, Bernstein estimates",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Trump Accounts put Robinhood in front of the next generation: CEO Tenev",
+          "date": "2026-04-06 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Robinhood, BNY to build Trump accounts app",
+          "date": "2026-04-06 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Merck",
+      "ticker": "MRK",
+      "pos": 4,
+      "neg": 0,
+      "neu": 0,
+      "total": 4,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 4,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 8,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 9,
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Trump policies, China's biotech boom are ending Europe's pharma powerhouse era",
+          "date": "2026-04-10 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Trump tariff fallout: Industries grapple with lingering effects one year later",
+          "date": "2026-04-02 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Backup care benefits go beyond kids, aging parents as companies pay for pets",
+          "date": "2026-03-28 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Merck to buy Terns Pharmaceuticals for $6.7 billion to boost cancer pipeline",
+          "date": "2026-03-25 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Intuit",
+      "ticker": "INTU",
+      "pos": 4,
+      "neg": 0,
+      "neu": 0,
+      "total": 4,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 10,
+          "label": "Retirement Savings and Planning Concerns",
+          "meta_category": "Tax Season Savings",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 13,
+          "label": "Raising Financially Literate Children",
+          "meta_category": "Empowering Future Leaders",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "How to help kids form healthy relationships with money: psychologist",
+          "date": "2026-04-10 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "AI has a big problem when it comes to financial advice, MIT professor says",
+          "date": "2026-04-05 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "She says her poor credit cost her a promotion—why employers may check",
+          "date": "2026-03-27 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Apollo's Sambur: Software's AI troubles will persist, there are 'large unknowns'",
+          "date": "2026-03-18 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Raymond James",
+      "ticker": "RJF",
+      "pos": 4,
+      "neg": 0,
+      "neu": 0,
+      "total": 4,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 4,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Jet fuel supply concerns grow with Iran war as airlines cut flights",
+          "date": "2026-04-07 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Private credit’s ‘zero-loss fantasy’ is ending as rising defaults loom",
+          "date": "2026-03-25 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Expectations for next Fed rate cut get pushed back after hot inflation report",
+          "date": "2026-03-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Oil prices touch $100 as Iran ramps up shipping attacks in the Persian Gulf",
+          "date": "2026-03-12 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Franklin Templeton",
+      "ticker": "BEN",
+      "pos": 4,
+      "neg": 0,
+      "neu": 0,
+      "total": 4,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 4,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "Franklin Templeton acquires digital assets investment firm in active crypto management push",
+          "date": "2026-04-01 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Franklin Templeton CEO Jenny Johnson on making 79-year old family business last",
+          "date": "2026-03-20 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "United Airlines",
+      "ticker": "UAL",
+      "pos": 6,
+      "neg": 1,
+      "neu": 0,
+      "total": 7,
+      "score": 0.714,
+      "categories": {
+        "Business": {
+          "pos": 6,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 4,
+          "neg": 1,
+          "neu": 0,
+          "total": 5,
+          "score": 0.6
+        },
+        {
+          "cluster_id": 6,
+          "label": "US Government Shutdown Continues",
+          "meta_category": "Washington Scandals",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Jim Cramer on the market's 'remarkable' rally — and what to watch ahead",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Delta Air Lines unveils first new Delta One suite in premium cabin arms race",
+          "date": "2026-04-12 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "How to save money on flights as airlines raise prices",
+          "date": "2026-04-08 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Jet fuel supply concerns grow with Iran war as airlines cut flights",
+          "date": "2026-04-07 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Pricy airfare, airport chaos test travelers' willingness to fly this year",
+          "date": "2026-03-27 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Gartner",
+      "ticker": "IT",
+      "pos": 4,
+      "neg": 0,
+      "neu": 1,
+      "total": 5,
+      "score": 0.8,
+      "categories": {
+        "NewsRelease": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        },
+        "Business": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 1
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 0,
+          "neg": 0,
+          "neu": 1,
+          "total": 1,
+          "score": 0.0
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Nvidia's once-tight bond with gamers is cracking over AI: 'That breaks my heart'",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "'Chasing vibes' — OpenAI's M&A strategy gets more confusing with TBPN purchase",
+          "date": "2026-04-02 00:00:00",
+          "polarity": "0"
+        },
+        {
+          "headline": "OpenAI's first try at online shopping stumbled. It's preparing for the next wave",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Asia tech stocks sink as oil spike and Qatar attacks threaten chip supply chain",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Micron",
+      "ticker": "MU",
+      "pos": 10,
+      "neg": 3,
+      "neu": 0,
+      "total": 13,
+      "score": 0.538,
+      "categories": {
+        "Performance": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "Business": {
+          "pos": 9,
+          "neg": 3,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 10,
+          "neg": 3,
+          "neu": 0,
+          "total": 13,
+          "score": 0.538
+        }
+      ],
+      "articles": [
+        {
+          "headline": "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Micron stock sinks 10%, further cratering in post-earnings sell-off",
+          "date": "2026-03-29 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Tech stocks suffer worst week in nearly a year on war worries, Meta legal woes",
+          "date": "2026-03-26 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Memory crisis latest: What we learned from the world's top producers this week",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Micron falls 5.6% after blockbuster earnings. Here's what analysts say",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "American Airlines",
+      "ticker": "AAL",
+      "pos": 3,
+      "neg": 0,
+      "neu": 0,
+      "total": 3,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 6,
+          "label": "US Government Shutdown Continues",
+          "meta_category": "Washington Scandals",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Jim Cramer on the market's 'remarkable' rally — and what to watch ahead",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Pricy airfare, airport chaos test travelers' willingness to fly this year",
+          "date": "2026-03-27 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Why flights are getting more expensive after jet fuel spike",
+          "date": "2026-03-12 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "American Express",
+      "ticker": "AXP",
+      "pos": 3,
+      "neg": 0,
+      "neu": 0,
+      "total": 3,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 11,
+          "label": "Mortgage Rates and Housing Market",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Jim Cramer on the market's 'remarkable' rally — and what to watch ahead",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Zohran Mamdani and the business exodus? NYC office market is up under new mayor",
+          "date": "2026-04-04 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "CME Group",
+      "ticker": "CME",
+      "pos": 3,
+      "neg": 0,
+      "neu": 0,
+      "total": 3,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 2,
+          "label": "\"Prediction Markets Under Scrutiny\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Regulators are reportedly zeroing in on suspicious trades ahead of Trump post",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Fears of 1970s-style stagflation arise with oil spike to $100. How big a threat?",
+          "date": "2026-03-12 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Markets' hopes for Fed interest rate cuts are rapidly fading away",
+          "date": "2026-03-11 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Coinbase",
+      "ticker": "COIN",
+      "pos": 3,
+      "neg": 0,
+      "neu": 0,
+      "total": 3,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "Anthropic's Mythos isn't threatening bitcoin. The real AI risk is at crypto exchanges",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Buffett defends 'Giving Pledge' against Thiel and 'billionaire backlash'",
+          "date": "2026-03-20 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Truist",
+      "ticker": "TFC",
+      "pos": 3,
+      "neg": 0,
+      "neu": 0,
+      "total": 3,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 5,
+          "label": "Tax Refunds Increase This Season",
+          "meta_category": "Tax Season Savings",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Here are all the ways the Iran war has affected the U.S. economy so far",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "ChatGPT's ad pilot has the industry excited, but some insiders are frustrated",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Blue Owl",
+      "ticker": "OWL",
+      "pos": 3,
+      "neg": 0,
+      "neu": 0,
+      "total": 3,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Blackstone’s Solotar: Investors should separate private credit ‘signal from the noise’",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Blue Owl caps private credit funds redemptions at 5% after steep request levels",
+          "date": "2026-04-01 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Chevron",
+      "ticker": "CVX",
+      "pos": 3,
+      "neg": 0,
+      "neu": 0,
+      "total": 3,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "The Iran war is compounding California's energy crunch",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "How the big oil and gas CEOs think the Iran war supply disruption will play out",
+          "date": "2026-03-27 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Dividend stocks are catching tech stocks on key earnings metric at critical time",
+          "date": "2026-03-12 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Home Depot",
+      "ticker": "HD",
+      "pos": 3,
+      "neg": 0,
+      "neu": 0,
+      "total": 3,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 9,
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 8,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 11,
+          "label": "Mortgage Rates and Housing Market",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Trump tariff fallout: Industries grapple with lingering effects one year later",
+          "date": "2026-04-02 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Family offices make opportunistic bets on real estate",
+          "date": "2026-03-26 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Accenture",
+      "ticker": "ACN",
+      "pos": 3,
+      "neg": 0,
+      "neu": 0,
+      "total": 3,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "FedEx starting to deliver 'promotion-ready' AI training to over 400,000 workers",
+          "date": "2026-03-20 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Spotify",
+      "ticker": "SPOT",
+      "pos": 5,
+      "neg": 1,
+      "neu": 0,
+      "total": 6,
+      "score": 0.667,
+      "categories": {
+        "Business": {
+          "pos": 5,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 18,
+          "label": "Entrepreneurship in the AI Era",
+          "meta_category": "Empowering Future Leaders",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Kardashian ally Emma Grede on being an ambitious woman and billions",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Why Spotify AI more than music will be secret to keeping subscribers",
+          "date": "2026-03-21 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Eli Lilly",
+      "ticker": "LLY",
+      "pos": 5,
+      "neg": 1,
+      "neu": 0,
+      "total": 6,
+      "score": 0.667,
+      "categories": {
+        "Business": {
+          "pos": 5,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 8,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Turmoil",
+          "pos": 4,
+          "neg": 1,
+          "neu": 0,
+          "total": 5,
+          "score": 0.6
+        },
+        {
+          "cluster_id": 9,
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 24,
+          "label": "EV Demand Boosted by Crisis",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Trump policies, China's biotech boom are ending Europe's pharma powerhouse era",
+          "date": "2026-04-10 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Trump tariff fallout: Industries grapple with lingering effects one year later",
+          "date": "2026-04-02 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Eli Lilly opposes White House push to codify most favored nation drug pricing",
+          "date": "2026-04-01 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Eli Lilly reaches deal to bring AI-developed drugs to global market",
+          "date": "2026-03-30 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Indian generic makers trigger price war in GLP-1 drugs — How vulnerable is Novo?",
+          "date": "2026-03-23 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Disney",
+      "ticker": "DIS",
+      "pos": 11,
+      "neg": 4,
+      "neu": 1,
+      "total": 16,
+      "score": 0.438,
+      "categories": {
+        "Business": {
+          "pos": 11,
+          "neg": 4,
+          "neu": 1
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "label": "\"Streaming's Profitability and Growth Concerns\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 11,
+          "neg": 4,
+          "neu": 1,
+          "total": 16,
+          "score": 0.438
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Wall Street still loves streaming, but are its affections well placed?",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Disney plans layoffs of as many as 1,000 employees",
+          "date": "2026-04-09 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Paramount-Warner Bros. film slate needs animation to rival Disney, Universal",
+          "date": "2026-03-28 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Disney embarks on new chapter as Josh D'Amaro takes over as CEO",
+          "date": "2026-03-18 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "NFL, Paramount discussing media deal that could mean CBS pays an extra $1 billion or more",
+          "date": "2026-03-12 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Versant",
+      "ticker": "VSNT",
+      "pos": 3,
+      "neg": 0,
+      "neu": 1,
+      "total": 4,
+      "score": 0.75,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 1
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "label": "\"Streaming's Profitability and Growth Concerns\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 1,
+          "total": 4,
+          "score": 0.75
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Paramount-Warner Bros. film slate needs animation to rival Disney, Universal",
+          "date": "2026-03-28 00:00:00",
+          "polarity": "0"
+        },
+        {
+          "headline": "NFL, Paramount discussing media deal that could mean CBS pays an extra $1 billion or more",
+          "date": "2026-03-12 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Moody's",
+      "ticker": "MCO",
+      "pos": 5,
+      "neg": 1,
+      "neu": 1,
+      "total": 7,
+      "score": 0.571,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 4,
+          "neg": 0,
+          "neu": 1
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 1,
+          "neu": 0,
+          "total": 2,
+          "score": 0.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 1,
+          "total": 2,
+          "score": 0.5
+        },
+        {
+          "cluster_id": 9,
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 5,
+          "label": "Tax Refunds Increase This Season",
+          "meta_category": "Tax Season Savings",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Tariff refunds unlikely to benefit consumers, CNBC CFO survey finds",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Here's the inflation breakdown for March 2026 — in one chart",
+          "date": "2026-04-09 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Why Iran war should make you as afraid of petrochemicals as oil prices",
+          "date": "2026-03-27 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Rising oil prices could increase food costs—but hoarding groceries makes it worse",
+          "date": "2026-03-27 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Moody's cuts rating on private credit fund co-run by KKR to junk on bad loans",
+          "date": "2026-03-23 00:00:00",
+          "polarity": "0"
+        }
+      ]
+    },
+    {
+      "entity": "Lithia Motors",
+      "ticker": "LAD",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "Mom-and-pop car dealerships are growing or dying amid rise of mega-dealers",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "GE Vernova",
+      "ticker": "GEV",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "Jim Cramer on the market's 'remarkable' rally — and what to watch ahead",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Apollo Global Management",
+      "ticker": "APO",
+      "pos": 6,
+      "neg": 2,
+      "neu": 0,
+      "total": 8,
+      "score": 0.5,
+      "categories": {
+        "Business": {
+          "pos": 6,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 4,
+          "neg": 2,
+          "neu": 0,
+          "total": 6,
+          "score": 0.333
+        },
+        {
+          "cluster_id": 11,
+          "label": "Mortgage Rates and Housing Market",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "The new big tech concentration risk is in bond market, and it's here to stay",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Blackstone’s Solotar: Investors should separate private credit ‘signal from the noise’",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Zohran Mamdani and the business exodus? NYC office market is up under new mayor",
+          "date": "2026-04-04 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Intel jumps 9% after buying back Ireland chip fab in sign of renewed strength",
+          "date": "2026-04-01 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Private credit’s ‘zero-loss fantasy’ is ending as rising defaults loom",
+          "date": "2026-03-25 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "AT&T",
+      "ticker": "T",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 0,
+          "label": "\"Streaming's Profitability and Growth Concerns\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "The new big tech concentration risk is in bond market, and it's here to stay",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "How Kodak is trying to turn around its business after teetering on bankruptcy",
+          "date": "2026-04-10 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "FactSet",
+      "ticker": "FDS",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "NewsRelease": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "Business": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Another absurd AI pivot is propelling a new stock higher Thursday",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "BlackRock raises view on U.S. stocks on belief that war is over, profits are up",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Versant Media",
+      "ticker": "VSNT",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "David Einhorn signals caution as Greenlight prioritizes capital protection",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Watching reality TV really can change your behavior, sociologist says",
+          "date": "2026-03-25 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Charles Schwab",
+      "ticker": "SCHW",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 5,
+          "label": "Tax Refunds Increase This Season",
+          "meta_category": "Tax Season Savings",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Market volatility can 'weigh heavily' on Gen Z, advisor says — how to cope",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Trump Accounts put Robinhood in front of the next generation: CEO Tenev",
+          "date": "2026-04-06 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Caterpillar",
+      "ticker": "CAT",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Jim Cramer's top 10 things to watch in the stock market Monday",
+          "date": "2026-04-12 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Dow futures jump 1,100 points after Trump says U.S. and Iran have held 'productive' talks",
+          "date": "2026-03-23 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "State Street",
+      "ticker": "STT",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "NewsRelease": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "Business": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "How bond market's private credit crisis fears are playing out in fixed-income ETFs",
+          "date": "2026-04-11 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "RevMed",
+      "ticker": "RVMD",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 8,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Former senator shines spotlight on a possible breakthrough for pancreatic cancer",
+          "date": "2026-04-10 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Palo Alto Networks",
+      "ticker": "PANW",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 7,
+          "label": "Anthropic's AI Amid Government Tensions",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Anthropic limits Mythos AI rollout over fears hackers could use it for attacks",
+          "date": "2026-04-07 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Jim Cramer: This sell-off is creating buying opportunities",
+          "date": "2026-03-29 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "CrowdStrike",
+      "ticker": "CRWD",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 7,
+          "label": "Anthropic's AI Amid Government Tensions",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Anthropic limits Mythos AI rollout over fears hackers could use it for attacks",
+          "date": "2026-04-07 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Jim Cramer: This sell-off is creating buying opportunities",
+          "date": "2026-03-29 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Target",
+      "ticker": "TGT",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 9,
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Thorne on pace for $650 million in sales as Gen Z fuels supplement boom — despite subscription fatigue",
+          "date": "2026-04-02 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Dividend stocks are catching tech stocks on key earnings metric at critical time",
+          "date": "2026-03-12 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Cloudflare",
+      "ticker": "NET",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "A Google AI breakthrough is pressuring memory chip stocks from Samsung to Micron",
+          "date": "2026-03-26 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Arm jumps 15% as company expects revenue windfall from new chip",
+          "date": "2026-03-25 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Morningstar",
+      "ticker": "MORN",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "label": "\"Streaming's Profitability and Growth Concerns\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Pop Mart shares plunge over 22% as concerns over sustainability of Labubu sales dwarf stellar results",
+          "date": "2026-03-25 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Gold miners' bull run squeezed as prices plummet and energy costs soar",
+          "date": "2026-03-23 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Hilton",
+      "ticker": "HLT",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "A Netflix cooking show is changing how people travel",
+          "date": "2026-03-21 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Darden Restaurants",
+      "ticker": "DRI",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "GLP-1 drugs are changing how Americans eat. Food companies are racing to catch up",
+          "date": "2026-03-20 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Stock futures slide after Dow falls to fresh 2026 low",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "builders",
+      "ticker": "BLDR",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 11,
+          "label": "Mortgage Rates and Housing Market",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "January new home sales plunge to the lowest pace since 2022",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Nexstar",
+      "ticker": "NXST",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "label": "\"Streaming's Profitability and Growth Concerns\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Nexstar, Tegna merger closes after winning regulatory approval",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Etsy",
+      "ticker": "ETSY",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "OpenAI's first try at online shopping stumbled. It's preparing for the next wave",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Mastercard",
+      "ticker": "MA",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "A 60% fall in Chinese visitors barely dents tourism numbers to Japan",
+          "date": "2026-03-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Mastercard says it's acquiring stablecoin startup BVNK in $1.8 billion payments bet",
+          "date": "2026-03-16 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Lululemon",
+      "ticker": "LULU",
+      "pos": 4,
+      "neg": 1,
+      "neu": 0,
+      "total": 5,
+      "score": 0.6,
+      "categories": {
+        "Business": {
+          "pos": 4,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "Lululemon reports weak guidance as proxy battle, tariffs weigh on bottom line",
+          "date": "2026-03-16 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Apollo",
+      "ticker": "APO",
+      "pos": 7,
+      "neg": 3,
+      "neu": 0,
+      "total": 10,
+      "score": 0.4,
+      "categories": {
+        "Business": {
+          "pos": 7,
+          "neg": 3,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 6,
+          "neg": 3,
+          "neu": 0,
+          "total": 9,
+          "score": 0.333
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "The new big tech concentration risk is in bond market, and it's here to stay",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Blackstone’s Solotar: Investors should separate private credit ‘signal from the noise’",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Apollo gives investors 45% of requested withdrawals from private credit fund",
+          "date": "2026-03-22 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Apollo's Sambur: Software's AI troubles will persist, there are 'large unknowns'",
+          "date": "2026-03-18 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Jim Cramer: Stocks rising despite oil gains signals a new market message",
+          "date": "2026-03-16 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Goldman",
+      "ticker": "GS",
+      "pos": 5,
+      "neg": 2,
+      "neu": 0,
+      "total": 7,
+      "score": 0.429,
+      "categories": {
+        "Business": {
+          "pos": 5,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 2,
+          "neu": 0,
+          "total": 4,
+          "score": 0.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 5,
+          "label": "Tax Refunds Increase This Season",
+          "meta_category": "Tax Season Savings",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Here are all the ways the Iran war has affected the U.S. economy so far",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Goldman tops estimates on record equities trading",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Cramer warns of ‘overconfident’ market after U.S.-Iran ceasefire",
+          "date": "2026-04-09 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Nvidia's Huang pitches AI tokens on top of salary as agents reshape how humans work",
+          "date": "2026-03-20 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "carriers",
+      "ticker": "CARR",
+      "pos": 3,
+      "neg": 1,
+      "neu": 0,
+      "total": 4,
+      "score": 0.5,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 1,
+          "neu": 0,
+          "total": 3,
+          "score": 0.333
+        },
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 6,
+          "label": "US Government Shutdown Continues",
+          "meta_category": "Washington Scandals",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "U.S.-Iran war 'tax' begins to hit American businesses and consumers",
+          "date": "2026-04-03 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Pricy airfare, airport chaos test travelers' willingness to fly this year",
+          "date": "2026-03-27 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Chip deliveries to Europe delayed as Iran war hits air freight",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Why flights are getting more expensive after jet fuel spike",
+          "date": "2026-03-12 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "McCormick",
+      "ticker": "MKC",
+      "pos": 3,
+      "neg": 1,
+      "neu": 0,
+      "total": 4,
+      "score": 0.5,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "Legal": {
+          "pos": 2,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 2,
+          "neg": 1,
+          "neu": 0,
+          "total": 3,
+          "score": 0.333
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "European stocks head for worst month since 2022 as Iran war drags on",
+          "date": "2026-03-31 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Delaware judge reassigns Elon Musk cases after accusation of bias",
+          "date": "2026-03-29 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Salesforce",
+      "ticker": "CRM",
+      "pos": 7,
+      "neg": 4,
+      "neu": 0,
+      "total": 11,
+      "score": 0.273,
+      "categories": {
+        "Business": {
+          "pos": 7,
+          "neg": 4,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 4,
+          "neg": 4,
+          "neu": 0,
+          "total": 8,
+          "score": 0.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 5,
+          "neg": 3,
+          "neu": 0,
+          "total": 8,
+          "score": 0.25
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Perspective: AI demand is inflated, and only Anthropic is being realistic",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Jim Cramer's top 10 things to watch in the stock market Monday",
+          "date": "2026-04-12 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "'I hate customer-service chatbots': AI call center is off to a rocky start",
+          "date": "2026-03-31 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Salesforce issues $25 billion in debt to buy back stock. Should we be concerned?",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Apollo's Sambur: Software's AI troubles will persist, there are 'large unknowns'",
+          "date": "2026-03-18 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Facebook",
+      "ticker": "META",
+      "pos": 5,
+      "neg": 3,
+      "neu": 0,
+      "total": 8,
+      "score": 0.25,
+      "categories": {
+        "NewsRelease": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "Business": {
+          "pos": 4,
+          "neg": 3,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 3,
+          "neg": 3,
+          "neu": 0,
+          "total": 6,
+          "score": 0.0
+        },
+        {
+          "cluster_id": 1,
+          "label": "\"Rare Disease Philanthropy and Innovation\"",
+          "meta_category": "Rare Disease Fundraising",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "A mom tech entrepreneur building AI advocate for rare-disease families like hers",
+          "date": "2026-04-10 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Meta's court losses spell potential trouble for AI research, consumer safety",
+          "date": "2026-03-29 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Italy investigates Sephora and Benefit over skincare marketing to children",
+          "date": "2026-03-26 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Tech stocks suffer worst week in nearly a year on war worries, Meta legal woes",
+          "date": "2026-03-26 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Meta's double whammy in court adds to Zuckerberg's recent woes",
+          "date": "2026-03-26 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Uber",
+      "ticker": "UBER",
+      "pos": 2,
+      "neg": 1,
+      "neu": 0,
+      "total": 3,
+      "score": 0.333,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Nvidia AI chip rivals attract record funding as competition heats up",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Nvidia GTC: Jensen Huang sees $1 trillion in orders for Blackwell, Vera Rubin through '27",
+          "date": "2026-03-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Gig workers feel pain at the pump as gas prices hit 21-month highs",
+          "date": "2026-03-14 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Southwest Airlines",
+      "ticker": "LUV",
+      "pos": 1,
+      "neg": 2,
+      "neu": 0,
+      "total": 3,
+      "score": -0.333,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 2,
+          "neu": 0,
+          "total": 3,
+          "score": -0.333
+        }
+      ],
+      "articles": [
+        {
+          "headline": "What a United-American merger would mean, from antitrust hurdles to airfare",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "How to save money on flights as airlines raise prices",
+          "date": "2026-04-08 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Why flights are getting more expensive after jet fuel spike",
+          "date": "2026-03-12 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Adobe",
+      "ticker": "ADBE",
+      "pos": 2,
+      "neg": 1,
+      "neu": 0,
+      "total": 3,
+      "score": 0.333,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 14,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI's Impact on Society",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Jim Cramer's top 10 things to watch in the stock market Monday",
+          "date": "2026-04-12 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "'Silent killers': How AI is trying to solve retail's returns problem",
+          "date": "2026-04-04 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "OpenAI's first try at online shopping stumbled. It's preparing for the next wave",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Constellation Brands",
+      "ticker": "STZ",
+      "pos": 1,
+      "neg": 2,
+      "neu": 0,
+      "total": 3,
+      "score": -0.333,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 9,
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 8,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Modelo maker Constellation Brands withdraws 2028 guidance due to uncertainty",
+          "date": "2026-04-08 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Trump tariff fallout: Industries grapple with lingering effects one year later",
+          "date": "2026-04-02 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Nike",
+      "ticker": "NKE",
+      "pos": 1,
+      "neg": 2,
+      "neu": 1,
+      "total": 4,
+      "score": -0.25,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 2,
+          "neu": 1
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "Wall Street loses patience with Nike as turnaround drags, China weakness deepens",
+          "date": "2026-04-01 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Swiss sneaker maker On Holding shakes up leadership amid slowing growth",
+          "date": "2026-03-25 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Dick's Sporting Goods issues weak profit guidance after Foot Locker merger",
+          "date": "2026-03-12 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "General Motors",
+      "ticker": "GM",
+      "pos": 3,
+      "neg": 2,
+      "neu": 0,
+      "total": 5,
+      "score": 0.2,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 24,
+          "label": "EV Demand Boosted by Crisis",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 1,
+          "neu": 0,
+          "total": 3,
+          "score": 0.333
+        },
+        {
+          "cluster_id": 9,
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 8,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Ford EV chief leaving automaker amid new restructuring efforts",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Kia plans to launch U.S. pickup truck by 2030",
+          "date": "2026-04-08 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Trump tariff fallout: Industries grapple with lingering effects one year later",
+          "date": "2026-04-02 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "EV demand gets a boost from Iran war — just as auto giants pivot to ICE vehicles",
+          "date": "2026-04-01 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Nvidia adds Hyundai, BYD and other automakers to self-driving tech business",
+          "date": "2026-03-15 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Super Micro",
+      "ticker": "SMCI",
+      "pos": 3,
+      "neg": 2,
+      "neu": 0,
+      "total": 5,
+      "score": 0.2,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "Super Micro co-founder indicted on Nvidia smuggling charges leaves board",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "U.S. charges Super Micro employees with smuggling Nvidia chips to China",
+          "date": "2026-03-18 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Nasdaq",
+      "ticker": "NDAQ",
+      "pos": 2,
+      "neg": 2,
+      "neu": 1,
+      "total": 5,
+      "score": 0.0,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "Performance": {
+          "pos": 1,
+          "neg": 2,
+          "neu": 0
+        },
+        "FinancialMarket": {
+          "pos": 0,
+          "neg": 0,
+          "neu": 1
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 1,
+          "neu": 0,
+          "total": 2,
+          "score": 0.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 1,
+          "total": 2,
+          "score": -0.5
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Cramer warns rally lacks real leadership as AI-driven gains fail to inspire confidence",
+          "date": "2026-03-31 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Trump is doubling down on rhetoric to end the Iran war",
+          "date": "2026-03-29 00:00:00",
+          "polarity": "0"
+        },
+        {
+          "headline": "CNBC Daily Open: Trump issues Strait of Hormuz ultimatum",
+          "date": "2026-03-21 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Jim Cramer says 'sometimes you have to hold your nose' and buy stocks",
+          "date": "2026-03-18 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "AutoNation",
+      "ticker": "AN",
+      "pos": 1,
+      "neg": 1,
+      "neu": 0,
+      "total": 2,
+      "score": 0.0,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "Mom-and-pop car dealerships are growing or dying amid rise of mega-dealers",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Ford Motor",
+      "ticker": "F",
+      "pos": 2,
+      "neg": 2,
+      "neu": 0,
+      "total": 4,
+      "score": 0.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 24,
+          "label": "EV Demand Boosted by Crisis",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 2,
+          "neu": 0,
+          "total": 3,
+          "score": -0.333
+        },
+        {
+          "cluster_id": 9,
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 8,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Ford EV chief leaving automaker amid new restructuring efforts",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Kia plans to launch U.S. pickup truck by 2030",
+          "date": "2026-04-08 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Trump tariff fallout: Industries grapple with lingering effects one year later",
+          "date": "2026-04-02 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "EV demand gets a boost from Iran war — just as auto giants pivot to ICE vehicles",
+          "date": "2026-04-01 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Ares Management",
+      "ticker": "ARES",
+      "pos": 1,
+      "neg": 1,
+      "neu": 0,
+      "total": 2,
+      "score": 0.0,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 1,
+          "neu": 0,
+          "total": 2,
+          "score": 0.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Blackstone’s Solotar: Investors should separate private credit ‘signal from the noise’",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Private credit’s ‘zero-loss fantasy’ is ending as rising defaults loom",
+          "date": "2026-03-25 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Palantir Technologies",
+      "ticker": "PLTR",
+      "pos": 1,
+      "neg": 1,
+      "neu": 0,
+      "total": 2,
+      "score": 0.0,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 7,
+          "label": "Anthropic's AI Amid Government Tensions",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 1,
+          "neu": 0,
+          "total": 2,
+          "score": 0.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Michael Burry says he's still betting against Palantir after Trump boosts stock",
+          "date": "2026-04-10 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Trump praises Palantir as stock posts dismal week and Iran conflict drags on",
+          "date": "2026-04-10 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Costco",
+      "ticker": "COST",
+      "pos": 1,
+      "neg": 1,
+      "neu": 0,
+      "total": 2,
+      "score": 0.0,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Walmart-owned Sam's Club raises its annual membership fee to $60",
+          "date": "2026-04-01 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "2026 Just Capital rankings: Where corporate America is investing in post-ESG era",
+          "date": "2026-03-17 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Lyft",
+      "ticker": "LYFT",
+      "pos": 1,
+      "neg": 1,
+      "neu": 0,
+      "total": 2,
+      "score": 0.0,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 1,
+          "neu": 0,
+          "total": 2,
+          "score": 0.0
+        },
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "New fees, fewer flights: Higher fuel prices pinch budgets beyond the gas pump",
+          "date": "2026-03-27 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Gig workers feel pain at the pump as gas prices hit 21-month highs",
+          "date": "2026-03-14 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Super Micro Computer",
+      "ticker": "SMCI",
+      "pos": 1,
+      "neg": 1,
+      "neu": 0,
+      "total": 2,
+      "score": 0.0,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "Super Micro co-founder indicted on Nvidia smuggling charges leaves board",
+          "date": "2026-03-19 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "U.S. charges Super Micro employees with smuggling Nvidia chips to China",
+          "date": "2026-03-18 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    }
+  ]
+}

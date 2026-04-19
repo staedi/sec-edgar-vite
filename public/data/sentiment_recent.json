@@ -1,0 +1,1865 @@
+{
+  "mode": "recent",
+  "updated_at": "2026-04-19T13:52:17.962563+00:00",
+  "entities": [
+    {
+      "entity": "Nvidia",
+      "ticker": "NVDA",
+      "pos": 35,
+      "neg": 5,
+      "neu": 0,
+      "total": 40,
+      "score": 0.75,
+      "categories": {
+        "Business": {
+          "pos": 34,
+          "neg": 4,
+          "neu": 0
+        },
+        "Bankruptcy": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 0
+        },
+        "Company": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 14,
+          "neg": 0,
+          "neu": 0,
+          "total": 14,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 4,
+          "neg": 0,
+          "neu": 0,
+          "total": 4,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 1,
+          "neu": 0,
+          "total": 2,
+          "score": 0.0
+        },
+        {
+          "cluster_id": 8,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Nvidia's once-tight bond with gamers is cracking over AI: 'That breaks my heart'",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Perspective: AI demand is inflated, and only Anthropic is being realistic",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The Nasdaq's win streak, Netflix earnings and more: Morning Squawk",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Nvidia AI chip rivals attract record funding as competition heats up",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Netflix",
+      "ticker": "NFLX",
+      "pos": 21,
+      "neg": 4,
+      "neu": 0,
+      "total": 25,
+      "score": 0.68,
+      "categories": {
+        "Business": {
+          "pos": 20,
+          "neg": 4,
+          "neu": 0
+        },
+        "Financials": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "label": "\"Streaming's Profitability and Growth Concerns\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 19,
+          "neg": 4,
+          "neu": 0,
+          "total": 23,
+          "score": 0.652
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 8,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Netflix was long 'a builder not a buyer.' Is that era over?",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The Nasdaq's win streak, Netflix earnings and more: Morning Squawk",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Netflix posts massive earnings beat, announces Reed Hastings to exit board",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Wall Street still loves streaming, but are its affections well placed?",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Bank of America",
+      "ticker": "BAC",
+      "pos": 8,
+      "neg": 0,
+      "neu": 0,
+      "total": 8,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 7,
+          "neg": 0,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 2,
+          "label": "\"Prediction Markets Under Scrutiny\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "U.S.-Iran war, $4 gas, have taken all the fun out of consumer spending",
+          "date": "2026-04-18 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Cattle prices soar to record highs as grilling season heats up",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Prediction markets will grow to $1 trillion by 2030, Bernstein estimates",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Bank of America tops estimates, CEO Moynihan says consumer banking is 'healthy'",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Wholesale prices rose 0.5% in March, much less than expected despite war impact",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Citigroup",
+      "ticker": "C",
+      "pos": 7,
+      "neg": 0,
+      "neu": 0,
+      "total": 7,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 6,
+          "neg": 0,
+          "neu": 0
+        },
+        "Financials": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 6,
+          "neg": 0,
+          "neu": 0,
+          "total": 6,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Citigroup beats estimates, boosted by gains in fixed income",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "JPMorgan tops estimates on Wall Street results, Dimon warns of 'complex' risks",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Intel",
+      "ticker": "INTC",
+      "pos": 7,
+      "neg": 0,
+      "neu": 0,
+      "total": 7,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 6,
+          "neg": 0,
+          "neu": 0
+        },
+        "Company": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 5,
+          "neg": 0,
+          "neu": 0,
+          "total": 5,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Jim Cramer on the market's 'remarkable' rally — and what to watch ahead",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "TSMC and ASML failed to rally on strong earnings reports. Here's why",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The new big tech concentration risk is in bond market, and it's here to stay",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Intel stock on historic 9-day winning streak, up 58% over that run",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "JPMorgan",
+      "ticker": "JPM",
+      "pos": 7,
+      "neg": 0,
+      "neu": 0,
+      "total": 7,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 7,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 7,
+          "neg": 0,
+          "neu": 0,
+          "total": 7,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Dimon says Anthropic's Mythos reveals 'more vulnerabilities' for cyberattacks",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "JPMorgan tops estimates on Wall Street results, Dimon warns of 'complex' risks",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Ford",
+      "ticker": "F",
+      "pos": 10,
+      "neg": 1,
+      "neu": 0,
+      "total": 11,
+      "score": 0.818,
+      "categories": {
+        "Business": {
+          "pos": 10,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 24,
+          "label": "EV Demand Boosted by Crisis",
+          "meta_category": "Global Market Turmoil",
+          "pos": 10,
+          "neg": 1,
+          "neu": 0,
+          "total": 11,
+          "score": 0.818
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Ford EV chief leaving automaker amid new restructuring efforts",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Meta",
+      "ticker": "META",
+      "pos": 6,
+      "neg": 0,
+      "neu": 0,
+      "total": 6,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 6,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "OpenAI loses two executives in latest leadership shakeup",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The new big tech concentration risk is in bond market, and it's here to stay",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Nvidia stock is on a 10-day winning streak and up 18% over that stretch",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Meta commits to 1 GW of custom chips with Broadcom, as Hock Tan to leave board",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Oracle",
+      "ticker": "ORCL",
+      "pos": 9,
+      "neg": 1,
+      "neu": 0,
+      "total": 10,
+      "score": 0.8,
+      "categories": {
+        "Business": {
+          "pos": 9,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 8,
+          "neg": 0,
+          "neu": 0,
+          "total": 8,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 1,
+          "neu": 0,
+          "total": 2,
+          "score": 0.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Oracle jumps for second day, Bloom Energy soars 22% on AI datacenter power deal",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Oracle pops nearly 12%, leading bounce back rally in software stocks",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Morgan Stanley",
+      "ticker": "MS",
+      "pos": 9,
+      "neg": 1,
+      "neu": 0,
+      "total": 10,
+      "score": 0.8,
+      "categories": {
+        "Business": {
+          "pos": 9,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 7,
+          "neg": 1,
+          "neu": 0,
+          "total": 8,
+          "score": 0.75
+        },
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Morgan Stanley tops estimates as trading revenue beats by nearly $1 billion",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "JPMorgan tops estimates on Wall Street results, Dimon warns of 'complex' risks",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Microsoft",
+      "ticker": "MSFT",
+      "pos": 7,
+      "neg": 1,
+      "neu": 0,
+      "total": 8,
+      "score": 0.75,
+      "categories": {
+        "Business": {
+          "pos": 7,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 5,
+          "neg": 0,
+          "neu": 0,
+          "total": 5,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Nvidia's once-tight bond with gamers is cracking over AI: 'That breaks my heart'",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The new big tech concentration risk is in bond market, and it's here to stay",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "U.S. tech companies ramp up government lobbying amid Iran war uncertainty",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Google",
+      "ticker": "GOOG",
+      "pos": 7,
+      "neg": 1,
+      "neu": 0,
+      "total": 8,
+      "score": 0.75,
+      "categories": {
+        "Business": {
+          "pos": 7,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 4,
+          "neg": 0,
+          "neu": 0,
+          "total": 4,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "There's an 'art' to writing AI prompts for personal finance, MIT professor says",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Google will let users connect their photos to the Gemini chatbot and Nano Banana",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "TSMC and ASML failed to rally on strong earnings reports. Here's why",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The new big tech concentration risk is in bond market, and it's here to stay",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "U.S. tech companies ramp up government lobbying amid Iran war uncertainty",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Amazon",
+      "ticker": "AMZN",
+      "pos": 16,
+      "neg": 5,
+      "neu": 0,
+      "total": 21,
+      "score": 0.524,
+      "categories": {
+        "Business": {
+          "pos": 16,
+          "neg": 5,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 13,
+          "neg": 5,
+          "neu": 0,
+          "total": 18,
+          "score": 0.444
+        },
+        {
+          "cluster_id": 29,
+          "label": "OpenAI's Enterprise Business Growth",
+          "meta_category": "AI's Impact on Society",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 0,
+          "label": "\"Streaming's Profitability and Growth Concerns\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "OpenAI loses two executives in latest leadership shakeup",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "TSMC and ASML failed to rally on strong earnings reports. Here's why",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "The new big tech concentration risk is in bond market, and it's here to stay",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Nvidia AI chip rivals attract record funding as competition heats up",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Blackstone",
+      "ticker": "BX",
+      "pos": 4,
+      "neg": 0,
+      "neu": 0,
+      "total": 4,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 4,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Jim Cramer on the market's 'remarkable' rally — and what to watch ahead",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Blackstone’s Solotar: Investors should separate private credit ‘signal from the noise’",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "pos": 3,
+      "neg": 0,
+      "neu": 0,
+      "total": 3,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Nvidia's once-tight bond with gamers is cracking over AI: 'That breaks my heart'",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Elon Musk",
+      "ticker": "TSLA",
+      "pos": 3,
+      "neg": 0,
+      "neu": 0,
+      "total": 3,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Nvidia's once-tight bond with gamers is cracking over AI: 'That breaks my heart'",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "NAACP sues Elon Musk's xAI over Memphis data center air pollution",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Wells Fargo",
+      "ticker": "WFC",
+      "pos": 3,
+      "neg": 0,
+      "neu": 0,
+      "total": 3,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Goldman tops estimates on record equities trading",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "JPMorgan tops estimates on Wall Street results, Dimon warns of 'complex' risks",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "United",
+      "ticker": "UAL",
+      "pos": 3,
+      "neg": 0,
+      "neu": 0,
+      "total": 3,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "What a United-American merger would mean, from antitrust hurdles to airfare",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Gartner",
+      "ticker": "IT",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "NewsRelease": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "Nvidia's once-tight bond with gamers is cracking over AI: 'That breaks my heart'",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Lithia Motors",
+      "ticker": "LAD",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "Mom-and-pop car dealerships are growing or dying amid rise of mega-dealers",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Broadcom",
+      "ticker": "AVGO",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Performance": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "Business": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Meta commits to 1 GW of custom chips with Broadcom, as Hock Tan to leave board",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "GE Vernova",
+      "ticker": "GEV",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "Jim Cramer on the market's 'remarkable' rally — and what to watch ahead",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Procter & Gamble",
+      "ticker": "PG",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "Jim Cramer on the market's 'remarkable' rally — and what to watch ahead",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Apollo Global Management",
+      "ticker": "APO",
+      "pos": 0,
+      "neg": 2,
+      "neu": 0,
+      "total": 2,
+      "score": -1.0,
+      "categories": {
+        "Business": {
+          "pos": 0,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 2,
+          "neu": 0,
+          "total": 2,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "The new big tech concentration risk is in bond market, and it's here to stay",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Blackstone’s Solotar: Investors should separate private credit ‘signal from the noise’",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "FactSet",
+      "ticker": "FDS",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "NewsRelease": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "Business": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Another absurd AI pivot is propelling a new stock higher Thursday",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "BlackRock raises view on U.S. stocks on belief that war is over, profits are up",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Coinbase",
+      "ticker": "COIN",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "Anthropic's Mythos isn't threatening bitcoin. The real AI risk is at crypto exchanges",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Robinhood",
+      "ticker": "HOOD",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 2,
+          "label": "\"Prediction Markets Under Scrutiny\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Anthropic's Mythos isn't threatening bitcoin. The real AI risk is at crypto exchanges",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Prediction markets will grow to $1 trillion by 2030, Bernstein estimates",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Goldman Sachs",
+      "ticker": "GS",
+      "pos": 6,
+      "neg": 2,
+      "neu": 0,
+      "total": 8,
+      "score": 0.5,
+      "categories": {
+        "Business": {
+          "pos": 6,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 5,
+          "neg": 1,
+          "neu": 0,
+          "total": 6,
+          "score": 0.667
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 5,
+          "label": "Tax Refunds Increase This Season",
+          "meta_category": "Tax Season Savings",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Here are all the ways the Iran war has affected the U.S. economy so far",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Blackstone’s Solotar: Investors should separate private credit ‘signal from the noise’",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Bank of America tops estimates, CEO Moynihan says consumer banking is 'healthy'",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Goldman tops estimates on record equities trading",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Apple",
+      "ticker": "AAPL",
+      "pos": 4,
+      "neg": 1,
+      "neu": 0,
+      "total": 5,
+      "score": 0.6,
+      "categories": {
+        "Business": {
+          "pos": 4,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "AI Chip Demand Surges",
+          "meta_category": "AI's Impact on Society",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 21,
+          "label": "Iran-US Tensions Escalate Globally",
+          "meta_category": "Global Market Turmoil",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 24,
+          "label": "EV Demand Boosted by Crisis",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 18,
+          "label": "Entrepreneurship in the AI Era",
+          "meta_category": "Empowering Future Leaders",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 0,
+          "label": "\"Streaming's Profitability and Growth Concerns\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "TSMC and ASML failed to rally on strong earnings reports. Here's why",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "U.S. tech companies ramp up government lobbying amid Iran war uncertainty",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Ford EV chief leaving automaker amid new restructuring efforts",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Kardashian ally Emma Grede on being an ambitious woman and billions",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Wall Street still loves streaming, but are its affections well placed?",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Apollo",
+      "ticker": "APO",
+      "pos": 3,
+      "neg": 1,
+      "neu": 0,
+      "total": 4,
+      "score": 0.5,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 16,
+          "label": "\"Private Credit Market in Turmoil\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 1,
+          "neu": 0,
+          "total": 4,
+          "score": 0.5
+        }
+      ],
+      "articles": [
+        {
+          "headline": "The new big tech concentration risk is in bond market, and it's here to stay",
+          "date": "2026-04-16 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Blackstone’s Solotar: Investors should separate private credit ‘signal from the noise’",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "JPMorgan Chase",
+      "ticker": "JPM",
+      "pos": 3,
+      "neg": 1,
+      "neu": 0,
+      "total": 4,
+      "score": 0.5,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 1,
+          "neu": 0,
+          "total": 4,
+          "score": 0.5
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Dimon says Anthropic's Mythos reveals 'more vulnerabilities' for cyberattacks",
+          "date": "2026-04-14 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "JPMorgan tops estimates on Wall Street results, Dimon warns of 'complex' risks",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Disney",
+      "ticker": "DIS",
+      "pos": 3,
+      "neg": 1,
+      "neu": 0,
+      "total": 4,
+      "score": 0.5,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 0,
+          "label": "\"Streaming's Profitability and Growth Concerns\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 3,
+          "neg": 1,
+          "neu": 0,
+          "total": 4,
+          "score": 0.5
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Wall Street still loves streaming, but are its affections well placed?",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Goldman",
+      "ticker": "GS",
+      "pos": 3,
+      "neg": 2,
+      "neu": 0,
+      "total": 5,
+      "score": 0.2,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 15,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 2,
+          "neu": 0,
+          "total": 4,
+          "score": 0.0
+        },
+        {
+          "cluster_id": 20,
+          "label": "\"Market Impact of Iran Conflict\"",
+          "meta_category": "Global Market Turmoil",
+          "pos": 2,
+          "neg": 0,
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 25,
+          "label": "Federal Reserve Interest Rate Cuts",
+          "meta_category": "Global Market Turmoil",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 5,
+          "label": "Tax Refunds Increase This Season",
+          "meta_category": "Tax Season Savings",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Here are all the ways the Iran war has affected the U.S. economy so far",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
+          "date": "2026-04-15 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Goldman tops estimates on record equities trading",
+          "date": "2026-04-13 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "AutoNation",
+      "ticker": "AN",
+      "pos": 1,
+      "neg": 1,
+      "neu": 0,
+      "total": 2,
+      "score": 0.0,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "Mom-and-pop car dealerships are growing or dying amid rise of mega-dealers",
+          "date": "2026-04-17 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    }
+  ]
+}

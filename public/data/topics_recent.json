@@ -1,16 +1,16 @@
 {
   "name": "root",
   "mode": "recent",
-  "updated_at": "2026-04-18T14:17:32.940787+00:00",
+  "updated_at": "2026-04-19T14:04:13.306345+00:00",
   "children": [
     {
-      "name": "AI's Impact on Society",
-      "count": 29,
+      "name": "AI's Rise to Power",
+      "count": 27,
       "children": [
         {
-          "cluster_id": 19,
-          "name": "AI Chip Demand Surges",
-          "count": 19,
+          "cluster_id": 22,
+          "name": "AI Chip Industry Boom",
+          "count": 17,
           "children": [
             {
               "name": "AI chipmaker Cerebras files to go public after scrapping IPO plans last year",
@@ -31,11 +31,11 @@
               "value": 1
             },
             {
-              "name": "Retail traders pile into Allbirds on AI pivot. History shows it won't end well",
-              "summary": "In this article Retail traders stampeded into Allbirds after the troubled shoemaker slapped an artificial intelligence label on its business, a set-up that market history suggests …",
-              "hash": "862e8921959df121",
-              "chunk_key": "862e8921959df121_c000",
-              "article_date": "2026-04-16 00:00:00",
+              "name": "Nvidia's once-tight bond with gamers is cracking over AI: 'That breaks my heart'",
+              "summary": "Musk said his xAI game studio will release \"a great AI-generated game\" before the end of 2026. \"You're literally altering the art created by the developers.",
+              "hash": "42cc20c7dd3340f8",
+              "chunk_key": "42cc20c7dd3340f8_c007",
+              "article_date": "2026-04-17 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
@@ -58,28 +58,10 @@
               "value": 1
             },
             {
-              "name": "Another absurd AI pivot is propelling a new stock higher Thursday",
-              "summary": "In this article Myseum shares more than doubled on Thursday after the social media platform provider became the latest company to unexpectedly refocus efforts on artificial intelli…",
-              "hash": "047f4f6ee0342a24",
-              "chunk_key": "047f4f6ee0342a24_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
               "name": "Google will let users connect their photos to the Gemini chatbot and Nano Banana",
               "summary": "In this article Google is letting the Gemini AI chatbot connect to personal photos with the Nano Banana image generation tool.",
               "hash": "96f329108de51e01",
               "chunk_key": "96f329108de51e01_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "The Nasdaq's win streak, Netflix earnings and more: Morning Squawk",
-              "summary": "Hastings' departure is tied to the WBD deal, calling Hastings a \"big champion\" for Netflix's bid for WBD's assets. Netflix shares tumbled around 10% in premarket trading.",
-              "hash": "32806acb09c89147",
-              "chunk_key": "32806acb09c89147_c001",
               "article_date": "2026-04-16 00:00:00",
               "provider": "CNBC",
               "value": 1
@@ -158,9 +140,9 @@
             },
             {
               "name": "Meta commits to 1 GW of custom chips with Broadcom, as Hock Tan to leave board",
-              "summary": "In this article Meta and Broadcom on Tuesday announced a sweeping deal that extends an existing partnership between the two companies for the design of Meta's custom in-house AI ac…",
+              "summary": "Tracey Travis, who last year retired from her position as Estée Lauder's finance chief, will leave Meta's board after taking a board seat in 2020, Meta said.",
               "hash": "6bf4f23a95075a09",
-              "chunk_key": "6bf4f23a95075a09_c000",
+              "chunk_key": "6bf4f23a95075a09_c002",
               "article_date": "2026-04-14 00:00:00",
               "provider": "CNBC",
               "value": 1
@@ -190,28 +172,28 @@
               "name": "Nvidia"
             },
             {
-              "ticker": "TSLA",
-              "name": "Tesla"
-            },
-            {
               "ticker": "AMZN",
               "name": "Amazon.com"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
             },
             {
               "ticker": "MSFT",
               "name": "Microsoft"
             },
             {
+              "ticker": "TSLA",
+              "name": "Tesla"
+            },
+            {
+              "ticker": "AMD",
+              "name": "Advanced Micro Devices"
+            },
+            {
               "ticker": "ORCL",
               "name": "Oracle"
             },
             {
-              "ticker": "META",
-              "name": "Meta Platforms"
+              "ticker": "GOOG",
+              "name": "Alphabet"
             }
           ],
           "related_tickers_semantic": [
@@ -246,7 +228,7 @@
           ]
         },
         {
-          "cluster_id": 14,
+          "cluster_id": 13,
           "name": "\"AI's Impact on the Workforce\"",
           "count": 4,
           "children": [
@@ -300,7 +282,7 @@
           "related_tickers_semantic": []
         },
         {
-          "cluster_id": 29,
+          "cluster_id": 31,
           "name": "OpenAI's Enterprise Business Growth",
           "count": 4,
           "children": [
@@ -399,7 +381,7 @@
           ]
         },
         {
-          "cluster_id": 7,
+          "cluster_id": 8,
           "name": "Anthropic's AI Amid Government Tensions",
           "count": 2,
           "children": [
@@ -428,14 +410,32 @@
       ]
     },
     {
-      "name": "Empowering Future Leaders",
+      "name": "Empowering Life Skills",
       "count": 9,
       "children": [
         {
-          "cluster_id": 23,
-          "name": "\"Leading with Confidence and Effectiveness\"",
-          "count": 6,
+          "cluster_id": 24,
+          "name": "Building Emotional Security in Relationships",
+          "count": 4,
           "children": [
+            {
+              "name": "How to tell if your dating standards are too high—or too low: Harvard-trained psychologist",
+              "summary": "When it comes to what single Americans are looking for in a partner, their list of desired traits vary.",
+              "hash": "295a3c0ed4fd2c79",
+              "chunk_key": "295a3c0ed4fd2c79_c000",
+              "article_date": "2026-04-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Naomi Watts' menopause message: 'Why is it so taboo when we are half population'",
+              "summary": "It's so heartening to know the risk I took had a meaningful effect on others.\"",
+              "hash": "a8d6bf10090d8590",
+              "chunk_key": "a8d6bf10090d8590_c003",
+              "article_date": "2026-04-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
             {
               "name": "She’s been married nearly 70 years: The No. 1 thing they still do every day—it keeps them in love",
               "summary": "Rosalyn Engelman met her future husband, Irwin, in 1953 when the two were set up by a mutual friend in the Bronx. He was 19, she was 15. \"I was immediately smitten,\" she says.",
@@ -446,19 +446,33 @@
               "value": 1
             },
             {
-              "name": "Bessent: Recent college grads need AI literacy to succeed in today's job market",
-              "summary": "Want to lead with confidence and bring out the best in your team? Take CNBC's new online course, How To Be A Standout Leader .",
-              "hash": "36888138f77b9db4",
-              "chunk_key": "36888138f77b9db4_c003",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
               "name": "Here's exactly how I spot a liar, says ex-CIA officer: It can be very 'revealing'",
               "summary": "In my work as a CIA analyst, and now as a CEO, reading people and navigating complex social dynamics is central to everything I do.",
               "hash": "0eba31f6a83b5b2a",
               "chunk_key": "0eba31f6a83b5b2a_c000",
+              "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "ULTA",
+              "name": "Ulta Beauty"
+            }
+          ],
+          "related_tickers_semantic": []
+        },
+        {
+          "cluster_id": 25,
+          "name": "\"Leadership Skills for Success\"",
+          "count": 4,
+          "children": [
+            {
+              "name": "Bessent: Recent college grads need AI literacy to succeed in today's job market",
+              "summary": "Want to lead with confidence and bring out the best in your team? Take CNBC's new online course, How To Be A Standout Leader .",
+              "hash": "36888138f77b9db4",
+              "chunk_key": "36888138f77b9db4_c003",
               "article_date": "2026-04-15 00:00:00",
               "provider": "CNBC",
               "value": 1
@@ -500,95 +514,258 @@
           "related_tickers_semantic": []
         },
         {
-          "cluster_id": 18,
-          "name": "Entrepreneurship in the AI Era",
-          "count": 3,
+          "cluster_id": 19,
+          "name": "Raising Financially Smart Kids",
+          "count": 1,
           "children": [
             {
-              "name": "29-year-old is scaling back her six-figure career to run a bookstore with her husband",
-              "summary": "Merrill and Garing spent around $260,000 on the bookstore between the purchase price and costs for initial improvements.",
-              "hash": "79cf986a4b958d48",
-              "chunk_key": "79cf986a4b958d48_c002",
-              "article_date": "2026-04-16 00:00:00",
+              "name": "Child psychologist: This common issue can hurt kids' future success, happiness",
+              "summary": "For students, the anxiety of over-stressing about an upcoming test or project can hurt their academic performance, research shows .",
+              "hash": "547de4649eb6b931",
+              "chunk_key": "547de4649eb6b931_c000",
+              "article_date": "2026-04-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [],
+          "related_tickers_semantic": []
+        }
+      ]
+    },
+    {
+      "name": "Financial Planning Season",
+      "count": 10,
+      "children": [
+        {
+          "cluster_id": 14,
+          "name": "Tax Refunds Increase This Season",
+          "count": 5,
+          "children": [
+            {
+              "name": "Average tax refund is 11.2% higher, latest IRS filing data shows",
+              "summary": "The average tax refund is 11.2% higher this season, compared with about the same period in 2025, according to the latest IRS filing data.",
+              "hash": "281b8220d88ebdbd",
+              "chunk_key": "281b8220d88ebdbd_c000",
+              "article_date": "2026-04-17 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Bessent: Recent college grads need AI literacy to succeed in today's job market",
-              "summary": "Companies including Amazon, Salesforce and Block cited AI as a reason to lay off tens of thousands of employees in the last year.",
-              "hash": "36888138f77b9db4",
-              "chunk_key": "36888138f77b9db4_c002",
+              "name": "Tax Day proposal to exempt Election Day pollworker pay floated by House Democrats",
+              "summary": "House Democrats on Wednesday are introducing a proposal that would give tax relief to election poll workers. Under the legislation, led by Reps.",
+              "hash": "32447dc300721113",
+              "chunk_key": "32447dc300721113_c000",
               "article_date": "2026-04-15 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Kardashian ally Emma Grede on being an ambitious woman and billions",
-              "summary": "Then ambition has to be coupled with vision and a plan, and a lot of hard work. \"Ambition needs to find you working,\" Grede said. Ideas are never enough.",
-              "hash": "158361e0bddc10e6",
-              "chunk_key": "158361e0bddc10e6_c002",
-              "article_date": "2026-04-14 00:00:00",
+              "name": "How to file a tax extension for free by the April 15 deadline",
+              "summary": "Taxpayers often experience \"long wait times\" for the IRS to process amended returns and issue refunds for those filings, National Taxpayer Advocate Erin Collins wrote in January.",
+              "hash": "29a973cc017667e9",
+              "chunk_key": "29a973cc017667e9_c001",
+              "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Here are all the ways the Iran war has affected the U.S. economy so far",
+              "summary": "But there also was \"healthy growth\" of 3.6% excluding gas, the bank said, indicating that wallets were still resilient enough to handle the increase.",
+              "hash": "57d969744cc46ff5",
+              "chunk_key": "57d969744cc46ff5_c002",
+              "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "IRS publishes list of occupations that qualify for 'no tax on tips' provision",
+              "summary": "The U.S.",
+              "hash": "6446cb30ad67e739",
+              "chunk_key": "6446cb30ad67e739_c000",
+              "article_date": "2026-04-13 00:00:00",
               "provider": "CNBC",
               "value": 1
             }
           ],
           "related_tickers_named": [
             {
-              "ticker": "AAPL",
-              "name": "Apple"
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
             },
             {
-              "ticker": "SPOT",
-              "name": "Spotify Technology SA"
+              "ticker": "TFC",
+              "name": "Truist Financial"
+            }
+          ],
+          "related_tickers_semantic": []
+        },
+        {
+          "cluster_id": 3,
+          "name": "Retirement Savings and Planning",
+          "count": 3,
+          "children": [
+            {
+              "name": "There's an 'art' to writing AI prompts for personal finance, MIT professor says",
+              "summary": "Many Americans are turning to artificial intelligence for financial advice.",
+              "hash": "f4138b109d2fbf5f",
+              "chunk_key": "f4138b109d2fbf5f_c000",
+              "article_date": "2026-04-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
             },
             {
-              "ticker": "WMT",
-              "name": "Walmart"
+              "name": "Mom-and-pop car dealerships are growing or dying amid rise of mega-dealers",
+              "summary": "Derek Sylvester's father built the family's original Chevrolet dealership with his bare hands on Main Street in rural Peckville, Pennsylvania, in 1972.",
+              "hash": "ad59e9376f452d25",
+              "chunk_key": "ad59e9376f452d25_c000",
+              "article_date": "2026-04-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "35% of Gen Z homebuyers are single women. Here’s why they need an estate plan",
+              "summary": "Single women have long made up a larger share of homeowners than single men, although the gap is narrowing, according to the Pew Research Center .",
+              "hash": "ce5440b226e02751",
+              "chunk_key": "ce5440b226e02751_c001",
+              "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "AN",
+              "name": "AutoNation"
+            },
+            {
+              "ticker": "LAD",
+              "name": "Lithia Motors"
+            },
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet"
             }
           ],
           "related_tickers_semantic": [
             {
-              "ticker": "NVDA",
-              "name": "Nvidia"
+              "ticker": "ZG",
+              "name": "ZG"
             },
             {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
+              "ticker": "TOL",
+              "name": "Toll Brothers"
             },
             {
-              "ticker": "NFLX",
-              "name": "Netflix"
+              "ticker": "LNC",
+              "name": "Lincoln National"
             },
             {
-              "ticker": "PEP",
-              "name": "PepsiCo"
+              "ticker": "DHI",
+              "name": "D.R. Horton"
             },
             {
-              "ticker": "MRK",
-              "name": "Merck"
+              "ticker": "PHM",
+              "name": "Pultegroup"
             },
             {
-              "ticker": "PYPL",
-              "name": "PayPal"
+              "ticker": "JLL",
+              "name": "Jones Lang LaSalle"
+            },
+            {
+              "ticker": "NVR",
+              "name": "NVR"
             }
           ]
+        },
+        {
+          "cluster_id": 20,
+          "name": "Parent PLUS Loan Consolidation",
+          "count": 2,
+          "children": [
+            {
+              "name": "As AI restructures workforce, some young adults turn to grad school",
+              "summary": "However, that could change in 2026, the Jenzabar/Spark451 survey found.",
+              "hash": "c1e77982170bf976",
+              "chunk_key": "c1e77982170bf976_c002",
+              "article_date": "2026-04-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Over 643,000 student loan borrowers await repayment plans, forgiveness: Court filing",
+              "summary": "More than 643,000 federal student loan borrowers are waiting for the Trump administration to forgive their debt or enroll them in an affordable repayment plan , according to a new …",
+              "hash": "88ec4857b8e3bdd9",
+              "chunk_key": "88ec4857b8e3bdd9_c000",
+              "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [],
+          "related_tickers_semantic": []
         }
       ]
     },
     {
-      "name": "Global Market Turmoil",
-      "count": 63,
+      "name": "Global Market Uncertainty",
+      "count": 72,
       "children": [
         {
-          "cluster_id": 21,
-          "name": "Iran-US Tensions Escalate Globally",
-          "count": 21,
+          "cluster_id": 11,
+          "name": "Iran Conflict Sparks Global Market",
+          "count": 44,
           "children": [
+            {
+              "name": "Iran says Strait of Hormuz is closed again as vessels come under fire",
+              "summary": "Iran's Supreme National Security Council said in a statement that Pakistan's army chief, serving as an intermediary, presented the proposals to Iran during his recent visit to Tehr…",
+              "hash": "3957c4d08e622f61",
+              "chunk_key": "3957c4d08e622f61_c003",
+              "article_date": "2026-04-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Fed Governor Waller says Iran war, labor market risks are keeping central bank on hold",
+              "summary": "Federal Reserve Governor Christopher Waller on Friday said current economic conditions are complicating the approach to interest rates, with policymakers facing a potentially long-…",
+              "hash": "74dde2a4dd4cc7af",
+              "chunk_key": "74dde2a4dd4cc7af_c000",
+              "article_date": "2026-04-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
             {
               "name": "Iran declares Hormuz open to shipping; Trump says U.S. blockade still active",
               "summary": "Iran on Friday declared the Strait of Hormuz is open to commercial ships during the ceasefire between Israel and Lebanon, but confusion quickly emerged about whether the sea lane w…",
               "hash": "6caae2a7b9729265",
               "chunk_key": "6caae2a7b9729265_c000",
+              "article_date": "2026-04-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Video shows ships turning away from the Strait of Hormuz despite Iran declaring it open",
+              "summary": "In this article Oil tankers are remaining cautious about sailing through the Strait of Hormuz after Iran declared Friday that the sea lane is open to commercial ships, video footag…",
+              "hash": "5522e424e15bcc60",
+              "chunk_key": "5522e424e15bcc60_c000",
+              "article_date": "2026-04-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Central bankers and policymakers warn of global risks as Iran war drags on",
+              "summary": "So, [supply constraints] will be felt in the markets more significantly.",
+              "hash": "001dea7a488be0bf",
+              "chunk_key": "001dea7a488be0bf_c003",
+              "article_date": "2026-04-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "U.S.-UK special relationship under strain ahead of royal visit to Washington",
+              "summary": "A year ago, the U.K.",
+              "hash": "ee55c8b0b7c3b230",
+              "chunk_key": "ee55c8b0b7c3b230_c000",
               "article_date": "2026-04-17 00:00:00",
               "provider": "CNBC",
               "value": 1
@@ -639,6 +816,15 @@
               "value": 1
             },
             {
+              "name": "Why the stock market is hitting records despite Iran war",
+              "summary": "Stocks then saw one of their biggest daily rallies in history following Trump's reversal.",
+              "hash": "99ce4eceff627101",
+              "chunk_key": "99ce4eceff627101_c003",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
               "name": "The Nasdaq's win streak, Netflix earnings and more: Morning Squawk",
               "summary": "This is CNBC's Morning Squawk newsletter. Subscribe here to receive future editions in your inbox. Happy Friday.",
               "hash": "32806acb09c89147",
@@ -652,6 +838,24 @@
               "summary": "U.S.",
               "hash": "f120394284052dc1",
               "chunk_key": "f120394284052dc1_c000",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Cramer's lightning round: Buy Vertex Pharmaceuticals",
+              "summary": "Vertex Pharmaceuticals : \"I think Vertex is very strong. I wish I had bought it for the Charitable Trust a long time ago when we had the CEO on.",
+              "hash": "5e2c5c945921ee55",
+              "chunk_key": "5e2c5c945921ee55_c000",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Jim Cramer on the market's 'remarkable' rally — and what to watch ahead",
+              "summary": "With that in mind, Cramer turned to the week ahead, where a packed slate of earnings will help determine whether the rally can keep running.",
+              "hash": "f617d6c5765e7e8f",
+              "chunk_key": "f617d6c5765e7e8f_c001",
               "article_date": "2026-04-16 00:00:00",
               "provider": "CNBC",
               "value": 1
@@ -684,6 +888,24 @@
               "value": 1
             },
             {
+              "name": "World Bank chief: Iran war disruptions will last after Hormuz Strait reopens",
+              "summary": "Countries affected by the Iran war should prepare for conflict-related disruptions to last for months, even if the current shaky ceasefire lasts and the Strait of Hormuz is reopene…",
+              "hash": "6ace3153581e5aed",
+              "chunk_key": "6ace3153581e5aed_c000",
+              "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Here are all the ways the Iran war has affected the U.S. economy so far",
+              "summary": "Combined, Goldman expects the impact to push the Fed into multiple interest rate cuts later this year.",
+              "hash": "57d969744cc46ff5",
+              "chunk_key": "57d969744cc46ff5_c004",
+              "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
               "name": "U.S. and Iran could meet in Pakistan for peace talks next week: MS NOW",
               "summary": "The U.S. and Iran will likely return to Pakistan next week for a second round of peace negotiations, two senior Pakistani officials told MS NOW on Wednesday.",
               "hash": "39b3fe05219f3e68",
@@ -711,6 +933,51 @@
               "value": 1
             },
             {
+              "name": "Cattle prices soar to record highs as grilling season heats up",
+              "summary": "The price of ground beef reached record highs going back to 1984 earlier this year, federal data shows.",
+              "hash": "b35b30885943b19c",
+              "chunk_key": "b35b30885943b19c_c001",
+              "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "New York Fed President Williams worries war will slow growth, aggravate inflation",
+              "summary": "New York Fed President John Williams expressed concern Thursday about the Iran war's impact on the economy, saying it already has shown signs of hiking prices and slowing growth.",
+              "hash": "2731f9d39f3e4a8c",
+              "chunk_key": "2731f9d39f3e4a8c_c000",
+              "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "UK economy grew 0.5% in February, beating economists' expectations by a long shot",
+              "summary": "The U.K. economy grew by 0.5% in February, according to preliminary figures from the Office for National Statistics published Thursday. Economists polled by Reuters expected U.K.",
+              "hash": "f240499706410ef1",
+              "chunk_key": "f240499706410ef1_c000",
+              "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Prediction markets will grow to $1 trillion by 2030, Bernstein estimates",
+              "summary": "Join us for our third CNBC Pro LIVE, where investors of all backgrounds - from financial professionals to everyday individuals - come together to cut through the noise and gain act…",
+              "hash": "2bdaf6c149e9b62c",
+              "chunk_key": "2bdaf6c149e9b62c_c003",
+              "article_date": "2026-04-14 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "David Einhorn signals caution as Greenlight prioritizes capital protection",
+              "summary": "In this article Hedge fund manager David Einhorn said he is focusing on capital protection as markets rally on geopolitical optimism, warning that investors may be underestimating …",
+              "hash": "48d50c13908d7aaa",
+              "chunk_key": "48d50c13908d7aaa_c000",
+              "article_date": "2026-04-14 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
               "name": "More U.S.-Iran peace deal talks are in discussion, White House says",
               "summary": "A second round of negotiations between the U.S.",
               "hash": "e58183e779097f2b",
@@ -720,10 +987,37 @@
               "value": 1
             },
             {
+              "name": "Treasury Secretary Bessent now says it's OK for the Fed to wait to lower rates",
+              "summary": "Treasury Secretary Scott Bessent on Tuesday expressed confidence that inflation will moderate through the year, giving the Federal Reserve room to cut interest rates.",
+              "hash": "18d48a670daf5782",
+              "chunk_key": "18d48a670daf5782_c000",
+              "article_date": "2026-04-14 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
               "name": "Global recession is inevitable if Strait of Hormuz stays shut, says Ken Griffin",
               "summary": "Citadel CEO Ken Griffin said Tuesday that the global economy is headed toward a recession if the Strait of Hormuz stays shut for much longer.",
               "hash": "81395b000a511a7e",
               "chunk_key": "81395b000a511a7e_c000",
+              "article_date": "2026-04-14 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Market volatility can 'weigh heavily' on Gen Z, advisor says — how to cope",
+              "summary": "To compare, baby boomers began investing at an average age of 35. The latest volatility is nothing unusual, though.",
+              "hash": "f1b87c47de341622",
+              "chunk_key": "f1b87c47de341622_c001",
+              "article_date": "2026-04-14 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Cleveland Fed's Hammack expects interest rates to stay on hold 'for a good while'",
+              "summary": "Cleveland Federal Reserve President Beth Hammack said Wednesday that the central bank is weighing threats to both inflation and employment and should keep interest rates on hold as…",
+              "hash": "ee3c6a92baef232e",
+              "chunk_key": "ee3c6a92baef232e_c000",
               "article_date": "2026-04-14 00:00:00",
               "provider": "CNBC",
               "value": 1
@@ -747,6 +1041,24 @@
               "value": 1
             },
             {
+              "name": "BlackRock raises view on U.S. stocks on belief that war is over, profits are up",
+              "summary": "In this article Asset management giant BlackRock raised its outlook for U.S.",
+              "hash": "bfa0ed3498c28e4c",
+              "chunk_key": "bfa0ed3498c28e4c_c000",
+              "article_date": "2026-04-13 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Goldman tops estimates on record equities trading",
+              "summary": "Disruptive events that impact the price of commodities — like the Iran conflict has — can sometimes force corporate clients to the sidelines, which could threaten future capital ma…",
+              "hash": "2bcb4c0353506a0d",
+              "chunk_key": "2bcb4c0353506a0d_c002",
+              "article_date": "2026-04-13 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
               "name": "The Iran war is compounding California's energy crunch",
               "summary": "Global energy prices are rising as traffic through the Strait of Hormuz remains more than 90% below where it was before the Iran war broke out Feb. 28. While the U.S.",
               "hash": "232862958d5da471",
@@ -765,6 +1077,15 @@
               "value": 1
             },
             {
+              "name": "Wholesale prices rose 0.5% in March, much less than expected despite war impact",
+              "summary": "Producer prices rose in March but considerably less than expected as the Iran war's push on energy prices rekindled fears of another inflation burst.",
+              "hash": "d48710be543e8965",
+              "chunk_key": "d48710be543e8965_c000",
+              "article_date": "2026-04-13 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
               "name": "Trump says gas prices may not come down before midterms",
               "summary": "As a result, gas prices have risen sharply around the world. The U.S. national average price per gallon is $4.12, according to AAA estimates .",
               "hash": "4623d643c9ad48d5",
@@ -772,36 +1093,54 @@
               "article_date": "2026-04-13 00:00:00",
               "provider": "CNBC",
               "value": 1
+            },
+            {
+              "name": "China exports growth in March misses estimates, imports surge most in over four years",
+              "summary": "China's export growth declined to a six-month low in March as the Middle East conflict hit global demand outlook, while imports logged their strongest growth in more than four year…",
+              "hash": "047455b6776119f3",
+              "chunk_key": "047455b6776119f3_c000",
+              "article_date": "2026-04-13 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Iran war will hit UK growth the hardest of any rich economies, IMF says",
+              "summary": "Gourinchas said the U.S.",
+              "hash": "90b9ada48fcb62da",
+              "chunk_key": "90b9ada48fcb62da_c001",
+              "article_date": "2026-04-13 00:00:00",
+              "provider": "CNBC",
+              "value": 1
             }
           ],
           "related_tickers_named": [
+            {
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
+            },
+            {
+              "ticker": "BAC",
+              "name": "Bank America"
+            },
             {
               "ticker": "NVDA",
               "name": "Nvidia"
             },
             {
-              "ticker": "CVX",
-              "name": "Chevron"
+              "ticker": "VSNT",
+              "name": "Versant Media Group"
+            },
+            {
+              "ticker": "MSCI",
+              "name": "Msci"
             },
             {
               "ticker": "SPGI",
               "name": "S&P Global"
             },
             {
-              "ticker": "WBD",
-              "name": "Warner Bros Discovery"
-            },
-            {
-              "ticker": "NFLX",
-              "name": "Netflix"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
+              "ticker": "CVX",
+              "name": "Chevron"
             }
           ],
           "related_tickers_semantic": [
@@ -836,162 +1175,8 @@
           ]
         },
         {
-          "cluster_id": 25,
-          "name": "Federal Reserve Interest Rate Cuts",
-          "count": 11,
-          "children": [
-            {
-              "name": "Fed Governor Waller says Iran war, labor market risks are keeping central bank on hold",
-              "summary": "Federal Reserve Governor Christopher Waller on Friday said current economic conditions are complicating the approach to interest rates, with policymakers facing a potentially long-…",
-              "hash": "74dde2a4dd4cc7af",
-              "chunk_key": "74dde2a4dd4cc7af_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "World Bank chief: Iran war disruptions will last after Hormuz Strait reopens",
-              "summary": "Countries affected by the Iran war should prepare for conflict-related disruptions to last for months, even if the current shaky ceasefire lasts and the Strait of Hormuz is reopene…",
-              "hash": "6ace3153581e5aed",
-              "chunk_key": "6ace3153581e5aed_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Here are all the ways the Iran war has affected the U.S. economy so far",
-              "summary": "Combined, Goldman expects the impact to push the Fed into multiple interest rate cuts later this year.",
-              "hash": "57d969744cc46ff5",
-              "chunk_key": "57d969744cc46ff5_c004",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Cattle prices soar to record highs as grilling season heats up",
-              "summary": "The price of ground beef reached record highs going back to 1984 earlier this year, federal data shows.",
-              "hash": "b35b30885943b19c",
-              "chunk_key": "b35b30885943b19c_c001",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "New York Fed President Williams worries war will slow growth, aggravate inflation",
-              "summary": "New York Fed President John Williams expressed concern Thursday about the Iran war's impact on the economy, saying it already has shown signs of hiking prices and slowing growth.",
-              "hash": "2731f9d39f3e4a8c",
-              "chunk_key": "2731f9d39f3e4a8c_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "UK economy grew 0.5% in February, beating economists' expectations by a long shot",
-              "summary": "The U.K. economy grew by 0.5% in February, according to preliminary figures from the Office for National Statistics published Thursday. Economists polled by Reuters expected U.K.",
-              "hash": "f240499706410ef1",
-              "chunk_key": "f240499706410ef1_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Treasury Secretary Bessent now says it's OK for the Fed to wait to lower rates",
-              "summary": "Treasury Secretary Scott Bessent on Tuesday expressed confidence that inflation will moderate through the year, giving the Federal Reserve room to cut interest rates.",
-              "hash": "18d48a670daf5782",
-              "chunk_key": "18d48a670daf5782_c000",
-              "article_date": "2026-04-14 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Cleveland Fed's Hammack expects interest rates to stay on hold 'for a good while'",
-              "summary": "Cleveland Federal Reserve President Beth Hammack said Wednesday that the central bank is weighing threats to both inflation and employment and should keep interest rates on hold as…",
-              "hash": "ee3c6a92baef232e",
-              "chunk_key": "ee3c6a92baef232e_c000",
-              "article_date": "2026-04-14 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Wholesale prices rose 0.5% in March, much less than expected despite war impact",
-              "summary": "Producer prices rose in March but considerably less than expected as the Iran war's push on energy prices rekindled fears of another inflation burst.",
-              "hash": "d48710be543e8965",
-              "chunk_key": "d48710be543e8965_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "China exports growth in March misses estimates, imports surge most in over four years",
-              "summary": "March, climbing for the first time in more than three years .",
-              "hash": "047455b6776119f3",
-              "chunk_key": "047455b6776119f3_c003",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Iran war will hit UK growth the hardest of any rich economies, IMF says",
-              "summary": "Gourinchas said the U.S.",
-              "hash": "90b9ada48fcb62da",
-              "chunk_key": "90b9ada48fcb62da_c001",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "TFC",
-              "name": "Truist Financial"
-            },
-            {
-              "ticker": "BAC",
-              "name": "Bank of America"
-            },
-            {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "COLB",
-              "name": "Columbia Banking System"
-            },
-            {
-              "ticker": "PNC",
-              "name": "PNC Financial Services Group"
-            },
-            {
-              "ticker": "BHF",
-              "name": "Brighthouse Financial"
-            },
-            {
-              "ticker": "ICE",
-              "name": "Intercontinental Exchange"
-            },
-            {
-              "ticker": "NU",
-              "name": "Nu"
-            },
-            {
-              "ticker": "STT",
-              "name": "State Street"
-            },
-            {
-              "ticker": "HBAN",
-              "name": "Huntington Bancshares"
-            }
-          ]
-        },
-        {
-          "cluster_id": 15,
-          "name": "US Banks Weather Market Volatility",
+          "cluster_id": 9,
+          "name": "JPMorgan Navigates Global Uncertainty",
           "count": 7,
           "children": [
             {
@@ -1068,20 +1253,20 @@
               "name": "JPMorgan Chase"
             },
             {
-              "ticker": "BAC",
-              "name": "Bank of America"
+              "ticker": "MS",
+              "name": "Morgan Stanley"
             },
             {
               "ticker": "WFC",
               "name": "Wells Fargo"
             },
             {
-              "ticker": "MS",
-              "name": "Morgan Stanley"
-            },
-            {
               "ticker": "C",
               "name": "Citigroup"
+            },
+            {
+              "ticker": "BAC",
+              "name": "Bank America"
             }
           ],
           "related_tickers_semantic": [
@@ -1116,128 +1301,7 @@
           ]
         },
         {
-          "cluster_id": 20,
-          "name": "\"Market Impact of Iran Conflict\"",
-          "count": 6,
-          "children": [
-            {
-              "name": "Why the stock market is hitting records despite Iran war",
-              "summary": "Stocks then saw one of their biggest daily rallies in history following Trump's reversal.",
-              "hash": "99ce4eceff627101",
-              "chunk_key": "99ce4eceff627101_c003",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Prediction markets will grow to $1 trillion by 2030, Bernstein estimates",
-              "summary": "Join us for our third CNBC Pro LIVE, where investors of all backgrounds - from financial professionals to everyday individuals - come together to cut through the noise and gain act…",
-              "hash": "2bdaf6c149e9b62c",
-              "chunk_key": "2bdaf6c149e9b62c_c003",
-              "article_date": "2026-04-14 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "David Einhorn signals caution as Greenlight prioritizes capital protection",
-              "summary": "In this article Hedge fund manager David Einhorn said he is focusing on capital protection as markets rally on geopolitical optimism, warning that investors may be underestimating …",
-              "hash": "48d50c13908d7aaa",
-              "chunk_key": "48d50c13908d7aaa_c000",
-              "article_date": "2026-04-14 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Market volatility can 'weigh heavily' on Gen Z, advisor says — how to cope",
-              "summary": "To compare, baby boomers began investing at an average age of 35. The latest volatility is nothing unusual, though.",
-              "hash": "f1b87c47de341622",
-              "chunk_key": "f1b87c47de341622_c001",
-              "article_date": "2026-04-14 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "BlackRock raises view on U.S. stocks on belief that war is over, profits are up",
-              "summary": "In this article Asset management giant BlackRock raised its outlook for U.S.",
-              "hash": "bfa0ed3498c28e4c",
-              "chunk_key": "bfa0ed3498c28e4c_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Goldman tops estimates on record equities trading",
-              "summary": "Disruptive events that impact the price of commodities — like the Iran conflict has — can sometimes force corporate clients to the sidelines, which could threaten future capital ma…",
-              "hash": "2bcb4c0353506a0d",
-              "chunk_key": "2bcb4c0353506a0d_c002",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "VSNT",
-              "name": "Versant Media Group"
-            },
-            {
-              "ticker": "WFC",
-              "name": "Wells Fargo"
-            },
-            {
-              "ticker": "BAC",
-              "name": "Bank of America"
-            },
-            {
-              "ticker": "HOOD",
-              "name": "Robinhood Markets"
-            },
-            {
-              "ticker": "ACHC",
-              "name": "Acadia Healthcare"
-            },
-            {
-              "ticker": "CROX",
-              "name": "Crocs"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "BLK",
-              "name": "BlackRock"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "JHX",
-              "name": "James Hardie Industries"
-            },
-            {
-              "ticker": "HLI",
-              "name": "Houlihan Lokey"
-            },
-            {
-              "ticker": "EQIX",
-              "name": "Equinix"
-            },
-            {
-              "ticker": "BX",
-              "name": "Blackstone"
-            }
-          ]
-        },
-        {
-          "cluster_id": 16,
+          "cluster_id": 10,
           "name": "\"Private Credit Market in Turmoil\"",
           "count": 4,
           "children": [
@@ -1288,24 +1352,24 @@
               "name": "Ares Management"
             },
             {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
+              "ticker": "OWL",
+              "name": "Blue Owl Capital"
             },
             {
               "ticker": "BX",
               "name": "Blackstone"
             },
             {
-              "ticker": "OWL",
-              "name": "Blue Owl Capital"
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
             },
             {
-              "ticker": "META",
-              "name": "Meta Platforms"
+              "ticker": "GOOG",
+              "name": "Alphabet"
             },
             {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
+              "ticker": "T",
+              "name": "AT&T"
             }
           ],
           "related_tickers_semantic": [
@@ -1332,6 +1396,93 @@
             {
               "ticker": "SSNC",
               "name": "SS&C Technologies"
+            }
+          ]
+        },
+        {
+          "cluster_id": 12,
+          "name": "Entrepreneurship in the AI Era",
+          "count": 4,
+          "children": [
+            {
+              "name": "Naomi Watts' menopause message: 'Why is it so taboo when we are half population'",
+              "summary": "In this article Oscar-nominated actress Naomi Watts has continued to have fame on the screen into her 50s, but she is building more of her life story around navigating deeply perso…",
+              "hash": "a8d6bf10090d8590",
+              "chunk_key": "a8d6bf10090d8590_c000",
+              "article_date": "2026-04-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "29-year-old is scaling back her six-figure career to run a bookstore with her husband",
+              "summary": "Merrill and Garing spent around $260,000 on the bookstore between the purchase price and costs for initial improvements.",
+              "hash": "79cf986a4b958d48",
+              "chunk_key": "79cf986a4b958d48_c002",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Bessent: Recent college grads need AI literacy to succeed in today's job market",
+              "summary": "Companies including Amazon, Salesforce and Block cited AI as a reason to lay off tens of thousands of employees in the last year.",
+              "hash": "36888138f77b9db4",
+              "chunk_key": "36888138f77b9db4_c002",
+              "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Kardashian ally Emma Grede on being an ambitious woman and billions",
+              "summary": "Then ambition has to be coupled with vision and a plan, and a lot of hard work. \"Ambition needs to find you working,\" Grede said. Ideas are never enough.",
+              "hash": "158361e0bddc10e6",
+              "chunk_key": "158361e0bddc10e6_c002",
+              "article_date": "2026-04-14 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "SPOT",
+              "name": "Spotify Technology"
+            },
+            {
+              "ticker": "AAPL",
+              "name": "Apple"
+            },
+            {
+              "ticker": "WMT",
+              "name": "Walmart"
+            },
+            {
+              "ticker": "ULTA",
+              "name": "Ulta Beauty"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "NVDA",
+              "name": "Nvidia"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "TGT",
+              "name": "Target"
+            },
+            {
+              "ticker": "PYPL",
+              "name": "PayPal"
+            },
+            {
+              "ticker": "NFLX",
+              "name": "Netflix"
+            },
+            {
+              "ticker": "MSFT",
+              "name": "Microsoft"
             }
           ]
         },
@@ -1370,28 +1521,28 @@
           ],
           "related_tickers_named": [
             {
-              "ticker": "WBD",
-              "name": "Warner Bros Discovery"
-            },
-            {
               "ticker": "NFLX",
               "name": "Netflix"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
             },
             {
               "ticker": "AAPL",
               "name": "Apple"
             },
             {
+              "ticker": "DIS",
+              "name": "Walt Disney"
+            },
+            {
               "ticker": "CMCSA",
               "name": "Comcast"
             },
             {
-              "ticker": "DIS",
-              "name": "Walt Disney"
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "WBD",
+              "name": "Warner Bros Discovery"
             }
           ],
           "related_tickers_semantic": [
@@ -1457,19 +1608,19 @@
           "related_tickers_named": [
             {
               "ticker": "BAC",
-              "name": "Bank of America"
+              "name": "Bank America"
             },
             {
               "ticker": "HOOD",
               "name": "Robinhood Markets"
             },
             {
-              "ticker": "ICE",
-              "name": "Intercontinental Exchange"
-            },
-            {
               "ticker": "CME",
               "name": "CME Group"
+            },
+            {
+              "ticker": "ICE",
+              "name": "Intercontinental Exchange"
             }
           ],
           "related_tickers_semantic": [
@@ -1492,7 +1643,7 @@
           ]
         },
         {
-          "cluster_id": 3,
+          "cluster_id": 5,
           "name": "Fuel Prices Impact Air Travel",
           "count": 3,
           "children": [
@@ -1526,10 +1677,6 @@
           ],
           "related_tickers_named": [
             {
-              "ticker": "LUV",
-              "name": "Southwest Airlines"
-            },
-            {
               "ticker": "RCL",
               "name": "Royal Caribbean Cruises"
             },
@@ -1538,20 +1685,24 @@
               "name": "Carnival"
             },
             {
-              "ticker": "NCLH",
-              "name": "Norwegian Cruise Line"
+              "ticker": "LUV",
+              "name": "Southwest Airlines"
             },
             {
-              "ticker": "RBA",
-              "name": "RB Global"
+              "ticker": "KEX",
+              "name": "Kirby"
             },
             {
               "ticker": "UAL",
               "name": "United Airlines"
             },
             {
-              "ticker": "KEX",
-              "name": "Kirby"
+              "ticker": "CAR",
+              "name": "Avis Budget Group"
+            },
+            {
+              "ticker": "QSR",
+              "name": "Restaurant Brands International"
             }
           ],
           "related_tickers_semantic": [
@@ -1586,77 +1737,8 @@
           ]
         },
         {
-          "cluster_id": 8,
-          "name": "GLP-1 Weight Loss Medications",
-          "count": 2,
-          "children": [
-            {
-              "name": "RFK Jr.'s peptide policy could boost Hims & Hers as its GLP-1 business evolves",
-              "summary": "In this article As its high-margin compounded GLP-1 business evolves, Hims & Hers Health may be finding a new opportunity in peptides.",
-              "hash": "8948eecf97e9d77d",
-              "chunk_key": "8948eecf97e9d77d_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "The Nasdaq's win streak, Netflix earnings and more: Morning Squawk",
-              "summary": "The move comes after retail investors rushed into Allbirds' stock following its own announcement that it would shift its focus from shoes to AI.",
-              "hash": "32806acb09c89147",
-              "chunk_key": "32806acb09c89147_c002",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "WBD",
-              "name": "Warner Bros Discovery"
-            },
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "NFLX",
-              "name": "Netflix"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "MRNA",
-              "name": "Moderna"
-            },
-            {
-              "ticker": "VTRS",
-              "name": "Viatris"
-            },
-            {
-              "ticker": "AMGN",
-              "name": "Amgen"
-            },
-            {
-              "ticker": "REGN",
-              "name": "Regeneron Pharmaceuticals"
-            },
-            {
-              "ticker": "LLY",
-              "name": "Eli Lilly and"
-            },
-            {
-              "ticker": "JNJ",
-              "name": "Johnson Johnson"
-            },
-            {
-              "ticker": "UNH",
-              "name": "UnitedHealth Group"
-            }
-          ]
-        },
-        {
-          "cluster_id": 24,
-          "name": "EV Demand Boosted by Crisis",
+          "cluster_id": 15,
+          "name": "\"Electric Vehicles Amid Global Uncertainty\"",
           "count": 2,
           "children": [
             {
@@ -1720,8 +1802,26 @@
           ]
         },
         {
-          "cluster_id": 9,
-          "name": "US Trade Tensions Escalate",
+          "cluster_id": 7,
+          "name": "GLP-1 Obesity Medications Market",
+          "count": 1,
+          "children": [
+            {
+              "name": "RFK Jr.'s peptide policy could boost Hims & Hers as its GLP-1 business evolves",
+              "summary": "In this article As its high-margin compounded GLP-1 business evolves, Hims & Hers Health may be finding a new opportunity in peptides.",
+              "hash": "8948eecf97e9d77d",
+              "chunk_key": "8948eecf97e9d77d_c000",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [],
+          "related_tickers_semantic": []
+        },
+        {
+          "cluster_id": 18,
+          "name": "US Trade Investigations Escalate",
           "count": 1,
           "children": [
             {
@@ -1745,153 +1845,11 @@
       ]
     },
     {
-      "name": "Tax Season Savings",
-      "count": 8,
+      "name": "Washington's Dark Underbelly",
+      "count": 13,
       "children": [
         {
-          "cluster_id": 5,
-          "name": "Tax Refunds Increase This Season",
-          "count": 6,
-          "children": [
-            {
-              "name": "Average tax refund is 11.2% higher, latest IRS filing data shows",
-              "summary": "The average tax refund is 11.2% higher this season, compared with about the same period in 2025, according to the latest IRS filing data.",
-              "hash": "281b8220d88ebdbd",
-              "chunk_key": "281b8220d88ebdbd_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Tax Day proposal to exempt Election Day pollworker pay floated by House Democrats",
-              "summary": "House Democrats on Wednesday are introducing a proposal that would give tax relief to election poll workers. Under the legislation, led by Reps.",
-              "hash": "32447dc300721113",
-              "chunk_key": "32447dc300721113_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "How to file a tax extension for free by the April 15 deadline",
-              "summary": "Taxpayers often experience \"long wait times\" for the IRS to process amended returns and issue refunds for those filings, National Taxpayer Advocate Erin Collins wrote in January.",
-              "hash": "29a973cc017667e9",
-              "chunk_key": "29a973cc017667e9_c001",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Here are all the ways the Iran war has affected the U.S. economy so far",
-              "summary": "But there also was \"healthy growth\" of 3.6% excluding gas, the bank said, indicating that wallets were still resilient enough to handle the increase.",
-              "hash": "57d969744cc46ff5",
-              "chunk_key": "57d969744cc46ff5_c002",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "IRS publishes list of occupations that qualify for 'no tax on tips' provision",
-              "summary": "The U.S.",
-              "hash": "6446cb30ad67e739",
-              "chunk_key": "6446cb30ad67e739_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Tariff refunds unlikely to benefit consumers, CNBC CFO survey finds",
-              "summary": "Henry Cuellar, D-Texas, are sitting in House committees.",
-              "hash": "6a4c16ca1b5b4576",
-              "chunk_key": "6a4c16ca1b5b4576_c003",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "TFC",
-              "name": "Truist Financial"
-            },
-            {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            },
-            {
-              "ticker": "MCO",
-              "name": "Moody's"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "TSLA",
-              "name": "Tesla"
-            },
-            {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            },
-            {
-              "ticker": "PYPL",
-              "name": "PayPal"
-            },
-            {
-              "ticker": "NFLX",
-              "name": "Netflix"
-            }
-          ]
-        },
-        {
-          "cluster_id": 10,
-          "name": "Retirement Savings and Planning Concerns",
-          "count": 2,
-          "children": [
-            {
-              "name": "Over 643,000 student loan borrowers await repayment plans, forgiveness: Court filing",
-              "summary": "More than 643,000 federal student loan borrowers are waiting for the Trump administration to forgive their debt or enroll them in an affordable repayment plan , according to a new …",
-              "hash": "88ec4857b8e3bdd9",
-              "chunk_key": "88ec4857b8e3bdd9_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "35% of Gen Z homebuyers are single women. Here’s why they need an estate plan",
-              "summary": "Single women have long made up a larger share of homeowners than single men, although the gap is narrowing, according to the Pew Research Center .",
-              "hash": "ce5440b226e02751",
-              "chunk_key": "ce5440b226e02751_c001",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
-        }
-      ]
-    },
-    {
-      "name": "Washington Scandals",
-      "count": 12,
-      "children": [
-        {
-          "cluster_id": 17,
+          "cluster_id": 29,
           "name": "Powell Investigation Clouds Fed Nomination",
           "count": 5,
           "children": [
@@ -1945,7 +1903,7 @@
           "related_tickers_semantic": []
         },
         {
-          "cluster_id": 12,
+          "cluster_id": 16,
           "name": "Trump's Epstein Scandal Fallout",
           "count": 4,
           "children": [
@@ -1990,9 +1948,9 @@
           "related_tickers_semantic": []
         },
         {
-          "cluster_id": 6,
+          "cluster_id": 17,
           "name": "US Government Shutdown Continues",
-          "count": 3,
+          "count": 4,
           "children": [
             {
               "name": "What to know on FISA Section 702: Congress extends controversial surveillance program",
@@ -2008,6 +1966,15 @@
               "summary": "An Immigration and Customs Enforcement agent has been charged with two counts of assault related to a road rage incident by state prosecutors in Minnesota, who have issued a nation…",
               "hash": "bcec7ff258766488",
               "chunk_key": "bcec7ff258766488_c000",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Senate overturns Boundary Waters protections, a boon for Chilean mining company",
+              "summary": "Republicans who pushed the resolution lauded the result.",
+              "hash": "de64c59d8f5ef0b8",
+              "chunk_key": "de64c59d8f5ef0b8_c001",
               "article_date": "2026-04-16 00:00:00",
               "provider": "CNBC",
               "value": 1
