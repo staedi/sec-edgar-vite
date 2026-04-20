@@ -1,14 +1,15 @@
 import { useState } from 'react'
-import TopicsTab   from './components/TopicsTab'
+import TopicsTab from './components/TopicsTab'
 import PlaceholderTab from './components/PlaceholderTab'
+import SentimentTab from './components/SentimentTab'
 
 type Tab = 'topics' | 'sentiment' | 'graph' | 'edgar'
 
 const TABS: { id: Tab; label: string }[] = [
-  { id: 'topics',    label: 'Topics'    },
+  { id: 'topics', label: 'Topics' },
   { id: 'sentiment', label: 'Sentiment' },
-  { id: 'graph',     label: 'Graph'     },
-  { id: 'edgar',     label: 'EDGAR'     },
+  { id: 'graph', label: 'Graph' },
+  { id: 'edgar', label: 'EDGAR' },
 ]
 
 export default function App() {
@@ -30,7 +31,7 @@ export default function App() {
           <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
             <rect width="22" height="22" rx="5" fill="var(--ink)" />
             <polyline points="4,16 8,10 12,13 18,6"
-              stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+              stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
           </svg>
           <span style={{ fontSize: 14, fontWeight: 600, color: 'var(--ink)', letterSpacing: '-0.01em' }}>
             Financial News Explorer
@@ -57,10 +58,10 @@ export default function App() {
 
       {/* ── Content — fills remaining height, scrolls internally ─────────── */}
       <main style={{ flex: 1, overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
-        {tab === 'topics'    && <TopicsTab />}
-        {tab === 'sentiment' && <PlaceholderTab label="Sentiment" />}
-        {tab === 'graph'     && <PlaceholderTab label="Graph" />}
-        {tab === 'edgar'     && <PlaceholderTab label="EDGAR" />}
+        {tab === 'topics' && <TopicsTab />}
+        {tab === 'sentiment' && <SentimentTab />}
+        {tab === 'graph' && <PlaceholderTab label="Graph" />}
+        {tab === 'edgar' && <PlaceholderTab label="EDGAR" />}
       </main>
     </div>
   )
