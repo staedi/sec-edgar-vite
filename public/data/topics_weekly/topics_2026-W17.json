@@ -1,7 +1,7 @@
 {
   "name": "root",
-  "mode": "recent",
-  "updated_at": "2026-04-20T13:57:55.252478+00:00",
+  "mode": "weekly",
+  "updated_at": "2026-04-20T13:57:55.263951+00:00",
   "children": [
     {
       "name": "Emerging Tech Trends",
@@ -237,66 +237,6 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "TSLA",
-              "name": "Tesla"
-            },
-            {
-              "ticker": "AMD",
-              "name": "Advanced Micro Devices"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMD",
-              "name": "Advanced Micro Devices"
-            },
-            {
-              "ticker": "INTC",
-              "name": "Intel"
-            },
-            {
-              "ticker": "UNH",
-              "name": "UnitedHealth Group"
-            },
-            {
-              "ticker": "TXN",
-              "name": "Texas Instruments"
-            },
-            {
-              "ticker": "AMKR",
-              "name": "Amkor Technology"
-            },
-            {
-              "ticker": "DVN",
-              "name": "Devon Energy"
-            }
           ]
         },
         {
@@ -340,50 +280,6 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "SPOT",
-              "name": "Spotify Technology"
-            },
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
-            },
-            {
-              "ticker": "WMT",
-              "name": "Walmart"
-            },
-            {
-              "ticker": "ULTA",
-              "name": "Ulta Beauty"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "NFLX",
-              "name": "Netflix"
-            },
-            {
-              "ticker": "PEP",
-              "name": "PepsiCo"
-            },
-            {
-              "ticker": "MRK",
-              "name": "Merck"
-            },
-            {
-              "ticker": "PYPL",
-              "name": "PayPal"
-            }
           ]
         },
         {
@@ -417,58 +313,6 @@
               "article_date": "2026-04-13 00:00:00",
               "provider": "CNBC",
               "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "NFLX",
-              "name": "Netflix"
-            },
-            {
-              "ticker": "CMCSA",
-              "name": "Comcast"
-            },
-            {
-              "ticker": "WBD",
-              "name": "Warner Bros Discovery"
-            },
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
-            },
-            {
-              "ticker": "DIS",
-              "name": "Walt Disney"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "NFLX",
-              "name": "Netflix"
-            },
-            {
-              "ticker": "CMCSA",
-              "name": "Comcast"
-            },
-            {
-              "ticker": "ROKU",
-              "name": "Roku"
-            },
-            {
-              "ticker": "DIS",
-              "name": "Walt Disney"
             }
           ]
         },
@@ -504,18 +348,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "WMT",
-              "name": "Walmart"
-            },
-            {
-              "ticker": "TLN",
-              "name": "Talen Energy"
-            }
-          ],
-          "related_tickers_semantic": []
+          ]
         },
         {
           "cluster_id": 18,
@@ -540,18 +373,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "FDX",
-              "name": "FedEx"
-            }
-          ],
-          "related_tickers_semantic": []
+          ]
         },
         {
           "cluster_id": 6,
@@ -567,9 +389,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
+          ]
         }
       ]
     },
@@ -672,50 +492,6 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "WMT",
-              "name": "Walmart"
-            },
-            {
-              "ticker": "ULTA",
-              "name": "Ulta Beauty"
-            },
-            {
-              "ticker": "TLN",
-              "name": "Talen Energy"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "MSM",
-              "name": "MSC Industrial Direct"
-            },
-            {
-              "ticker": "AMAT",
-              "name": "Applied Materials"
-            },
-            {
-              "ticker": "BA",
-              "name": "Boeing"
-            },
-            {
-              "ticker": "XP",
-              "name": "XP"
-            },
-            {
-              "ticker": "VZ",
-              "name": "Verizon Communications"
-            },
-            {
-              "ticker": "LYV",
-              "name": "Live Nation Entertainment"
-            }
           ]
         },
         {
@@ -777,50 +553,6 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "TFC",
-              "name": "Truist Financial"
-            },
-            {
-              "ticker": "MCO",
-              "name": "Moody's"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "TSLA",
-              "name": "Tesla"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            }
           ]
         },
         {
@@ -855,9 +587,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
+          ]
         },
         {
           "cluster_id": 8,
@@ -882,14 +612,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            }
-          ],
-          "related_tickers_semantic": []
+          ]
         },
         {
           "cluster_id": 19,
@@ -905,9 +628,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
+          ]
         }
       ]
     },
@@ -983,62 +704,6 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            },
-            {
-              "ticker": "MS",
-              "name": "Morgan Stanley"
-            },
-            {
-              "ticker": "WFC",
-              "name": "Wells Fargo"
-            },
-            {
-              "ticker": "C",
-              "name": "Citigroup"
-            },
-            {
-              "ticker": "BAC",
-              "name": "Bank America"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "C",
-              "name": "Citigroup"
-            },
-            {
-              "ticker": "FRHC",
-              "name": "Freedom Holding"
-            },
-            {
-              "ticker": "STWD",
-              "name": "Starwood Property Trust"
-            },
-            {
-              "ticker": "JHX",
-              "name": "James Hardie Industries"
-            },
-            {
-              "ticker": "EVR",
-              "name": "Evercore"
-            },
-            {
-              "ticker": "TIGO",
-              "name": "Millicom International"
-            }
           ]
         },
         {
@@ -1072,62 +737,6 @@
               "article_date": "2026-04-14 00:00:00",
               "provider": "CNBC",
               "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "APO",
-              "name": "Apollo Global Management"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "ARES",
-              "name": "Ares Management"
-            },
-            {
-              "ticker": "BX",
-              "name": "Blackstone"
-            },
-            {
-              "ticker": "OWL",
-              "name": "Blue Owl Capital"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "VZ",
-              "name": "Verizon Communications"
-            },
-            {
-              "ticker": "UNH",
-              "name": "UnitedHealth Group"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "VNOM",
-              "name": "Viper Energy"
-            },
-            {
-              "ticker": "WELL",
-              "name": "Welltower"
-            },
-            {
-              "ticker": "AXS",
-              "name": "AXIS Capital"
             }
           ]
         }
@@ -1331,18 +940,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "SPGI",
-              "name": "S&P Global"
-            },
-            {
-              "ticker": "CVX",
-              "name": "Chevron"
-            }
-          ],
-          "related_tickers_semantic": []
+          ]
         },
         {
           "cluster_id": 14,
@@ -1466,54 +1064,6 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "BAC",
-              "name": "Bank America"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "MSCI",
-              "name": "Msci"
-            },
-            {
-              "ticker": "TFC",
-              "name": "Truist Financial"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "COLB",
-              "name": "Columbia Banking System"
-            },
-            {
-              "ticker": "PNC",
-              "name": "PNC Financial Services Group"
-            },
-            {
-              "ticker": "BHF",
-              "name": "Brighthouse Financial"
-            },
-            {
-              "ticker": "ICE",
-              "name": "Intercontinental Exchange"
-            },
-            {
-              "ticker": "NU",
-              "name": "Nu"
-            },
-            {
-              "ticker": "STT",
-              "name": "State Street"
-            },
-            {
-              "ticker": "HBAN",
-              "name": "Huntington Bancshares"
-            }
           ]
         },
         {
@@ -1602,66 +1152,6 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "VSNT",
-              "name": "Versant Media Group"
-            },
-            {
-              "ticker": "WFC",
-              "name": "Wells Fargo"
-            },
-            {
-              "ticker": "HOOD",
-              "name": "Robinhood Markets"
-            },
-            {
-              "ticker": "BAC",
-              "name": "Bank America"
-            },
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "NFLX",
-              "name": "Netflix"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "BLK",
-              "name": "BlackRock"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "JHX",
-              "name": "James Hardie Industries"
-            },
-            {
-              "ticker": "HLI",
-              "name": "Houlihan Lokey"
-            },
-            {
-              "ticker": "EQIX",
-              "name": "Equinix"
-            },
-            {
-              "ticker": "BX",
-              "name": "Blackstone"
-            }
           ]
         },
         {
@@ -1695,42 +1185,6 @@
               "article_date": "2026-04-14 00:00:00",
               "provider": "CNBC",
               "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "HOOD",
-              "name": "Robinhood Markets"
-            },
-            {
-              "ticker": "BAC",
-              "name": "Bank America"
-            },
-            {
-              "ticker": "CME",
-              "name": "CME Group"
-            },
-            {
-              "ticker": "ICE",
-              "name": "Intercontinental Exchange"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "INTC",
-              "name": "Intel"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "BA",
-              "name": "Boeing"
             }
           ]
         },
@@ -1766,66 +1220,6 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "RCL",
-              "name": "Royal Caribbean Cruises"
-            },
-            {
-              "ticker": "CCL",
-              "name": "Carnival"
-            },
-            {
-              "ticker": "LUV",
-              "name": "Southwest Airlines"
-            },
-            {
-              "ticker": "KEX",
-              "name": "Kirby"
-            },
-            {
-              "ticker": "UAL",
-              "name": "United Airlines"
-            },
-            {
-              "ticker": "CAR",
-              "name": "Avis Budget Group"
-            },
-            {
-              "ticker": "QSR",
-              "name": "Restaurant Brands International"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "UAL",
-              "name": "United Airlines"
-            },
-            {
-              "ticker": "AL",
-              "name": "AIR Lease"
-            },
-            {
-              "ticker": "AAL",
-              "name": "American Airlines Group"
-            },
-            {
-              "ticker": "LUV",
-              "name": "Southwest Airlines"
-            },
-            {
-              "ticker": "BA",
-              "name": "Boeing"
-            },
-            {
-              "ticker": "RRC",
-              "name": "Range Resources"
-            },
-            {
-              "ticker": "AMGN",
-              "name": "Amgen"
-            }
           ]
         },
         {
@@ -1860,54 +1254,6 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "F",
-              "name": "Ford Motor"
-            },
-            {
-              "ticker": "GM",
-              "name": "General Motors"
-            },
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
-            },
-            {
-              "ticker": "AN",
-              "name": "AutoNation"
-            },
-            {
-              "ticker": "LAD",
-              "name": "Lithia Motors"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "RL",
-              "name": "Ralph Lauren"
-            },
-            {
-              "ticker": "SHW",
-              "name": "Sherwin-Williams"
-            },
-            {
-              "ticker": "LYB",
-              "name": "LyondellBasell Industries NV"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            }
           ]
         },
         {
@@ -1924,14 +1270,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "MCO",
-              "name": "Moody's"
-            }
-          ],
-          "related_tickers_semantic": []
+          ]
         }
       ]
     },
@@ -1998,9 +1337,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
+          ]
         },
         {
           "cluster_id": 10,
@@ -2043,9 +1380,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
+          ]
         },
         {
           "cluster_id": 12,
@@ -2088,9 +1423,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
+          ]
         }
       ]
     }
