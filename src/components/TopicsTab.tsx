@@ -38,14 +38,36 @@ function fixEncoding(s: string): string {
     .replace(/[\uFFFD]/g, '')
 }
 
+
+// ── Sentiment ─────────────────────────────────────────────────────────────────
+
+interface SentimentEntity {
+  ticker: string | null
+  score: number
+  clusters: { cluster_id: number; score: number }[]
+}
+
+type SentimentMap = Record<string, { global: number; byCluster: Record<number, number> }>
+
+function sentimentColor(score: number): string {
+  if (score > 0.15) return '#16a34a'
+  if (score < -0.15) return '#dc2626'
+  return '#9ca3af'
+}
+
+function fmtScore(score: number): string {
+  return (score >= 0 ? '+' : '') + score.toFixed(2)
+}
+
 // ── Detail pane ───────────────────────────────────────────────────────────────
 
 const PANE_W = 272
 
-function DetailPane({ cluster, metaName, onClose }: {
+function DetailPane({ cluster, metaName, onClose, sentimentMap }: {
   cluster: ClusterNode
   metaName: string
   onClose: () => void
+  sentimentMap: SentimentMap
 }) {
   const [tickerMode, setTickerMode] = useState<'named' | 'semantic'>('named')
   const color = clusterColor(cluster.cluster_id)
@@ -133,19 +155,30 @@ function DetailPane({ cluster, metaName, onClose }: {
           )}
           {tickers.length > 0 ? (
             <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-              {tickers.map(t => (
-                <div key={t.ticker} style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}>
-                  <span style={{
-                    fontSize: 12, fontWeight: 700, color,
-                    letterSpacing: '0.02em', flexShrink: 0,
-                    fontVariantNumeric: 'tabular-nums',
-                  }}>{t.ticker}</span>
-                  <span style={{
-                    fontSize: 12, fontWeight: 400, color: 'var(--ink-3)',
-                    overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
-                  }}>{t.name}</span>
-                </div>
-              ))}
+              {tickers.map(t => {
+                const sent = sentimentMap[t.ticker]
+                const score = sent?.byCluster[cluster.cluster_id] ?? sent?.global ?? null
+                const sColor = score !== null ? sentimentColor(score) : 'var(--ink-5)'
+                return (
+                  <div key={t.ticker} style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}>
+                    <span style={{
+                      fontSize: 12, fontWeight: 700, color,
+                      letterSpacing: '0.02em', flexShrink: 0,
+                      fontVariantNumeric: 'tabular-nums',
+                    }}>{t.ticker}</span>
+                    <span style={{
+                      fontSize: 12, fontWeight: 400, color: 'var(--ink-3)',
+                      overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', flex: 1,
+                    }}>{t.name}</span>
+                    {score !== null && (
+                      <span style={{
+                        fontSize: 11, fontWeight: 600, color: sColor,
+                        fontVariantNumeric: 'tabular-nums', flexShrink: 0,
+                      }}>{fmtScore(score)}</span>
+                    )}
+                  </div>
+                )
+              })}
             </div>
           ) : (
             <p style={{ margin: 0, fontSize: 11, color: 'var(--ink-4)' }}>
@@ -191,6 +224,7 @@ export default function TopicsTab() {
   const [data, setData] = useState<TopicsData | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [mode, setMode] = useState<'recent' | 'full'>('recent')
+  const [sentimentMap, setSentimentMap] = useState<SentimentMap>({})
   const [activeCluster, setActiveCluster] = useState<number | null>(null)
   const [activeMeta, setActiveMeta] = useState<string | null>(null)
 
@@ -203,6 +237,22 @@ export default function TopicsTab() {
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() as Promise<TopicsData> })
       .then(d => setData(d))
       .catch((e: Error) => setError(e.message))
+    // Fetch matching sentiment data and build lookup map
+    fetch(`${BASE}/data/sentiment_${mode}.json`)
+      .then(r => r.ok ? r.json() : null)
+      .then((d: { entities: SentimentEntity[] } | null) => {
+        if (!d) return
+        const map: SentimentMap = {}
+        d.entities.forEach(e => {
+          if (!e.ticker) return
+          map[e.ticker] = {
+            global: e.score,
+            byCluster: Object.fromEntries(e.clusters.map(c => [c.cluster_id, c.score])),
+          }
+        })
+        setSentimentMap(map)
+      })
+      .catch(() => { })  // sentiment is optional — fail silently
   }, [mode])
 
   useEffect(() => {
@@ -287,7 +337,7 @@ export default function TopicsTab() {
                 background: mode === m ? 'var(--ink)' : 'transparent',
                 color: mode === m ? 'var(--white)' : 'var(--ink-3)',
               }}>
-                {m === 'recent' ? 'Recent' : 'All'}
+                {m === 'recent' ? 'Recent' : 'Full'}
               </button>
             ))}
           </div>
@@ -341,6 +391,7 @@ export default function TopicsTab() {
                 cluster={selectedCluster}
                 metaName={selectedMeta}
                 onClose={clearAll}
+                sentimentMap={sentimentMap}
               />
             )}
           </>
