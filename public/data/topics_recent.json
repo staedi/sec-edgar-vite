@@ -1,16 +1,16 @@
 {
   "name": "root",
   "mode": "recent",
-  "updated_at": "2026-04-20T13:57:55.252478+00:00",
+  "updated_at": "2026-04-21T13:03:33.215532+00:00",
   "children": [
     {
       "name": "Emerging Tech Trends",
-      "count": 38,
+      "count": 35,
       "children": [
         {
           "cluster_id": 23,
           "name": "AI Market Competition Heats Up",
-          "count": 25,
+          "count": 23,
           "children": [
             {
               "name": "Why software stocks, 2026's market dogs, have joined the rally",
@@ -218,24 +218,6 @@
               "article_date": "2026-04-14 00:00:00",
               "provider": "CNBC",
               "value": 1
-            },
-            {
-              "name": "Intel stock on historic 9-day winning streak, up 58% over that run",
-              "summary": "In this article Intel saw its ninth-straight day of gains on Monday, up 58% over that stretch and on track for its best run over that many days since at least the 1970s.",
-              "hash": "d54b48211900c131",
-              "chunk_key": "d54b48211900c131_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Oracle pops nearly 12%, leading bounce back rally in software stocks",
-              "summary": "In this article Oracle 's stock surged nearly 12% as software shares, beaten down by artificial intelligence disruption fears, clawed back some year-to-date losses.",
-              "hash": "a485f08d43d9d888",
-              "chunk_key": "a485f08d43d9d888_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
             }
           ],
           "related_tickers_named": [
@@ -248,12 +230,12 @@
               "name": "Alphabet"
             },
             {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
               "ticker": "AMZN",
               "name": "Amazon.com"
+            },
+            {
+              "ticker": "MSFT",
+              "name": "Microsoft"
             },
             {
               "ticker": "META",
@@ -274,28 +256,28 @@
               "name": "Nvidia"
             },
             {
-              "ticker": "AMD",
-              "name": "Advanced Micro Devices"
+              "ticker": "JHX",
+              "name": "James Hardie Industries"
             },
             {
               "ticker": "INTC",
               "name": "Intel"
             },
             {
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
+            },
+            {
+              "ticker": "ANET",
+              "name": "Arista Networks"
+            },
+            {
               "ticker": "UNH",
               "name": "UnitedHealth Group"
             },
             {
-              "ticker": "TXN",
-              "name": "Texas Instruments"
-            },
-            {
-              "ticker": "AMKR",
-              "name": "Amkor Technology"
-            },
-            {
-              "ticker": "DVN",
-              "name": "Devon Energy"
+              "ticker": "AMD",
+              "name": "Advanced Micro Devices"
             }
           ]
         },
@@ -361,114 +343,32 @@
           ],
           "related_tickers_semantic": [
             {
-              "ticker": "NVDA",
-              "name": "Nvidia"
+              "ticker": "GDDY",
+              "name": "GoDaddy"
             },
             {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
+              "ticker": "TPR",
+              "name": "Tapestry"
             },
             {
-              "ticker": "NFLX",
-              "name": "Netflix"
+              "ticker": "EL",
+              "name": "Estée Lauder"
             },
             {
-              "ticker": "PEP",
-              "name": "PepsiCo"
+              "ticker": "COTY",
+              "name": "Coty"
             },
             {
-              "ticker": "MRK",
-              "name": "Merck"
+              "ticker": "ELF",
+              "name": "e.l.f. Beauty"
             },
             {
-              "ticker": "PYPL",
-              "name": "PayPal"
-            }
-          ]
-        },
-        {
-          "cluster_id": 1,
-          "name": "\"Streaming Services Face Profitability Pressures\"",
-          "count": 3,
-          "children": [
-            {
-              "name": "Netflix posts massive earnings beat, announces Reed Hastings to exit board",
-              "summary": "In this article Netflix shares fell 9% in extended trading on Thursday after the streaming giant released its first-quarter earnings report and announced a key governance change.",
-              "hash": "a1b926b6151a772b",
-              "chunk_key": "a1b926b6151a772b_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
+              "ticker": "MAT",
+              "name": "Mattel"
             },
             {
-              "name": "Netflix was long 'a builder not a buyer.' Is that era over?",
-              "summary": "In this article For years, Netflix top brass would tell investors they were builders not buyers. Now, that sentiment toward growth may be changing.",
-              "hash": "4d5285b2f410669b",
-              "chunk_key": "4d5285b2f410669b_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Wall Street still loves streaming, but are its affections well placed?",
-              "summary": "Both Netflix and traditional media companies have raised prices for their streaming platforms over the last year in an effort to boost revenue and justify high content spending.",
-              "hash": "2605802a806df3eb",
-              "chunk_key": "2605802a806df3eb_c004",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "NFLX",
-              "name": "Netflix"
-            },
-            {
-              "ticker": "CMCSA",
-              "name": "Comcast"
-            },
-            {
-              "ticker": "WBD",
-              "name": "Warner Bros Discovery"
-            },
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
-            },
-            {
-              "ticker": "DIS",
-              "name": "Walt Disney"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "NFLX",
-              "name": "Netflix"
-            },
-            {
-              "ticker": "CMCSA",
-              "name": "Comcast"
-            },
-            {
-              "ticker": "ROKU",
-              "name": "Roku"
-            },
-            {
-              "ticker": "DIS",
-              "name": "Walt Disney"
+              "ticker": "PINS",
+              "name": "Pinterest"
             }
           ]
         },
@@ -513,6 +413,38 @@
             {
               "ticker": "TLN",
               "name": "Talen Energy"
+            }
+          ],
+          "related_tickers_semantic": []
+        },
+        {
+          "cluster_id": 1,
+          "name": "\"Streaming Services Face Profitability Pressures\"",
+          "count": 2,
+          "children": [
+            {
+              "name": "Netflix posts massive earnings beat, announces Reed Hastings to exit board",
+              "summary": "In this article Netflix shares fell 9% in extended trading on Thursday after the streaming giant released its first-quarter earnings report and announced a key governance change.",
+              "hash": "a1b926b6151a772b",
+              "chunk_key": "a1b926b6151a772b_c000",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Netflix was long 'a builder not a buyer.' Is that era over?",
+              "summary": "In this article For years, Netflix top brass would tell investors they were builders not buyers. Now, that sentiment toward growth may be changing.",
+              "hash": "4d5285b2f410669b",
+              "chunk_key": "4d5285b2f410669b_c000",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "NFLX",
+              "name": "Netflix"
             }
           ],
           "related_tickers_semantic": []
@@ -575,12 +507,12 @@
     },
     {
       "name": "Financial Literacy Matters",
-      "count": 22,
+      "count": 17,
       "children": [
         {
           "cluster_id": 21,
           "name": "Leading with Confidence and Trust",
-          "count": 10,
+          "count": 7,
           "children": [
             {
               "name": "Psychologist who studies couples: People in the happiest relationships do 5 things on Sundays",
@@ -644,33 +576,6 @@
               "article_date": "2026-04-15 00:00:00",
               "provider": "CNBC",
               "value": 1
-            },
-            {
-              "name": "Stop making this 'off-putting' mistake when you talk to people: 'It backfires,' says psychologist",
-              "summary": "Take CNBC's new online course, How To Be A Standout Leader .",
-              "hash": "1ebc708b746e6cc0",
-              "chunk_key": "1ebc708b746e6cc0_c005",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "IRS publishes list of occupations that qualify for 'no tax on tips' provision",
-              "summary": "Take CNBC's new online course, How To Be A Standout Leader .",
-              "hash": "6446cb30ad67e739",
-              "chunk_key": "6446cb30ad67e739_c002",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump says gas prices may not come down before midterms",
-              "summary": "Take CNBC's new online course, How To Be A Standout Leader .",
-              "hash": "4623d643c9ad48d5",
-              "chunk_key": "4623d643c9ad48d5_c003",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
             }
           ],
           "related_tickers_named": [
@@ -689,39 +594,39 @@
           ],
           "related_tickers_semantic": [
             {
-              "ticker": "NVDA",
-              "name": "Nvidia"
+              "ticker": "MAN",
+              "name": "ManpowerGroup"
             },
             {
-              "ticker": "MSM",
-              "name": "MSC Industrial Direct"
+              "ticker": "SN",
+              "name": "Sharkninja"
             },
             {
-              "ticker": "AMAT",
-              "name": "Applied Materials"
+              "ticker": "IQV",
+              "name": "Iqvia"
             },
             {
-              "ticker": "BA",
-              "name": "Boeing"
+              "ticker": "CFG",
+              "name": "Citizens Financial Group"
             },
             {
-              "ticker": "XP",
-              "name": "XP"
+              "ticker": "HUBS",
+              "name": "HubSpot"
             },
             {
-              "ticker": "VZ",
-              "name": "Verizon Communications"
+              "ticker": "BAH",
+              "name": "Booz Allen Hamilton Holding"
             },
             {
-              "ticker": "LYV",
-              "name": "Live Nation Entertainment"
+              "ticker": "CACI",
+              "name": "CACI International"
             }
           ]
         },
         {
           "cluster_id": 11,
           "name": "Tax Refunds Increase This Season",
-          "count": 6,
+          "count": 4,
           "children": [
             {
               "name": "Average tax refund is 11.2% higher, latest IRS filing data shows",
@@ -758,24 +663,6 @@
               "article_date": "2026-04-15 00:00:00",
               "provider": "CNBC",
               "value": 1
-            },
-            {
-              "name": "IRS publishes list of occupations that qualify for 'no tax on tips' provision",
-              "summary": "The U.S.",
-              "hash": "6446cb30ad67e739",
-              "chunk_key": "6446cb30ad67e739_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Tariff refunds unlikely to benefit consumers, CNBC CFO survey finds",
-              "summary": "Henry Cuellar, D-Texas, are sitting in House committees.",
-              "hash": "6a4c16ca1b5b4576",
-              "chunk_key": "6a4c16ca1b5b4576_c003",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
             }
           ],
           "related_tickers_named": [
@@ -786,42 +673,9 @@
             {
               "ticker": "TFC",
               "name": "Truist Financial"
-            },
-            {
-              "ticker": "MCO",
-              "name": "Moody's"
             }
           ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "TSLA",
-              "name": "Tesla"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            }
-          ]
+          "related_tickers_semantic": []
         },
         {
           "cluster_id": 20,
@@ -913,12 +767,12 @@
     },
     {
       "name": "Financial Market Resilience",
-      "count": 10,
+      "count": 7,
       "children": [
         {
           "cluster_id": 25,
           "name": "US Banks Weather Market Volatility",
-          "count": 7,
+          "count": 4,
           "children": [
             {
               "name": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
@@ -955,33 +809,6 @@
               "article_date": "2026-04-14 00:00:00",
               "provider": "CNBC",
               "value": 1
-            },
-            {
-              "name": "Goldman tops estimates on record equities trading",
-              "summary": "In this article Goldman Sachs on Monday posted first-quarter results that topped expectations on record equities trading results and higher-than-expected investment banking revenue…",
-              "hash": "2bcb4c0353506a0d",
-              "chunk_key": "2bcb4c0353506a0d_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Citigroup beats estimates, boosted by gains in fixed income",
-              "summary": "In this article Citigroup beat on the top and bottom lines during the first quarter.",
-              "hash": "c25971a7a9b6aa0f",
-              "chunk_key": "c25971a7a9b6aa0f_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "JPMorgan tops estimates on Wall Street results, Dimon warns of 'complex' risks",
-              "summary": "In this article JPMorgan Chase on Tuesday posted first-quarter results that topped expectations on stronger-than-expected fixed income and investment banking revenue.",
-              "hash": "6df9277f84c2931a",
-              "chunk_key": "6df9277f84c2931a_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
             }
           ],
           "related_tickers_named": [
@@ -1007,37 +834,37 @@
             },
             {
               "ticker": "BAC",
-              "name": "Bank America"
+              "name": "Bank of America"
             }
           ],
           "related_tickers_semantic": [
+            {
+              "ticker": "UNH",
+              "name": "UnitedHealth Group"
+            },
+            {
+              "ticker": "EMR",
+              "name": "Emerson Electric"
+            },
             {
               "ticker": "GS",
               "name": "Goldman Sachs Group"
             },
             {
-              "ticker": "C",
-              "name": "Citigroup"
+              "ticker": "FCX",
+              "name": "Freeport-McMoRan"
             },
             {
-              "ticker": "FRHC",
-              "name": "Freedom Holding"
+              "ticker": "VOYA",
+              "name": "Voya Financial"
             },
             {
-              "ticker": "STWD",
-              "name": "Starwood Property Trust"
+              "ticker": "LNC",
+              "name": "Lincoln National"
             },
             {
-              "ticker": "JHX",
-              "name": "James Hardie Industries"
-            },
-            {
-              "ticker": "EVR",
-              "name": "Evercore"
-            },
-            {
-              "ticker": "TIGO",
-              "name": "Millicom International"
+              "ticker": "JPM",
+              "name": "JPMorgan Chase"
             }
           ]
         },
@@ -1084,50 +911,54 @@
               "name": "Goldman Sachs Group"
             },
             {
-              "ticker": "ARES",
-              "name": "Ares Management"
+              "ticker": "OWL",
+              "name": "Blue Owl Capital"
             },
             {
               "ticker": "BX",
               "name": "Blackstone"
             },
             {
-              "ticker": "OWL",
-              "name": "Blue Owl Capital"
+              "ticker": "ARES",
+              "name": "Ares Management"
+            },
+            {
+              "ticker": "INTC",
+              "name": "Intel"
             },
             {
               "ticker": "AMZN",
               "name": "Amazon.com"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
             }
           ],
           "related_tickers_semantic": [
             {
-              "ticker": "VZ",
-              "name": "Verizon Communications"
+              "ticker": "O",
+              "name": "Realty Income"
             },
             {
-              "ticker": "UNH",
-              "name": "UnitedHealth Group"
+              "ticker": "THC",
+              "name": "Tenet Healthcare"
             },
             {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
+              "ticker": "EQIX",
+              "name": "Equinix"
+            },
+            {
+              "ticker": "POST",
+              "name": "Post"
+            },
+            {
+              "ticker": "HLI",
+              "name": "Houlihan Lokey"
             },
             {
               "ticker": "VNOM",
               "name": "Viper Energy"
             },
             {
-              "ticker": "WELL",
-              "name": "Welltower"
-            },
-            {
-              "ticker": "AXS",
-              "name": "AXIS Capital"
+              "ticker": "WAT",
+              "name": "Waters"
             }
           ]
         }
@@ -1135,12 +966,12 @@
     },
     {
       "name": "Global Market Uncertainty",
-      "count": 53,
+      "count": 42,
       "children": [
         {
           "cluster_id": 28,
           "name": "Iran-Iraq Conflict Escalates Globally",
-          "count": 21,
+          "count": 18,
           "children": [
             {
               "name": "Iran rebuffs Trump's plan for new round of peace talks, state media reports",
@@ -1303,51 +1134,15 @@
               "article_date": "2026-04-14 00:00:00",
               "provider": "CNBC",
               "value": 1
-            },
-            {
-              "name": "The Iran war is compounding California's energy crunch",
-              "summary": "They'll feel the pain initially in prices because China, Korea or India won't send it to California unless they are compensated to ship it,\" he said.",
-              "hash": "232862958d5da471",
-              "chunk_key": "232862958d5da471_c001",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "U.S. begins blockade in Strait of Hormuz; Trump warns Iran 'attack ships'",
-              "summary": "I'm almost sure of it. In fact, I am sure of it. If they don't agree, there's no deal,\" he said.",
-              "hash": "ac570855d2e4cab0",
-              "chunk_key": "ac570855d2e4cab0_c001",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "China exports growth in March misses estimates, imports surge most in over four years",
-              "summary": "China's export growth declined to a six-month low in March as the Middle East conflict hit global demand outlook, while imports logged their strongest growth in more than four year…",
-              "hash": "047455b6776119f3",
-              "chunk_key": "047455b6776119f3_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
             }
           ],
-          "related_tickers_named": [
-            {
-              "ticker": "SPGI",
-              "name": "S&P Global"
-            },
-            {
-              "ticker": "CVX",
-              "name": "Chevron"
-            }
-          ],
+          "related_tickers_named": [],
           "related_tickers_semantic": []
         },
         {
           "cluster_id": 14,
           "name": "Inflation Expectations Rise Amid Uncertainty",
-          "count": 13,
+          "count": 10,
           "children": [
             {
               "name": "U.S.-Iran war, $4 gas, have taken all the fun out of consumer spending",
@@ -1438,47 +1233,20 @@
               "article_date": "2026-04-14 00:00:00",
               "provider": "CNBC",
               "value": 1
-            },
-            {
-              "name": "Wholesale prices rose 0.5% in March, much less than expected despite war impact",
-              "summary": "Producer prices rose in March but considerably less than expected as the Iran war's push on energy prices rekindled fears of another inflation burst.",
-              "hash": "d48710be543e8965",
-              "chunk_key": "d48710be543e8965_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "China exports growth in March misses estimates, imports surge most in over four years",
-              "summary": "March, climbing for the first time in more than three years .",
-              "hash": "047455b6776119f3",
-              "chunk_key": "047455b6776119f3_c003",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Iran war will hit UK growth the hardest of any rich economies, IMF says",
-              "summary": "Gourinchas said the U.S.",
-              "hash": "90b9ada48fcb62da",
-              "chunk_key": "90b9ada48fcb62da_c001",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
             }
           ],
           "related_tickers_named": [
-            {
-              "ticker": "BAC",
-              "name": "Bank America"
-            },
             {
               "ticker": "GS",
               "name": "Goldman Sachs Group"
             },
             {
+              "ticker": "BAC",
+              "name": "Bank of America"
+            },
+            {
               "ticker": "MSCI",
-              "name": "Msci"
+              "name": "MSCI"
             },
             {
               "ticker": "TFC",
@@ -1519,7 +1287,7 @@
         {
           "cluster_id": 29,
           "name": "Iran Conflict Sparks Market Volatility",
-          "count": 9,
+          "count": 7,
           "children": [
             {
               "name": "Why the stock market is hitting records despite Iran war",
@@ -1583,38 +1351,12 @@
               "article_date": "2026-04-14 00:00:00",
               "provider": "CNBC",
               "value": 1
-            },
-            {
-              "name": "BlackRock raises view on U.S. stocks on belief that war is over, profits are up",
-              "summary": "In this article Asset management giant BlackRock raised its outlook for U.S.",
-              "hash": "bfa0ed3498c28e4c",
-              "chunk_key": "bfa0ed3498c28e4c_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Goldman tops estimates on record equities trading",
-              "summary": "Disruptive events that impact the price of commodities — like the Iran conflict has — can sometimes force corporate clients to the sidelines, which could threaten future capital ma…",
-              "hash": "2bcb4c0353506a0d",
-              "chunk_key": "2bcb4c0353506a0d_c002",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
             }
           ],
           "related_tickers_named": [
             {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
               "ticker": "VSNT",
               "name": "Versant Media Group"
-            },
-            {
-              "ticker": "WFC",
-              "name": "Wells Fargo"
             },
             {
               "ticker": "HOOD",
@@ -1622,7 +1364,7 @@
             },
             {
               "ticker": "BAC",
-              "name": "Bank America"
+              "name": "Bank of America"
             },
             {
               "ticker": "NVDA",
@@ -1631,36 +1373,44 @@
             {
               "ticker": "NFLX",
               "name": "Netflix"
+            },
+            {
+              "ticker": "CROX",
+              "name": "Crocs"
+            },
+            {
+              "ticker": "ACHC",
+              "name": "Acadia Healthcare"
             }
           ],
           "related_tickers_semantic": [
             {
-              "ticker": "BLK",
-              "name": "BlackRock"
+              "ticker": "XP",
+              "name": "XP"
             },
             {
-              "ticker": "MSFT",
-              "name": "Microsoft"
+              "ticker": "BLSH",
+              "name": "Bullish"
             },
             {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
+              "ticker": "MSCI",
+              "name": "MSCI"
+            },
+            {
+              "ticker": "EQH",
+              "name": "Equitable"
+            },
+            {
+              "ticker": "PFG",
+              "name": "Principal Financial Group"
+            },
+            {
+              "ticker": "HLNE",
+              "name": "Hamilton Lane"
             },
             {
               "ticker": "JHX",
               "name": "James Hardie Industries"
-            },
-            {
-              "ticker": "HLI",
-              "name": "Houlihan Lokey"
-            },
-            {
-              "ticker": "EQIX",
-              "name": "Equinix"
-            },
-            {
-              "ticker": "BX",
-              "name": "Blackstone"
             }
           ]
         },
@@ -1699,45 +1449,57 @@
           ],
           "related_tickers_named": [
             {
+              "ticker": "BAC",
+              "name": "Bank of America"
+            },
+            {
               "ticker": "HOOD",
               "name": "Robinhood Markets"
             },
             {
-              "ticker": "BAC",
-              "name": "Bank America"
+              "ticker": "ICE",
+              "name": "Intercontinental Exchange"
             },
             {
               "ticker": "CME",
               "name": "CME Group"
-            },
-            {
-              "ticker": "ICE",
-              "name": "Intercontinental Exchange"
             }
           ],
           "related_tickers_semantic": [
             {
-              "ticker": "NVDA",
-              "name": "Nvidia"
+              "ticker": "GLOB",
+              "name": "Globant"
             },
             {
-              "ticker": "INTC",
-              "name": "Intel"
+              "ticker": "ESTC",
+              "name": "Elastic NV"
             },
             {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
+              "ticker": "MTZ",
+              "name": "MasTec"
             },
             {
-              "ticker": "BA",
-              "name": "Boeing"
+              "ticker": "MORN",
+              "name": "Morningstar"
+            },
+            {
+              "ticker": "NIQ",
+              "name": "NIQ Global Intelligence"
+            },
+            {
+              "ticker": "TEM",
+              "name": "Tempus AI"
+            },
+            {
+              "ticker": "CNXC",
+              "name": "Concentrix"
             }
           ]
         },
         {
           "cluster_id": 4,
           "name": "Fuel Prices Impact Air Travel",
-          "count": 3,
+          "count": 2,
           "children": [
             {
               "name": "For cruise lines, Iran conflict and oil prices threaten to dent profits",
@@ -1756,15 +1518,6 @@
               "article_date": "2026-04-14 00:00:00",
               "provider": "CNBC",
               "value": 1
-            },
-            {
-              "name": "A 'systemic' jet fuel shortage and 'severe' flight cuts in Europe loom: analysts",
-              "summary": "West Texas Intermediate futures for May delivery were down 1.86% to $97.24 per barrel as of 7:09 a.m.",
-              "hash": "2383157d6414afb5",
-              "chunk_key": "2383157d6414afb5_c002",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
             }
           ],
           "related_tickers_named": [
@@ -1781,16 +1534,16 @@
               "name": "Southwest Airlines"
             },
             {
-              "ticker": "KEX",
-              "name": "Kirby"
-            },
-            {
               "ticker": "UAL",
               "name": "United Airlines"
             },
             {
-              "ticker": "CAR",
-              "name": "Avis Budget Group"
+              "ticker": "KEX",
+              "name": "Kirby"
+            },
+            {
+              "ticker": "NCLH",
+              "name": "Norwegian Cruise Line"
             },
             {
               "ticker": "QSR",
@@ -1798,6 +1551,10 @@
             }
           ],
           "related_tickers_semantic": [
+            {
+              "ticker": "DAL",
+              "name": "Delta Air Lines"
+            },
             {
               "ticker": "UAL",
               "name": "United Airlines"
@@ -1807,31 +1564,27 @@
               "name": "AIR Lease"
             },
             {
-              "ticker": "AAL",
-              "name": "American Airlines Group"
+              "ticker": "APLS",
+              "name": "Apellis Pharmaceuticals"
             },
             {
               "ticker": "LUV",
               "name": "Southwest Airlines"
             },
             {
-              "ticker": "BA",
-              "name": "Boeing"
+              "ticker": "AAL",
+              "name": "American Airlines Group"
             },
             {
-              "ticker": "RRC",
-              "name": "Range Resources"
-            },
-            {
-              "ticker": "AMGN",
-              "name": "Amgen"
+              "ticker": "CORT",
+              "name": "Corcept Therapeutics"
             }
           ]
         },
         {
           "cluster_id": 13,
           "name": "Electric Vehicle Demand Shifts",
-          "count": 3,
+          "count": 2,
           "children": [
             {
               "name": "Mom-and-pop car dealerships are growing or dying amid rise of mega-dealers",
@@ -1850,15 +1603,6 @@
               "article_date": "2026-04-15 00:00:00",
               "provider": "CNBC",
               "value": 1
-            },
-            {
-              "name": "LVMH sales miss expectations as luxury recovery is put on pause amid Middle East war",
-              "summary": "Global markets remain volatile as an energy crisis unfolds with the effective closure of the Strait of Hormuz.",
-              "hash": "82cecdd0d5f5394f",
-              "chunk_key": "82cecdd0d5f5394f_c002",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
             }
           ],
           "related_tickers_named": [
@@ -1867,12 +1611,12 @@
               "name": "Ford Motor"
             },
             {
-              "ticker": "GM",
-              "name": "General Motors"
-            },
-            {
               "ticker": "AAPL",
               "name": "Apple"
+            },
+            {
+              "ticker": "GM",
+              "name": "General Motors"
             },
             {
               "ticker": "AN",
@@ -1885,64 +1629,45 @@
           ],
           "related_tickers_semantic": [
             {
-              "ticker": "NVDA",
-              "name": "Nvidia"
+              "ticker": "F",
+              "name": "Ford Motor"
             },
             {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
+              "ticker": "LCID",
+              "name": "Lucid Group"
             },
             {
-              "ticker": "RL",
-              "name": "Ralph Lauren"
+              "ticker": "LEA",
+              "name": "Lear"
             },
             {
-              "ticker": "SHW",
-              "name": "Sherwin-Williams"
+              "ticker": "APTV",
+              "name": "Aptiv"
             },
             {
-              "ticker": "LYB",
-              "name": "LyondellBasell Industries NV"
+              "ticker": "PAG",
+              "name": "Penske Automotive Group"
             },
             {
-              "ticker": "MSFT",
-              "name": "Microsoft"
+              "ticker": "CAR",
+              "name": "Avis Budget Group"
+            },
+            {
+              "ticker": "GNTX",
+              "name": "Gentex"
             }
           ]
-        },
-        {
-          "cluster_id": 17,
-          "name": "US Launches Trade Investigations",
-          "count": 1,
-          "children": [
-            {
-              "name": "Tariff refunds unlikely to benefit consumers, CNBC CFO survey finds",
-              "summary": "However, any such broad-based benefit program would require legislation passed by Congress.",
-              "hash": "6a4c16ca1b5b4576",
-              "chunk_key": "6a4c16ca1b5b4576_c002",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "MCO",
-              "name": "Moody's"
-            }
-          ],
-          "related_tickers_semantic": []
         }
       ]
     },
     {
       "name": "Washington's Dark Underbelly",
-      "count": 14,
+      "count": 11,
       "children": [
         {
           "cluster_id": 15,
           "name": "Powell Investigation Clouds Fed Nomination",
-          "count": 6,
+          "count": 5,
           "children": [
             {
               "name": "FBI's Kash Patel vows lawsuit over Atlantic article claiming he abuses alcohol",
@@ -1988,60 +1713,6 @@
               "article_date": "2026-04-14 00:00:00",
               "provider": "CNBC",
               "value": 1
-            },
-            {
-              "name": "Fed nominee Warsh clears a hurdle to Senate hearing",
-              "summary": "Federal Reserve chair nominee Kevin Warsh has submitted required paperwork to the Senate, two people familiar with the matter said Monday, requesting anonymity to discuss sensitive…",
-              "hash": "421c6b5657cbdd2f",
-              "chunk_key": "421c6b5657cbdd2f_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 10,
-          "name": "Trump's Epstein Scandal Fallout",
-          "count": 4,
-          "children": [
-            {
-              "name": "Judge blocks above-ground construction of Trump's WH ballroom, admini appeals",
-              "summary": "The order comes five days after the Court of Appeals told Leon to clarify a prior order he issued on March 31 that enjoined the Trump administration from taking any action to build…",
-              "hash": "a814fa020e567158",
-              "chunk_key": "a814fa020e567158_c001",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Eric Swalwell accuser Lonna Drewes says 'he raped me,' will file police report",
-              "summary": "A lawyer for Swalwell did not immediately respond to a request for comment on Drewes' allegations.",
-              "hash": "5cd654679d31eda6",
-              "chunk_key": "5cd654679d31eda6_c001",
-              "article_date": "2026-04-14 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Rep. Eric Swalwell resigns from U.S. House after sexual misconduct allegations",
-              "summary": "Rep. Eric Swalwell, a former Democratic frontrunner in the California gubernatorial race , resigned from Congress on Monday amid sexual misconduct allegations.",
-              "hash": "2349883328ef7799",
-              "chunk_key": "2349883328ef7799_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Judge tosses Trump $10B defamation suit against Murdoch, WSJ about Epstein letter",
-              "summary": "A federal judge in Florida on Monday dismissed President Donald Trump 's $10 billion lawsuit against media baron Rupert Murdoch and The Wall Street Journal , which claimed the news…",
-              "hash": "8f7e1e359f080d89",
-              "chunk_key": "8f7e1e359f080d89_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
             }
           ],
           "related_tickers_named": [],
@@ -2085,6 +1756,33 @@
               "hash": "b9a0cfd874d5621b",
               "chunk_key": "b9a0cfd874d5621b_c000",
               "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [],
+          "related_tickers_semantic": []
+        },
+        {
+          "cluster_id": 10,
+          "name": "Trump's Epstein Scandal Fallout",
+          "count": 2,
+          "children": [
+            {
+              "name": "Judge blocks above-ground construction of Trump's WH ballroom, admini appeals",
+              "summary": "The order comes five days after the Court of Appeals told Leon to clarify a prior order he issued on March 31 that enjoined the Trump administration from taking any action to build…",
+              "hash": "a814fa020e567158",
+              "chunk_key": "a814fa020e567158_c001",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Eric Swalwell accuser Lonna Drewes says 'he raped me,' will file police report",
+              "summary": "A lawyer for Swalwell did not immediately respond to a request for comment on Drewes' allegations.",
+              "hash": "5cd654679d31eda6",
+              "chunk_key": "5cd654679d31eda6_c001",
+              "article_date": "2026-04-14 00:00:00",
               "provider": "CNBC",
               "value": 1
             }
