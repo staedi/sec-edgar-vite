@@ -1,804 +1,62 @@
 {
   "name": "root",
   "mode": "recent",
-  "updated_at": "2026-04-21T22:35:40.540848+00:00",
+  "updated_at": "2026-04-24T23:16:08.975786+00:00",
   "children": [
     {
-      "name": "AI's Impact on Tech",
-      "count": 31,
+      "name": "Financial Market Turbulence",
+      "count": 8,
       "children": [
         {
-          "cluster_id": 14,
-          "name": "OpenAI's AI Business Struggles",
-          "count": 14,
-          "children": [
-            {
-              "name": "Trump details Cook call to 'kiss my ass,' a stark look at White House dealmaking",
-              "summary": "OpenAI co-founder and president Greg Brockman reportedly donated $25 million to Trump's super PAC, MAGA Inc., in September.",
-              "hash": "2b2e6461785a0c3b",
-              "chunk_key": "2b2e6461785a0c3b_c005",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Amazon to invest up to $25 billion in Anthropic as part of AI infrastructure deal",
-              "summary": "In this article Amazon has agreed to invest up to $25 billion in Anthropic , on top of the $8 billion that it has poured into the artificial intelligence startup in recent years, a…",
-              "hash": "db67618a1fb2f432",
-              "chunk_key": "db67618a1fb2f432_c000",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Why software stocks, 2026's market dogs, have joined the rally",
-              "summary": "But the down-and-then-back-up 2026 for the sector is also a reminder that when stocks fall sharply in a short period of time, opportunity may knock.",
-              "hash": "bb7a0298004f813f",
-              "chunk_key": "bb7a0298004f813f_c002",
-              "article_date": "2026-04-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Cursor in talks to raise $2 billion funding round at valuation of over $50 billion",
-              "summary": "Artificial intelligence startup Cursor is in talks to raise a $2 billion fundraising round at an over $50 billion valuation, which does not include the investment, a source familia…",
-              "hash": "1a2393cb18caeb45",
-              "chunk_key": "1a2393cb18caeb45_c000",
-              "article_date": "2026-04-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "AST SpaceMobile falls after Bezos' Blue Origin places satellite in wrong orbit",
-              "summary": "The silver lining is that there was only one satellite on board, whereas future New Glenn launches may have as many as eight of AST's BlueBirds.",
-              "hash": "293714504355e006",
-              "chunk_key": "293714504355e006_c001",
-              "article_date": "2026-04-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "OpenAI loses two executives in latest leadership shakeup",
-              "summary": "Two OpenAI executives announced their departures from the company on Friday, the latest in a series of leadership shakeups at the artificial intelligence startup.",
-              "hash": "743cb82f9e82d433",
-              "chunk_key": "743cb82f9e82d433_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Perspective: AI demand is inflated, and only Anthropic is being realistic",
-              "summary": "They're just doing stuff because it sounds cool.",
-              "hash": "09e69d63dd3c35fe",
-              "chunk_key": "09e69d63dd3c35fe_c002",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump says he had 'no idea' Anthropic's Amodei met with White House about Mythos",
-              "summary": "The White House said its meeting with Anthropic CEO Dario Amodei was \"productive and constructive\" on Friday, the latest sign of a potential thaw in the standoff between the govern…",
-              "hash": "0e1d6d2f60dcabcb",
-              "chunk_key": "0e1d6d2f60dcabcb_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Retail traders pile into Allbirds on AI pivot. History shows it won't end well",
-              "summary": "In this article Retail traders stampeded into Allbirds after the troubled shoemaker slapped an artificial intelligence label on its business, a set-up that market history suggests …",
-              "hash": "862e8921959df121",
-              "chunk_key": "862e8921959df121_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Another absurd AI pivot is propelling a new stock higher Thursday",
-              "summary": "In this article Myseum shares more than doubled on Thursday after the social media platform provider became the latest company to unexpectedly refocus efforts on artificial intelli…",
-              "hash": "047f4f6ee0342a24",
-              "chunk_key": "047f4f6ee0342a24_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Anthropic rolls out improved Claude Opus that is less risky than Mythos",
-              "summary": "Anthropic on Thursday announced a new artificial intelligence model, Claude Opus 4.",
-              "hash": "25e35d128e09b308",
-              "chunk_key": "25e35d128e09b308_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "The Nasdaq's win streak, Netflix earnings and more: Morning Squawk",
-              "summary": "Hastings' departure is tied to the WBD deal, calling Hastings a \"big champion\" for Netflix's bid for WBD's assets. Netflix shares tumbled around 10% in premarket trading.",
-              "hash": "32806acb09c89147",
-              "chunk_key": "32806acb09c89147_c001",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Nvidia AI chip rivals attract record funding as competition heats up",
-              "summary": "Anthropic unveiled a new office space for 800 people, while OpenAI said it would open its first permanent London office with capacity for over 500 team members.",
-              "hash": "2041e92678e1f275",
-              "chunk_key": "2041e92678e1f275_c002",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Anthropic products are operational after brief outage, status page says",
-              "summary": "Anthropic on Wednesday said it experienced elevated error rates across its Claude chatbot , its application programming interface and its coding assistant, Claude Code, according t…",
-              "hash": "f9b45b4385a75704",
-              "chunk_key": "f9b45b4385a75704_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "NXST",
-              "name": "Nexstar Media Group"
-            },
-            {
-              "ticker": "FDS",
-              "name": "Factset Research Systems"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "TDC",
-              "name": "Teradata"
-            }
-          ]
-        },
-        {
-          "cluster_id": 31,
-          "name": "\"AI Chip Shortage Drives Growth\"",
-          "count": 10,
-          "children": [
-            {
-              "name": "Microsoft cuts Game Pass prices after new Xbox CEO promises to 'recommit'",
-              "summary": "In this article Microsoft said Tuesday that it will lower the cost of subscriptions that include access to hundreds of video games, after the company's new gaming leader promised t…",
-              "hash": "d50c776f459ac2cd",
-              "chunk_key": "d50c776f459ac2cd_c000",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Marvell stock pops on report it will help Google with custom AI chips",
-              "summary": "Marvell stock gained more than 20% in March as the company posted strong fourth-quarter earnings and guidance amid surging demand for AI.",
-              "hash": "6f4398feddb681de",
-              "chunk_key": "6f4398feddb681de_c001",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "SiIicon Valley's AI agent hiccups: Wasted tokens and 'chaotic' systems",
-              "summary": "But on Wednesday at the Generative AI and Agentic AI Summit in San Jose, technical staff from companies like Google and its DeepMind AI unit, Amazon , Microsoft and Meta revealed t…",
-              "hash": "f2f347a9e1d8cec0",
-              "chunk_key": "f2f347a9e1d8cec0_c001",
-              "article_date": "2026-04-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks",
-              "summary": "In this article Big Tech stocks were on track to wrap a massive week on Friday, with shares of Oracle , Advanced Micro Devices and Microsoft set to post historic gains and benchmar…",
-              "hash": "e604f1c506f2cf31",
-              "chunk_key": "e604f1c506f2cf31_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Nvidia's once-tight bond with gamers is cracking over AI: 'That breaks my heart'",
-              "summary": "Musk said his xAI game studio will release \"a great AI-generated game\" before the end of 2026. \"You're literally altering the art created by the developers.",
-              "hash": "42cc20c7dd3340f8",
-              "chunk_key": "42cc20c7dd3340f8_c007",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Quantum stocks on pace for massive week after Nvidia AI model boost",
-              "summary": "In this article Quantum stocks climbed on Thursday, adding to a massive week-to-date rally fueled by enthusiasm for Nvidia 's new open-source artificial intelligence models designe…",
-              "hash": "b839867c06d6afbf",
-              "chunk_key": "b839867c06d6afbf_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "TSMC and ASML failed to rally on strong earnings reports. Here's why",
-              "summary": "It is also the latest example of how astronomical expectations have weighed on chipmaker stocks.",
-              "hash": "74d713d5516fba7f",
-              "chunk_key": "74d713d5516fba7f_c002",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Google will let users connect their photos to the Gemini chatbot and Nano Banana",
-              "summary": "In this article Google is letting the Gemini AI chatbot connect to personal photos with the Nano Banana image generation tool.",
-              "hash": "96f329108de51e01",
-              "chunk_key": "96f329108de51e01_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Nvidia AI chip rivals attract record funding as competition heats up",
-              "summary": "Innovation Fund (NIF), which has invested in U.K. AI chip startup Fractile, told me.",
-              "hash": "2041e92678e1f275",
-              "chunk_key": "2041e92678e1f275_c001",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Tesla stock adds nearly 8% as Elon Musk touts chip progress",
-              "summary": "In this article Tesla stock closed nearly 8% higher on Wednesday at $391.95 per share after CEO Elon Musk touted progress on the company's forthcoming AI5 chip.",
-              "hash": "8fd47403107d25a9",
-              "chunk_key": "8fd47403107d25a9_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "TSLA",
-              "name": "Tesla"
-            },
-            {
-              "ticker": "AMD",
-              "name": "Advanced Micro Devices"
-            },
-            {
-              "ticker": "MRVL",
-              "name": "Marvell Technology"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMD",
-              "name": "Advanced Micro Devices"
-            },
-            {
-              "ticker": "TSLA",
-              "name": "Tesla"
-            },
-            {
-              "ticker": "MRVL",
-              "name": "Marvell Technology"
-            },
-            {
-              "ticker": "RIVN",
-              "name": "Rivian Automotive"
-            },
-            {
-              "ticker": "ALGM",
-              "name": "Allegro Microsystems"
-            },
-            {
-              "ticker": "INTC",
-              "name": "Intel"
-            }
-          ]
-        },
-        {
-          "cluster_id": 5,
-          "name": "\"Apple Names New CEO Ternus\"",
-          "count": 4,
-          "children": [
-            {
-              "name": "Incoming Apple CEO John Ternus doubted himself early: 'I wasn't sure I belonged'",
-              "summary": "In this article Apple is adding a new CEO to its ranks and continuing a long-running tradition of internal promotion.",
-              "hash": "5a2f3c4c059bd9b6",
-              "chunk_key": "5a2f3c4c059bd9b6_c000",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Tim Cook turned Apple into a $4 trillion giant by not trying to be Steve Jobs",
-              "summary": "Revenue almost quadrupled under Cook, climbing to more than $400 billion in the latest fiscal year.",
-              "hash": "18759491c7bdba8b",
-              "chunk_key": "18759491c7bdba8b_c002",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump details Cook call to 'kiss my ass,' a stark look at White House dealmaking",
-              "summary": "In August, he presented Trump with a 24-karat gold and glass statue bearing the words \"Made in U.S.A.",
-              "hash": "2b2e6461785a0c3b",
-              "chunk_key": "2b2e6461785a0c3b_c002",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Apple taps John Ternus as CEO to replace Tim Cook, who will become chairman",
-              "summary": "Srouji, who most recently served as the company's senior vice president of hardware technologies, will also lead hardware engineering.",
-              "hash": "ac3c1b862316d17f",
-              "chunk_key": "ac3c1b862316d17f_c001",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "NXST",
-              "name": "Nexstar Media Group"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "CRUS",
-              "name": "Cirrus Logic"
-            },
-            {
-              "ticker": "Q",
-              "name": "Qnity Electronics"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMD",
-              "name": "Advanced Micro Devices"
-            },
-            {
-              "ticker": "INTC",
-              "name": "Intel"
-            },
-            {
-              "ticker": "SWKS",
-              "name": "Skyworks Solutions"
-            },
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            }
-          ]
-        },
-        {
-          "cluster_id": 24,
-          "name": "\"AI's Impact on the Workforce\"",
-          "count": 2,
-          "children": [
-            {
-              "name": "Bessent: Recent college grads need AI literacy to succeed in today's job market",
-              "summary": "If recent college graduates want to get ahead in today's job market, they should focus on being \"literate, conversant [and] facile\" in artificial intelligence, U.S.",
-              "hash": "36888138f77b9db4",
-              "chunk_key": "36888138f77b9db4_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Senior-level women are steering AI strategy at work, says report",
-              "summary": "Eighty percent of senior-level women say they're \"active players\" in how their workplace is building its AI strategy.",
-              "hash": "edeb73685490d06b",
-              "chunk_key": "edeb73685490d06b_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "WMT",
-              "name": "Walmart"
-            },
-            {
-              "ticker": "TLN",
-              "name": "Talen Energy"
-            }
-          ],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 29,
-          "name": "Meta Faces AI and Content Challenges",
-          "count": 1,
-          "children": [
-            {
-              "name": "Michael, Susan Dell to donate $750 million to fund new UT Austin medical campus",
-              "summary": "And they're very powerful, they're amazing, and they're going to keep getting better, but still, I think having that human judgment is incredibly important.\"",
-              "hash": "f373db0509175d1c",
-              "chunk_key": "f373db0509175d1c_c003",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            }
-          ],
-          "related_tickers_semantic": []
-        }
-      ]
-    },
-    {
-      "name": "Empowering Life Skills",
-      "count": 7,
-      "children": [
-        {
-          "cluster_id": 22,
-          "name": "Building Emotional Security in Relationships",
-          "count": 4,
-          "children": [
-            {
-              "name": "Psychologist who studies couples: People in the happiest relationships do 5 things on Sundays",
-              "summary": "When people think about what makes a relationship successful , their first instinct is to focus on the big things like communication, trust, commitment, honesty and shared values.",
-              "hash": "a2e20483c929d661",
-              "chunk_key": "a2e20483c929d661_c000",
-              "article_date": "2026-04-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Naomi Watts' menopause message: 'Why is it so taboo when we are half population'",
-              "summary": "It's so heartening to know the risk I took had a meaningful effect on others.\"",
-              "hash": "a8d6bf10090d8590",
-              "chunk_key": "a8d6bf10090d8590_c003",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "She’s been married nearly 70 years: The No. 1 thing they still do every day—it keeps them in love",
-              "summary": "Rosalyn Engelman met her future husband, Irwin, in 1953 when the two were set up by a mutual friend in the Bronx. He was 19, she was 15. \"I was immediately smitten,\" she says.",
-              "hash": "78a26ce962ef39cf",
-              "chunk_key": "78a26ce962ef39cf_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Here's exactly how I spot a liar, says ex-CIA officer: It can be very 'revealing'",
-              "summary": "In my work as a CIA analyst, and now as a CEO, reading people and navigating complex social dynamics is central to everything I do.",
-              "hash": "0eba31f6a83b5b2a",
-              "chunk_key": "0eba31f6a83b5b2a_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "ULTA",
-              "name": "Ulta Beauty"
-            }
-          ],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 23,
-          "name": "\"Leadership Development Course Offered\"",
-          "count": 2,
-          "children": [
-            {
-              "name": "Psychologist who studies couples: People in the happiest relationships do 5 things on Sundays",
-              "summary": "He holds degrees from Cornell University and the University of Colorado Boulder.",
-              "hash": "a2e20483c929d661",
-              "chunk_key": "a2e20483c929d661_c003",
-              "article_date": "2026-04-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Bessent: Recent college grads need AI literacy to succeed in today's job market",
-              "summary": "Want to lead with confidence and bring out the best in your team? Take CNBC's new online course, How To Be A Standout Leader .",
-              "hash": "36888138f77b9db4",
-              "chunk_key": "36888138f77b9db4_c003",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "WMT",
-              "name": "Walmart"
-            }
-          ],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 6,
-          "name": "Raising Financially Smart Kids",
-          "count": 1,
-          "children": [
-            {
-              "name": "Child psychologist: This common issue can hurt kids' future success, happiness",
-              "summary": "For students, the anxiety of over-stressing about an upcoming test or project can hurt their academic performance, research shows .",
-              "hash": "547de4649eb6b931",
-              "chunk_key": "547de4649eb6b931_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
-        }
-      ]
-    },
-    {
-      "name": "Financial Uncertainty",
-      "count": 23,
-      "children": [
-        {
-          "cluster_id": 17,
-          "name": "US Government Shutdown Continues",
-          "count": 9,
-          "children": [
-            {
-              "name": "Senate Republicans unveil immigration funding framework as DHS shutdown drags on",
-              "summary": "Graham , R-S.C., said in a statement . \"With this budget resolution, we are moving forward — not backward — on rational immigration policies that secure our border,\" Graham said.",
-              "hash": "f68b6efa67a90af3",
-              "chunk_key": "f68b6efa67a90af3_c001",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Rep. Sheila Cherfilus-McCormick resigns, third House member to quit this month",
-              "summary": "Rep.",
-              "hash": "8b5a0a96ef4d6505",
-              "chunk_key": "8b5a0a96ef4d6505_c000",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "DOJ charges Southern Poverty Law Center with fraud over secret funding of extremist groups",
-              "summary": "The Department of Justice on Tuesday announced a bombshell 11-count indictment accusing the Southern Poverty Law Center of secretly funding right-wing extremist groups that it clai…",
-              "hash": "7d8696a9d5d3d761",
-              "chunk_key": "7d8696a9d5d3d761_c000",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Labor Secretary Lori Chavez-DeRemer leaves Trump cabinet, Keith Sonderling takes over",
-              "summary": "Department of Labor Secretary Lori Chavez-DeRemer is resigning from the Trump administration, the White House said Monday.",
-              "hash": "cb159e88b590e23d",
-              "chunk_key": "cb159e88b590e23d_c000",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Swalwell resignation over sexual misconduct prompts rare Ethics panel remarks",
-              "summary": "The panel has often come under fire for its glacial pace, and has been the target of increased scrutiny of late .",
-              "hash": "12dc809f6283aea3",
-              "chunk_key": "12dc809f6283aea3_c001",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "What to know on FISA Section 702: Congress extends controversial surveillance program",
-              "summary": "The House and Senate on Friday approved a short-term extensive of a section of federal law that allows the warrantless surveillance and collection of foreign intelligence, though a…",
-              "hash": "314bf0083274fe24",
-              "chunk_key": "314bf0083274fe24_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "ICE agent charged with assault by Minnesota prosecutors, arrest warrant issued",
-              "summary": "An Immigration and Customs Enforcement agent has been charged with two counts of assault related to a road rage incident by state prosecutors in Minnesota, who have issued a nation…",
-              "hash": "bcec7ff258766488",
-              "chunk_key": "bcec7ff258766488_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump nominates Erica Schwartz as CDC director",
-              "summary": "President Donald Trump on Thursday nominated Erica Schwartz to serve as director of the Centers for Disease Control and Prevention, concluding a monthslong effort to choose a perma…",
-              "hash": "297a7ff99fb17ced",
-              "chunk_key": "297a7ff99fb17ced_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Treasury Secretary Scott Bessent is preparing banks to collect citizenship data",
-              "summary": "Banks in the U.S. may not like the idea of being forced to collect citizenship data on customers, but Treasury Secretary Scott Bessent says they better be prepared for the task.",
-              "hash": "b9a0cfd874d5621b",
-              "chunk_key": "b9a0cfd874d5621b_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 27,
-          "name": "Powell's Fed Future in Limbo",
-          "count": 7,
-          "children": [
-            {
-              "name": "Analysis: Warsh emerges from a difficult hearing with his Fed 'regime-change' plan intact",
-              "summary": "Kevin Warsh faced searching questions at his Senate confirmation hearing Tuesday.",
-              "hash": "5c80323c8e4037b5",
-              "chunk_key": "5c80323c8e4037b5_c000",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Kash Patel sues The Atlantic for $250 million over alcohol abuse claims",
-              "summary": "FBI Director Kash Patel on Monday filed a lawsuit seeking $250 million in damages from The Atlantic magazine, claiming defamation in an article that alleges he abuses alcohol .",
-              "hash": "c230a91b5cc75293",
-              "chunk_key": "c230a91b5cc75293_c000",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Warsh says monetary policy should remain independent, but Fed must 'stay in its lane'",
-              "summary": "Moreover, Warsh said the Fed does not enjoy the same independence in some of its other responsibilities as it does when setting interest rates and other aspects of monetary policy.",
-              "hash": "0d6cc9984c849cd7",
-              "chunk_key": "0d6cc9984c849cd7_c001",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Here's what to expect from Fed chair nominee Warsh's Senate hearing Tuesday",
-              "summary": "In remarks he's scheduled to deliver to the committee at the hearing's start, Warsh issued a qualified endorsement of Fed independence.",
-              "hash": "9600f9a606ff3321",
-              "chunk_key": "9600f9a606ff3321_c001",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "FBI's Kash Patel vows lawsuit over Atlantic article claiming he abuses alcohol",
-              "summary": "Federal Bureau of Investigation Director Kash Patel said Sunday he will sue The Atlantic magazine for defamation over a new article reporting that he frequently drinks alcohol to e…",
-              "hash": "61a066c370525068",
-              "chunk_key": "61a066c370525068_c000",
-              "article_date": "2026-04-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Kevin Warsh wants to lead a scandal-ridden Fed. His wealth is a complication.",
-              "summary": "But that is the extent of the information Warsh gives about a slice of assets that appears to make up the bulk of his personal wealth.",
-              "hash": "1b9ca4c8524868b9",
-              "chunk_key": "1b9ca4c8524868b9_c001",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Jeanine Pirro pursues Fed pressure while clock ticks on her appeal in Powell probe",
-              "summary": "A prosecutor from Pirro's office told Boasberg in March that the DOJ does \"not know\" if there had been improper conduct by Powell and declined an offer by the judge to present any …",
-              "hash": "40aee9c60dfd8e46",
-              "chunk_key": "40aee9c60dfd8e46_c002",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "NYT",
-              "name": "New York Times"
-            }
-          ],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 1,
+          "cluster_id": 2,
           "name": "\"Prediction Markets Under Scrutiny\"",
-          "count": 4,
+          "count": 6,
           "children": [
+            {
+              "name": "Kalshi bettors now see Warsh confirmed by mid-May after DOJ drops Powell probe",
+              "summary": "CNBC has reached out to his office for comment. Bettors, though, think the news is an all clear signal.",
+              "hash": "bee5e000c88c29bc",
+              "chunk_key": "bee5e000c88c29bc_c001",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Prediction markets could soon be available in your retirement account",
+              "summary": "But many investors keep most or all of their assets in a brokerage account, Bitwise Investments chief investment officer Matthew Hougan points out.",
+              "hash": "ed231e2559915bdf",
+              "chunk_key": "ed231e2559915bdf_c001",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Special Forces Sgt. in Polymarket Maduro raid bet case released; Kalshi says it blocked him",
+              "summary": "The Army Special Forces soldier criminally charged in connection with making hugely profitable bets on Polymarket related to the U.S.",
+              "hash": "fd7d72ae7dde926e",
+              "chunk_key": "fd7d72ae7dde926e_c000",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "These stocks are signaling the return of the market's 'Animal Spirits'",
+              "summary": "In this article The risk-on rally that started as a rebound in semiconductors and small caps last month is now turning into full on \"Animal Spirits\" as bitcoin tries to break throu…",
+              "hash": "dc00b59a5bc1cad0",
+              "chunk_key": "dc00b59a5bc1cad0_c000",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Kalshi suspends, fines 3 congressional candidates in 'insider trading' enforcement",
+              "summary": "Prediction market platform Kalshi said Wednesday it had suspended and fined three candidates for Congress — from Minnesota, Texas and Virginia — for \" political insider trading \" a…",
+              "hash": "9d3f2be2392ed2a1",
+              "chunk_key": "9d3f2be2392ed2a1_c000",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
             {
               "name": "Polymarket launches trading of heavily leveraged 'perps' contracts",
               "summary": "In this article Prediction markets platform Polymarket is expanding into trading of perpetual futures contacts, the company said Tuesday.",
@@ -807,149 +65,20 @@
               "article_date": "2026-04-21 00:00:00",
               "provider": "CNBC",
               "value": 1
-            },
-            {
-              "name": "House Dem Sam Liccardo probes suspicious oil trades during Iran war",
-              "summary": "Iran war,\" said Liccardo, a member of the House Committee on Financial Services, which oversees securities and exchanges.",
-              "hash": "2fcf812894d76172",
-              "chunk_key": "2fcf812894d76172_c001",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Regulators are reportedly zeroing in on suspicious trades ahead of Trump post",
-              "summary": "U.S.",
-              "hash": "3cd7ea6ae63d78e9",
-              "chunk_key": "3cd7ea6ae63d78e9_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Anthropic's Mythos isn't threatening bitcoin. The real AI risk is at crypto exchanges",
-              "summary": "Specifically, he said, they can generate large volumes of scam emails and create synthetic identites, building detailed profiles that pull information from the exchanges or other r…",
-              "hash": "47d87b63917bfbed",
-              "chunk_key": "47d87b63917bfbed_c002",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
             }
           ],
           "related_tickers_named": [
-            {
-              "ticker": "HOOD",
-              "name": "Robinhood Markets"
-            },
             {
               "ticker": "COIN",
               "name": "Coinbase Global"
             },
             {
-              "ticker": "ICE",
-              "name": "Intercontinental Exchange"
+              "ticker": "HOOD",
+              "name": "Robinhood Markets"
             },
             {
-              "ticker": "CME",
-              "name": "CME Group"
-            },
-            {
-              "ticker": "BLSH",
-              "name": "Bullish"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "MS",
-              "name": "Morgan Stanley"
-            },
-            {
-              "ticker": "VIRT",
-              "name": "Virtu Financial"
-            },
-            {
-              "ticker": "BLK",
-              "name": "BlackRock"
-            },
-            {
-              "ticker": "KMI",
-              "name": "Kinder Morgan"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "ICE",
-              "name": "Intercontinental Exchange"
-            },
-            {
-              "ticker": "EXE",
-              "name": "Expand Energy"
-            }
-          ]
-        },
-        {
-          "cluster_id": 7,
-          "name": "Epstein's Financial and Philanthropic Scandals",
-          "count": 3,
-          "children": [
-            {
-              "name": "Trump details Cook call to 'kiss my ass,' a stark look at White House dealmaking",
-              "summary": "Amazon insisted it did nothing \"improper,\" according to Variety . Companies outside of Silicon Valley have also gone to great lengths to win over the president.",
-              "hash": "2b2e6461785a0c3b",
-              "chunk_key": "2b2e6461785a0c3b_c006",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Gates Foundation reviewing Jeffrey Epstein ties, will slash 20% of staff: WSJ",
-              "summary": "In this article The Gates Foundation has launched an external review of the philanthropy's past ties with notorious sex offender Jeffrey Epstein , The Wall Street Journal reported …",
-              "hash": "e7a89c677da71cdb",
-              "chunk_key": "e7a89c677da71cdb_c000",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "SantaCon promoter arrested for charity fraud, New York federal prosecutors say",
-              "summary": "The president of SantaCon was arrested on Wednesday on a federal criminal indictment accusing him of using the ticketed Christmas bar-crawl event to divert hundreds of thousands of…",
-              "hash": "17ae4d74157eecaa",
-              "chunk_key": "17ae4d74157eecaa_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "NXST",
-              "name": "Nexstar Media Group"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "INTC",
-              "name": "Intel"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
-            },
-            {
-              "ticker": "DIS",
-              "name": "Walt Disney"
-            },
-            {
-              "ticker": "BRK-B",
-              "name": "Berkshire Hathaway"
+              "ticker": "DKNG",
+              "name": "Draftkings"
             }
           ],
           "related_tickers_semantic": [
@@ -958,41 +87,150 @@
               "name": "Nvidia"
             },
             {
-              "ticker": "MSGS",
-              "name": "Madison Square Garden Sports"
+              "ticker": "AMZN",
+              "name": "Amazon.com"
             },
             {
-              "ticker": "TIGO",
-              "name": "Millicom International"
+              "ticker": "COIN",
+              "name": "Coinbase Global"
             },
             {
-              "ticker": "BG",
-              "name": "Bunge Global"
+              "ticker": "MKTX",
+              "name": "Marketaxess"
             },
             {
-              "ticker": "WU",
-              "name": "Western Union"
+              "ticker": "CME",
+              "name": "CME Group"
             },
             {
-              "ticker": "DVN",
-              "name": "Devon Energy"
+              "ticker": "IBKR",
+              "name": "Interactive Brokers Group"
             },
             {
-              "ticker": "NEE",
-              "name": "Nextera Energy"
+              "ticker": "TW",
+              "name": "Tradeweb Markets"
             }
           ]
+        },
+        {
+          "cluster_id": 12,
+          "name": "Mortgage Rates Rise Sharply",
+          "count": 1,
+          "children": [
+            {
+              "name": "Mamdani featured Ken Griffin in pied-a-terre tax promo. Citadel calls it 'shameful'",
+              "summary": "Citadel rebuked New York City Mayor Zohran Mamdani for singling out Chief Executive Officer Ken Griffin in a push for a new pied-à-terre tax, escalating a public dispute over how a…",
+              "hash": "f9b62a304220ba2e",
+              "chunk_key": "f9b62a304220ba2e_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [],
+          "related_tickers_semantic": []
+        },
+        {
+          "cluster_id": 18,
+          "name": "US Banks Weather Market Volatility",
+          "count": 1,
+          "children": [
+            {
+              "name": "JPMorgan expands $1.5 trillion economic security splurge into Europe",
+              "summary": "In this article JPMorgan Chase will extend a $1.5 trillion investment program designed to bolster U.S. economic resilience across Europe, the Wall Street giant said on Tuesday.",
+              "hash": "e882e08026b11f1c",
+              "chunk_key": "e882e08026b11f1c_c000",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "JPM",
+              "name": "JPMorgan Chase"
+            }
+          ],
+          "related_tickers_semantic": []
         }
       ]
     },
     {
-      "name": "Financial Year-End Updates",
-      "count": 11,
+      "name": "Financial Year End",
+      "count": 6,
       "children": [
         {
-          "cluster_id": 12,
+          "cluster_id": 20,
+          "name": "Tax Refunds Increase This Season",
+          "count": 3,
+          "children": [
+            {
+              "name": "Average tax refund is 11.3% higher, IRS filing data through Tax Day shows",
+              "summary": "But refunds have averaged around $350 higher, according to IRS filing data.",
+              "hash": "a336a8ca8011d56a",
+              "chunk_key": "a336a8ca8011d56a_c001",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Wealth, millionaire tax push spreads to more states. What experts say about the trend",
+              "summary": "Another survey, from Fox News, found the top concern about federal income taxes was the \"wealthy are not paying enough.\" The company polled 1,000 registered voters in late March.",
+              "hash": "e6d418d70af4cb8c",
+              "chunk_key": "e6d418d70af4cb8c_c002",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Va. judge blocks redistricting referendum result that boosted Democrats",
+              "summary": "The GOP-led Texas legislature heeded the president's warning and adopted maps that could net Republicans as many as five seats.",
+              "hash": "831c4ac06a89e884",
+              "chunk_key": "831c4ac06a89e884_c003",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [],
+          "related_tickers_semantic": []
+        },
+        {
+          "cluster_id": 22,
+          "name": "\"Student Loan Changes Affect Graduates\"",
+          "count": 2,
+          "children": [
+            {
+              "name": "New grads are finding jobs faster despite a competitive job market, says report",
+              "summary": "Beyond AI concerns, nearly 10% of 2026 grads said they changed their major during school due to economic conditions.",
+              "hash": "0bd9594123eef8a0",
+              "chunk_key": "0bd9594123eef8a0_c003",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump officials give mixed guidance on new student loan cap: Financial aid group",
+              "summary": "The U.S.",
+              "hash": "b278a34324ae6506",
+              "chunk_key": "b278a34324ae6506_c000",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "TLN",
+              "name": "Talen Energy"
+            }
+          ],
+          "related_tickers_semantic": []
+        },
+        {
+          "cluster_id": 10,
           "name": "Retirement Savings and Planning",
-          "count": 4,
+          "count": 1,
           "children": [
             {
               "name": "Retirement savings for caregivers a focus of new bipartisan bills in Congress",
@@ -1000,165 +238,6 @@
               "hash": "656c90bdb6342cb8",
               "chunk_key": "656c90bdb6342cb8_c000",
               "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "There's an 'art' to writing AI prompts for personal finance, MIT professor says",
-              "summary": "Many Americans are turning to artificial intelligence for financial advice.",
-              "hash": "f4138b109d2fbf5f",
-              "chunk_key": "f4138b109d2fbf5f_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Mom-and-pop car dealerships are growing or dying amid rise of mega-dealers",
-              "summary": "Derek Sylvester's father built the family's original Chevrolet dealership with his bare hands on Main Street in rural Peckville, Pennsylvania, in 1972.",
-              "hash": "ad59e9376f452d25",
-              "chunk_key": "ad59e9376f452d25_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "35% of Gen Z homebuyers are single women. Here’s why they need an estate plan",
-              "summary": "Single women have long made up a larger share of homeowners than single men, although the gap is narrowing, according to the Pew Research Center .",
-              "hash": "ce5440b226e02751",
-              "chunk_key": "ce5440b226e02751_c001",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "LAD",
-              "name": "Lithia Motors"
-            },
-            {
-              "ticker": "AN",
-              "name": "AutoNation"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "ZG",
-              "name": "ZG"
-            },
-            {
-              "ticker": "TOL",
-              "name": "Toll Brothers"
-            },
-            {
-              "ticker": "LNC",
-              "name": "Lincoln National"
-            },
-            {
-              "ticker": "DHI",
-              "name": "D.R. Horton"
-            },
-            {
-              "ticker": "PHM",
-              "name": "Pultegroup"
-            },
-            {
-              "ticker": "JLL",
-              "name": "Jones Lang LaSalle"
-            },
-            {
-              "ticker": "NVR",
-              "name": "NVR"
-            }
-          ]
-        },
-        {
-          "cluster_id": 16,
-          "name": "Tax Refunds Increase This Season",
-          "count": 4,
-          "children": [
-            {
-              "name": "Average tax refund is 11.2% higher, latest IRS filing data shows",
-              "summary": "The average tax refund is 11.2% higher this season, compared with about the same period in 2025, according to the latest IRS filing data.",
-              "hash": "281b8220d88ebdbd",
-              "chunk_key": "281b8220d88ebdbd_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Tax Day proposal to exempt Election Day pollworker pay floated by House Democrats",
-              "summary": "House Democrats on Wednesday are introducing a proposal that would give tax relief to election poll workers. Under the legislation, led by Reps.",
-              "hash": "32447dc300721113",
-              "chunk_key": "32447dc300721113_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "How to file a tax extension for free by the April 15 deadline",
-              "summary": "Taxpayers often experience \"long wait times\" for the IRS to process amended returns and issue refunds for those filings, National Taxpayer Advocate Erin Collins wrote in January.",
-              "hash": "29a973cc017667e9",
-              "chunk_key": "29a973cc017667e9_c001",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Here are all the ways the Iran war has affected the U.S. economy so far",
-              "summary": "But there also was \"healthy growth\" of 3.6% excluding gas, the bank said, indicating that wallets were still resilient enough to handle the increase.",
-              "hash": "57d969744cc46ff5",
-              "chunk_key": "57d969744cc46ff5_c002",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "TFC",
-              "name": "Truist Financial"
-            }
-          ],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 11,
-          "name": "\"Changes to Student Loan Repayment\"",
-          "count": 3,
-          "children": [
-            {
-              "name": "This year's college graduates face a changed student loan landscape",
-              "summary": "College graduates in the Class of 2026 are stepping into a radically different student loan landscape, one with fewer repayment options and stricter rules on debt forgiveness compa…",
-              "hash": "f2aaece77c2a0fb1",
-              "chunk_key": "f2aaece77c2a0fb1_c000",
-              "article_date": "2026-04-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "As AI restructures workforce, some young adults turn to grad school",
-              "summary": "However, that could change in 2026, the Jenzabar/Spark451 survey found.",
-              "hash": "c1e77982170bf976",
-              "chunk_key": "c1e77982170bf976_c002",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Over 643,000 student loan borrowers await repayment plans, forgiveness: Court filing",
-              "summary": "More than 643,000 federal student loan borrowers are waiting for the Trump administration to forgive their debt or enroll them in an affordable repayment plan , according to a new …",
-              "hash": "88ec4857b8e3bdd9",
-              "chunk_key": "88ec4857b8e3bdd9_c000",
-              "article_date": "2026-04-15 00:00:00",
               "provider": "CNBC",
               "value": 1
             }
@@ -1170,169 +249,202 @@
     },
     {
       "name": "Global Economic Uncertainty",
-      "count": 4,
+      "count": 60,
       "children": [
         {
-          "cluster_id": 20,
-          "name": "JPMorgan Navigates Global Uncertainty",
-          "count": 2,
-          "children": [
-            {
-              "name": "JPMorgan expands $1.5 trillion economic security splurge into Europe",
-              "summary": "In this article JPMorgan Chase will extend a $1.5 trillion investment program designed to bolster U.S. economic resilience across Europe, the Wall Street giant said on Tuesday.",
-              "hash": "e882e08026b11f1c",
-              "chunk_key": "e882e08026b11f1c_c000",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
-              "summary": "In this article When Goldman Sachs executives were asked about disappointing results in the firm's fixed income division this week, they made it sound as though the trading environ…",
-              "hash": "1a020c0678f50765",
-              "chunk_key": "1a020c0678f50765_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "MS",
-              "name": "Morgan Stanley"
-            },
-            {
-              "ticker": "WFC",
-              "name": "Wells Fargo"
-            },
-            {
-              "ticker": "C",
-              "name": "Citigroup"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "C",
-              "name": "Citigroup"
-            },
-            {
-              "ticker": "ICE",
-              "name": "Intercontinental Exchange"
-            },
-            {
-              "ticker": "LNC",
-              "name": "Lincoln National"
-            }
-          ]
-        },
-        {
-          "cluster_id": 21,
-          "name": "Private Credit Market Concerns",
-          "count": 2,
-          "children": [
-            {
-              "name": "The new big tech concentration risk is in bond market, and it's here to stay",
-              "summary": "It's concentration in one industry being affected by technological change. ... Enterprise software stocks are down 60-70%. It is all about selection of business.",
-              "hash": "95064b921e7baede",
-              "chunk_key": "95064b921e7baede_c002",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Violent downturns could test new ETF strategies, warns MFS Investment",
-              "summary": "In this article New innovation in the exchange-traded fund industry could come at a cost to investors during extreme conditions.",
-              "hash": "671ce8f7a1562db5",
-              "chunk_key": "671ce8f7a1562db5_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "APO",
-              "name": "Apollo Global Management"
-            },
-            {
-              "ticker": "INTC",
-              "name": "Intel"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "T",
-              "name": "AT&T"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "APO",
-              "name": "Apollo Global Management"
-            },
-            {
-              "ticker": "OWL",
-              "name": "Blue Owl Capital"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "VOYA",
-              "name": "Voya Financial"
-            },
-            {
-              "ticker": "BLK",
-              "name": "BlackRock"
-            },
-            {
-              "ticker": "HLNE",
-              "name": "Hamilton Lane"
-            },
-            {
-              "ticker": "PFG",
-              "name": "Principal Financial Group"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Global Market Turbulence",
-      "count": 63,
-      "children": [
-        {
-          "cluster_id": 15,
+          "cluster_id": 6,
           "name": "Iran Conflict Escalates Globally",
-          "count": 44,
+          "count": 34,
           "children": [
+            {
+              "name": "Pirro could reopen Fed probe at any time, Democratic senators warn",
+              "summary": "Powell in January said he had received subpoenas from Pirro's office.",
+              "hash": "55e400771b495aa0",
+              "chunk_key": "55e400771b495aa0_c001",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Kalshi bettors now see Warsh confirmed by mid-May after DOJ drops Powell probe",
+              "summary": "Odds that Kevin Warsh will be confirmed as chairman of the Federal Reserve in less than a month from now surged on prediction markets platform Kalshi after the Department of Justic…",
+              "hash": "bee5e000c88c29bc",
+              "chunk_key": "bee5e000c88c29bc_c000",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Fed is likely to hold rates steady — here's how that impacts your wallet",
+              "summary": "Shorter-term rates are closely pegged to the prime rate , which is typically 3 percentage points above the federal funds rate.",
+              "hash": "be20d46db5aea0bf",
+              "chunk_key": "be20d46db5aea0bf_c001",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "The threat to the Fed's independence isn't over",
+              "summary": "Trump nominated Powell in 2017 to the chair he now holds, but the president quickly soured on him because he disliked how Powell handled interest rates.",
+              "hash": "ed4db94470b41c22",
+              "chunk_key": "ed4db94470b41c22_c002",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Will he stay or will he go? With criminal probe over, Powell faces big decision",
+              "summary": "If Powell leaves now, he will give Trump an opening to appoint another member to the Board of Governors.",
+              "hash": "c6736f47021370d8",
+              "chunk_key": "c6736f47021370d8_c002",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Strait of Hormuz may not fully reopen until second half of 2026, Baker Hughes says",
+              "summary": "In this article Baker Hughes is working under the assumption that the Strait of Hormuz may not fully reopen for months, a senior executive at the influential oilfield services firm…",
+              "hash": "dc51fc1ea186bbba",
+              "chunk_key": "dc51fc1ea186bbba_c000",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump says Israel-Lebanon ceasefire extended by three weeks",
+              "summary": "Israel and Lebanon agreed to extend their ceasefire by three weeks following a meeting in the White House with top U.S. officials, President Donald Trump said Thursday.",
+              "hash": "bad7b3349cf60f01",
+              "chunk_key": "bad7b3349cf60f01_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "U.S.-Iran war evolves into naval standoff over Strait of Hormuz after both countries seize ships",
+              "summary": "In this article The U.S.",
+              "hash": "7f70f08a4a45b942",
+              "chunk_key": "7f70f08a4a45b942_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump says Americans should expect higher gas prices for 'a little while'",
+              "summary": "Gas prices have surged more than 30% to top $4 per gallon since the war began, according to AAA.",
+              "hash": "ce282298bde14773",
+              "chunk_key": "ce282298bde14773_c001",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Brent oil tops $105 as tensions simmer in Strait of Hormuz, Israel threatens attacks",
+              "summary": "Brent oil prices jumped more than 3% on Thursday, as tensions run high in the Strait of Hormuz with the U.S. and Iran enforcing blockades .",
+              "hash": "91e8ab29014da8c7",
+              "chunk_key": "91e8ab29014da8c7_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Risky meme trading is back. A trading rule change may have lit the fuse",
+              "summary": "The Wall Street firm noted that a key catalyst may be a recent rule change by the U.S. Securities and Exchange Commission.",
+              "hash": "a79252f9c5d6f21f",
+              "chunk_key": "a79252f9c5d6f21f_c001",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "These stocks are signaling the return of the market's 'Animal Spirits'",
+              "summary": "The options market is pricing in a 5.5% swing after earnings, but the stock's realized move has been smaller than expectations for three of the last four quarters.",
+              "hash": "dc00b59a5bc1cad0",
+              "chunk_key": "dc00b59a5bc1cad0_c001",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Chubb's earnings blew past the Street. Here's why the stock is falling",
+              "summary": "In this article Chubb's stock is falling on Wednesday despite a big earnings beat and a slew of price target increases by Wall Street analysts.",
+              "hash": "c669001bc6b92e70",
+              "chunk_key": "c669001bc6b92e70_c000",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Convenience store owner Yesway is stealing customers from fast food, CEO says",
+              "summary": "In this article Deep-fried burritos and chimichangas from convenience store chain Allsup's are helping its parent company Yesway steal customers from fast-food chains, even with hi…",
+              "hash": "4701ae91cb461cdb",
+              "chunk_key": "4701ae91cb461cdb_c000",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "U.S. Navy Secretary John Phelan leaving Trump administration: Pentagon",
+              "summary": "Secretary of the Navy John Phelan is leaving the Trump administration \"effective immediately,\" a spokesman for the Department of Defense said Wednesday.",
+              "hash": "50065ecf3115b9e9",
+              "chunk_key": "50065ecf3115b9e9_c000",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Pirro: DOJ won't drop Fed probe, will appeal order blocking Powell subpoenas",
+              "summary": "U.S.",
+              "hash": "73d431785fb80cfd",
+              "chunk_key": "73d431785fb80cfd_c000",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump’s Fed pick Kevin Warsh signals approach to interest rates",
+              "summary": "Trump at the hearing Tuesday. During the hearing, Warren and other lawmakers questioned whether Warsh would be able to withstand pressure from Trump to lower interest rates.",
+              "hash": "440706f7d47df221",
+              "chunk_key": "440706f7d47df221_c002",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Warsh gave his way for measuring inflation. It could come back to bite him",
+              "summary": "Kevin Warsh , President Donald Trump 's nominee for Federal Reserve chair, told lawmakers that he would like the central bank to change its strategy for measuring inflation.",
+              "hash": "192691610fbdb4b3",
+              "chunk_key": "192691610fbdb4b3_c000",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "These charts show how Iran's economy is in freefall",
+              "summary": "Senior Iranian economic officials reportedly warned President Masoud Pezeshkian recently that it may take more than a decade to rebuild the war-torn economy, according to Iranian l…",
+              "hash": "c48057daec640b57",
+              "chunk_key": "c48057daec640b57_c003",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Kalshi traders don't see Strait of Hormuz traffic returning to normal until July",
+              "summary": "Transit through the strait remains low.",
+              "hash": "70a4204e9a7a82df",
+              "chunk_key": "70a4204e9a7a82df_c001",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Analysis: Warsh emerges from a difficult hearing with his Fed 'regime-change' plan intact",
+              "summary": "Kevin Warsh faced searching questions at his Senate confirmation hearing Tuesday.",
+              "hash": "5c80323c8e4037b5",
+              "chunk_key": "5c80323c8e4037b5_c000",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
             {
               "name": "Bristol West car insurance review 2026",
               "summary": "Catch up on CNBC Select's in-depth coverage of credit cards , banking and money , and follow us on TikTok , Facebook , Instagram and Twitter to stay up to date.",
@@ -1361,10 +473,10 @@
               "value": 1
             },
             {
-              "name": "Trump administration discussing currency swap line with United Arab Emirates",
-              "summary": "The White House has discussed offering a financial lifeline to the United Arab Emirates as the U.S.",
-              "hash": "1c51525717cca390",
-              "chunk_key": "1c51525717cca390_c000",
+              "name": "Trump extends Iran ceasefire indefinitely  but market focus has drifted",
+              "summary": "Grace Peters, co-head of global investment strategy at J.P.",
+              "hash": "e7b7156a9761f65b",
+              "chunk_key": "e7b7156a9761f65b_c001",
               "article_date": "2026-04-21 00:00:00",
               "provider": "CNBC",
               "value": 1
@@ -1397,10 +509,37 @@
               "value": 1
             },
             {
+              "name": "Kash Patel sues The Atlantic for $250 million over alcohol abuse claims",
+              "summary": "FBI Director Kash Patel on Monday filed a lawsuit seeking $250 million in damages from The Atlantic magazine, claiming defamation in an article that alleges he abuses alcohol .",
+              "hash": "c230a91b5cc75293",
+              "chunk_key": "c230a91b5cc75293_c000",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
               "name": "Investors are misreading news about the Iran war, analysts say",
               "summary": "Growing investor optimism over an end to hostilities in the Gulf has helped propel stocks higher since a two-week ceasefire was agreed between the U.S. and Iran on April 7.",
               "hash": "c9c7623d81700d30",
               "chunk_key": "c9c7623d81700d30_c000",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Warsh says monetary policy should remain independent, but Fed must 'stay in its lane'",
+              "summary": "Moreover, Warsh said the Fed does not enjoy the same independence in some of its other responsibilities as it does when setting interest rates and other aspects of monetary policy.",
+              "hash": "0d6cc9984c849cd7",
+              "chunk_key": "0d6cc9984c849cd7_c001",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Here's what to expect from Fed chair nominee Warsh's Senate hearing Tuesday",
+              "summary": "In remarks he's scheduled to deliver to the committee at the hearing's start, Warsh issued a qualified endorsement of Fed independence.",
+              "hash": "9600f9a606ff3321",
+              "chunk_key": "9600f9a606ff3321_c001",
               "article_date": "2026-04-20 00:00:00",
               "provider": "CNBC",
               "value": 1
@@ -1422,342 +561,36 @@
               "article_date": "2026-04-20 00:00:00",
               "provider": "CNBC",
               "value": 1
-            },
-            {
-              "name": "Iran rebuffs Trump's plan for new round of peace talks, state media reports",
-              "summary": "It reported the tanker and crew as safe, without identifying the vessel or its destination.",
-              "hash": "125e6266e76aa055",
-              "chunk_key": "125e6266e76aa055_c003",
-              "article_date": "2026-04-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "U.S. struck, seized Iranian-flagged ship Touska in Gulf of Oman, Trump says",
-              "summary": "A U.",
-              "hash": "8f0110edc0e78f5a",
-              "chunk_key": "8f0110edc0e78f5a_c000",
-              "article_date": "2026-04-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Seized ship, vessel attacks push U.S.-Iran ceasefire toward brink",
-              "summary": "Much will hinge on whether the U.S. and Iran will meet for a second round of peace negotiations in Pakistan later this week.",
-              "hash": "51e2b4ca5f4d4be5",
-              "chunk_key": "51e2b4ca5f4d4be5_c002",
-              "article_date": "2026-04-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Sandwich chain Jersey Mike's confidentially files for IPO",
-              "summary": "Jersey Mike's has confidentially filed for an initial public offering, the company said Monday.",
-              "hash": "e9fb89006f2e3cde",
-              "chunk_key": "e9fb89006f2e3cde_c000",
-              "article_date": "2026-04-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "AST SpaceMobile falls after Bezos' Blue Origin places satellite in wrong orbit",
-              "summary": "No matter where you're starting from, you'll leave with clearer thinking, stronger strategies. Enter your email here to get a discount code",
-              "hash": "293714504355e006",
-              "chunk_key": "293714504355e006_c002",
-              "article_date": "2026-04-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "U.S.-Iran war, $4 gas, have taken all the fun out of consumer spending",
-              "summary": "But overall, Americans are having less \"fun\" as high gas prices and uncertainty shadow their discretionary spending.",
-              "hash": "e3a29d1c7a644a36",
-              "chunk_key": "e3a29d1c7a644a36_c002",
-              "article_date": "2026-04-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Iran says Strait of Hormuz is closed again as vessels come under fire",
-              "summary": "Iran's Supreme National Security Council said in a statement that Pakistan's army chief, serving as an intermediary, presented the proposals to Iran during his recent visit to Tehr…",
-              "hash": "3957c4d08e622f61",
-              "chunk_key": "3957c4d08e622f61_c003",
-              "article_date": "2026-04-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Gas prices may not drop below $3 until next year: Energy Secretary Wright",
-              "summary": "In this article Energy Secretary Chris Wright on Sunday said gas prices may not drop below $3 until next year, as the U.S.",
-              "hash": "44bfd70d7064a381",
-              "chunk_key": "44bfd70d7064a381_c000",
-              "article_date": "2026-04-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Fed Governor Waller says Iran war, labor market risks are keeping central bank on hold",
-              "summary": "Federal Reserve Governor Christopher Waller on Friday said current economic conditions are complicating the approach to interest rates, with policymakers facing a potentially long-…",
-              "hash": "74dde2a4dd4cc7af",
-              "chunk_key": "74dde2a4dd4cc7af_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Iran declares Hormuz open to shipping; Trump says U.S. blockade still active",
-              "summary": "Iran on Friday declared the Strait of Hormuz is open to commercial ships during the ceasefire between Israel and Lebanon, but confusion quickly emerged about whether the sea lane w…",
-              "hash": "6caae2a7b9729265",
-              "chunk_key": "6caae2a7b9729265_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Video shows ships turning away from the Strait of Hormuz despite Iran declaring it open",
-              "summary": "In this article Oil tankers are remaining cautious about sailing through the Strait of Hormuz after Iran declared Friday that the sea lane is open to commercial ships, video footag…",
-              "hash": "5522e424e15bcc60",
-              "chunk_key": "5522e424e15bcc60_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Central bankers and policymakers warn of global risks as Iran war drags on",
-              "summary": "So, [supply constraints] will be felt in the markets more significantly.",
-              "hash": "001dea7a488be0bf",
-              "chunk_key": "001dea7a488be0bf_c003",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "U.S.-UK special relationship under strain ahead of royal visit to Washington",
-              "summary": "A year ago, the U.K.",
-              "hash": "ee55c8b0b7c3b230",
-              "chunk_key": "ee55c8b0b7c3b230_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Israel and Lebanon agree to 10-day ceasefire, Trump says",
-              "summary": "The leaders of Israel and Lebanon agreed to a 10-day ceasefire after officials from the two countries met in Washington, President Donald Trump said Thursday.",
-              "hash": "3415476910d39265",
-              "chunk_key": "3415476910d39265_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Vance's Iran and Orbán setbacks raise questions about his standing with Trump",
-              "summary": "But he stressed that it was wrong to assume Vance has either been dismissed \"to a dog house\" or eclipsed by Rubio.",
-              "hash": "ad0bc33f92dabd82",
-              "chunk_key": "ad0bc33f92dabd82_c003",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Brent oil near $100 again with U.S.-Iran talks uncertain, Hormuz still blocked",
-              "summary": "Crude oil prices neared $100 again on Thursday, as tanker traffic through the Strait of Hormuz remains very low with no clear pathway to fully reopen the vital sea lane.",
-              "hash": "4f2e7c8e6008b944",
-              "chunk_key": "4f2e7c8e6008b944_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "U.S. Navy blockade of Iran enters fourth day. Here’s the latest tanker traffic in Strait of Hormuz",
-              "summary": "Oil tanker traffic through the Strait of Hormuz was at a near standstill Thursday, as tensions between the U.S. and Iran remain high.",
-              "hash": "0668e4cc3db7e0c9",
-              "chunk_key": "0668e4cc3db7e0c9_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump says gas prices 'not very high' — poll shows voters blame him for price spike",
-              "summary": "President Donald Trump on Thursday brushed aside concerns about much higher gas prices because of the Iran war , even as a new poll showed that most U.S.",
-              "hash": "5b4f12fce59d48f1",
-              "chunk_key": "5b4f12fce59d48f1_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Why the stock market is hitting records despite Iran war",
-              "summary": "Stocks then saw one of their biggest daily rallies in history following Trump's reversal.",
-              "hash": "99ce4eceff627101",
-              "chunk_key": "99ce4eceff627101_c003",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "The Nasdaq's win streak, Netflix earnings and more: Morning Squawk",
-              "summary": "This is CNBC's Morning Squawk newsletter. Subscribe here to receive future editions in your inbox. Happy Friday.",
-              "hash": "32806acb09c89147",
-              "chunk_key": "32806acb09c89147_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "U.S. tech companies ramp up government lobbying amid Iran war uncertainty",
-              "summary": "U.S.",
-              "hash": "f120394284052dc1",
-              "chunk_key": "f120394284052dc1_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Cramer's lightning round: Buy Vertex Pharmaceuticals",
-              "summary": "Vertex Pharmaceuticals : \"I think Vertex is very strong. I wish I had bought it for the Charitable Trust a long time ago when we had the CEO on.",
-              "hash": "5e2c5c945921ee55",
-              "chunk_key": "5e2c5c945921ee55_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Jim Cramer on the market's 'remarkable' rally — and what to watch ahead",
-              "summary": "With that in mind, Cramer turned to the week ahead, where a packed slate of earnings will help determine whether the rally can keep running.",
-              "hash": "f617d6c5765e7e8f",
-              "chunk_key": "f617d6c5765e7e8f_c001",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "White House budget chief Vought coy on Iran war cost",
-              "summary": "White House Office of Management and Budget Director Russell Vought told lawmakers he could not estimate the total cost of the Iran war and that the Trump administration hadn't yet…",
-              "hash": "fa405f19d299d607",
-              "chunk_key": "fa405f19d299d607_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Iran war damaged as much as $58 billion of energy infrastructure: Rystad",
-              "summary": "The Iran war has damaged as much as $58 billion worth of energy infrastructure, according to an estimate published by consulting firm Rystad Energy on Wednesday.",
-              "hash": "dbf6bdb5ed3eab18",
-              "chunk_key": "dbf6bdb5ed3eab18_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "FIFA President Infantino: Iran team 'coming for sure' to 2026 World Cup in U.S.",
-              "summary": "The Iranian men's national soccer team was one of the first teams to qualify for the 2026 FIFA World Cup in North America, an event shaping up to be FIFA's largest yet, not only in…",
-              "hash": "2b0125ee1ebc7e0a",
-              "chunk_key": "2b0125ee1ebc7e0a_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "World Bank chief: Iran war disruptions will last after Hormuz Strait reopens",
-              "summary": "Countries affected by the Iran war should prepare for conflict-related disruptions to last for months, even if the current shaky ceasefire lasts and the Strait of Hormuz is reopene…",
-              "hash": "6ace3153581e5aed",
-              "chunk_key": "6ace3153581e5aed_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Here are all the ways the Iran war has affected the U.S. economy so far",
-              "summary": "Combined, Goldman expects the impact to push the Fed into multiple interest rate cuts later this year.",
-              "hash": "57d969744cc46ff5",
-              "chunk_key": "57d969744cc46ff5_c004",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "U.S. and Iran could meet in Pakistan for peace talks next week: MS NOW",
-              "summary": "The U.S. and Iran will likely return to Pakistan next week for a second round of peace negotiations, two senior Pakistani officials told MS NOW on Wednesday.",
-              "hash": "39b3fe05219f3e68",
-              "chunk_key": "39b3fe05219f3e68_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "UK finance minister Rachel Reeves blasts Trump administration over Iran war",
-              "summary": "U.K. Finance Minister Rachel Reeves on Wednesday called for an immediate de-escalation of the war in the Middle East, and sharply criticized the U.S.",
-              "hash": "be2377ee5ec03832",
-              "chunk_key": "be2377ee5ec03832_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "A few tankers and ships are going through the Strait of Hormuz",
-              "summary": "At least nine oil tankers have transited the Strait of Hormuz this week as the U.S. and Iran contest control of the vital sea lane.",
-              "hash": "22ce8f7d63c11241",
-              "chunk_key": "22ce8f7d63c11241_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Cattle prices soar to record highs as grilling season heats up",
-              "summary": "The price of ground beef reached record highs going back to 1984 earlier this year, federal data shows.",
-              "hash": "b35b30885943b19c",
-              "chunk_key": "b35b30885943b19c_c001",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "New York Fed President Williams worries war will slow growth, aggravate inflation",
-              "summary": "New York Fed President John Williams expressed concern Thursday about the Iran war's impact on the economy, saying it already has shown signs of hiking prices and slowing growth.",
-              "hash": "2731f9d39f3e4a8c",
-              "chunk_key": "2731f9d39f3e4a8c_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "UK economy grew 0.5% in February, beating economists' expectations by a long shot",
-              "summary": "The U.K. economy grew by 0.5% in February, according to preliminary figures from the Office for National Statistics published Thursday. Economists polled by Reuters expected U.K.",
-              "hash": "f240499706410ef1",
-              "chunk_key": "f240499706410ef1_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
             }
           ],
           "related_tickers_named": [
             {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
+              "ticker": "NYT",
+              "name": "New York Times"
             },
             {
               "ticker": "BAC",
               "name": "Bank of America"
             },
             {
-              "ticker": "BX",
-              "name": "Blackstone"
+              "ticker": "CASY",
+              "name": "Caseys General Stores"
             },
             {
-              "ticker": "MSCI",
-              "name": "MSCI"
+              "ticker": "ZBRA",
+              "name": "Zebra Technologies"
             },
             {
-              "ticker": "ASTS",
-              "name": "AST SpaceMobile"
+              "ticker": "META",
+              "name": "Meta Platforms"
             },
             {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
+              "ticker": "JPM",
+              "name": "JPMorgan Chase"
+            },
+            {
+              "ticker": "CAR",
+              "name": "Avis Budget Group"
             }
           ],
           "related_tickers_semantic": [
@@ -1770,126 +603,78 @@
               "name": "Amgen"
             },
             {
+              "ticker": "MRK",
+              "name": "Merck"
+            },
+            {
               "ticker": "JAZZ",
               "name": "Jazz Pharmaceuticals"
             },
             {
-              "ticker": "SSB",
-              "name": "SouthState Bank"
-            },
-            {
-              "ticker": "HII",
-              "name": "Huntington Ingalls Industries"
-            },
-            {
-              "ticker": "ROIV",
-              "name": "Roivant Sciences"
-            },
-            {
-              "ticker": "TFSL",
-              "name": "TFS Financial"
-            }
-          ]
-        },
-        {
-          "cluster_id": 2,
-          "name": "Amazon's Shift in Delivery Strategy",
-          "count": 3,
-          "children": [
-            {
-              "name": "Amazon 'strong-armed' Levi's, Hanes to hike prices on rivals, Calif. DA says",
-              "summary": "In this article Amazon pressured major brands like Levi Strauss & Co and Hanes to inflate prices of listings on rival online marketplaces as part of wide-ranging price-fixing schem…",
-              "hash": "6fd0f74dfee2500e",
-              "chunk_key": "6fd0f74dfee2500e_c000",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Amazon, USPS and the risk of a widening delivery divide in rural America",
-              "summary": "Amazon reduces cost in rural areas by using USPS, while USPS gets additional revenue for the existing routes,\" he explained.",
-              "hash": "2cd496ae960f7732",
-              "chunk_key": "2cd496ae960f7732_c005",
-              "article_date": "2026-04-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Amazon sellers halt ads in policy revolt: 'We're running out of f---ing margin'",
-              "summary": "Wednesday to protest the recent policy changes that are strangling their already stretched bottom lines.",
-              "hash": "a53029f4d38b9ec7",
-              "chunk_key": "a53029f4d38b9ec7_c001",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "FDX",
-              "name": "FedEx"
-            },
-            {
-              "ticker": "BBY",
-              "name": "Best Buy"
-            },
-            {
               "ticker": "TGT",
               "name": "Target"
-            },
-            {
-              "ticker": "WMT",
-              "name": "Walmart"
-            },
-            {
-              "ticker": "CHWY",
-              "name": "Chewy"
-            },
-            {
-              "ticker": "HD",
-              "name": "Home Depot"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "EBAY",
-              "name": "eBay"
-            },
-            {
-              "ticker": "FAST",
-              "name": "Fastenal"
-            },
-            {
-              "ticker": "KO",
-              "name": "Coca-Cola"
-            },
-            {
-              "ticker": "ROIV",
-              "name": "Roivant Sciences"
-            },
-            {
-              "ticker": "SNX",
-              "name": "TD Synnex"
-            },
-            {
-              "ticker": "VKTX",
-              "name": "Viking Therapeutics"
             }
           ]
         },
         {
-          "cluster_id": 3,
+          "cluster_id": 5,
           "name": "Fuel Prices Impact Air Travel",
-          "count": 3,
+          "count": 9,
           "children": [
+            {
+              "name": "Bessent defends U.S. dollar swap lines as Iran war harms global finances",
+              "summary": "Treasury Secretary Scott Bessent on Friday defended the possibility of the U.S.",
+              "hash": "72041c8b8c227e96",
+              "chunk_key": "72041c8b8c227e96_c000",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Clock ticks on Spirit Airlines as bondholders weigh Trump bailout",
+              "summary": "The industry's costs ballooned after Covid, as customer tastes changed for more upmarket offerings and international destinations.",
+              "hash": "4cb954a9c1b0f897",
+              "chunk_key": "4cb954a9c1b0f897_c001",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Spirit Airlines' cash 'not going to last for very much longer'",
+              "summary": "Spirit Airlines' accessible cash to keep operating won't last long and a government rescue package is on the table, a lawyer for the struggling budget carrier said at a hearing Thu…",
+              "hash": "50df51efe6c7ec50",
+              "chunk_key": "50df51efe6c7ec50_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Southwest Airlines forecasts quarterly earnings below estimates",
+              "summary": "In this article Southwest Airlines forecast second-quarter earnings below analyst estimates, citing higher fuel prices, while holding off on updating its full-year 2026 forecast.",
+              "hash": "65f2e07a9bfee867",
+              "chunk_key": "65f2e07a9bfee867_c000",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "U.S.-UAE financial swap: Damage done by war to Gulf economy is growing",
+              "summary": "Roughly 250,000 bookings were canceled in March alone, an unusually synchronized collapse across platforms.",
+              "hash": "b60cb938f7ad1e2d",
+              "chunk_key": "b60cb938f7ad1e2d_c002",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Bessent says 'many' U.S. allies have asked for currency swaps amid Iran war",
+              "summary": "Treasury Secretary Scott Bessent said Wednesday that \"many\" oil-rich U.S.",
+              "hash": "98716ea0c866e2e1",
+              "chunk_key": "98716ea0c866e2e1_c000",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
             {
               "name": "United Airlines slashes 2026 forecast as fuel costs surge",
               "summary": "It grew 3.4% in the first quarter.",
@@ -1909,11 +694,11 @@
               "value": 1
             },
             {
-              "name": "For cruise lines, Iran conflict and oil prices threaten to dent profits",
-              "summary": "Most Royal Caribbean ships now host a Starlink connection for fast internet aboard.",
-              "hash": "fcfabe0d32d88223",
-              "chunk_key": "fcfabe0d32d88223_c003",
-              "article_date": "2026-04-15 00:00:00",
+              "name": "Trump administration discussing currency swap line with United Arab Emirates",
+              "summary": "The White House has discussed offering a financial lifeline to the United Arab Emirates as the U.S.",
+              "hash": "1c51525717cca390",
+              "chunk_key": "1c51525717cca390_c000",
+              "article_date": "2026-04-21 00:00:00",
               "provider": "CNBC",
               "value": 1
             }
@@ -1924,303 +709,93 @@
               "name": "United Airlines"
             },
             {
-              "ticker": "CCL",
-              "name": "Carnival"
+              "ticker": "CARR",
+              "name": "Carrier Global"
             },
             {
-              "ticker": "RCL",
-              "name": "Royal Caribbean Cruises"
-            },
-            {
-              "ticker": "ALK",
-              "name": "Alaska Air Group"
+              "ticker": "LUV",
+              "name": "Southwest Airlines"
             },
             {
               "ticker": "KEX",
               "name": "Kirby"
             },
             {
+              "ticker": "ALK",
+              "name": "Alaska Air Group"
+            },
+            {
               "ticker": "AAL",
               "name": "American Airlines Group"
             },
             {
-              "ticker": "CARR",
-              "name": "Carrier Global"
+              "ticker": "DIS",
+              "name": "Walt Disney"
             }
           ],
           "related_tickers_semantic": [
-            {
-              "ticker": "RCL",
-              "name": "Royal Caribbean Cruises"
-            },
-            {
-              "ticker": "VIK",
-              "name": "Viking Ltd(Pembroke)"
-            },
-            {
-              "ticker": "CCL",
-              "name": "Carnival"
-            },
-            {
-              "ticker": "NCLH",
-              "name": "Norwegian Cruise Line"
-            },
-            {
-              "ticker": "HLT",
-              "name": "Hilton Worldwide"
-            },
-            {
-              "ticker": "CNXC",
-              "name": "Concentrix"
-            },
             {
               "ticker": "LUV",
               "name": "Southwest Airlines"
+            },
+            {
+              "ticker": "AAL",
+              "name": "American Airlines Group"
+            },
+            {
+              "ticker": "UAL",
+              "name": "United Airlines"
+            },
+            {
+              "ticker": "AL",
+              "name": "AIR Lease"
+            },
+            {
+              "ticker": "DAL",
+              "name": "Delta Air Lines"
+            },
+            {
+              "ticker": "HXL",
+              "name": "Hexcel"
+            },
+            {
+              "ticker": "OVV",
+              "name": "Ovintiv"
             }
           ]
         },
         {
-          "cluster_id": 4,
-          "name": "GLP-1 Weight Loss Medications",
-          "count": 3,
+          "cluster_id": 8,
+          "name": "Tariffs and Retail Earnings",
+          "count": 5,
           "children": [
             {
-              "name": "Amazon launches GLP-1 weight loss program, promising 'fast, convenient' access",
-              "summary": "In this article Amazon is pushing deeper into the booming weight loss market, unveiling Tuesday a new program that aims to simplify access to popular GLP-1 treatments.",
-              "hash": "2e149716d91d533d",
-              "chunk_key": "2e149716d91d533d_c000",
-              "article_date": "2026-04-21 00:00:00",
+              "name": "Nike cuts 1,400 roles in second round of layoffs this year",
+              "summary": "In this article Nike announced a new round of layoffs Thursday affecting approximately 1,400 employees across the organization, mostly concentrated in its technology department.",
+              "hash": "00f1adc58364bf9d",
+              "chunk_key": "00f1adc58364bf9d_c000",
+              "article_date": "2026-04-23 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "How Trump's psychedelics executive order could unlock stalled cannabis reform",
-              "summary": "It directs agencies like the U.S.",
-              "hash": "6fa409443bbc1aff",
-              "chunk_key": "6fa409443bbc1aff_c001",
-              "article_date": "2026-04-20 00:00:00",
+              "name": "RFK Jr. says he would support a potential ban on junk food TV ads",
+              "summary": "Health and Human Services Secretary Robert F. Kennedy Jr. on Wednesday said he would support a potential ban on junk food TV advertisements in the U.S.",
+              "hash": "b40b131c9d01aaa2",
+              "chunk_key": "b40b131c9d01aaa2_c000",
+              "article_date": "2026-04-22 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "RFK Jr.'s peptide policy could boost Hims & Hers as its GLP-1 business evolves",
-              "summary": "In this article As its high-margin compounded GLP-1 business evolves, Hims & Hers Health may be finding a new opportunity in peptides.",
-              "hash": "8948eecf97e9d77d",
-              "chunk_key": "8948eecf97e9d77d_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "VKTX",
-              "name": "Viking Therapeutics"
-            },
-            {
-              "ticker": "AMGN",
-              "name": "Amgen"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "MRNA",
-              "name": "Moderna"
-            },
-            {
-              "ticker": "VTRS",
-              "name": "Viatris"
-            },
-            {
-              "ticker": "AMGN",
-              "name": "Amgen"
-            },
-            {
-              "ticker": "REGN",
-              "name": "Regeneron Pharmaceuticals"
-            },
-            {
-              "ticker": "LLY",
-              "name": "Eli Lilly"
-            },
-            {
-              "ticker": "JNJ",
-              "name": "Johnson Johnson"
-            },
-            {
-              "ticker": "UNH",
-              "name": "UnitedHealth Group"
-            }
-          ]
-        },
-        {
-          "cluster_id": 10,
-          "name": "Entrepreneurship in the AI Era",
-          "count": 3,
-          "children": [
-            {
-              "name": "Naomi Watts' menopause message: 'Why is it so taboo when we are half population'",
-              "summary": "In this article Oscar-nominated actress Naomi Watts has continued to have fame on the screen into her 50s, but she is building more of her life story around navigating deeply perso…",
-              "hash": "a8d6bf10090d8590",
-              "chunk_key": "a8d6bf10090d8590_c000",
-              "article_date": "2026-04-17 00:00:00",
+              "name": "Lululemon names former Nike exec Heidi O'Neill as new CEO",
+              "summary": "In this article Lululemon on Wednesday named Heidi O’Neill as the athleisure company's new CEO, effective Sept. 8.",
+              "hash": "b431346bd5f873b4",
+              "chunk_key": "b431346bd5f873b4_c000",
+              "article_date": "2026-04-22 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
-            {
-              "name": "29-year-old is scaling back her six-figure career to run a bookstore with her husband",
-              "summary": "Merrill and Garing spent around $260,000 on the bookstore between the purchase price and costs for initial improvements.",
-              "hash": "79cf986a4b958d48",
-              "chunk_key": "79cf986a4b958d48_c002",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Bessent: Recent college grads need AI literacy to succeed in today's job market",
-              "summary": "Companies including Amazon, Salesforce and Block cited AI as a reason to lay off tens of thousands of employees in the last year.",
-              "hash": "36888138f77b9db4",
-              "chunk_key": "36888138f77b9db4_c002",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "WMT",
-              "name": "Walmart"
-            },
-            {
-              "ticker": "ULTA",
-              "name": "Ulta Beauty"
-            }
-          ],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 26,
-          "name": "Electric Vehicles Gain Momentum",
-          "count": 3,
-          "children": [
-            {
-              "name": "Rivian's factory damaged by tornado amid crucial R2 EV launch",
-              "summary": "In this article A tornado damaged part of Rivian Automotive 's factory in central Illinois over the weekend, according to a message sent to employees Sunday night by CEO RJ Scaring…",
-              "hash": "59f3d4e91625b1bb",
-              "chunk_key": "59f3d4e91625b1bb_c000",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Volkswagen announces voice AI in its Chinese cars from later this year",
-              "summary": "German auto giant Volkswagen announced it's incorporating AI voice commands into its cars for the Chinese market.",
-              "hash": "f4b61b2edf6ec7d0",
-              "chunk_key": "f4b61b2edf6ec7d0_c000",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Ford EV chief leaving automaker amid new restructuring efforts",
-              "summary": "It is also aiming to have 90% of its vehicles by volume feature updated \"electrical architectures, in-house developed user experiences and hardware, and next-generation over-the-ai…",
-              "hash": "14428f2d3fc16948",
-              "chunk_key": "14428f2d3fc16948_c002",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "F",
-              "name": "Ford Motor"
-            },
-            {
-              "ticker": "GM",
-              "name": "General Motors"
-            },
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
-            },
-            {
-              "ticker": "RIVN",
-              "name": "Rivian Automotive"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "F",
-              "name": "Ford Motor"
-            },
-            {
-              "ticker": "GM",
-              "name": "General Motors"
-            },
-            {
-              "ticker": "TTC",
-              "name": "Toro"
-            },
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "GPC",
-              "name": "Genuine Parts"
-            },
-            {
-              "ticker": "MAN",
-              "name": "ManpowerGroup"
-            },
-            {
-              "ticker": "ON",
-              "name": "ON Semiconductor"
-            }
-          ]
-        },
-        {
-          "cluster_id": 0,
-          "name": "\"Streaming Industry Shifts and Challenges\"",
-          "count": 2,
-          "children": [
-            {
-              "name": "Netflix posts massive earnings beat, announces Reed Hastings to exit board",
-              "summary": "In this article Netflix shares fell 9% in extended trading on Thursday after the streaming giant released its first-quarter earnings report and announced a key governance change.",
-              "hash": "a1b926b6151a772b",
-              "chunk_key": "a1b926b6151a772b_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Netflix was long 'a builder not a buyer.' Is that era over?",
-              "summary": "In this article For years, Netflix top brass would tell investors they were builders not buyers. Now, that sentiment toward growth may be changing.",
-              "hash": "4d5285b2f410669b",
-              "chunk_key": "4d5285b2f410669b_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "NFLX",
-              "name": "Netflix"
-            }
-          ],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 13,
-          "name": "US Retailers Face Tariff Uncertainty",
-          "count": 2,
-          "children": [
             {
               "name": "UPS and FedEx have begun filing for some tariff refunds",
               "summary": "In this article The refund process for tariffs has begun, but it could be months before consumers start reaping those rewards.",
@@ -2242,6 +817,10 @@
           ],
           "related_tickers_named": [
             {
+              "ticker": "NKE",
+              "name": "Nike"
+            },
+            {
               "ticker": "FDX",
               "name": "FedEx"
             },
@@ -2252,6 +831,18 @@
             {
               "ticker": "WMT",
               "name": "Walmart"
+            },
+            {
+              "ticker": "LULU",
+              "name": "Lululemon Athletica"
+            },
+            {
+              "ticker": "H",
+              "name": "Hyatt Hotels"
+            },
+            {
+              "ticker": "SPOT",
+              "name": "Spotify Technology"
             }
           ],
           "related_tickers_semantic": [
@@ -2274,6 +865,1118 @@
             {
               "ticker": "CVS",
               "name": "CVS Health"
+            }
+          ]
+        },
+        {
+          "cluster_id": 13,
+          "name": "\"Electric Vehicles Amid Global Uncertainty\"",
+          "count": 5,
+          "children": [
+            {
+              "name": "Foreign car companies bet on technology to hang onto once-lucrative China auto market",
+              "summary": "In this article BEIJING — Foreign automakers are finally catching up with their Chinese rivals on technology, as they battle a sales slump in the world's largest car market. U.S.",
+              "hash": "2dc73871a4c95eb3",
+              "chunk_key": "2dc73871a4c95eb3_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "BMW says it has no intention of dropping sedans, even as some rivals cut back",
+              "summary": "In this article BMW wants to keep making sedans in spite of U.S.",
+              "hash": "9d99f40917a8090d",
+              "chunk_key": "9d99f40917a8090d_c000",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Rivian hits production milestone for R2 EV ahead of customer deliveries",
+              "summary": "In this article Rivian Automotive on Wednesday said it has started production of its new R2 all-electric vehicle for customers at its plant in Normal, Illinois.",
+              "hash": "ce7f61331a35a822",
+              "chunk_key": "ce7f61331a35a822_c000",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Rivian's factory damaged by tornado amid crucial R2 EV launch",
+              "summary": "In this article A tornado damaged part of Rivian Automotive 's factory in central Illinois over the weekend, according to a message sent to employees Sunday night by CEO RJ Scaring…",
+              "hash": "59f3d4e91625b1bb",
+              "chunk_key": "59f3d4e91625b1bb_c000",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Volkswagen announces voice AI in its Chinese cars from later this year",
+              "summary": "German auto giant Volkswagen announced it's incorporating AI voice commands into its cars for the Chinese market.",
+              "hash": "f4b61b2edf6ec7d0",
+              "chunk_key": "f4b61b2edf6ec7d0_c000",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "RIVN",
+              "name": "Rivian Automotive"
+            },
+            {
+              "ticker": "GM",
+              "name": "General Motors"
+            },
+            {
+              "ticker": "QCOM",
+              "name": "Qualcomm"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "RIVN",
+              "name": "Rivian Automotive"
+            },
+            {
+              "ticker": "TSLA",
+              "name": "Tesla"
+            },
+            {
+              "ticker": "GNTX",
+              "name": "Gentex"
+            },
+            {
+              "ticker": "EQIX",
+              "name": "Equinix"
+            },
+            {
+              "ticker": "DVN",
+              "name": "Devon Energy"
+            },
+            {
+              "ticker": "MRP",
+              "name": "Millrose Properties"
+            },
+            {
+              "ticker": "CVNA",
+              "name": "Carvana"
+            }
+          ]
+        },
+        {
+          "cluster_id": 3,
+          "name": "GLP-1 Weight Loss Medications",
+          "count": 4,
+          "children": [
+            {
+              "name": "Trump administration moves to reclassify marijuana—what it means for investors",
+              "summary": "In the near term, Kovler says, the move could remove what amounts to a huge tax burden on cannabis firms.",
+              "hash": "62c1c6b75abcc9f9",
+              "chunk_key": "62c1c6b75abcc9f9_c001",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Regeneron inks drug pricing deal with Trump, will offer hearing-loss therapy for free",
+              "summary": "In this article Regeneron agreed to lower U.S. drug prices for some Americans as part of a deal with President Donald Trump, the White House said on Thursday.",
+              "hash": "7646b69235f6f958",
+              "chunk_key": "7646b69235f6f958_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Amazon launches GLP-1 weight loss program, promising 'fast, convenient' access",
+              "summary": "In this article Amazon is pushing deeper into the booming weight loss market, unveiling Tuesday a new program that aims to simplify access to popular GLP-1 treatments.",
+              "hash": "2e149716d91d533d",
+              "chunk_key": "2e149716d91d533d_c000",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "How Trump's psychedelics executive order could unlock stalled cannabis reform",
+              "summary": "It directs agencies like the U.S.",
+              "hash": "6fa409443bbc1aff",
+              "chunk_key": "6fa409443bbc1aff_c001",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "AMGN",
+              "name": "Amgen"
+            },
+            {
+              "ticker": "VKTX",
+              "name": "Viking Therapeutics"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "REGN",
+              "name": "Regeneron Pharmaceuticals"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "NVDA",
+              "name": "Nvidia"
+            },
+            {
+              "ticker": "AMGN",
+              "name": "Amgen"
+            },
+            {
+              "ticker": "MRK",
+              "name": "Merck"
+            },
+            {
+              "ticker": "JNJ",
+              "name": "Johnson Johnson"
+            },
+            {
+              "ticker": "BMY",
+              "name": "Bristol-Myers Squibb"
+            },
+            {
+              "ticker": "PFE",
+              "name": "Pfizer"
+            },
+            {
+              "ticker": "VTR",
+              "name": "Ventas"
+            }
+          ]
+        },
+        {
+          "cluster_id": 1,
+          "name": "\"Streaming Services Face Mergers\"",
+          "count": 2,
+          "children": [
+            {
+              "name": "Comcast beats revenue, earnings expectations as broadband losses improve",
+              "summary": "In total, Comcast now has 9.7 million mobile customers. \"The competitive environment remains intense,\" Cavanagh said on Thursday's call.",
+              "hash": "2e6c97290b7c6356",
+              "chunk_key": "2e6c97290b7c6356_c001",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Warner Bros. Discovery shareholders approve Paramount acquisition",
+              "summary": "Discovery and returned the company to industry leadership,\" WBD CEO David Zaslav said in a news release on Thursday.",
+              "hash": "9f7df37e080694cb",
+              "chunk_key": "9f7df37e080694cb_c001",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "CMCSA",
+              "name": "Comcast"
+            },
+            {
+              "ticker": "NFLX",
+              "name": "Netflix"
+            },
+            {
+              "ticker": "DIS",
+              "name": "Walt Disney"
+            },
+            {
+              "ticker": "VSNT",
+              "name": "Versant Media Group"
+            },
+            {
+              "ticker": "TMUS",
+              "name": "T-Mobile US"
+            },
+            {
+              "ticker": "WBD",
+              "name": "Warner Bros Discovery"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "CMCSA",
+              "name": "Comcast"
+            },
+            {
+              "ticker": "TIGO",
+              "name": "Millicom International"
+            },
+            {
+              "ticker": "LBRDK",
+              "name": "Liberty Broadband"
+            },
+            {
+              "ticker": "CCI",
+              "name": "Crown Castle"
+            },
+            {
+              "ticker": "CHTR",
+              "name": "Charter Communications"
+            },
+            {
+              "ticker": "CSCO",
+              "name": "Cisco Systems"
+            },
+            {
+              "ticker": "TMUS",
+              "name": "T-Mobile US"
+            }
+          ]
+        },
+        {
+          "cluster_id": 4,
+          "name": "Amazon's Shift in Delivery Strategy",
+          "count": 1,
+          "children": [
+            {
+              "name": "Amazon 'strong-armed' Levi's, Hanes to hike prices on rivals, Calif. DA says",
+              "summary": "In this article Amazon pressured major brands like Levi Strauss & Co and Hanes to inflate prices of listings on rival online marketplaces as part of wide-ranging price-fixing schem…",
+              "hash": "6fd0f74dfee2500e",
+              "chunk_key": "6fd0f74dfee2500e_c000",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "CHWY",
+              "name": "Chewy"
+            },
+            {
+              "ticker": "HD",
+              "name": "Home Depot"
+            },
+            {
+              "ticker": "WMT",
+              "name": "Walmart"
+            },
+            {
+              "ticker": "TGT",
+              "name": "Target"
+            },
+            {
+              "ticker": "BBY",
+              "name": "Best Buy"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "AMGN",
+              "name": "Amgen"
+            },
+            {
+              "ticker": "MRK",
+              "name": "Merck"
+            },
+            {
+              "ticker": "VSNT",
+              "name": "Versant Media Group"
+            },
+            {
+              "ticker": "ROIV",
+              "name": "Roivant Sciences"
+            },
+            {
+              "ticker": "HSIC",
+              "name": "Henry Schein"
+            },
+            {
+              "ticker": "EFX",
+              "name": "Equifax"
+            },
+            {
+              "ticker": "LOPE",
+              "name": "Grand Canyon Education"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Politics and Scandals",
+      "count": 8,
+      "children": [
+        {
+          "cluster_id": 16,
+          "name": "Epstein Sex Abuse Scandal",
+          "count": 6,
+          "children": [
+            {
+              "name": "DOJ watchdog investigating handling of Jeffrey Epstein files",
+              "summary": "The Department of Justice 's internal watchdog said on Thursday that it is investigating the DOJ's compliance with a law requiring that it fully disclose department files about the…",
+              "hash": "754cf92bb18779e3",
+              "chunk_key": "754cf92bb18779e3_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Thief who swiped purse of ex-DHS chief Kristi Noem gets 3 years in prison",
+              "summary": "Bustamante Leiva was later charged with stealing purses in three separate incidents in April 2025. He pleaded guilty on Nov.",
+              "hash": "0ddf711ec8611a52",
+              "chunk_key": "0ddf711ec8611a52_c001",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Gates Foundation reviewing Jeffrey Epstein ties, will slash 20% of staff: WSJ",
+              "summary": "In this article The Gates Foundation has launched an external review of the philanthropy's past ties with notorious sex offender Jeffrey Epstein , The Wall Street Journal reported …",
+              "hash": "e7a89c677da71cdb",
+              "chunk_key": "e7a89c677da71cdb_c000",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Rep. Sheila Cherfilus-McCormick resigns, third House member to quit this month",
+              "summary": "Rep.",
+              "hash": "8b5a0a96ef4d6505",
+              "chunk_key": "8b5a0a96ef4d6505_c000",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "DOJ charges Southern Poverty Law Center with fraud over secret funding of extremist groups",
+              "summary": "The Department of Justice on Tuesday announced a bombshell 11-count indictment accusing the Southern Poverty Law Center of secretly funding right-wing extremist groups that it clai…",
+              "hash": "7d8696a9d5d3d761",
+              "chunk_key": "7d8696a9d5d3d761_c000",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Swalwell resignation over sexual misconduct prompts rare Ethics panel remarks",
+              "summary": "The panel has often come under fire for its glacial pace, and has been the target of increased scrutiny of late .",
+              "hash": "12dc809f6283aea3",
+              "chunk_key": "12dc809f6283aea3_c001",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "BRK-B",
+              "name": "Berkshire Hathaway"
+            }
+          ],
+          "related_tickers_semantic": []
+        },
+        {
+          "cluster_id": 21,
+          "name": "US Government Shutdown Continues",
+          "count": 2,
+          "children": [
+            {
+              "name": "Senate Republicans unveil immigration funding framework as DHS shutdown drags on",
+              "summary": "Graham , R-S.C., said in a statement . \"With this budget resolution, we are moving forward — not backward — on rational immigration policies that secure our border,\" Graham said.",
+              "hash": "f68b6efa67a90af3",
+              "chunk_key": "f68b6efa67a90af3_c001",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Labor Secretary Lori Chavez-DeRemer leaves Trump cabinet, Keith Sonderling takes over",
+              "summary": "Department of Labor Secretary Lori Chavez-DeRemer is resigning from the Trump administration, the White House said Monday.",
+              "hash": "cb159e88b590e23d",
+              "chunk_key": "cb159e88b590e23d_c000",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [],
+          "related_tickers_semantic": []
+        }
+      ]
+    },
+    {
+      "name": "Tech Giants Dominate",
+      "count": 27,
+      "children": [
+        {
+          "cluster_id": 23,
+          "name": "\"Tech Giants Invest in AI\"",
+          "count": 18,
+          "children": [
+            {
+              "name": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
+              "summary": "Officer Venkatesh Alagirisamy told employees.",
+              "hash": "7552307e4b2ff685",
+              "chunk_key": "7552307e4b2ff685_c003",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Intel stock has best day since 1987, soaring 24% as chipmaker shows signs of turnaround",
+              "summary": "Street marks a stark turnaround for the U.S. chipmaker, which lost 60% of its value in 2024, leading to the ouster of Pat Gelsinger as CEO in December of that year.",
+              "hash": "67f7b10d247c4ec8",
+              "chunk_key": "67f7b10d247c4ec8_c001",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Google to invest up to $40 billion in Anthropic as search giant spreads its AI bets",
+              "summary": "In this article Google plans to invest up to $40 billion in Anthropic , the companies confirmed on Friday, as tech giants ramp up their strategic investments in the leaders in arti…",
+              "hash": "6e465fa9994619d9",
+              "chunk_key": "6e465fa9994619d9_c000",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Buying chip stocks is getting pricey. Traders don't care",
+              "summary": "In this article Semiconductors are a runaway train — up 17 of the past 18 sessions — and options traders are buying increasingly expensive call options to chase the rally higher.",
+              "hash": "2a38020196be0e38",
+              "chunk_key": "2a38020196be0e38_c000",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Nvidia stock closes at record, pushing market cap past $5 trillion",
+              "summary": "In this article Nvidia shares closed at a record on Friday for the first time since October, pushing the company's market cap past $5 trillion, as investors piled into the AI chip …",
+              "hash": "2c82147e9a66c34c",
+              "chunk_key": "2c82147e9a66c34c_c000",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Intel's stock soars 19% as results top estimates, with chipmaker showing signs of growth",
+              "summary": "In this article Intel reported first-quarter earnings Thursday that blew past Wall Street's expectations, as the struggling chipmaker shows signs of a revival. Shares of the U.S.",
+              "hash": "b49ca3a992254818",
+              "chunk_key": "b49ca3a992254818_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Texas Instruments' stock jumps 19% for best day since 2000 as AI demand soars",
+              "summary": "In this article Texas Instruments had its best day on Wall Street since 2000 after the chipmaker reported better-than-expected quarterly results and gave upbeat guidance due to hig…",
+              "hash": "dea47bdc767b9b8f",
+              "chunk_key": "dea47bdc767b9b8f_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Traders are betting on big moves in Intel on earnings",
+              "summary": "Semiconductor stocks are powering the U.S.",
+              "hash": "58ab329a811b10f3",
+              "chunk_key": "58ab329a811b10f3_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "White House warns of 'industrial-scale' efforts in China to rip off U.S. AI tech",
+              "summary": "The Trump administration on Thursday accused Chinese entities of waging \"industrial-scale campaigns\" to rip off U.S.",
+              "hash": "5bca95d4d927e86d",
+              "chunk_key": "5bca95d4d927e86d_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "OpenAI announces GPT-5.5, its latest artificial intelligence model",
+              "summary": "The cybersecurity risks presented by AI have been top of mind for tech executives and government officials since Anthropic announced its Mythos model earlier this month.",
+              "hash": "77d6824dd22655f2",
+              "chunk_key": "77d6824dd22655f2_c001",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Meta will cut 10% of workforce as company pushes deeper into AI",
+              "summary": "In this article Meta plans to lay off 10% of its workforce, about 8,000 employees, as it continues ramping up investments in artificial intelligence.",
+              "hash": "2933a63757c8b42c",
+              "chunk_key": "2933a63757c8b42c_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "IBM CEO Krishna says Iran, other uncertainty is weighing on company's outlook",
+              "summary": "You had the COVID shocks, you had the Ukraine war. So they've gone through these shocks a few times, and they actually come out okay.",
+              "hash": "82790c97639c7211",
+              "chunk_key": "82790c97639c7211_c001",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "IBM shares turn lower as company beats but opts to maintain guidance",
+              "summary": "In this article IBM shares slipped 6% in extended trading on Wednesday after the hardware, software and consulting provider reported stronger-than-expected first-quarter results bu…",
+              "hash": "6262f715740e54d7",
+              "chunk_key": "6262f715740e54d7_c000",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Microsoft's LinkedIn names longtime exec Dan Shapero its new CEO",
+              "summary": "In this article Microsoft has tapped Dan Shapero to be the new CEO of its LinkedIn division, succeeding Ryan Roslansky, who has run the subsidiary since 2020 and last year took on …",
+              "hash": "f9850406a1044af5",
+              "chunk_key": "f9850406a1044af5_c000",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Microsoft cuts Game Pass prices after new Xbox CEO promises to 'recommit'",
+              "summary": "Hardware sales declined 32% after Microsoft canceled the development of the two games, \"Everwild\" and \"Perfect Dark.",
+              "hash": "d50c776f459ac2cd",
+              "chunk_key": "d50c776f459ac2cd_c001",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Michael, Susan Dell to donate $750 million to fund new UT Austin medical campus",
+              "summary": "And they're very powerful, they're amazing, and they're going to keep getting better, but still, I think having that human judgment is incredibly important.\"",
+              "hash": "f373db0509175d1c",
+              "chunk_key": "f373db0509175d1c_c003",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Amazon to invest up to $25 billion in Anthropic as part of AI infrastructure deal",
+              "summary": "In this article Amazon has agreed to invest up to $25 billion in Anthropic , on top of the $8 billion that it has poured into the artificial intelligence startup in recent years, a…",
+              "hash": "db67618a1fb2f432",
+              "chunk_key": "db67618a1fb2f432_c000",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Marvell stock pops on report it will help Google with custom AI chips",
+              "summary": "Marvell stock gained more than 20% in March as the company posted strong fourth-quarter earnings and guidance amid surging demand for AI.",
+              "hash": "6f4398feddb681de",
+              "chunk_key": "6f4398feddb681de_c001",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet"
+            },
+            {
+              "ticker": "MSFT",
+              "name": "Microsoft"
+            },
+            {
+              "ticker": "META",
+              "name": "Meta Platforms"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "NVDA",
+              "name": "Nvidia"
+            },
+            {
+              "ticker": "INTC",
+              "name": "Intel"
+            },
+            {
+              "ticker": "AMD",
+              "name": "Advanced Micro Devices"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "NVDA",
+              "name": "Nvidia"
+            },
+            {
+              "ticker": "AMD",
+              "name": "Advanced Micro Devices"
+            },
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet"
+            },
+            {
+              "ticker": "MSFT",
+              "name": "Microsoft"
+            },
+            {
+              "ticker": "INTC",
+              "name": "Intel"
+            },
+            {
+              "ticker": "AKAM",
+              "name": "Akamai Technologies"
+            }
+          ]
+        },
+        {
+          "cluster_id": 11,
+          "name": "\"Apple Names New CEO Ternus\"",
+          "count": 4,
+          "children": [
+            {
+              "name": "Incoming Apple CEO John Ternus doubted himself early: 'I wasn't sure I belonged'",
+              "summary": "In this article Apple is adding a new CEO to its ranks and continuing a long-running tradition of internal promotion.",
+              "hash": "5a2f3c4c059bd9b6",
+              "chunk_key": "5a2f3c4c059bd9b6_c000",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Tim Cook turned Apple into a $4 trillion giant by not trying to be Steve Jobs",
+              "summary": "Revenue almost quadrupled under Cook, climbing to more than $400 billion in the latest fiscal year.",
+              "hash": "18759491c7bdba8b",
+              "chunk_key": "18759491c7bdba8b_c002",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump details Cook call to 'kiss my ass,' a stark look at White House dealmaking",
+              "summary": "OpenAI co-founder and president Greg Brockman reportedly donated $25 million to Trump's super PAC, MAGA Inc., in September.",
+              "hash": "2b2e6461785a0c3b",
+              "chunk_key": "2b2e6461785a0c3b_c005",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Apple taps John Ternus as CEO to replace Tim Cook, who will become chairman",
+              "summary": "Srouji, who most recently served as the company's senior vice president of hardware technologies, will also lead hardware engineering.",
+              "hash": "ac3c1b862316d17f",
+              "chunk_key": "ac3c1b862316d17f_c001",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "AAPL",
+              "name": "Apple"
+            },
+            {
+              "ticker": "NXST",
+              "name": "Nexstar Media Group"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet"
+            },
+            {
+              "ticker": "Q",
+              "name": "Qnity Electronics"
+            },
+            {
+              "ticker": "CRUS",
+              "name": "Cirrus Logic"
+            },
+            {
+              "ticker": "DIS",
+              "name": "Walt Disney"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "AAPL",
+              "name": "Apple"
+            },
+            {
+              "ticker": "INTC",
+              "name": "Intel"
+            },
+            {
+              "ticker": "SWKS",
+              "name": "Skyworks Solutions"
+            },
+            {
+              "ticker": "TDC",
+              "name": "Teradata"
+            },
+            {
+              "ticker": "JHX",
+              "name": "James Hardie Industries"
+            },
+            {
+              "ticker": "STE",
+              "name": "Steris"
+            },
+            {
+              "ticker": "TXN",
+              "name": "Texas Instruments"
+            }
+          ]
+        },
+        {
+          "cluster_id": 27,
+          "name": "\"AI's Impact on the Workforce\"",
+          "count": 3,
+          "children": [
+            {
+              "name": "How a new Hollywood production startup deploys AI for speed and cost-cutting",
+              "summary": "Los Angeles County has lost over 40,000 entertainment industry jobs since 2022, with production activity in the city sinking to the lowest level since 1995.",
+              "hash": "862c66bdb5da0871",
+              "chunk_key": "862c66bdb5da0871_c003",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
+              "summary": "In this article The more than 20,000 potential job cuts Meta and Microsoft revealed on Thursday, months after Amazon announced its most widespread layoffs ever, may only be the beg…",
+              "hash": "7552307e4b2ff685",
+              "chunk_key": "7552307e4b2ff685_c000",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "29-year-old AI researcher has a second job as a human-chatbot relationship coach",
+              "summary": "More than 10% of U.S.",
+              "hash": "233f3120d5fe7861",
+              "chunk_key": "233f3120d5fe7861_c001",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet"
+            },
+            {
+              "ticker": "META",
+              "name": "Meta Platforms"
+            },
+            {
+              "ticker": "RDDT",
+              "name": "Reddit"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "MSFT",
+              "name": "Microsoft"
+            },
+            {
+              "ticker": "NKE",
+              "name": "Nike"
+            },
+            {
+              "ticker": "ORCL",
+              "name": "Oracle"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "NVDA",
+              "name": "Nvidia"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "GDDY",
+              "name": "GoDaddy"
+            },
+            {
+              "ticker": "FAST",
+              "name": "Fastenal"
+            },
+            {
+              "ticker": "SNPS",
+              "name": "Synopsys"
+            },
+            {
+              "ticker": "CNXC",
+              "name": "Concentrix"
+            },
+            {
+              "ticker": "ADBE",
+              "name": "Adobe"
+            }
+          ]
+        },
+        {
+          "cluster_id": 17,
+          "name": "Musk and Zuckerberg's Anticompetitive Tactics",
+          "count": 2,
+          "children": [
+            {
+              "name": "Nuclear reactor company X-energy shares surge 27% as AI drives interest in its IPO",
+              "summary": "In this article Advanced nuclear reactor company X-energy began trading Friday as the AI boom and electrification broadly spark a flurry of interest in the nuclear industry.",
+              "hash": "b3eb7ffb118ce9ab",
+              "chunk_key": "b3eb7ffb118ce9ab_c000",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Next frontier for ETFs: Getting investors deeper into space",
+              "summary": "A lot of governments making commitments for much more investments in the next five to ten years.",
+              "hash": "18dd8c2bbca3e812",
+              "chunk_key": "18dd8c2bbca3e812_c001",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "GE",
+              "name": "GE Aerospace"
+            },
+            {
+              "ticker": "SSNC",
+              "name": "SS&C Technologies"
+            },
+            {
+              "ticker": "LMT",
+              "name": "Lockheed Martin"
+            },
+            {
+              "ticker": "BA",
+              "name": "Boeing"
+            },
+            {
+              "ticker": "RTX",
+              "name": "RTX"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "ARES",
+              "name": "Ares Management"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "NVDA",
+              "name": "Nvidia"
+            },
+            {
+              "ticker": "AMD",
+              "name": "Advanced Micro Devices"
+            },
+            {
+              "ticker": "XP",
+              "name": "XP"
+            },
+            {
+              "ticker": "AMTM",
+              "name": "Amentum"
+            },
+            {
+              "ticker": "TLN",
+              "name": "Talen Energy"
+            },
+            {
+              "ticker": "XEL",
+              "name": "Xcel Energy"
+            },
+            {
+              "ticker": "FE",
+              "name": "FirstEnergy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thriving in Uncertainty",
+      "count": 7,
+      "children": [
+        {
+          "cluster_id": 24,
+          "name": "Leading with Confidence and Trust",
+          "count": 6,
+          "children": [
+            {
+              "name": "Leadership author: What the world's most successful people have in common",
+              "summary": "Hawk has heard similar versions of the same argument from people like bestselling author James Clear and former Cinnabon CEO Kat Cole. \"There's no moment of arrival,\" says Hawk.",
+              "hash": "fef111be69ed28f7",
+              "chunk_key": "fef111be69ed28f7_c001",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "7 phrases manipulators use that sound 'nice' at first—but are actually 'red flags,' say experts",
+              "summary": "Instead, it's part of the gaslighting process. Gaslighters try to get you to question your own hold on reality.",
+              "hash": "88922a37363560e9",
+              "chunk_key": "88922a37363560e9_c002",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "A doctor set out to find what helps people 'defy disease'—here's what she found",
+              "summary": "When you're talking to someone, put your phone away and completely out of sight, she says. Even having it on the table can be a distraction.",
+              "hash": "de1a5891c652d734",
+              "chunk_key": "de1a5891c652d734_c001",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump administration moves to reclassify marijuana—what it means for investors",
+              "summary": "You'd be wise to consult with a financial professional before making any major changes to your portfolio.",
+              "hash": "62c1c6b75abcc9f9",
+              "chunk_key": "62c1c6b75abcc9f9_c004",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "New grads are finding jobs faster despite a competitive job market, says report",
+              "summary": "As businesses figure out what processes and tasks can be automated, she says, leaders will need to figure out \"what still needs a human\" and then how to \"build up that expertise fo…",
+              "hash": "0bd9594123eef8a0",
+              "chunk_key": "0bd9594123eef8a0_c004",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "We pay $1,200 a month to live on a sailboat in the Florida Keys—why I 'love my life more than ever'",
+              "summary": "While buying a slip and a boat required a significant investment that took years of savings to afford, our monthly expenses are now relatively low.",
+              "hash": "cb8dbf4f3430384e",
+              "chunk_key": "cb8dbf4f3430384e_c002",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "TLN",
+              "name": "Talen Energy"
+            },
+            {
+              "ticker": "NYT",
+              "name": "New York Times"
+            }
+          ],
+          "related_tickers_semantic": []
+        },
+        {
+          "cluster_id": 25,
+          "name": "\"Entrepreneurs Find New Opportunities\"",
+          "count": 1,
+          "children": [
+            {
+              "name": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
+              "summary": "Venture capitalists say companies that aren't operating with that ethos are having a much harder time raising cash.",
+              "hash": "7552307e4b2ff685",
+              "chunk_key": "7552307e4b2ff685_c005",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "META",
+              "name": "Meta Platforms"
+            },
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet"
+            },
+            {
+              "ticker": "MSFT",
+              "name": "Microsoft"
+            },
+            {
+              "ticker": "NKE",
+              "name": "Nike"
+            },
+            {
+              "ticker": "ORCL",
+              "name": "Oracle"
+            },
+            {
+              "ticker": "CRM",
+              "name": "Salesforce"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "NVDA",
+              "name": "Nvidia"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "MSFT",
+              "name": "Microsoft"
+            },
+            {
+              "ticker": "TSLA",
+              "name": "Tesla"
+            },
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet"
+            },
+            {
+              "ticker": "META",
+              "name": "Meta Platforms"
+            },
+            {
+              "ticker": "PYPL",
+              "name": "PayPal"
             }
           ]
         }
