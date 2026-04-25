@@ -1,69 +1,74 @@
 {
   "mode": "weekly",
-  "updated_at": "2026-04-24T23:16:48.471030+00:00",
+  "updated_at": "2026-04-25T22:51:46.661252+00:00",
   "entities": [
     {
       "entity": "Apple",
       "ticker": "AAPL",
-      "pos": 46,
-      "neg": 4,
-      "neu": 2,
-      "total": 52,
-      "score": 0.808,
+      "pos": 42,
+      "neg": 8,
+      "neu": 5,
+      "total": 55,
+      "score": 0.618,
       "categories": {
         "Business": {
-          "pos": 46,
-          "neg": 4,
+          "pos": 32,
+          "neg": 6,
+          "neu": 3
+        },
+        "Recruitment": {
+          "pos": 7,
+          "neg": 1,
           "neu": 2
+        },
+        "Performance": {
+          "pos": 3,
+          "neg": 1,
+          "neu": 0
         }
       },
       "clusters": [
         {
-          "cluster_id": 11,
-          "label": "\"Apple Names New CEO Ternus\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 43,
-          "neg": 4,
-          "neu": 1,
-          "total": 48,
-          "score": 0.812
+          "cluster_id": 14,
+          "label": "\"Apple Names New CEO\"",
+          "meta_category": "AI and Tech",
+          "pos": 40,
+          "neg": 7,
+          "neu": 4,
+          "total": 51,
+          "score": 0.647
         },
         {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 3,
-          "neg": 0,
-          "neu": 1,
-          "total": 4,
-          "score": 0.75
+          "cluster_id": 17,
+          "label": "Jeffrey Epstein Investigation Continues",
+          "meta_category": "Financial Regulation",
+          "pos": 2,
+          "neg": 1,
+          "neu": 0,
+          "total": 3,
+          "score": 0.333
         },
         {
-          "cluster_id": 27,
-          "label": "\"AI's Impact on the Workforce\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 0,
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
+          "pos": 2,
           "neg": 0,
-          "neu": 1,
-          "total": 1,
-          "score": 0.0
-        },
-        {
-          "cluster_id": 25,
-          "label": "\"Entrepreneurs Find New Opportunities\"",
-          "meta_category": "Thriving in Uncertainty",
-          "pos": 0,
-          "neg": 0,
-          "neu": 1,
-          "total": 1,
-          "score": 0.0
+          "neu": 0,
+          "total": 2,
+          "score": 1.0
         }
       ],
       "articles": [
         {
-          "headline": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
+          "headline": "A populist consumer movement is rising to end the 'captive' repair economy",
           "date": "2026-04-24 00:00:00",
-          "polarity": "0"
+          "polarity": "-"
+        },
+        {
+          "headline": "Berkshire attracts interest as it slips further behind the S&P 500",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
         },
         {
           "headline": "Texas Instruments' stock jumps 19% for best day since 2000 as AI demand soars",
@@ -71,67 +76,202 @@
           "polarity": "+"
         },
         {
-          "headline": "Incoming Apple CEO John Ternus doubted himself early: 'I wasn't sure I belonged'",
-          "date": "2026-04-21 00:00:00",
-          "polarity": "+"
-        },
-        {
           "headline": "Tim Cook turned Apple into a $4 trillion giant by not trying to be Steve Jobs",
           "date": "2026-04-21 00:00:00",
-          "polarity": "+"
+          "polarity": "~"
         },
         {
-          "headline": "Trump details Cook call to 'kiss my ass,' a stark look at White House dealmaking",
+          "headline": "Incoming Apple CEO John Ternus doubted himself early: 'I wasn't sure I belonged'",
           "date": "2026-04-21 00:00:00",
           "polarity": "+"
         }
       ]
     },
     {
-      "entity": "Intel",
-      "ticker": "INTC",
-      "pos": 27,
-      "neg": 1,
+      "entity": "Nvidia",
+      "ticker": "NVDA",
+      "pos": 13,
+      "neg": 2,
       "neu": 0,
-      "total": 28,
-      "score": 0.929,
+      "total": 15,
+      "score": 0.733,
       "categories": {
         "Business": {
-          "pos": 25,
-          "neg": 1,
-          "neu": 0
-        },
-        "NewsRelease": {
-          "pos": 1,
-          "neg": 0,
+          "pos": 10,
+          "neg": 2,
           "neu": 0
         },
         "Performance": {
-          "pos": 1,
+          "pos": 3,
           "neg": 0,
           "neu": 0
         }
       },
       "clusters": [
         {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 26,
-          "neg": 1,
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
+          "pos": 13,
+          "neg": 2,
           "neu": 0,
-          "total": 27,
-          "score": 0.926
+          "total": 15,
+          "score": 0.733
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Intel stock has best day since 1987, soaring 24% as chipmaker shows signs of turnaround",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
         },
         {
-          "cluster_id": 11,
-          "label": "\"Apple Names New CEO Ternus\"",
-          "meta_category": "Tech Giants Dominate",
+          "headline": "Google to invest up to $40 billion in Anthropic as search giant spreads its AI bets",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Buying chip stocks is getting pricey. Traders don't care",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Nvidia stock closes at record, pushing market cap past $5 trillion",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Intel's stock soars 19% as results top estimates, with chipmaker showing signs of growth",
+          "date": "2026-04-23 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Alphabet",
+      "ticker": "GOOG",
+      "pos": 18,
+      "neg": 4,
+      "neu": 1,
+      "total": 23,
+      "score": 0.609,
+      "categories": {
+        "Business": {
+          "pos": 18,
+          "neg": 4,
+          "neu": 1
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
+          "pos": 15,
+          "neg": 3,
+          "neu": 0,
+          "total": 18,
+          "score": 0.667
+        },
+        {
+          "cluster_id": 27,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI and Tech",
           "pos": 1,
+          "neg": 2,
+          "neu": 0,
+          "total": 3,
+          "score": -0.333
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"Apple Names New CEO\"",
+          "meta_category": "AI and Tech",
+          "pos": 2,
           "neg": 0,
           "neu": 0,
-          "total": 1,
+          "total": 2,
           "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "How a new Hollywood production startup deploys AI for speed and cost-cutting",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Google to invest up to $40 billion in Anthropic as search giant spreads its AI bets",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Nvidia stock closes at record, pushing market cap past $5 trillion",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "A populist consumer movement is rising to end the 'captive' repair economy",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "0"
+        }
+      ]
+    },
+    {
+      "entity": "Intel",
+      "ticker": "INTC",
+      "pos": 23,
+      "neg": 7,
+      "neu": 0,
+      "total": 30,
+      "score": 0.533,
+      "categories": {
+        "Performance": {
+          "pos": 14,
+          "neg": 3,
+          "neu": 0
+        },
+        "Business": {
+          "pos": 9,
+          "neg": 4,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
+          "pos": 23,
+          "neg": 6,
+          "neu": 0,
+          "total": 29,
+          "score": 0.586
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"Apple Names New CEO\"",
+          "meta_category": "AI and Tech",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 17,
+          "label": "Jeffrey Epstein Investigation Continues",
+          "meta_category": "Financial Regulation",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
         }
       ],
       "articles": [
@@ -163,671 +303,41 @@
       ]
     },
     {
-      "entity": "Alphabet",
-      "ticker": "GOOG",
-      "pos": 19,
-      "neg": 1,
-      "neu": 1,
-      "total": 21,
-      "score": 0.857,
-      "categories": {
-        "Business": {
-          "pos": 19,
-          "neg": 1,
-          "neu": 1
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 15,
-          "neg": 1,
-          "neu": 1,
-          "total": 17,
-          "score": 0.824
-        },
-        {
-          "cluster_id": 27,
-          "label": "\"AI's Impact on the Workforce\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 2,
-          "neg": 0,
-          "neu": 1,
-          "total": 3,
-          "score": 0.667
-        },
-        {
-          "cluster_id": 11,
-          "label": "\"Apple Names New CEO Ternus\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 2,
-          "neg": 0,
-          "neu": 0,
-          "total": 2,
-          "score": 1.0
-        },
-        {
-          "cluster_id": 25,
-          "label": "\"Entrepreneurs Find New Opportunities\"",
-          "meta_category": "Thriving in Uncertainty",
-          "pos": 0,
-          "neg": 0,
-          "neu": 1,
-          "total": 1,
-          "score": 0.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Google to invest up to $40 billion in Anthropic as search giant spreads its AI bets",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Nvidia stock closes at record, pushing market cap past $5 trillion",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "0"
-        },
-        {
-          "headline": "How a new Hollywood production startup deploys AI for speed and cost-cutting",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "29-year-old AI researcher has a second job as a human-chatbot relationship coach",
-          "date": "2026-04-23 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Nvidia",
-      "ticker": "NVDA",
-      "pos": 15,
-      "neg": 1,
-      "neu": 0,
-      "total": 16,
-      "score": 0.875,
-      "categories": {
-        "Business": {
-          "pos": 15,
-          "neg": 1,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 15,
-          "neg": 1,
-          "neu": 0,
-          "total": 16,
-          "score": 0.875
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Intel stock has best day since 1987, soaring 24% as chipmaker shows signs of turnaround",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Google to invest up to $40 billion in Anthropic as search giant spreads its AI bets",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Nvidia stock closes at record, pushing market cap past $5 trillion",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Intel's stock soars 19% as results top estimates, with chipmaker showing signs of growth",
-          "date": "2026-04-23 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Texas Instruments' stock jumps 19% for best day since 2000 as AI demand soars",
-          "date": "2026-04-23 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
       "entity": "Texas Instruments",
       "ticker": "TXN",
-      "pos": 9,
-      "neg": 0,
-      "neu": 0,
-      "total": 9,
-      "score": 1.0,
-      "categories": {
-        "Business": {
-          "pos": 9,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 9,
-          "neg": 0,
-          "neu": 0,
-          "total": 9,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Texas Instruments' stock jumps 19% for best day since 2000 as AI demand soars",
-          "date": "2026-04-23 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Amazon.com",
-      "ticker": "AMZN",
-      "pos": 28,
-      "neg": 7,
+      "pos": 7,
+      "neg": 1,
       "neu": 1,
-      "total": 36,
-      "score": 0.583,
+      "total": 9,
+      "score": 0.667,
       "categories": {
-        "Business": {
-          "pos": 27,
-          "neg": 7,
-          "neu": 1
-        },
-        "NewsRelease": {
-          "pos": 1,
+        "Performance": {
+          "pos": 4,
           "neg": 0,
           "neu": 0
+        },
+        "Business": {
+          "pos": 3,
+          "neg": 1,
+          "neu": 1
         }
       },
       "clusters": [
-        {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 14,
-          "neg": 1,
-          "neu": 1,
-          "total": 16,
-          "score": 0.812
-        },
-        {
-          "cluster_id": 4,
-          "label": "Amazon's Shift in Delivery Strategy",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 5,
-          "neg": 4,
-          "neu": 0,
-          "total": 9,
-          "score": 0.111
-        },
         {
           "cluster_id": 3,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 5,
-          "neg": 1,
-          "neu": 0,
-          "total": 6,
-          "score": 0.667
-        },
-        {
-          "cluster_id": 27,
-          "label": "\"AI's Impact on the Workforce\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 1,
-          "neg": 1,
-          "neu": 1,
-          "total": 3,
-          "score": 0.0
-        },
-        {
-          "cluster_id": 25,
-          "label": "\"Entrepreneurs Find New Opportunities\"",
-          "meta_category": "Thriving in Uncertainty",
-          "pos": 1,
-          "neg": 1,
-          "neu": 1,
-          "total": 3,
-          "score": 0.0
-        },
-        {
-          "cluster_id": 11,
-          "label": "\"Apple Names New CEO Ternus\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 2,
-          "neg": 1,
-          "neu": 0,
-          "total": 3,
-          "score": 0.333
-        },
-        {
-          "cluster_id": 17,
-          "label": "Musk and Zuckerberg's Anticompetitive Tactics",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 2,
-          "neg": 0,
-          "neu": 0,
-          "total": 2,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Nuclear reactor company X-energy shares surge 27% as AI drives interest in its IPO",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Google to invest up to $40 billion in Anthropic as search giant spreads its AI bets",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Nvidia stock closes at record, pushing market cap past $5 trillion",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "0"
-        },
-        {
-          "headline": "Intel's stock soars 19% as results top estimates, with chipmaker showing signs of growth",
-          "date": "2026-04-23 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "JPMorgan Chase",
-      "ticker": "JPM",
-      "pos": 7,
-      "neg": 0,
-      "neu": 0,
-      "total": 7,
-      "score": 1.0,
-      "categories": {
-        "Business": {
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
           "pos": 7,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 18,
-          "label": "US Banks Weather Market Volatility",
-          "meta_category": "Financial Market Turbulence",
-          "pos": 5,
-          "neg": 0,
-          "neu": 0,
-          "total": 5,
-          "score": 1.0
-        },
-        {
-          "cluster_id": 6,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 2,
-          "neg": 0,
-          "neu": 0,
-          "total": 2,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Risky meme trading is back. A trading rule change may have lit the fuse",
-          "date": "2026-04-23 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "JPMorgan expands $1.5 trillion economic security splurge into Europe",
-          "date": "2026-04-20 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Microsoft",
-      "ticker": "MSFT",
-      "pos": 14,
-      "neg": 3,
-      "neu": 1,
-      "total": 18,
-      "score": 0.611,
-      "categories": {
-        "Business": {
-          "pos": 13,
-          "neg": 3,
-          "neu": 1
-        },
-        "NewsRelease": {
-          "pos": 1,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 14,
-          "neg": 3,
+          "neg": 1,
           "neu": 1,
-          "total": 18,
-          "score": 0.611
-        },
-        {
-          "cluster_id": 27,
-          "label": "\"AI's Impact on the Workforce\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 2,
-          "neg": 0,
-          "neu": 1,
-          "total": 3,
-          "score": 0.667
-        },
-        {
-          "cluster_id": 25,
-          "label": "\"Entrepreneurs Find New Opportunities\"",
-          "meta_category": "Thriving in Uncertainty",
-          "pos": 2,
-          "neg": 0,
-          "neu": 1,
-          "total": 3,
+          "total": 9,
           "score": 0.667
         }
       ],
       "articles": [
-        {
-          "headline": "Nvidia stock closes at record, pushing market cap past $5 trillion",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "0"
-        },
-        {
-          "headline": "Meta will cut 10% of workforce as company pushes deeper into AI",
-          "date": "2026-04-23 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Microsoft's LinkedIn names longtime exec Dan Shapero its new CEO",
-          "date": "2026-04-22 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Microsoft cuts Game Pass prices after new Xbox CEO promises to 'recommit'",
-          "date": "2026-04-21 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Walt Disney",
-      "ticker": "DIS",
-      "pos": 5,
-      "neg": 0,
-      "neu": 0,
-      "total": 5,
-      "score": 1.0,
-      "categories": {
-        "Business": {
-          "pos": 5,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 5,
-          "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 3,
-          "neg": 0,
-          "neu": 0,
-          "total": 3,
-          "score": 1.0
-        },
-        {
-          "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 1,
-          "neg": 0,
-          "neu": 0,
-          "total": 1,
-          "score": 1.0
-        },
-        {
-          "cluster_id": 11,
-          "label": "\"Apple Names New CEO Ternus\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 1,
-          "neg": 0,
-          "neu": 0,
-          "total": 1,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "U.S.-UAE financial swap: Damage done by war to Gulf economy is growing",
-          "date": "2026-04-22 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Comcast beats revenue, earnings expectations as broadband losses improve",
-          "date": "2026-04-22 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Trump details Cook call to 'kiss my ass,' a stark look at White House dealmaking",
-          "date": "2026-04-21 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Marvell Technology",
-      "ticker": "MRVL",
-      "pos": 5,
-      "neg": 0,
-      "neu": 0,
-      "total": 5,
-      "score": 1.0,
-      "categories": {
-        "Business": {
-          "pos": 5,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 5,
-          "neg": 0,
-          "neu": 0,
-          "total": 5,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Marvell stock pops on report it will help Google with custom AI chips",
-          "date": "2026-04-20 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Broadcom",
-      "ticker": "AVGO",
-      "pos": 5,
-      "neg": 0,
-      "neu": 0,
-      "total": 5,
-      "score": 1.0,
-      "categories": {
-        "Business": {
-          "pos": 5,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 5,
-          "neg": 0,
-          "neu": 0,
-          "total": 5,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Marvell stock pops on report it will help Google with custom AI chips",
-          "date": "2026-04-20 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Meta Platforms",
-      "ticker": "META",
-      "pos": 13,
-      "neg": 3,
-      "neu": 1,
-      "total": 17,
-      "score": 0.588,
-      "categories": {
-        "Business": {
-          "pos": 10,
-          "neg": 3,
-          "neu": 1
-        },
-        "Company": {
-          "pos": 1,
-          "neg": 0,
-          "neu": 0
-        },
-        "NewsRelease": {
-          "pos": 1,
-          "neg": 0,
-          "neu": 0
-        },
-        "SocialMedia": {
-          "pos": 1,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 11,
-          "neg": 3,
-          "neu": 1,
-          "total": 15,
-          "score": 0.533
-        },
-        {
-          "cluster_id": 27,
-          "label": "\"AI's Impact on the Workforce\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 2,
-          "neg": 0,
-          "neu": 1,
-          "total": 3,
-          "score": 0.667
-        },
-        {
-          "cluster_id": 25,
-          "label": "\"Entrepreneurs Find New Opportunities\"",
-          "meta_category": "Thriving in Uncertainty",
-          "pos": 2,
-          "neg": 0,
-          "neu": 1,
-          "total": 3,
-          "score": 0.667
-        },
-        {
-          "cluster_id": 6,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 1,
-          "neg": 0,
-          "neu": 0,
-          "total": 1,
-          "score": 1.0
-        },
-        {
-          "cluster_id": 11,
-          "label": "\"Apple Names New CEO Ternus\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 1,
-          "neg": 0,
-          "neu": 0,
-          "total": 1,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Nvidia stock closes at record, pushing market cap past $5 trillion",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "0"
-        },
         {
           "headline": "Texas Instruments' stock jumps 19% for best day since 2000 as AI demand soars",
           "date": "2026-04-23 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Meta will cut 10% of workforce as company pushes deeper into AI",
-          "date": "2026-04-23 00:00:00",
-          "polarity": "-"
-        },
-        {
-          "headline": "Bristol West car insurance review 2026",
-          "date": "2026-04-21 00:00:00",
           "polarity": "+"
         }
       ]
@@ -835,27 +345,32 @@
     {
       "entity": "Advanced Micro Devices",
       "ticker": "AMD",
-      "pos": 4,
+      "pos": 3,
       "neg": 0,
       "neu": 0,
-      "total": 4,
+      "total": 3,
       "score": 1.0,
       "categories": {
+        "Performance": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        },
         "Business": {
-          "pos": 4,
+          "pos": 1,
           "neg": 0,
           "neu": 0
         }
       },
       "clusters": [
         {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 4,
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
+          "pos": 3,
           "neg": 0,
           "neu": 0,
-          "total": 4,
+          "total": 3,
           "score": 1.0
         }
       ],
@@ -874,362 +389,47 @@
           "headline": "Texas Instruments' stock jumps 19% for best day since 2000 as AI demand soars",
           "date": "2026-04-23 00:00:00",
           "polarity": "+"
-        },
-        {
-          "headline": "Intel's stock soars 19% as results top estimates, with chipmaker showing signs of growth",
-          "date": "2026-04-23 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Bank of America",
-      "ticker": "BAC",
-      "pos": 4,
-      "neg": 0,
-      "neu": 0,
-      "total": 4,
-      "score": 1.0,
-      "categories": {
-        "Business": {
-          "pos": 2,
-          "neg": 0,
-          "neu": 0
-        },
-        "NewsRelease": {
-          "pos": 1,
-          "neg": 0,
-          "neu": 0
-        },
-        "Bankruptcy": {
-          "pos": 1,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 6,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 4,
-          "neg": 0,
-          "neu": 0,
-          "total": 4,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Warsh gave his way for measuring inflation. It could come back to bite him",
-          "date": "2026-04-22 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "United Airlines",
-      "ticker": "UAL",
-      "pos": 9,
-      "neg": 2,
-      "neu": 0,
-      "total": 11,
-      "score": 0.636,
-      "categories": {
-        "Business": {
-          "pos": 7,
-          "neg": 2,
-          "neu": 0
-        },
-        "NewsRelease": {
-          "pos": 2,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 5,
-          "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 9,
-          "neg": 2,
-          "neu": 0,
-          "total": 11,
-          "score": 0.636
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Clock ticks on Spirit Airlines as bondholders weigh Trump bailout",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "United Airlines slashes 2026 forecast as fuel costs surge",
-          "date": "2026-04-21 00:00:00",
-          "polarity": "-"
-        }
-      ]
-    },
-    {
-      "entity": "Comcast",
-      "ticker": "CMCSA",
-      "pos": 11,
-      "neg": 3,
-      "neu": 1,
-      "total": 15,
-      "score": 0.533,
-      "categories": {
-        "Business": {
-          "pos": 11,
-          "neg": 3,
-          "neu": 0
-        },
-        "Performance": {
-          "pos": 0,
-          "neg": 0,
-          "neu": 1
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 11,
-          "neg": 3,
-          "neu": 1,
-          "total": 15,
-          "score": 0.533
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Comcast beats revenue, earnings expectations as broadband losses improve",
-          "date": "2026-04-22 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Warner Bros. Discovery shareholders approve Paramount acquisition",
-          "date": "2026-04-22 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Walmart",
-      "ticker": "WMT",
-      "pos": 4,
-      "neg": 0,
-      "neu": 1,
-      "total": 5,
-      "score": 0.8,
-      "categories": {
-        "Business": {
-          "pos": 4,
-          "neg": 0,
-          "neu": 1
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 4,
-          "label": "Amazon's Shift in Delivery Strategy",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 2,
-          "neg": 0,
-          "neu": 1,
-          "total": 3,
-          "score": 0.667
-        },
-        {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 1,
-          "neg": 0,
-          "neu": 0,
-          "total": 1,
-          "score": 1.0
-        },
-        {
-          "cluster_id": 8,
-          "label": "Tariffs and Retail Earnings",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 1,
-          "neg": 0,
-          "neu": 0,
-          "total": 1,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "IBM CEO Krishna says Iran, other uncertainty is weighing on company's outlook",
-          "date": "2026-04-22 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Amazon 'strong-armed' Levi's, Hanes to hike prices on rivals, Calif. DA says",
-          "date": "2026-04-20 00:00:00",
-          "polarity": "0"
-        },
-        {
-          "headline": "Tariff refund payday looms for U.S. importers. What it means for big retailers",
-          "date": "2026-04-20 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Coinbase Global",
-      "ticker": "COIN",
-      "pos": 3,
-      "neg": 0,
-      "neu": 0,
-      "total": 3,
-      "score": 1.0,
-      "categories": {
-        "Business": {
-          "pos": 3,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 2,
-          "label": "\"Prediction Markets Under Scrutiny\"",
-          "meta_category": "Financial Market Turbulence",
-          "pos": 3,
-          "neg": 0,
-          "neu": 0,
-          "total": 3,
-          "score": 1.0
-        },
-        {
-          "cluster_id": 6,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 1,
-          "neg": 0,
-          "neu": 0,
-          "total": 1,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Prediction markets could soon be available in your retirement account",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "These stocks are signaling the return of the market's 'Animal Spirits'",
-          "date": "2026-04-22 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Polymarket launches trading of heavily leveraged 'perps' contracts",
-          "date": "2026-04-21 00:00:00",
-          "polarity": "+"
         }
       ]
     },
     {
       "entity": "Baker Hughes",
       "ticker": "BKR",
-      "pos": 3,
-      "neg": 0,
+      "pos": 0,
+      "neg": 3,
       "neu": 0,
       "total": 3,
-      "score": 1.0,
+      "score": -1.0,
       "categories": {
         "Business": {
-          "pos": 3,
-          "neg": 0,
+          "pos": 0,
+          "neg": 3,
           "neu": 0
         }
       },
       "clusters": [
         {
-          "cluster_id": 6,
+          "cluster_id": 13,
           "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 3,
-          "neg": 0,
+          "meta_category": "Global Market Uncertainty",
+          "pos": 0,
+          "neg": 3,
           "neu": 0,
           "total": 3,
-          "score": 1.0
+          "score": -1.0
         }
       ],
       "articles": [
         {
           "headline": "Strait of Hormuz may not fully reopen until second half of 2026, Baker Hughes says",
           "date": "2026-04-24 00:00:00",
-          "polarity": "+"
+          "polarity": "-"
         }
       ]
     },
     {
-      "entity": "New York Times",
-      "ticker": "NYT",
-      "pos": 3,
-      "neg": 0,
-      "neu": 0,
-      "total": 3,
-      "score": 1.0,
-      "categories": {
-        "NewsRelease": {
-          "pos": 3,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 6,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 2,
-          "neg": 0,
-          "neu": 0,
-          "total": 2,
-          "score": 1.0
-        },
-        {
-          "cluster_id": 24,
-          "label": "Leading with Confidence and Trust",
-          "meta_category": "Thriving in Uncertainty",
-          "pos": 1,
-          "neg": 0,
-          "neu": 0,
-          "total": 1,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "7 phrases manipulators use that sound 'nice' at first—but are actually 'red flags,' say experts",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Trump threatens Iran again before ceasefire deadline, possible peace talks",
-          "date": "2026-04-20 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Kash Patel sues The Atlantic for $250 million over alcohol abuse claims",
-          "date": "2026-04-20 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Regeneron Pharmaceuticals",
-      "ticker": "REGN",
+      "entity": "Warner Bros Discovery",
+      "ticker": "WBD",
       "pos": 3,
       "neg": 0,
       "neu": 0,
@@ -1244,9 +444,9 @@
       },
       "clusters": [
         {
-          "cluster_id": 3,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Global Economic Uncertainty",
+          "cluster_id": 1,
+          "label": "\"Streaming Services Face Mergers\"",
+          "meta_category": "Global Market Uncertainty",
           "pos": 3,
           "neg": 0,
           "neu": 0,
@@ -1256,42 +456,7 @@
       ],
       "articles": [
         {
-          "headline": "Regeneron inks drug pricing deal with Trump, will offer hearing-loss therapy for free",
-          "date": "2026-04-23 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Lululemon Athletica",
-      "ticker": "LULU",
-      "pos": 3,
-      "neg": 0,
-      "neu": 0,
-      "total": 3,
-      "score": 1.0,
-      "categories": {
-        "Business": {
-          "pos": 3,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 8,
-          "label": "Tariffs and Retail Earnings",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 3,
-          "neg": 0,
-          "neu": 0,
-          "total": 3,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Lululemon names former Nike exec Heidi O'Neill as new CEO",
+          "headline": "Warner Bros. Discovery shareholders approve Paramount acquisition",
           "date": "2026-04-22 00:00:00",
           "polarity": "+"
         }
@@ -1300,15 +465,20 @@
     {
       "entity": "Netflix",
       "ticker": "NFLX",
-      "pos": 3,
-      "neg": 0,
+      "pos": 0,
+      "neg": 3,
       "neu": 0,
       "total": 3,
-      "score": 1.0,
+      "score": -1.0,
       "categories": {
         "Business": {
-          "pos": 3,
-          "neg": 0,
+          "pos": 0,
+          "neg": 2,
+          "neu": 0
+        },
+        "Performance": {
+          "pos": 0,
+          "neg": 1,
           "neu": 0
         }
       },
@@ -1316,59 +486,64 @@
         {
           "cluster_id": 1,
           "label": "\"Streaming Services Face Mergers\"",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 3,
-          "neg": 0,
+          "meta_category": "Global Market Uncertainty",
+          "pos": 0,
+          "neg": 3,
           "neu": 0,
           "total": 3,
-          "score": 1.0
+          "score": -1.0
         }
       ],
       "articles": [
         {
           "headline": "Warner Bros. Discovery shareholders approve Paramount acquisition",
           "date": "2026-04-22 00:00:00",
-          "polarity": "+"
+          "polarity": "-"
         },
         {
           "headline": "Comcast beats revenue, earnings expectations as broadband losses improve",
           "date": "2026-04-22 00:00:00",
-          "polarity": "+"
+          "polarity": "-"
         }
       ]
     },
     {
-      "entity": "Nexstar Media Group",
-      "ticker": "NXST",
-      "pos": 3,
-      "neg": 0,
+      "entity": "Lululemon Athletica",
+      "ticker": "LULU",
+      "pos": 0,
+      "neg": 3,
       "neu": 0,
       "total": 3,
-      "score": 1.0,
+      "score": -1.0,
       "categories": {
+        "Recruitment": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 0
+        },
         "Business": {
-          "pos": 3,
-          "neg": 0,
+          "pos": 0,
+          "neg": 2,
           "neu": 0
         }
       },
       "clusters": [
         {
-          "cluster_id": 11,
-          "label": "\"Apple Names New CEO Ternus\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 3,
-          "neg": 0,
+          "cluster_id": 10,
+          "label": "Retailers Struggle with Turnaround",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 0,
+          "neg": 3,
           "neu": 0,
           "total": 3,
-          "score": 1.0
+          "score": -1.0
         }
       ],
       "articles": [
         {
-          "headline": "Trump details Cook call to 'kiss my ass,' a stark look at White House dealmaking",
-          "date": "2026-04-21 00:00:00",
-          "polarity": "+"
+          "headline": "Lululemon names former Nike exec Heidi O'Neill as new CEO",
+          "date": "2026-04-22 00:00:00",
+          "polarity": "-"
         }
       ]
     },
@@ -1389,9 +564,9 @@
       },
       "clusters": [
         {
-          "cluster_id": 8,
-          "label": "Tariffs and Retail Earnings",
-          "meta_category": "Global Economic Uncertainty",
+          "cluster_id": 9,
+          "label": "\"US Trade Policy Under Scrutiny\"",
+          "meta_category": "Global Market Uncertainty",
           "pos": 3,
           "neg": 0,
           "neu": 0,
@@ -1408,35 +583,505 @@
       ]
     },
     {
-      "entity": "Nike",
-      "ticker": "NKE",
-      "pos": 9,
-      "neg": 3,
+      "entity": "Marvell Technology",
+      "ticker": "MRVL",
+      "pos": 5,
+      "neg": 1,
       "neu": 0,
-      "total": 12,
-      "score": 0.5,
+      "total": 6,
+      "score": 0.667,
+      "categories": {
+        "Performance": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        },
+        "Business": {
+          "pos": 3,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
+          "pos": 5,
+          "neg": 1,
+          "neu": 0,
+          "total": 6,
+          "score": 0.667
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Marvell stock pops on report it will help Google with custom AI chips",
+          "date": "2026-04-20 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Microsoft",
+      "ticker": "MSFT",
+      "pos": 12,
+      "neg": 5,
+      "neu": 0,
+      "total": 17,
+      "score": 0.412,
       "categories": {
         "Business": {
-          "pos": 9,
+          "pos": 7,
+          "neg": 5,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "Recruitment": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        },
+        "Performance": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
+          "pos": 12,
+          "neg": 5,
+          "neu": 0,
+          "total": 17,
+          "score": 0.412
+        },
+        {
+          "cluster_id": 27,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI and Tech",
+          "pos": 2,
+          "neg": 1,
+          "neu": 0,
+          "total": 3,
+          "score": 0.333
+        }
+      ],
+      "articles": [
+        {
+          "headline": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Nvidia stock closes at record, pushing market cap past $5 trillion",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Meta will cut 10% of workforce as company pushes deeper into AI",
+          "date": "2026-04-23 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Microsoft's LinkedIn names longtime exec Dan Shapero its new CEO",
+          "date": "2026-04-22 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Microsoft cuts Game Pass prices after new Xbox CEO promises to 'recommit'",
+          "date": "2026-04-21 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Amazon.com",
+      "ticker": "AMZN",
+      "pos": 22,
+      "neg": 11,
+      "neu": 1,
+      "total": 34,
+      "score": 0.324,
+      "categories": {
+        "Business": {
+          "pos": 21,
+          "neg": 8,
+          "neu": 1
+        },
+        "NewsRelease": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "Legal": {
+          "pos": 0,
           "neg": 3,
           "neu": 0
         }
       },
       "clusters": [
         {
-          "cluster_id": 8,
-          "label": "Tariffs and Retail Earnings",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 9,
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
+          "pos": 16,
           "neg": 2,
           "neu": 0,
-          "total": 11,
-          "score": 0.636
+          "total": 18,
+          "score": 0.778
+        },
+        {
+          "cluster_id": 8,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 1,
+          "neg": 8,
+          "neu": 0,
+          "total": 9,
+          "score": -0.778
         },
         {
           "cluster_id": 27,
           "label": "\"AI's Impact on the Workforce\"",
-          "meta_category": "Tech Giants Dominate",
+          "meta_category": "AI and Tech",
+          "pos": 1,
+          "neg": 2,
+          "neu": 0,
+          "total": 3,
+          "score": -0.333
+        },
+        {
+          "cluster_id": 4,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"Apple Names New CEO\"",
+          "meta_category": "AI and Tech",
+          "pos": 2,
+          "neg": 1,
+          "neu": 0,
+          "total": 3,
+          "score": 0.333
+        },
+        {
+          "cluster_id": 17,
+          "label": "Jeffrey Epstein Investigation Continues",
+          "meta_category": "Financial Regulation",
+          "pos": 2,
+          "neg": 1,
+          "neu": 0,
+          "total": 3,
+          "score": 0.333
+        }
+      ],
+      "articles": [
+        {
+          "headline": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Google to invest up to $40 billion in Anthropic as search giant spreads its AI bets",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Nvidia stock closes at record, pushing market cap past $5 trillion",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Nuclear reactor company X-energy shares surge 27% as AI drives interest in its IPO",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "36-year-old left the U.S. for China—now pays $1,000 rent and $100 for groceries for family of 4",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "~"
+        }
+      ]
+    },
+    {
+      "entity": "Morgan Stanley",
+      "ticker": "MS",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 26,
+          "label": "Leading with Confidence and Trust",
+          "meta_category": "Empowering the Next",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"Apple Names New CEO\"",
+          "meta_category": "AI and Tech",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Dating is getting too expensive for many young adults in the U.S., survey shows",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Incoming Apple CEO John Ternus doubted himself early: 'I wasn't sure I belonged'",
+          "date": "2026-04-21 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Citigroup",
+      "ticker": "C",
+      "pos": 2,
+      "neg": 0,
+      "neu": 0,
+      "total": 2,
+      "score": 1.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 13,
+          "label": "Iran Conflict Escalates Globally",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 9,
+          "label": "\"US Trade Policy Under Scrutiny\"",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Trump extends Iran ceasefire indefinitely  but market focus has drifted",
+          "date": "2026-04-21 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Tariff refund payday looms for U.S. importers. What it means for big retailers",
+          "date": "2026-04-20 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Broadcom",
+      "ticker": "AVGO",
+      "pos": 4,
+      "neg": 1,
+      "neu": 0,
+      "total": 5,
+      "score": 0.6,
+      "categories": {
+        "Business": {
+          "pos": 4,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
+          "pos": 4,
+          "neg": 1,
+          "neu": 0,
+          "total": 5,
+          "score": 0.6
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Marvell stock pops on report it will help Google with custom AI chips",
+          "date": "2026-04-20 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Chubb Limited",
+      "ticker": "CB",
+      "pos": 0,
+      "neg": 2,
+      "neu": 1,
+      "total": 3,
+      "score": -0.667,
+      "categories": {
+        "Performance": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 0
+        },
+        "Business": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 1
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 13,
+          "label": "Iran Conflict Escalates Globally",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 0,
+          "neg": 2,
+          "neu": 1,
+          "total": 3,
+          "score": -0.667
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Chubb's earnings blew past the Street. Here's why the stock is falling",
+          "date": "2026-04-22 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "United Airlines",
+      "ticker": "UAL",
+      "pos": 7,
+      "neg": 3,
+      "neu": 2,
+      "total": 12,
+      "score": 0.333,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 2,
+          "neu": 2
+        },
+        "Performance": {
+          "pos": 6,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 8,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 7,
+          "neg": 3,
+          "neu": 2,
+          "total": 12,
+          "score": 0.333
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Clock ticks on Spirit Airlines as bondholders weigh Trump bailout",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "What a looming jet fuel shortage could mean for summer travel",
+          "date": "2026-04-21 00:00:00",
+          "polarity": "0"
+        },
+        {
+          "headline": "United Airlines slashes 2026 forecast as fuel costs surge",
+          "date": "2026-04-21 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Nike",
+      "ticker": "NKE",
+      "pos": 4,
+      "neg": 8,
+      "neu": 0,
+      "total": 12,
+      "score": -0.333,
+      "categories": {
+        "Bankruptcy": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 0
+        },
+        "Business": {
+          "pos": 3,
+          "neg": 6,
+          "neu": 0
+        },
+        "Performance": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 10,
+          "label": "Retailers Struggle with Turnaround",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 4,
+          "neg": 7,
+          "neu": 0,
+          "total": 11,
+          "score": -0.273
+        },
+        {
+          "cluster_id": 27,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI and Tech",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1444,19 +1089,9 @@
           "score": -1.0
         },
         {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 0,
-          "neg": 1,
-          "neu": 0,
-          "total": 1,
-          "score": -1.0
-        },
-        {
-          "cluster_id": 25,
-          "label": "\"Entrepreneurs Find New Opportunities\"",
-          "meta_category": "Thriving in Uncertainty",
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1483,351 +1118,6 @@
       ]
     },
     {
-      "entity": "Robinhood Markets",
-      "ticker": "HOOD",
-      "pos": 2,
-      "neg": 0,
-      "neu": 0,
-      "total": 2,
-      "score": 1.0,
-      "categories": {
-        "Business": {
-          "pos": 2,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 2,
-          "label": "\"Prediction Markets Under Scrutiny\"",
-          "meta_category": "Financial Market Turbulence",
-          "pos": 2,
-          "neg": 0,
-          "neu": 0,
-          "total": 2,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Prediction markets could soon be available in your retirement account",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Polymarket launches trading of heavily leveraged 'perps' contracts",
-          "date": "2026-04-21 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Evercore",
-      "ticker": "EVR",
-      "pos": 2,
-      "neg": 0,
-      "neu": 0,
-      "total": 2,
-      "score": 1.0,
-      "categories": {
-        "Business": {
-          "pos": 2,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 1,
-          "neg": 0,
-          "neu": 0,
-          "total": 1,
-          "score": 1.0
-        },
-        {
-          "cluster_id": 6,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 1,
-          "neg": 0,
-          "neu": 0,
-          "total": 1,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Intel stock has best day since 1987, soaring 24% as chipmaker shows signs of turnaround",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Will he stay or will he go? With criminal probe over, Powell faces big decision",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Qualcomm",
-      "ticker": "QCOM",
-      "pos": 2,
-      "neg": 0,
-      "neu": 0,
-      "total": 2,
-      "score": 1.0,
-      "categories": {
-        "Business": {
-          "pos": 2,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
-          "pos": 1,
-          "neg": 0,
-          "neu": 0,
-          "total": 1,
-          "score": 1.0
-        },
-        {
-          "cluster_id": 13,
-          "label": "\"Electric Vehicles Amid Global Uncertainty\"",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 1,
-          "neg": 0,
-          "neu": 0,
-          "total": 1,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Nvidia stock closes at record, pushing market cap past $5 trillion",
-          "date": "2026-04-24 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Foreign car companies bet on technology to hang onto once-lucrative China auto market",
-          "date": "2026-04-23 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Carrier Global",
-      "ticker": "CARR",
-      "pos": 2,
-      "neg": 0,
-      "neu": 0,
-      "total": 2,
-      "score": 1.0,
-      "categories": {
-        "Business": {
-          "pos": 2,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 5,
-          "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 2,
-          "neg": 0,
-          "neu": 0,
-          "total": 2,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Spirit Airlines' cash 'not going to last for very much longer'",
-          "date": "2026-04-23 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "United Airlines slashes 2026 forecast as fuel costs surge",
-          "date": "2026-04-21 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Rivian Automotive",
-      "ticker": "RIVN",
-      "pos": 2,
-      "neg": 0,
-      "neu": 0,
-      "total": 2,
-      "score": 1.0,
-      "categories": {
-        "Business": {
-          "pos": 2,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 13,
-          "label": "\"Electric Vehicles Amid Global Uncertainty\"",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 2,
-          "neg": 0,
-          "neu": 0,
-          "total": 2,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Rivian hits production milestone for R2 EV ahead of customer deliveries",
-          "date": "2026-04-22 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Rivian's factory damaged by tornado amid crucial R2 EV launch",
-          "date": "2026-04-20 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Warner Bros Discovery",
-      "ticker": "WBD",
-      "pos": 2,
-      "neg": 0,
-      "neu": 0,
-      "total": 2,
-      "score": 1.0,
-      "categories": {
-        "Business": {
-          "pos": 2,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 2,
-          "neg": 0,
-          "neu": 0,
-          "total": 2,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Warner Bros. Discovery shareholders approve Paramount acquisition",
-          "date": "2026-04-22 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Versant Media Group",
-      "ticker": "VSNT",
-      "pos": 2,
-      "neg": 0,
-      "neu": 0,
-      "total": 2,
-      "score": 1.0,
-      "categories": {
-        "Business": {
-          "pos": 2,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 2,
-          "neg": 0,
-          "neu": 0,
-          "total": 2,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Comcast beats revenue, earnings expectations as broadband losses improve",
-          "date": "2026-04-22 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
-      "entity": "Citigroup",
-      "ticker": "C",
-      "pos": 2,
-      "neg": 0,
-      "neu": 0,
-      "total": 2,
-      "score": 1.0,
-      "categories": {
-        "Business": {
-          "pos": 1,
-          "neg": 0,
-          "neu": 0
-        },
-        "NewsRelease": {
-          "pos": 1,
-          "neg": 0,
-          "neu": 0
-        }
-      },
-      "clusters": [
-        {
-          "cluster_id": 6,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 1,
-          "neg": 0,
-          "neu": 0,
-          "total": 1,
-          "score": 1.0
-        },
-        {
-          "cluster_id": 8,
-          "label": "Tariffs and Retail Earnings",
-          "meta_category": "Global Economic Uncertainty",
-          "pos": 1,
-          "neg": 0,
-          "neu": 0,
-          "total": 1,
-          "score": 1.0
-        }
-      ],
-      "articles": [
-        {
-          "headline": "Trump extends Iran ceasefire indefinitely  but market focus has drifted",
-          "date": "2026-04-21 00:00:00",
-          "polarity": "+"
-        },
-        {
-          "headline": "Tariff refund payday looms for U.S. importers. What it means for big retailers",
-          "date": "2026-04-20 00:00:00",
-          "polarity": "+"
-        }
-      ]
-    },
-    {
       "entity": "ServiceNow",
       "ticker": "NOW",
       "pos": 3,
@@ -1837,12 +1127,12 @@
       "score": 0.5,
       "categories": {
         "Performance": {
-          "pos": 0,
+          "pos": 2,
           "neg": 1,
           "neu": 0
         },
         "Business": {
-          "pos": 3,
+          "pos": 1,
           "neg": 0,
           "neu": 0
         }
@@ -1862,8 +1152,183 @@
       ]
     },
     {
-      "entity": "Target",
-      "ticker": "TGT",
+      "entity": "Bank of America",
+      "ticker": "BAC",
+      "pos": 1,
+      "neg": 3,
+      "neu": 0,
+      "total": 4,
+      "score": -0.5,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        },
+        "Performance": {
+          "pos": 0,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 25,
+          "label": "Kevin Warsh's Fed Nomination",
+          "meta_category": "Financial Regulation",
+          "pos": 1,
+          "neg": 3,
+          "neu": 0,
+          "total": 4,
+          "score": -0.5
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Warsh gave his way for measuring inflation. It could come back to bite him",
+          "date": "2026-04-22 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Comcast",
+      "ticker": "CMCSA",
+      "pos": 9,
+      "neg": 5,
+      "neu": 0,
+      "total": 14,
+      "score": 0.286,
+      "categories": {
+        "Business": {
+          "pos": 6,
+          "neg": 3,
+          "neu": 0
+        },
+        "Performance": {
+          "pos": 3,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 1,
+          "label": "\"Streaming Services Face Mergers\"",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 9,
+          "neg": 5,
+          "neu": 0,
+          "total": 14,
+          "score": 0.286
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Warner Bros. Discovery shareholders approve Paramount acquisition",
+          "date": "2026-04-22 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Comcast beats revenue, earnings expectations as broadband losses improve",
+          "date": "2026-04-22 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "JPMorgan Chase",
+      "ticker": "JPM",
+      "pos": 6,
+      "neg": 3,
+      "neu": 0,
+      "total": 9,
+      "score": 0.333,
+      "categories": {
+        "Business": {
+          "pos": 6,
+          "neg": 3,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 11,
+          "label": "US Banks Weather Market Volatility",
+          "meta_category": "Financial Market Turmoil",
+          "pos": 4,
+          "neg": 1,
+          "neu": 0,
+          "total": 5,
+          "score": 0.6
+        },
+        {
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
+          "pos": 1,
+          "neg": 1,
+          "neu": 0,
+          "total": 2,
+          "score": 0.0
+        },
+        {
+          "cluster_id": 13,
+          "label": "Iran Conflict Escalates Globally",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 1,
+          "neg": 1,
+          "neu": 0,
+          "total": 2,
+          "score": 0.0
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"Apple Names New CEO\"",
+          "meta_category": "AI and Tech",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 9,
+          "label": "\"US Trade Policy Under Scrutiny\"",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Berkshire attracts interest as it slips further behind the S&P 500",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Risky meme trading is back. A trading rule change may have lit the fuse",
+          "date": "2026-04-23 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "JPMorgan expands $1.5 trillion economic security splurge into Europe",
+          "date": "2026-04-20 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Tariff refund payday looms for U.S. importers. What it means for big retailers",
+          "date": "2026-04-20 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Carrier Global",
+      "ticker": "CARR",
       "pos": 1,
       "neg": 0,
       "neu": 1,
@@ -1871,21 +1336,211 @@
       "score": 0.5,
       "categories": {
         "Business": {
+          "pos": 0,
+          "neg": 0,
+          "neu": 1
+        },
+        "Performance": {
           "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 8,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 1,
+          "neg": 0,
+          "neu": 1,
+          "total": 2,
+          "score": 0.5
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Clock ticks on Spirit Airlines as bondholders weigh Trump bailout",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "0"
+        },
+        {
+          "headline": "United Airlines slashes 2026 forecast as fuel costs surge",
+          "date": "2026-04-21 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Qualcomm",
+      "ticker": "QCOM",
+      "pos": 1,
+      "neg": 0,
+      "neu": 1,
+      "total": 2,
+      "score": 0.5,
+      "categories": {
+        "Performance": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "Business": {
+          "pos": 0,
           "neg": 0,
           "neu": 1
         }
       },
       "clusters": [
         {
-          "cluster_id": 4,
-          "label": "Amazon's Shift in Delivery Strategy",
-          "meta_category": "Global Economic Uncertainty",
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
           "pos": 1,
           "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 19,
+          "label": "Electric Vehicle Market Shifts Globally",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 0,
+          "neg": 0,
+          "neu": 1,
+          "total": 1,
+          "score": 0.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Nvidia stock closes at record, pushing market cap past $5 trillion",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Foreign car companies bet on technology to hang onto once-lucrative China auto market",
+          "date": "2026-04-23 00:00:00",
+          "polarity": "0"
+        }
+      ]
+    },
+    {
+      "entity": "Walmart",
+      "ticker": "WMT",
+      "pos": 2,
+      "neg": 4,
+      "neu": 2,
+      "total": 8,
+      "score": -0.25,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 3,
+          "neu": 2
+        },
+        "Performance": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 8,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 0,
+          "neg": 2,
+          "neu": 1,
+          "total": 3,
+          "score": -0.667
+        },
+        {
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
+          "pos": 0,
+          "neg": 2,
+          "neu": 0,
+          "total": 2,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"Apple Names New CEO\"",
+          "meta_category": "AI and Tech",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 9,
+          "label": "\"US Trade Policy Under Scrutiny\"",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "36-year-old left the U.S. for China—now pays $1,000 rent and $100 for groceries for family of 4",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "~"
+        },
+        {
+          "headline": "Berkshire attracts interest as it slips further behind the S&P 500",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "IBM CEO Krishna says Iran, other uncertainty is weighing on company's outlook",
+          "date": "2026-04-22 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Tariff refund payday looms for U.S. importers. What it means for big retailers",
+          "date": "2026-04-20 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Amazon 'strong-armed' Levi's, Hanes to hike prices on rivals, Calif. DA says",
+          "date": "2026-04-20 00:00:00",
+          "polarity": "0"
+        }
+      ]
+    },
+    {
+      "entity": "Target",
+      "ticker": "TGT",
+      "pos": 0,
+      "neg": 1,
+      "neu": 1,
+      "total": 2,
+      "score": -0.5,
+      "categories": {
+        "Business": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 1
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 8,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 0,
+          "neg": 1,
           "neu": 1,
           "total": 2,
-          "score": 0.5
+          "score": -0.5
         }
       ],
       "articles": [
@@ -1897,8 +1552,83 @@
       ]
     },
     {
-      "entity": "Chubb Limited",
-      "ticker": "CB",
+      "entity": "New York Times",
+      "ticker": "NYT",
+      "pos": 2,
+      "neg": 1,
+      "neu": 0,
+      "total": 3,
+      "score": 0.333,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "Legal": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 26,
+          "label": "Leading with Confidence and Trust",
+          "meta_category": "Empowering the Next",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 25,
+          "label": "Kevin Warsh's Fed Nomination",
+          "meta_category": "Financial Regulation",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 13,
+          "label": "Iran Conflict Escalates Globally",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "7 phrases manipulators use that sound 'nice' at first—but are actually 'red flags,' say experts",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Kash Patel sues The Atlantic for $250 million over alcohol abuse claims",
+          "date": "2026-04-20 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Trump threatens Iran again before ceasefire deadline, possible peace talks",
+          "date": "2026-04-20 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Coinbase Global",
+      "ticker": "COIN",
       "pos": 1,
       "neg": 2,
       "neu": 0,
@@ -1913,9 +1643,64 @@
       },
       "clusters": [
         {
-          "cluster_id": 6,
+          "cluster_id": 2,
+          "label": "\"Prediction Markets Under Scrutiny\"",
+          "meta_category": "Financial Regulation",
+          "pos": 1,
+          "neg": 2,
+          "neu": 0,
+          "total": 3,
+          "score": -0.333
+        },
+        {
+          "cluster_id": 13,
           "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Prediction markets could soon be available in your retirement account",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "These stocks are signaling the return of the market's 'Animal Spirits'",
+          "date": "2026-04-22 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Polymarket launches trading of heavily leveraged 'perps' contracts",
+          "date": "2026-04-21 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Regeneron Pharmaceuticals",
+      "ticker": "REGN",
+      "pos": 1,
+      "neg": 2,
+      "neu": 0,
+      "total": 3,
+      "score": -0.333,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 4,
+          "label": "GLP-1 Weight Loss Medications",
+          "meta_category": "Global Market Uncertainty",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -1925,15 +1710,345 @@
       ],
       "articles": [
         {
-          "headline": "Chubb's earnings blew past the Street. Here's why the stock is falling",
-          "date": "2026-04-22 00:00:00",
+          "headline": "Regeneron inks drug pricing deal with Trump, will offer hearing-loss therapy for free",
+          "date": "2026-04-23 00:00:00",
           "polarity": "-"
         }
       ]
     },
     {
-      "entity": "Micron Technology",
-      "ticker": "MU",
+      "entity": "American Airlines Group",
+      "ticker": "AAL",
+      "pos": 0,
+      "neg": 1,
+      "neu": 2,
+      "total": 3,
+      "score": -0.333,
+      "categories": {
+        "Business": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 2
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 8,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 0,
+          "neg": 1,
+          "neu": 2,
+          "total": 3,
+          "score": -0.333
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Southwest Airlines forecasts quarterly earnings below estimates",
+          "date": "2026-04-22 00:00:00",
+          "polarity": "0"
+        },
+        {
+          "headline": "What a looming jet fuel shortage could mean for summer travel",
+          "date": "2026-04-21 00:00:00",
+          "polarity": "0"
+        },
+        {
+          "headline": "United Airlines slashes 2026 forecast as fuel costs surge",
+          "date": "2026-04-21 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Nexstar Media Group",
+      "ticker": "NXST",
+      "pos": 1,
+      "neg": 2,
+      "neu": 0,
+      "total": 3,
+      "score": -0.333,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 14,
+          "label": "\"Apple Names New CEO\"",
+          "meta_category": "AI and Tech",
+          "pos": 1,
+          "neg": 2,
+          "neu": 0,
+          "total": 3,
+          "score": -0.333
+        },
+        {
+          "cluster_id": 17,
+          "label": "Jeffrey Epstein Investigation Continues",
+          "meta_category": "Financial Regulation",
+          "pos": 1,
+          "neg": 2,
+          "neu": 0,
+          "total": 3,
+          "score": -0.333
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Trump details Cook call to 'kiss my ass,' a stark look at White House dealmaking",
+          "date": "2026-04-21 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Salesforce",
+      "ticker": "CRM",
+      "pos": 2,
+      "neg": 3,
+      "neu": 0,
+      "total": 5,
+      "score": -0.2,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        },
+        "Recruitment": {
+          "pos": 1,
+          "neg": 2,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
+          "pos": 2,
+          "neg": 3,
+          "neu": 0,
+          "total": 5,
+          "score": -0.2
+        },
+        {
+          "cluster_id": 27,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI and Tech",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "AI talent war: Software industry is a new target as top executives jump ship to OpenAI",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Walt Disney",
+      "ticker": "DIS",
+      "pos": 3,
+      "neg": 2,
+      "neu": 0,
+      "total": 5,
+      "score": 0.2,
+      "categories": {
+        "Business": {
+          "pos": 3,
+          "neg": 1,
+          "neu": 0
+        },
+        "Performance": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 8,
+          "label": "Fuel Prices Impact Air Travel",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 3,
+          "neg": 0,
+          "neu": 0,
+          "total": 3,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 1,
+          "label": "\"Streaming Services Face Mergers\"",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"Apple Names New CEO\"",
+          "meta_category": "AI and Tech",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 17,
+          "label": "Jeffrey Epstein Investigation Continues",
+          "meta_category": "Financial Regulation",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "U.S.-UAE financial swap: Damage done by war to Gulf economy is growing",
+          "date": "2026-04-22 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Comcast beats revenue, earnings expectations as broadband losses improve",
+          "date": "2026-04-22 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Trump details Cook call to 'kiss my ass,' a stark look at White House dealmaking",
+          "date": "2026-04-21 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Meta Platforms",
+      "ticker": "META",
+      "pos": 8,
+      "neg": 7,
+      "neu": 0,
+      "total": 15,
+      "score": 0.067,
+      "categories": {
+        "Business": {
+          "pos": 5,
+          "neg": 6,
+          "neu": 0
+        },
+        "Performance": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 0
+        },
+        "NewsRelease": {
+          "pos": 3,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
+          "pos": 7,
+          "neg": 6,
+          "neu": 0,
+          "total": 13,
+          "score": 0.077
+        },
+        {
+          "cluster_id": 27,
+          "label": "\"AI's Impact on the Workforce\"",
+          "meta_category": "AI and Tech",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 13,
+          "label": "Iran Conflict Escalates Globally",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 14,
+          "label": "\"Apple Names New CEO\"",
+          "meta_category": "AI and Tech",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        },
+        {
+          "cluster_id": 17,
+          "label": "Jeffrey Epstein Investigation Continues",
+          "meta_category": "Financial Regulation",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "20,000 job cuts at Meta, Microsoft raise concern that AI-driven labor crisis is here",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Nvidia stock closes at record, pushing market cap past $5 trillion",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Texas Instruments' stock jumps 19% for best day since 2000 as AI demand soars",
+          "date": "2026-04-23 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Meta will cut 10% of workforce as company pushes deeper into AI",
+          "date": "2026-04-23 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Bristol West car insurance review 2026",
+          "date": "2026-04-21 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Robinhood Markets",
+      "ticker": "HOOD",
       "pos": 1,
       "neg": 1,
       "neu": 0,
@@ -1948,9 +2063,54 @@
       },
       "clusters": [
         {
-          "cluster_id": 23,
-          "label": "\"Tech Giants Invest in AI\"",
-          "meta_category": "Tech Giants Dominate",
+          "cluster_id": 2,
+          "label": "\"Prediction Markets Under Scrutiny\"",
+          "meta_category": "Financial Regulation",
+          "pos": 1,
+          "neg": 1,
+          "neu": 0,
+          "total": 2,
+          "score": 0.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Prediction markets could soon be available in your retirement account",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Polymarket launches trading of heavily leveraged 'perps' contracts",
+          "date": "2026-04-21 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Micron Technology",
+      "ticker": "MU",
+      "pos": 1,
+      "neg": 1,
+      "neu": 0,
+      "total": 2,
+      "score": 0.0,
+      "categories": {
+        "Performance": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        },
+        "Business": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -1968,6 +2128,295 @@
           "headline": "Marvell stock pops on report it will help Google with custom AI chips",
           "date": "2026-04-20 00:00:00",
           "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Snowflake",
+      "ticker": "SNOW",
+      "pos": 1,
+      "neg": 1,
+      "neu": 0,
+      "total": 2,
+      "score": 0.0,
+      "categories": {
+        "Recruitment": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 0
+        },
+        "Business": {
+          "pos": 1,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 3,
+          "label": "\"AI Investment and Market Trends\"",
+          "meta_category": "AI and Tech",
+          "pos": 1,
+          "neg": 1,
+          "neu": 0,
+          "total": 2,
+          "score": 0.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "AI talent war: Software industry is a new target as top executives jump ship to OpenAI",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Deere",
+      "ticker": "DE",
+      "pos": 2,
+      "neg": 2,
+      "neu": 0,
+      "total": 4,
+      "score": 0.0,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        },
+        "Legal": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [],
+      "articles": [
+        {
+          "headline": "A populist consumer movement is rising to end the 'captive' repair economy",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Caterpillar",
+      "ticker": "CAT",
+      "pos": 1,
+      "neg": 1,
+      "neu": 0,
+      "total": 2,
+      "score": 0.0,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 14,
+          "label": "\"Apple Names New CEO\"",
+          "meta_category": "AI and Tech",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "A populist consumer movement is rising to end the 'captive' repair economy",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "-"
+        },
+        {
+          "headline": "Berkshire attracts interest as it slips further behind the S&P 500",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        }
+      ]
+    },
+    {
+      "entity": "Berkshire Hathaway",
+      "ticker": "BRK-B",
+      "pos": 2,
+      "neg": 2,
+      "neu": 0,
+      "total": 4,
+      "score": 0.0,
+      "categories": {
+        "Business": {
+          "pos": 2,
+          "neg": 1,
+          "neu": 0
+        },
+        "Performance": {
+          "pos": 0,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 14,
+          "label": "\"Apple Names New CEO\"",
+          "meta_category": "AI and Tech",
+          "pos": 2,
+          "neg": 1,
+          "neu": 0,
+          "total": 3,
+          "score": 0.333
+        },
+        {
+          "cluster_id": 17,
+          "label": "Jeffrey Epstein Investigation Continues",
+          "meta_category": "Financial Regulation",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Berkshire attracts interest as it slips further behind the S&P 500",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Gates Foundation reviewing Jeffrey Epstein ties, will slash 20% of staff: WSJ",
+          "date": "2026-04-21 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Constellation Brands",
+      "ticker": "STZ",
+      "pos": 1,
+      "neg": 1,
+      "neu": 0,
+      "total": 2,
+      "score": 0.0,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 14,
+          "label": "\"Apple Names New CEO\"",
+          "meta_category": "AI and Tech",
+          "pos": 1,
+          "neg": 0,
+          "neu": 0,
+          "total": 1,
+          "score": 1.0
+        },
+        {
+          "cluster_id": 10,
+          "label": "Retailers Struggle with Turnaround",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 0,
+          "neg": 1,
+          "neu": 0,
+          "total": 1,
+          "score": -1.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Berkshire attracts interest as it slips further behind the S&P 500",
+          "date": "2026-04-24 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "How the restaurant group behind NYC's Carbone is overcoming young people shunning alcohol",
+          "date": "2026-04-23 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Rivian Automotive",
+      "ticker": "RIVN",
+      "pos": 1,
+      "neg": 1,
+      "neu": 0,
+      "total": 2,
+      "score": 0.0,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 19,
+          "label": "Electric Vehicle Market Shifts Globally",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 1,
+          "neg": 1,
+          "neu": 0,
+          "total": 2,
+          "score": 0.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Rivian hits production milestone for R2 EV ahead of customer deliveries",
+          "date": "2026-04-22 00:00:00",
+          "polarity": "+"
+        },
+        {
+          "headline": "Rivian's factory damaged by tornado amid crucial R2 EV launch",
+          "date": "2026-04-20 00:00:00",
+          "polarity": "-"
+        }
+      ]
+    },
+    {
+      "entity": "Versant Media Group",
+      "ticker": "VSNT",
+      "pos": 1,
+      "neg": 1,
+      "neu": 0,
+      "total": 2,
+      "score": 0.0,
+      "categories": {
+        "Business": {
+          "pos": 1,
+          "neg": 1,
+          "neu": 0
+        }
+      },
+      "clusters": [
+        {
+          "cluster_id": 1,
+          "label": "\"Streaming Services Face Mergers\"",
+          "meta_category": "Global Market Uncertainty",
+          "pos": 1,
+          "neg": 1,
+          "neu": 0,
+          "total": 2,
+          "score": 0.0
+        }
+      ],
+      "articles": [
+        {
+          "headline": "Comcast beats revenue, earnings expectations as broadband losses improve",
+          "date": "2026-04-22 00:00:00",
+          "polarity": "+"
         }
       ]
     }
