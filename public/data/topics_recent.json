@@ -1,7 +1,7 @@
 {
   "name": "root",
   "mode": "recent",
-  "updated_at": "2026-04-26T01:05:19.543082+00:00",
+  "updated_at": "2026-04-26T07:23:33.067047+00:00",
   "children": [
     {
       "name": "Artificial Intelligence and Business",
@@ -9,7 +9,7 @@
       "children": [
         {
           "cluster_id": 3,
-          "name": "\"AI Investment and Market Trends\"",
+          "name": "\"AI Investment and Market Shifts\"",
           "count": 22,
           "children": [
             {
@@ -213,12 +213,12 @@
           ],
           "related_tickers_named": [
             {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
               "ticker": "GOOG",
               "name": "Alphabet"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
             },
             {
               "ticker": "NVDA",
@@ -274,7 +274,7 @@
         },
         {
           "cluster_id": 14,
-          "name": "\"Apple Names New CEO\"",
+          "name": "\"Tim Cook's Legacy at Apple\"",
           "count": 5,
           "children": [
             {
@@ -329,28 +329,28 @@
               "name": "Apple"
             },
             {
-              "ticker": "NXST",
-              "name": "Nexstar Media Group"
-            },
-            {
               "ticker": "AMZN",
               "name": "Amazon.com"
+            },
+            {
+              "ticker": "NXST",
+              "name": "Nexstar Media Group"
             },
             {
               "ticker": "GOOG",
               "name": "Alphabet"
             },
             {
+              "ticker": "JPM",
+              "name": "JPMorgan Chase"
+            },
+            {
+              "ticker": "KR",
+              "name": "Kroger"
+            },
+            {
               "ticker": "WMT",
               "name": "Walmart"
-            },
-            {
-              "ticker": "STZ",
-              "name": "Constellation Brands"
-            },
-            {
-              "ticker": "CAT",
-              "name": "Caterpillar"
             }
           ],
           "related_tickers_semantic": [
@@ -427,24 +427,24 @@
               "name": "Reddit"
             },
             {
+              "ticker": "META",
+              "name": "Meta Platforms"
+            },
+            {
               "ticker": "AMZN",
               "name": "Amazon.com"
             },
             {
-              "ticker": "CRM",
-              "name": "Salesforce"
+              "ticker": "ORCL",
+              "name": "Oracle"
             },
             {
               "ticker": "MSFT",
               "name": "Microsoft"
             },
             {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "NKE",
-              "name": "Nike"
+              "ticker": "CRM",
+              "name": "Salesforce"
             }
           ],
           "related_tickers_semantic": [
@@ -883,109 +883,12 @@
       ]
     },
     {
-      "name": "Dietary Therapies and Treatments",
-      "count": 4,
-      "children": [
-        {
-          "cluster_id": 4,
-          "name": "GLP-1 Weight Loss Medications",
-          "count": 4,
-          "children": [
-            {
-              "name": "Trump administration moves to reclassify marijuana—what it means for investors",
-              "summary": "In the near term, Kovler says, the move could remove what amounts to a huge tax burden on cannabis firms.",
-              "hash": "62c1c6b75abcc9f9",
-              "chunk_key": "62c1c6b75abcc9f9_c001",
-              "article_date": "2026-04-23 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Regeneron inks drug pricing deal with Trump, will offer hearing-loss therapy for free",
-              "summary": "In this article Regeneron agreed to lower U.S. drug prices for some Americans as part of a deal with President Donald Trump, the White House said on Thursday.",
-              "hash": "7646b69235f6f958",
-              "chunk_key": "7646b69235f6f958_c000",
-              "article_date": "2026-04-23 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Amazon launches GLP-1 weight loss program, promising 'fast, convenient' access",
-              "summary": "In this article Amazon is pushing deeper into the booming weight loss market, unveiling Tuesday a new program that aims to simplify access to popular GLP-1 treatments.",
-              "hash": "2e149716d91d533d",
-              "chunk_key": "2e149716d91d533d_c000",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "How Trump's psychedelics executive order could unlock stalled cannabis reform",
-              "summary": "It directs agencies like the U.S.",
-              "hash": "6fa409443bbc1aff",
-              "chunk_key": "6fa409443bbc1aff_c001",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "VKTX",
-              "name": "Viking Therapeutics"
-            },
-            {
-              "ticker": "AMGN",
-              "name": "Amgen"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "REGN",
-              "name": "Regeneron Pharmaceuticals"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMGN",
-              "name": "Amgen"
-            },
-            {
-              "ticker": "MRK",
-              "name": "Merck"
-            },
-            {
-              "ticker": "JNJ",
-              "name": "Johnson Johnson"
-            },
-            {
-              "ticker": "BMY",
-              "name": "Bristol-Myers Squibb"
-            },
-            {
-              "ticker": "PFE",
-              "name": "Pfizer"
-            },
-            {
-              "ticker": "VTR",
-              "name": "Ventas"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Emerging Beauty and Tech",
+      "name": "Emerging Trends in Business",
       "count": 2,
       "children": [
         {
           "cluster_id": 7,
-          "name": "Beauty Brands Cater to Gen X",
+          "name": "Beauty Industry Shifts to Gen X",
           "count": 2,
           "children": [
             {
@@ -1009,16 +912,16 @@
           ],
           "related_tickers_named": [
             {
-              "ticker": "TPR",
-              "name": "Tapestry"
+              "ticker": "DASH",
+              "name": "DoorDash"
             },
             {
               "ticker": "UBER",
               "name": "Uber Technologies"
             },
             {
-              "ticker": "DASH",
-              "name": "DoorDash"
+              "ticker": "TPR",
+              "name": "Tapestry"
             }
           ],
           "related_tickers_semantic": [
@@ -1055,12 +958,12 @@
       ]
     },
     {
-      "name": "Financial Market Turbulence",
+      "name": "Financial Sector Uncertainty",
       "count": 2,
       "children": [
         {
           "cluster_id": 6,
-          "name": "Mortgage Rates Rise Sharply",
+          "name": "Real Estate Market Trends",
           "count": 1,
           "children": [
             {
@@ -1078,7 +981,7 @@
         },
         {
           "cluster_id": 11,
-          "name": "US Banks Weather Market Volatility",
+          "name": "US Banks Navigate Uncertainty",
           "count": 1,
           "children": [
             {
@@ -1102,7 +1005,170 @@
       ]
     },
     {
-      "name": "Financial Planning and Tax",
+      "name": "Financial System Crisis",
+      "count": 9,
+      "children": [
+        {
+          "cluster_id": 17,
+          "name": "Jeffrey Epstein Sex Abuse Scandal",
+          "count": 5,
+          "children": [
+            {
+              "name": "DOJ watchdog investigating handling of Jeffrey Epstein files",
+              "summary": "The Department of Justice 's internal watchdog said on Thursday that it is investigating the DOJ's compliance with a law requiring that it fully disclose department files about the…",
+              "hash": "754cf92bb18779e3",
+              "chunk_key": "754cf92bb18779e3_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Thief who swiped purse of ex-DHS chief Kristi Noem gets 3 years in prison",
+              "summary": "Bustamante Leiva was later charged with stealing purses in three separate incidents in April 2025. He pleaded guilty on Nov.",
+              "hash": "0ddf711ec8611a52",
+              "chunk_key": "0ddf711ec8611a52_c001",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump details Cook call to 'kiss my ass,' a stark look at White House dealmaking",
+              "summary": "Amazon insisted it did nothing \"improper,\" according to Variety . Companies outside of Silicon Valley have also gone to great lengths to win over the president.",
+              "hash": "2b2e6461785a0c3b",
+              "chunk_key": "2b2e6461785a0c3b_c006",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Gates Foundation reviewing Jeffrey Epstein ties, will slash 20% of staff: WSJ",
+              "summary": "In this article The Gates Foundation has launched an external review of the philanthropy's past ties with notorious sex offender Jeffrey Epstein , The Wall Street Journal reported …",
+              "hash": "e7a89c677da71cdb",
+              "chunk_key": "e7a89c677da71cdb_c000",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "DOJ charges Southern Poverty Law Center with fraud over secret funding of extremist groups",
+              "summary": "The Department of Justice on Tuesday announced a bombshell 11-count indictment accusing the Southern Poverty Law Center of secretly funding right-wing extremist groups that it clai…",
+              "hash": "7d8696a9d5d3d761",
+              "chunk_key": "7d8696a9d5d3d761_c000",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "NXST",
+              "name": "Nexstar Media Group"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "AAPL",
+              "name": "Apple"
+            },
+            {
+              "ticker": "INTC",
+              "name": "Intel"
+            },
+            {
+              "ticker": "META",
+              "name": "Meta Platforms"
+            },
+            {
+              "ticker": "DIS",
+              "name": "Walt Disney"
+            },
+            {
+              "ticker": "BRK-B",
+              "name": "Berkshire Hathaway"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "WBD",
+              "name": "Warner Bros Discovery"
+            },
+            {
+              "ticker": "RAL",
+              "name": "Ralliant"
+            },
+            {
+              "ticker": "CMCSA",
+              "name": "Comcast"
+            },
+            {
+              "ticker": "NXST",
+              "name": "Nexstar Media Group"
+            },
+            {
+              "ticker": "VSNT",
+              "name": "Versant Media Group"
+            },
+            {
+              "ticker": "APLS",
+              "name": "Apellis Pharmaceuticals"
+            }
+          ]
+        },
+        {
+          "cluster_id": 18,
+          "name": "US Government Shutdown Continues",
+          "count": 4,
+          "children": [
+            {
+              "name": "Senate Republicans unveil immigration funding framework as DHS shutdown drags on",
+              "summary": "Graham , R-S.C., said in a statement . \"With this budget resolution, we are moving forward — not backward — on rational immigration policies that secure our border,\" Graham said.",
+              "hash": "f68b6efa67a90af3",
+              "chunk_key": "f68b6efa67a90af3_c001",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Rep. Sheila Cherfilus-McCormick resigns, third House member to quit this month",
+              "summary": "Rep.",
+              "hash": "8b5a0a96ef4d6505",
+              "chunk_key": "8b5a0a96ef4d6505_c000",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Labor Secretary Lori Chavez-DeRemer leaves Trump cabinet, Keith Sonderling takes over",
+              "summary": "Department of Labor Secretary Lori Chavez-DeRemer is resigning from the Trump administration, the White House said Monday.",
+              "hash": "cb159e88b590e23d",
+              "chunk_key": "cb159e88b590e23d_c000",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Swalwell resignation over sexual misconduct prompts rare Ethics panel remarks",
+              "summary": "The panel has often come under fire for its glacial pace, and has been the target of increased scrutiny of late .",
+              "hash": "12dc809f6283aea3",
+              "chunk_key": "12dc809f6283aea3_c001",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [],
+          "related_tickers_semantic": []
+        }
+      ]
+    },
+    {
+      "name": "Financial Year-End Planning",
       "count": 6,
       "children": [
         {
@@ -1143,7 +1209,7 @@
         },
         {
           "cluster_id": 23,
-          "name": "\"Student Loan Changes Affect Graduates\"",
+          "name": "Student Loan Changes Affect Graduates",
           "count": 2,
           "children": [
             {
@@ -1189,12 +1255,12 @@
       ]
     },
     {
-      "name": "Global Economic Uncertainty",
+      "name": "Global Economic Turbulence",
       "count": 44,
       "children": [
         {
           "cluster_id": 13,
-          "name": "Iran Conflict Escalates Globally",
+          "name": "Middle East Oil Crisis",
           "count": 26,
           "children": [
             {
@@ -1599,16 +1665,16 @@
               "name": "Amazon.com"
             },
             {
-              "ticker": "CHWY",
-              "name": "Chewy"
+              "ticker": "BBY",
+              "name": "Best Buy"
+            },
+            {
+              "ticker": "TGT",
+              "name": "Target"
             },
             {
               "ticker": "HD",
               "name": "Home Depot"
-            },
-            {
-              "ticker": "BBY",
-              "name": "Best Buy"
             }
           ],
           "related_tickers_semantic": [
@@ -1644,7 +1710,7 @@
         },
         {
           "cluster_id": 19,
-          "name": "Electric Vehicle Market Shifts Globally",
+          "name": "Electric Vehicles in Global Market",
           "count": 5,
           "children": [
             {
@@ -1740,7 +1806,7 @@
         },
         {
           "cluster_id": 9,
-          "name": "\"US Trade Policy Under Scrutiny\"",
+          "name": "US Trade Tensions Escalate",
           "count": 3,
           "children": [
             {
@@ -1777,16 +1843,16 @@
               "name": "FedEx"
             },
             {
-              "ticker": "WMT",
-              "name": "Walmart"
+              "ticker": "JPM",
+              "name": "JPMorgan Chase"
             },
             {
               "ticker": "C",
               "name": "Citigroup"
             },
             {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
+              "ticker": "WMT",
+              "name": "Walmart"
             }
           ],
           "related_tickers_semantic": [
@@ -1815,165 +1881,99 @@
       ]
     },
     {
-      "name": "Government Accountability Issues",
-      "count": 9,
+      "name": "Obesity Treatment and Management",
+      "count": 4,
       "children": [
         {
-          "cluster_id": 17,
-          "name": "Jeffrey Epstein Investigation Continues",
-          "count": 5,
+          "cluster_id": 4,
+          "name": "Weight Loss Medication Market",
+          "count": 4,
           "children": [
             {
-              "name": "DOJ watchdog investigating handling of Jeffrey Epstein files",
-              "summary": "The Department of Justice 's internal watchdog said on Thursday that it is investigating the DOJ's compliance with a law requiring that it fully disclose department files about the…",
-              "hash": "754cf92bb18779e3",
-              "chunk_key": "754cf92bb18779e3_c000",
+              "name": "Trump administration moves to reclassify marijuana—what it means for investors",
+              "summary": "In the near term, Kovler says, the move could remove what amounts to a huge tax burden on cannabis firms.",
+              "hash": "62c1c6b75abcc9f9",
+              "chunk_key": "62c1c6b75abcc9f9_c001",
               "article_date": "2026-04-23 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Thief who swiped purse of ex-DHS chief Kristi Noem gets 3 years in prison",
-              "summary": "Bustamante Leiva was later charged with stealing purses in three separate incidents in April 2025. He pleaded guilty on Nov.",
-              "hash": "0ddf711ec8611a52",
-              "chunk_key": "0ddf711ec8611a52_c001",
-              "article_date": "2026-04-22 00:00:00",
+              "name": "Regeneron inks drug pricing deal with Trump, will offer hearing-loss therapy for free",
+              "summary": "In this article Regeneron agreed to lower U.S. drug prices for some Americans as part of a deal with President Donald Trump, the White House said on Thursday.",
+              "hash": "7646b69235f6f958",
+              "chunk_key": "7646b69235f6f958_c000",
+              "article_date": "2026-04-23 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Trump details Cook call to 'kiss my ass,' a stark look at White House dealmaking",
-              "summary": "Amazon insisted it did nothing \"improper,\" according to Variety . Companies outside of Silicon Valley have also gone to great lengths to win over the president.",
-              "hash": "2b2e6461785a0c3b",
-              "chunk_key": "2b2e6461785a0c3b_c006",
+              "name": "Amazon launches GLP-1 weight loss program, promising 'fast, convenient' access",
+              "summary": "In this article Amazon is pushing deeper into the booming weight loss market, unveiling Tuesday a new program that aims to simplify access to popular GLP-1 treatments.",
+              "hash": "2e149716d91d533d",
+              "chunk_key": "2e149716d91d533d_c000",
               "article_date": "2026-04-21 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Gates Foundation reviewing Jeffrey Epstein ties, will slash 20% of staff: WSJ",
-              "summary": "In this article The Gates Foundation has launched an external review of the philanthropy's past ties with notorious sex offender Jeffrey Epstein , The Wall Street Journal reported …",
-              "hash": "e7a89c677da71cdb",
-              "chunk_key": "e7a89c677da71cdb_c000",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "DOJ charges Southern Poverty Law Center with fraud over secret funding of extremist groups",
-              "summary": "The Department of Justice on Tuesday announced a bombshell 11-count indictment accusing the Southern Poverty Law Center of secretly funding right-wing extremist groups that it clai…",
-              "hash": "7d8696a9d5d3d761",
-              "chunk_key": "7d8696a9d5d3d761_c000",
-              "article_date": "2026-04-21 00:00:00",
+              "name": "How Trump's psychedelics executive order could unlock stalled cannabis reform",
+              "summary": "It directs agencies like the U.S.",
+              "hash": "6fa409443bbc1aff",
+              "chunk_key": "6fa409443bbc1aff_c001",
+              "article_date": "2026-04-20 00:00:00",
               "provider": "CNBC",
               "value": 1
             }
           ],
           "related_tickers_named": [
             {
-              "ticker": "NXST",
-              "name": "Nexstar Media Group"
-            },
-            {
               "ticker": "AMZN",
               "name": "Amazon.com"
             },
             {
-              "ticker": "INTC",
-              "name": "Intel"
+              "ticker": "VKTX",
+              "name": "Viking Therapeutics"
             },
             {
-              "ticker": "AAPL",
-              "name": "Apple"
+              "ticker": "AMGN",
+              "name": "Amgen"
             },
             {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "DIS",
-              "name": "Walt Disney"
-            },
-            {
-              "ticker": "BRK-B",
-              "name": "Berkshire Hathaway"
+              "ticker": "REGN",
+              "name": "Regeneron Pharmaceuticals"
             }
           ],
           "related_tickers_semantic": [
             {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
+              "ticker": "NVDA",
+              "name": "Nvidia"
             },
             {
-              "ticker": "WBD",
-              "name": "Warner Bros Discovery"
+              "ticker": "AMGN",
+              "name": "Amgen"
             },
             {
-              "ticker": "RAL",
-              "name": "Ralliant"
+              "ticker": "MRK",
+              "name": "Merck"
             },
             {
-              "ticker": "CMCSA",
-              "name": "Comcast"
+              "ticker": "JNJ",
+              "name": "Johnson Johnson"
             },
             {
-              "ticker": "NXST",
-              "name": "Nexstar Media Group"
+              "ticker": "BMY",
+              "name": "Bristol-Myers Squibb"
             },
             {
-              "ticker": "VSNT",
-              "name": "Versant Media Group"
+              "ticker": "PFE",
+              "name": "Pfizer"
             },
             {
-              "ticker": "APLS",
-              "name": "Apellis Pharmaceuticals"
+              "ticker": "VTR",
+              "name": "Ventas"
             }
           ]
-        },
-        {
-          "cluster_id": 18,
-          "name": "US Government Shutdown Continues",
-          "count": 4,
-          "children": [
-            {
-              "name": "Senate Republicans unveil immigration funding framework as DHS shutdown drags on",
-              "summary": "Graham , R-S.C., said in a statement . \"With this budget resolution, we are moving forward — not backward — on rational immigration policies that secure our border,\" Graham said.",
-              "hash": "f68b6efa67a90af3",
-              "chunk_key": "f68b6efa67a90af3_c001",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Rep. Sheila Cherfilus-McCormick resigns, third House member to quit this month",
-              "summary": "Rep.",
-              "hash": "8b5a0a96ef4d6505",
-              "chunk_key": "8b5a0a96ef4d6505_c000",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Labor Secretary Lori Chavez-DeRemer leaves Trump cabinet, Keith Sonderling takes over",
-              "summary": "Department of Labor Secretary Lori Chavez-DeRemer is resigning from the Trump administration, the White House said Monday.",
-              "hash": "cb159e88b590e23d",
-              "chunk_key": "cb159e88b590e23d_c000",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Swalwell resignation over sexual misconduct prompts rare Ethics panel remarks",
-              "summary": "The panel has often come under fire for its glacial pace, and has been the target of increased scrutiny of late .",
-              "hash": "12dc809f6283aea3",
-              "chunk_key": "12dc809f6283aea3_c001",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
         }
       ]
     },
@@ -1983,7 +1983,7 @@
       "children": [
         {
           "cluster_id": 10,
-          "name": "Retailers Struggle with Turnaround",
+          "name": "Retailers Struggle with Sales Decline",
           "count": 3,
           "children": [
             {
@@ -2024,12 +2024,12 @@
               "name": "Hyatt Hotels"
             },
             {
-              "ticker": "LULU",
-              "name": "Lululemon Athletica"
-            },
-            {
               "ticker": "SPOT",
               "name": "Spotify Technology"
+            },
+            {
+              "ticker": "LULU",
+              "name": "Lululemon Athletica"
             },
             {
               "ticker": "STZ",
@@ -2069,7 +2069,7 @@
         },
         {
           "cluster_id": 1,
-          "name": "\"Streaming Services Face Mergers\"",
+          "name": "\"Streaming Services Face Profitability\"",
           "count": 2,
           "children": [
             {
@@ -2105,12 +2105,12 @@
               "name": "Versant Media Group"
             },
             {
-              "ticker": "DIS",
-              "name": "Walt Disney"
-            },
-            {
               "ticker": "TMUS",
               "name": "T-Mobile US"
+            },
+            {
+              "ticker": "DIS",
+              "name": "Walt Disney"
             },
             {
               "ticker": "WBD",

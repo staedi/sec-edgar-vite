@@ -1,6 +1,6 @@
 {
   "mode": "full",
-  "updated_at": "2026-04-26T01:05:47.316494+00:00",
+  "updated_at": "2026-04-26T07:23:56.626893+00:00",
   "entities": [
     {
       "entity": "Nvidia",
@@ -35,7 +35,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 115,
           "neg": 44,
@@ -45,8 +45,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 28,
           "neg": 9,
           "neu": 1,
@@ -65,8 +65,8 @@
         },
         {
           "cluster_id": 19,
-          "label": "Electric Vehicle Market Shifts Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Electric Vehicles in Global Market",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -75,8 +75,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -86,7 +86,7 @@
         {
           "cluster_id": 21,
           "label": "\"Entrepreneurship in the AI Era\"",
-          "meta_category": "Emerging Beauty and Tech",
+          "meta_category": "Emerging Trends in Business",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -176,7 +176,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 4,
           "neg": 1,
           "neu": 0,
@@ -185,8 +185,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 3,
           "neg": 0,
           "neu": 0,
@@ -195,8 +195,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -260,8 +260,8 @@
         },
         {
           "cluster_id": 6,
-          "label": "Mortgage Rates Rise Sharply",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Real Estate Market Trends",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 4,
           "neg": 0,
           "neu": 0,
@@ -310,7 +310,7 @@
       "clusters": [
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 1,
           "neg": 0,
@@ -320,8 +320,8 @@
         },
         {
           "cluster_id": 6,
-          "label": "Mortgage Rates Rise Sharply",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Real Estate Market Trends",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -375,7 +375,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 12,
           "neg": 1,
@@ -435,7 +435,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 37,
           "neg": 12,
@@ -445,7 +445,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
@@ -455,8 +455,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -465,8 +465,8 @@
         },
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -475,8 +475,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -530,7 +530,7 @@
       "clusters": [
         {
           "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
+          "label": "\"Streaming Services Face Profitability\"",
           "meta_category": "Retail Industry Challenges",
           "pos": 5,
           "neg": 0,
@@ -540,8 +540,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -634,7 +634,7 @@
       "clusters": [
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 57,
           "neg": 17,
@@ -644,7 +644,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 16,
           "neg": 7,
@@ -654,8 +654,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 5,
           "neu": 0,
@@ -664,8 +664,8 @@
         },
         {
           "cluster_id": 19,
-          "label": "Electric Vehicle Market Shifts Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Electric Vehicles in Global Market",
+          "meta_category": "Global Economic Turbulence",
           "pos": 4,
           "neg": 1,
           "neu": 0,
@@ -674,8 +674,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 2,
           "neg": 2,
           "neu": 0,
@@ -684,7 +684,7 @@
         },
         {
           "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
+          "label": "\"Streaming Services Face Profitability\"",
           "meta_category": "Retail Industry Challenges",
           "pos": 1,
           "neg": 0,
@@ -694,8 +694,8 @@
         },
         {
           "cluster_id": 23,
-          "label": "\"Student Loan Changes Affect Graduates\"",
-          "meta_category": "Financial Planning and Tax",
+          "label": "Student Loan Changes Affect Graduates",
+          "meta_category": "Financial Year-End Planning",
           "pos": 0,
           "neg": 0,
           "neu": 1,
@@ -714,7 +714,7 @@
         },
         {
           "cluster_id": 0,
-          "label": "Pop Mart's IP Growth Concerns",
+          "label": "Pop Mart's Global Expansion Struggles",
           "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 1,
@@ -724,8 +724,8 @@
         },
         {
           "cluster_id": 6,
-          "label": "Mortgage Rates Rise Sharply",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Real Estate Market Trends",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -735,7 +735,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -795,7 +795,7 @@
         {
           "cluster_id": 16,
           "label": "Retirement Savings and Planning",
-          "meta_category": "Financial Planning and Tax",
+          "meta_category": "Financial Year-End Planning",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -868,8 +868,8 @@
       "clusters": [
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 6,
           "neg": 1,
           "neu": 0,
@@ -878,8 +878,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -888,7 +888,7 @@
         },
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 1,
           "neg": 0,
@@ -898,8 +898,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -908,7 +908,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -978,7 +978,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 45,
           "neg": 10,
@@ -989,7 +989,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 33,
           "neg": 23,
           "neu": 1,
@@ -998,8 +998,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 4,
           "neg": 5,
           "neu": 0,
@@ -1019,7 +1019,7 @@
         {
           "cluster_id": 21,
           "label": "\"Entrepreneurship in the AI Era\"",
-          "meta_category": "Emerging Beauty and Tech",
+          "meta_category": "Emerging Trends in Business",
           "pos": 1,
           "neg": 4,
           "neu": 0,
@@ -1028,7 +1028,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 2,
@@ -1038,8 +1038,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 3,
           "neg": 0,
           "neu": 0,
@@ -1048,8 +1048,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 2,
           "neg": 1,
           "neu": 0,
@@ -1068,7 +1068,7 @@
         },
         {
           "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
+          "label": "\"Streaming Services Face Profitability\"",
           "meta_category": "Retail Industry Challenges",
           "pos": 2,
           "neg": 0,
@@ -1078,8 +1078,8 @@
         },
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1143,8 +1143,8 @@
       "clusters": [
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 23,
           "neg": 7,
           "neu": 0,
@@ -1153,8 +1153,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1163,7 +1163,7 @@
         },
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 1,
           "neg": 0,
@@ -1173,7 +1173,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
@@ -1183,8 +1183,8 @@
         },
         {
           "cluster_id": 19,
-          "label": "Electric Vehicle Market Shifts Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Electric Vehicles in Global Market",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1238,8 +1238,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -1248,8 +1248,8 @@
         },
         {
           "cluster_id": 7,
-          "label": "Beauty Brands Cater to Gen X",
-          "meta_category": "Emerging Beauty and Tech",
+          "label": "Beauty Industry Shifts to Gen X",
+          "meta_category": "Emerging Trends in Business",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1269,7 +1269,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1318,8 +1318,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 4,
           "neg": 0,
           "neu": 0,
@@ -1368,8 +1368,8 @@
       "clusters": [
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 4,
           "neg": 0,
           "neu": 0,
@@ -1414,7 +1414,7 @@
         {
           "cluster_id": 15,
           "label": "Tax Refunds Increase This Season",
-          "meta_category": "Financial Planning and Tax",
+          "meta_category": "Financial Year-End Planning",
           "pos": 7,
           "neg": 0,
           "neu": 0,
@@ -1423,8 +1423,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 3,
           "neg": 1,
           "neu": 0,
@@ -1483,7 +1483,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 7,
           "neg": 1,
@@ -1523,8 +1523,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 6,
           "neg": 3,
           "neu": 0,
@@ -1533,8 +1533,8 @@
         },
         {
           "cluster_id": 11,
-          "label": "US Banks Weather Market Volatility",
-          "meta_category": "Financial Market Turbulence",
+          "label": "US Banks Navigate Uncertainty",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 5,
           "neg": 2,
           "neu": 0,
@@ -1543,7 +1543,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 4,
           "neg": 0,
@@ -1553,8 +1553,8 @@
         },
         {
           "cluster_id": 19,
-          "label": "Electric Vehicle Market Shifts Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Electric Vehicles in Global Market",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -1563,8 +1563,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1573,8 +1573,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1593,8 +1593,8 @@
         },
         {
           "cluster_id": 5,
-          "label": "India Grapples with Global Uncertainty",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "India Grapples with Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1658,8 +1658,8 @@
       "clusters": [
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 6,
           "neg": 1,
           "neu": 0,
@@ -1713,8 +1713,8 @@
       "clusters": [
         {
           "cluster_id": 11,
-          "label": "US Banks Weather Market Volatility",
-          "meta_category": "Financial Market Turbulence",
+          "label": "US Banks Navigate Uncertainty",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 32,
           "neg": 11,
           "neu": 0,
@@ -1723,8 +1723,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 11,
           "neg": 3,
           "neu": 0,
@@ -1733,7 +1733,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 3,
           "neg": 4,
@@ -1743,7 +1743,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 0,
@@ -1753,8 +1753,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -1763,8 +1763,8 @@
         },
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -1773,8 +1773,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1784,7 +1784,7 @@
         {
           "cluster_id": 15,
           "label": "Tax Refunds Increase This Season",
-          "meta_category": "Financial Planning and Tax",
+          "meta_category": "Financial Year-End Planning",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1793,7 +1793,7 @@
         },
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 1,
@@ -1804,7 +1804,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1814,7 +1814,7 @@
         {
           "cluster_id": 18,
           "label": "US Government Shutdown Continues",
-          "meta_category": "Government Accountability Issues",
+          "meta_category": "Financial System Crisis",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1823,8 +1823,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1883,8 +1883,8 @@
       "clusters": [
         {
           "cluster_id": 11,
-          "label": "US Banks Weather Market Volatility",
-          "meta_category": "Financial Market Turbulence",
+          "label": "US Banks Navigate Uncertainty",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 7,
           "neg": 2,
           "neu": 0,
@@ -1893,8 +1893,8 @@
         },
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 2,
           "neg": 5,
           "neu": 0,
@@ -1903,8 +1903,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 5,
           "neg": 1,
           "neu": 0,
@@ -1913,7 +1913,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 4,
           "neg": 0,
@@ -1924,7 +1924,7 @@
         {
           "cluster_id": 18,
           "label": "US Government Shutdown Continues",
-          "meta_category": "Government Accountability Issues",
+          "meta_category": "Financial System Crisis",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -1933,8 +1933,8 @@
         },
         {
           "cluster_id": 19,
-          "label": "Electric Vehicle Market Shifts Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Electric Vehicles in Global Market",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -1953,8 +1953,8 @@
         },
         {
           "cluster_id": 5,
-          "label": "India Grapples with Global Uncertainty",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "India Grapples with Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -1973,7 +1973,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -2053,7 +2053,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 0,
@@ -2098,8 +2098,8 @@
       "clusters": [
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 5,
           "neg": 3,
           "neu": 0,
@@ -2108,8 +2108,8 @@
         },
         {
           "cluster_id": 5,
-          "label": "India Grapples with Global Uncertainty",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "India Grapples with Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 4,
           "neg": 0,
           "neu": 0,
@@ -2118,8 +2118,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 3,
           "neg": 0,
           "neu": 0,
@@ -2128,7 +2128,7 @@
         },
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 1,
           "neg": 0,
@@ -2138,8 +2138,8 @@
         },
         {
           "cluster_id": 11,
-          "label": "US Banks Weather Market Volatility",
-          "meta_category": "Financial Market Turbulence",
+          "label": "US Banks Navigate Uncertainty",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -2198,8 +2198,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -2253,8 +2253,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 3,
           "neu": 0,
@@ -2288,8 +2288,8 @@
       "clusters": [
         {
           "cluster_id": 6,
-          "label": "Mortgage Rates Rise Sharply",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Real Estate Market Trends",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -2298,8 +2298,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -2339,7 +2339,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -2348,8 +2348,8 @@
         },
         {
           "cluster_id": 19,
-          "label": "Electric Vehicle Market Shifts Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Electric Vehicles in Global Market",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -2398,8 +2398,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 10,
           "neu": 0,
@@ -2408,7 +2408,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 4,
           "neg": 3,
@@ -2429,7 +2429,7 @@
         {
           "cluster_id": 21,
           "label": "\"Entrepreneurship in the AI Era\"",
-          "meta_category": "Emerging Beauty and Tech",
+          "meta_category": "Emerging Trends in Business",
           "pos": 0,
           "neg": 3,
           "neu": 0,
@@ -2498,7 +2498,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 5,
           "neg": 1,
@@ -2538,7 +2538,7 @@
       "clusters": [
         {
           "cluster_id": 0,
-          "label": "Pop Mart's IP Growth Concerns",
+          "label": "Pop Mart's Global Expansion Struggles",
           "meta_category": "Retail Industry Challenges",
           "pos": 12,
           "neg": 4,
@@ -2548,7 +2548,7 @@
         },
         {
           "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
+          "label": "\"Streaming Services Face Profitability\"",
           "meta_category": "Retail Industry Challenges",
           "pos": 7,
           "neg": 5,
@@ -2559,7 +2559,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 3,
           "neg": 0,
           "neu": 0,
@@ -2568,7 +2568,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
@@ -2578,8 +2578,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -2588,8 +2588,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 0,
           "neu": 1,
@@ -2598,7 +2598,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 0,
@@ -2658,7 +2658,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 7,
           "neg": 2,
@@ -2718,7 +2718,7 @@
       "clusters": [
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 8,
           "neg": 1,
@@ -2738,8 +2738,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -2748,8 +2748,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -2758,8 +2758,8 @@
         },
         {
           "cluster_id": 6,
-          "label": "Mortgage Rates Rise Sharply",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Real Estate Market Trends",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -2769,7 +2769,7 @@
         {
           "cluster_id": 18,
           "label": "US Government Shutdown Continues",
-          "meta_category": "Government Accountability Issues",
+          "meta_category": "Financial System Crisis",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -2824,7 +2824,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -2833,8 +2833,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -2844,7 +2844,7 @@
         {
           "cluster_id": 18,
           "label": "US Government Shutdown Continues",
-          "meta_category": "Government Accountability Issues",
+          "meta_category": "Financial System Crisis",
           "pos": 0,
           "neg": 0,
           "neu": 1,
@@ -2899,7 +2899,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 3,
           "neu": 1,
@@ -2953,8 +2953,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -2963,7 +2963,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 0,
@@ -3034,7 +3034,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -3083,7 +3083,7 @@
       "clusters": [
         {
           "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
+          "label": "\"Streaming Services Face Profitability\"",
           "meta_category": "Retail Industry Challenges",
           "pos": 24,
           "neg": 13,
@@ -3093,8 +3093,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 0,
           "neu": 1,
@@ -3103,7 +3103,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -3113,8 +3113,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 1,
           "neg": 0,
           "neu": 1,
@@ -3178,7 +3178,7 @@
       "clusters": [
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 2,
           "neg": 7,
@@ -3238,7 +3238,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 59,
           "neg": 43,
@@ -3248,8 +3248,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 6,
           "neg": 5,
           "neu": 4,
@@ -3258,7 +3258,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 6,
           "neg": 2,
@@ -3268,8 +3268,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 0,
           "neg": 6,
           "neu": 0,
@@ -3299,7 +3299,7 @@
         {
           "cluster_id": 16,
           "label": "Retirement Savings and Planning",
-          "meta_category": "Financial Planning and Tax",
+          "meta_category": "Financial Year-End Planning",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -3308,8 +3308,8 @@
         },
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -3318,7 +3318,7 @@
         },
         {
           "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
+          "label": "\"Streaming Services Face Profitability\"",
           "meta_category": "Retail Industry Challenges",
           "pos": 1,
           "neg": 0,
@@ -3328,8 +3328,8 @@
         },
         {
           "cluster_id": 23,
-          "label": "\"Student Loan Changes Affect Graduates\"",
-          "meta_category": "Financial Planning and Tax",
+          "label": "Student Loan Changes Affect Graduates",
+          "meta_category": "Financial Year-End Planning",
           "pos": 0,
           "neg": 0,
           "neu": 1,
@@ -3348,8 +3348,8 @@
         },
         {
           "cluster_id": 7,
-          "label": "Beauty Brands Cater to Gen X",
-          "meta_category": "Emerging Beauty and Tech",
+          "label": "Beauty Industry Shifts to Gen X",
+          "meta_category": "Emerging Trends in Business",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -3413,8 +3413,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -3453,7 +3453,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -3463,8 +3463,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -3473,7 +3473,7 @@
         },
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 1,
           "neg": 0,
@@ -3483,8 +3483,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -3528,7 +3528,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 0,
@@ -3538,8 +3538,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -3594,7 +3594,7 @@
         {
           "cluster_id": 16,
           "label": "Retirement Savings and Planning",
-          "meta_category": "Financial Planning and Tax",
+          "meta_category": "Financial Year-End Planning",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -3628,8 +3628,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -3664,7 +3664,7 @@
         {
           "cluster_id": 16,
           "label": "Retirement Savings and Planning",
-          "meta_category": "Financial Planning and Tax",
+          "meta_category": "Financial Year-End Planning",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -3698,8 +3698,8 @@
       "clusters": [
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -3708,7 +3708,7 @@
         },
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 2,
@@ -3718,8 +3718,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -3753,8 +3753,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -3764,7 +3764,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -3803,7 +3803,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 0,
@@ -3843,7 +3843,7 @@
       "clusters": [
         {
           "cluster_id": 0,
-          "label": "Pop Mart's IP Growth Concerns",
+          "label": "Pop Mart's Global Expansion Struggles",
           "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 1,
@@ -3883,7 +3883,7 @@
       "clusters": [
         {
           "cluster_id": 0,
-          "label": "Pop Mart's IP Growth Concerns",
+          "label": "Pop Mart's Global Expansion Struggles",
           "meta_category": "Retail Industry Challenges",
           "pos": 2,
           "neg": 0,
@@ -3924,7 +3924,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -3958,8 +3958,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -3998,7 +3998,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 3,
           "neg": 0,
@@ -4008,8 +4008,8 @@
         },
         {
           "cluster_id": 7,
-          "label": "Beauty Brands Cater to Gen X",
-          "meta_category": "Emerging Beauty and Tech",
+          "label": "Beauty Industry Shifts to Gen X",
+          "meta_category": "Emerging Trends in Business",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -4028,8 +4028,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -4098,8 +4098,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 4,
           "neg": 1,
           "neu": 5,
@@ -4108,7 +4108,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -4168,7 +4168,7 @@
       "clusters": [
         {
           "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
+          "label": "\"Streaming Services Face Profitability\"",
           "meta_category": "Retail Industry Challenges",
           "pos": 11,
           "neg": 5,
@@ -4223,8 +4223,8 @@
       "clusters": [
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 3,
           "neg": 12,
           "neu": 0,
@@ -4233,7 +4233,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 1,
@@ -4243,8 +4243,8 @@
         },
         {
           "cluster_id": 6,
-          "label": "Mortgage Rates Rise Sharply",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Real Estate Market Trends",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -4253,8 +4253,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -4323,8 +4323,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 7,
           "neg": 1,
           "neu": 1,
@@ -4333,8 +4333,8 @@
         },
         {
           "cluster_id": 11,
-          "label": "US Banks Weather Market Volatility",
-          "meta_category": "Financial Market Turbulence",
+          "label": "US Banks Navigate Uncertainty",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 5,
           "neg": 2,
           "neu": 0,
@@ -4353,8 +4353,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 1,
           "neg": 4,
           "neu": 0,
@@ -4363,7 +4363,7 @@
         },
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 2,
           "neg": 1,
@@ -4374,7 +4374,7 @@
         {
           "cluster_id": 15,
           "label": "Tax Refunds Increase This Season",
-          "meta_category": "Financial Planning and Tax",
+          "meta_category": "Financial Year-End Planning",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -4393,8 +4393,8 @@
         },
         {
           "cluster_id": 6,
-          "label": "Mortgage Rates Rise Sharply",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Real Estate Market Trends",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -4403,8 +4403,8 @@
         },
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -4468,7 +4468,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 3,
           "neg": 7,
@@ -4513,8 +4513,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 2,
           "neu": 1,
@@ -4553,7 +4553,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 17,
           "neg": 9,
@@ -4563,8 +4563,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -4638,7 +4638,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 41,
           "neg": 25,
@@ -4648,8 +4648,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 3,
           "neg": 5,
           "neu": 0,
@@ -4668,8 +4668,8 @@
         },
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -4688,7 +4688,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
@@ -4748,8 +4748,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -4758,7 +4758,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -4803,8 +4803,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -4813,7 +4813,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -4823,8 +4823,8 @@
         },
         {
           "cluster_id": 6,
-          "label": "Mortgage Rates Rise Sharply",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Real Estate Market Trends",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -4883,8 +4883,8 @@
       "clusters": [
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 2,
           "neg": 5,
           "neu": 1,
@@ -4903,8 +4903,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -4913,8 +4913,8 @@
         },
         {
           "cluster_id": 11,
-          "label": "US Banks Weather Market Volatility",
-          "meta_category": "Financial Market Turbulence",
+          "label": "US Banks Navigate Uncertainty",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -4978,7 +4978,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 3,
@@ -4988,8 +4988,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 4,
           "neg": 0,
           "neu": 0,
@@ -5043,8 +5043,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 0,
           "neu": 1,
@@ -5053,7 +5053,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -5103,8 +5103,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 1,
           "neu": 0,
@@ -5114,7 +5114,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 0,
           "neu": 1,
@@ -5123,8 +5123,8 @@
         },
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -5188,8 +5188,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 1,
@@ -5228,8 +5228,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 0,
           "neg": 0,
           "neu": 1,
@@ -5239,7 +5239,7 @@
         {
           "cluster_id": 18,
           "label": "US Government Shutdown Continues",
-          "meta_category": "Government Accountability Issues",
+          "meta_category": "Financial System Crisis",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -5248,7 +5248,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
@@ -5258,7 +5258,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 0,
@@ -5323,7 +5323,7 @@
       "clusters": [
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 6,
           "neg": 10,
@@ -5343,7 +5343,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
@@ -5353,8 +5353,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -5418,8 +5418,8 @@
       "clusters": [
         {
           "cluster_id": 19,
-          "label": "Electric Vehicle Market Shifts Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Electric Vehicles in Global Market",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 2,
           "neu": 0,
@@ -5428,8 +5428,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -5438,7 +5438,7 @@
         },
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 1,
@@ -5448,8 +5448,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -5458,8 +5458,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -5468,7 +5468,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
@@ -5528,7 +5528,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 0,
@@ -5538,8 +5538,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -5549,7 +5549,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -5608,8 +5608,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -5618,8 +5618,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -5628,7 +5628,7 @@
         },
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 1,
           "neg": 1,
@@ -5638,8 +5638,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -5648,8 +5648,8 @@
         },
         {
           "cluster_id": 7,
-          "label": "Beauty Brands Cater to Gen X",
-          "meta_category": "Emerging Beauty and Tech",
+          "label": "Beauty Industry Shifts to Gen X",
+          "meta_category": "Emerging Trends in Business",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -5698,7 +5698,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -5708,8 +5708,8 @@
         },
         {
           "cluster_id": 19,
-          "label": "Electric Vehicle Market Shifts Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Electric Vehicles in Global Market",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 0,
           "neu": 1,
@@ -5753,7 +5753,7 @@
       "clusters": [
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 1,
           "neg": 5,
@@ -5763,7 +5763,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -5773,8 +5773,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -5783,8 +5783,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -5793,8 +5793,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -5853,7 +5853,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 2,
@@ -5863,8 +5863,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -5918,8 +5918,8 @@
       "clusters": [
         {
           "cluster_id": 5,
-          "label": "India Grapples with Global Uncertainty",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "India Grapples with Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 1,
@@ -5963,8 +5963,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -5973,7 +5973,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
@@ -6028,7 +6028,7 @@
       "clusters": [
         {
           "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
+          "label": "\"Streaming Services Face Profitability\"",
           "meta_category": "Retail Industry Challenges",
           "pos": 2,
           "neg": 3,
@@ -6038,8 +6038,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -6048,7 +6048,7 @@
         },
         {
           "cluster_id": 0,
-          "label": "Pop Mart's IP Growth Concerns",
+          "label": "Pop Mart's Global Expansion Struggles",
           "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 1,
@@ -6138,7 +6138,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 55,
           "neg": 74,
@@ -6148,8 +6148,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 5,
           "neg": 6,
           "neu": 2,
@@ -6158,8 +6158,8 @@
         },
         {
           "cluster_id": 7,
-          "label": "Beauty Brands Cater to Gen X",
-          "meta_category": "Emerging Beauty and Tech",
+          "label": "Beauty Industry Shifts to Gen X",
+          "meta_category": "Emerging Trends in Business",
           "pos": 0,
           "neg": 4,
           "neu": 0,
@@ -6178,7 +6178,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 2,
@@ -6188,8 +6188,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -6198,8 +6198,8 @@
         },
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -6208,8 +6208,8 @@
         },
         {
           "cluster_id": 5,
-          "label": "India Grapples with Global Uncertainty",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "India Grapples with Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 1,
@@ -6218,8 +6218,8 @@
         },
         {
           "cluster_id": 23,
-          "label": "\"Student Loan Changes Affect Graduates\"",
-          "meta_category": "Financial Planning and Tax",
+          "label": "Student Loan Changes Affect Graduates",
+          "meta_category": "Financial Year-End Planning",
           "pos": 0,
           "neg": 0,
           "neu": 1,
@@ -6298,8 +6298,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 3,
           "neg": 1,
           "neu": 4,
@@ -6378,8 +6378,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 4,
           "neu": 0,
@@ -6388,7 +6388,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 1,
@@ -6398,8 +6398,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -6408,7 +6408,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 0,
@@ -6478,8 +6478,8 @@
       "clusters": [
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -6488,7 +6488,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -6533,8 +6533,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -6584,7 +6584,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -6593,8 +6593,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -6639,7 +6639,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 1,
           "neu": 0,
@@ -6678,8 +6678,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -6688,8 +6688,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -6739,7 +6739,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -6778,8 +6778,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -6818,8 +6818,8 @@
       "clusters": [
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -6828,8 +6828,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -6874,7 +6874,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -6913,7 +6913,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 6,
           "neg": 6,
@@ -6923,8 +6923,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -6943,7 +6943,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
@@ -6998,7 +6998,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 1,
@@ -7008,8 +7008,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -7019,7 +7019,7 @@
         {
           "cluster_id": 15,
           "label": "Tax Refunds Increase This Season",
-          "meta_category": "Financial Planning and Tax",
+          "meta_category": "Financial Year-End Planning",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -7068,8 +7068,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -7108,8 +7108,8 @@
       "clusters": [
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 2,
           "neg": 2,
           "neu": 0,
@@ -7158,7 +7158,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 3,
@@ -7169,7 +7169,7 @@
         {
           "cluster_id": 18,
           "label": "US Government Shutdown Continues",
-          "meta_category": "Government Accountability Issues",
+          "meta_category": "Financial System Crisis",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -7178,8 +7178,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -7233,8 +7233,8 @@
       "clusters": [
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -7243,7 +7243,7 @@
         },
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 2,
           "neg": 0,
@@ -7253,8 +7253,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -7264,7 +7264,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -7273,8 +7273,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -7283,8 +7283,8 @@
         },
         {
           "cluster_id": 6,
-          "label": "Mortgage Rates Rise Sharply",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Real Estate Market Trends",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -7333,7 +7333,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 2,
@@ -7383,8 +7383,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 3,
           "neu": 0,
@@ -7394,7 +7394,7 @@
         {
           "cluster_id": 15,
           "label": "Tax Refunds Increase This Season",
-          "meta_category": "Financial Planning and Tax",
+          "meta_category": "Financial Year-End Planning",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -7449,7 +7449,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 2,
           "neu": 2,
@@ -7458,8 +7458,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 0,
           "neu": 2,
@@ -7509,7 +7509,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 3,
           "neu": 1,
@@ -7518,8 +7518,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -7529,7 +7529,7 @@
         {
           "cluster_id": 18,
           "label": "US Government Shutdown Continues",
-          "meta_category": "Government Accountability Issues",
+          "meta_category": "Financial System Crisis",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -7588,7 +7588,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 1,
@@ -7598,8 +7598,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -7658,7 +7658,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 8,
           "neg": 11,
@@ -7669,7 +7669,7 @@
         {
           "cluster_id": 15,
           "label": "Tax Refunds Increase This Season",
-          "meta_category": "Financial Planning and Tax",
+          "meta_category": "Financial Year-End Planning",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -7679,7 +7679,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -7689,7 +7689,7 @@
         {
           "cluster_id": 16,
           "label": "Retirement Savings and Planning",
-          "meta_category": "Financial Planning and Tax",
+          "meta_category": "Financial Year-End Planning",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -7698,8 +7698,8 @@
         },
         {
           "cluster_id": 19,
-          "label": "Electric Vehicle Market Shifts Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Electric Vehicles in Global Market",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -7708,8 +7708,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -7729,7 +7729,7 @@
         {
           "cluster_id": 18,
           "label": "US Government Shutdown Continues",
-          "meta_category": "Government Accountability Issues",
+          "meta_category": "Financial System Crisis",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -7794,7 +7794,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 18,
           "neg": 20,
           "neu": 4,
@@ -7803,8 +7803,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 6,
           "neu": 0,
@@ -7814,7 +7814,7 @@
         {
           "cluster_id": 18,
           "label": "US Government Shutdown Continues",
-          "meta_category": "Government Accountability Issues",
+          "meta_category": "Financial System Crisis",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -7873,8 +7873,8 @@
       "clusters": [
         {
           "cluster_id": 11,
-          "label": "US Banks Weather Market Volatility",
-          "meta_category": "Financial Market Turbulence",
+          "label": "US Banks Navigate Uncertainty",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -7883,8 +7883,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 3,
           "neu": 0,
@@ -7894,7 +7894,7 @@
         {
           "cluster_id": 15,
           "label": "Tax Refunds Increase This Season",
-          "meta_category": "Financial Planning and Tax",
+          "meta_category": "Financial Year-End Planning",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -7903,8 +7903,8 @@
         },
         {
           "cluster_id": 6,
-          "label": "Mortgage Rates Rise Sharply",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Real Estate Market Trends",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -7913,7 +7913,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -7983,8 +7983,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 16,
           "neg": 13,
           "neu": 4,
@@ -7993,8 +7993,8 @@
         },
         {
           "cluster_id": 11,
-          "label": "US Banks Weather Market Volatility",
-          "meta_category": "Financial Market Turbulence",
+          "label": "US Banks Navigate Uncertainty",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 6,
           "neg": 10,
           "neu": 1,
@@ -8004,7 +8004,7 @@
         {
           "cluster_id": 15,
           "label": "Tax Refunds Increase This Season",
-          "meta_category": "Financial Planning and Tax",
+          "meta_category": "Financial Year-End Planning",
           "pos": 3,
           "neg": 2,
           "neu": 0,
@@ -8013,7 +8013,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 3,
           "neg": 2,
@@ -8023,8 +8023,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -8043,8 +8043,8 @@
         },
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -8053,7 +8053,7 @@
         },
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 1,
@@ -8073,7 +8073,7 @@
         },
         {
           "cluster_id": 0,
-          "label": "Pop Mart's IP Growth Concerns",
+          "label": "Pop Mart's Global Expansion Struggles",
           "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 1,
@@ -8083,8 +8083,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 0,
           "neu": 1,
@@ -8153,7 +8153,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 6,
           "neg": 9,
@@ -8163,8 +8163,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -8173,8 +8173,8 @@
         },
         {
           "cluster_id": 11,
-          "label": "US Banks Weather Market Volatility",
-          "meta_category": "Financial Market Turbulence",
+          "label": "US Banks Navigate Uncertainty",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -8234,7 +8234,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 5,
           "neg": 4,
           "neu": 1,
@@ -8243,7 +8243,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 2,
@@ -8253,7 +8253,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -8263,8 +8263,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -8284,7 +8284,7 @@
         {
           "cluster_id": 21,
           "label": "\"Entrepreneurship in the AI Era\"",
-          "meta_category": "Emerging Beauty and Tech",
+          "meta_category": "Emerging Trends in Business",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -8303,8 +8303,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -8313,8 +8313,8 @@
         },
         {
           "cluster_id": 5,
-          "label": "India Grapples with Global Uncertainty",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "India Grapples with Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -8373,7 +8373,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 1,
@@ -8418,7 +8418,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 1,
@@ -8458,8 +8458,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 1,
@@ -8523,8 +8523,8 @@
       "clusters": [
         {
           "cluster_id": 19,
-          "label": "Electric Vehicle Market Shifts Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Electric Vehicles in Global Market",
+          "meta_category": "Global Economic Turbulence",
           "pos": 9,
           "neg": 8,
           "neu": 0,
@@ -8533,8 +8533,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -8543,7 +8543,7 @@
         },
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 2,
@@ -8553,8 +8553,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -8563,7 +8563,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -8573,8 +8573,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -8672,8 +8672,8 @@
       "clusters": [
         {
           "cluster_id": 19,
-          "label": "Electric Vehicle Market Shifts Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Electric Vehicles in Global Market",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -8718,7 +8718,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 4,
           "neg": 4,
           "neu": 3,
@@ -8727,8 +8727,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -8738,7 +8738,7 @@
         {
           "cluster_id": 18,
           "label": "US Government Shutdown Continues",
-          "meta_category": "Government Accountability Issues",
+          "meta_category": "Financial System Crisis",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -8747,7 +8747,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -8803,7 +8803,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -8813,7 +8813,7 @@
         {
           "cluster_id": 18,
           "label": "US Government Shutdown Continues",
-          "meta_category": "Government Accountability Issues",
+          "meta_category": "Financial System Crisis",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -8852,7 +8852,7 @@
       "clusters": [
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 2,
@@ -8862,8 +8862,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -8872,7 +8872,7 @@
         },
         {
           "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
+          "label": "\"Streaming Services Face Profitability\"",
           "meta_category": "Retail Industry Challenges",
           "pos": 2,
           "neg": 1,
@@ -8913,7 +8913,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 1,
@@ -8922,8 +8922,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -8963,7 +8963,7 @@
         {
           "cluster_id": 16,
           "label": "Retirement Savings and Planning",
-          "meta_category": "Financial Planning and Tax",
+          "meta_category": "Financial Year-End Planning",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -8997,8 +8997,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -9042,8 +9042,8 @@
       "clusters": [
         {
           "cluster_id": 12,
-          "label": "\"Private Credit Market Concerns Rise\"",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Private Credit Market Concerns",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 3,
           "neu": 2,
@@ -9052,8 +9052,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 1,
@@ -9062,8 +9062,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -9073,7 +9073,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -9082,7 +9082,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 0,
@@ -9171,8 +9171,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -9181,8 +9181,8 @@
         },
         {
           "cluster_id": 23,
-          "label": "\"Student Loan Changes Affect Graduates\"",
-          "meta_category": "Financial Planning and Tax",
+          "label": "Student Loan Changes Affect Graduates",
+          "meta_category": "Financial Year-End Planning",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -9226,7 +9226,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 2,
@@ -9237,7 +9237,7 @@
         {
           "cluster_id": 18,
           "label": "US Government Shutdown Continues",
-          "meta_category": "Government Accountability Issues",
+          "meta_category": "Financial System Crisis",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -9246,8 +9246,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -9301,7 +9301,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 1,
@@ -9341,8 +9341,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -9381,8 +9381,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -9421,8 +9421,8 @@
       "clusters": [
         {
           "cluster_id": 6,
-          "label": "Mortgage Rates Rise Sharply",
-          "meta_category": "Financial Market Turbulence",
+          "label": "Real Estate Market Trends",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 1,
           "neg": 1,
           "neu": 0,

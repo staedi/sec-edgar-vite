@@ -1,6 +1,6 @@
 {
   "mode": "weekly",
-  "updated_at": "2026-04-26T01:05:47.365763+00:00",
+  "updated_at": "2026-04-26T07:23:56.667648+00:00",
   "entities": [
     {
       "entity": "Apple",
@@ -30,7 +30,7 @@
       "clusters": [
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 40,
           "neg": 7,
@@ -40,8 +40,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 2,
           "neg": 1,
           "neu": 0,
@@ -50,7 +50,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 0,
@@ -110,7 +110,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 13,
           "neg": 2,
@@ -165,7 +165,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 15,
           "neg": 3,
@@ -185,7 +185,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 0,
@@ -245,7 +245,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 23,
           "neg": 6,
@@ -255,7 +255,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
@@ -265,8 +265,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -325,7 +325,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 7,
           "neg": 1,
@@ -365,7 +365,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 3,
           "neg": 0,
@@ -410,8 +410,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 3,
           "neu": 0,
@@ -445,7 +445,7 @@
       "clusters": [
         {
           "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
+          "label": "\"Streaming Services Face Profitability\"",
           "meta_category": "Retail Industry Challenges",
           "pos": 3,
           "neg": 0,
@@ -485,7 +485,7 @@
       "clusters": [
         {
           "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
+          "label": "\"Streaming Services Face Profitability\"",
           "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 3,
@@ -530,7 +530,7 @@
       "clusters": [
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 3,
@@ -565,8 +565,8 @@
       "clusters": [
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 3,
           "neg": 0,
           "neu": 0,
@@ -605,7 +605,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 5,
           "neg": 1,
@@ -655,7 +655,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 12,
           "neg": 5,
@@ -730,7 +730,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 16,
           "neg": 2,
@@ -741,7 +741,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 8,
           "neu": 0,
@@ -760,8 +760,8 @@
         },
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 3,
           "neg": 0,
           "neu": 0,
@@ -770,7 +770,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 1,
@@ -780,8 +780,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 2,
           "neg": 1,
           "neu": 0,
@@ -845,7 +845,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -885,8 +885,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -895,8 +895,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -935,7 +935,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 4,
           "neg": 1,
@@ -975,8 +975,8 @@
       "clusters": [
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 2,
           "neu": 1,
@@ -1016,7 +1016,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 7,
           "neg": 3,
           "neu": 2,
@@ -1070,7 +1070,7 @@
       "clusters": [
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 4,
           "neg": 7,
@@ -1090,7 +1090,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
@@ -1214,7 +1214,7 @@
       "clusters": [
         {
           "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
+          "label": "\"Streaming Services Face Profitability\"",
           "meta_category": "Retail Industry Challenges",
           "pos": 9,
           "neg": 5,
@@ -1254,8 +1254,8 @@
       "clusters": [
         {
           "cluster_id": 11,
-          "label": "US Banks Weather Market Volatility",
-          "meta_category": "Financial Market Turbulence",
+          "label": "US Banks Navigate Uncertainty",
+          "meta_category": "Financial Sector Uncertainty",
           "pos": 4,
           "neg": 1,
           "neu": 0,
@@ -1264,7 +1264,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 1,
@@ -1274,8 +1274,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -1284,7 +1284,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -1294,8 +1294,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1350,7 +1350,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 1,
@@ -1394,7 +1394,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -1404,8 +1404,8 @@
         },
         {
           "cluster_id": 19,
-          "label": "Electric Vehicle Market Shifts Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Electric Vehicles in Global Market",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 0,
           "neu": 1,
@@ -1450,7 +1450,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 2,
           "neu": 1,
@@ -1459,7 +1459,7 @@
         },
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 2,
@@ -1469,7 +1469,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -1479,8 +1479,8 @@
         },
         {
           "cluster_id": 9,
-          "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "US Trade Tensions Escalate",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1535,7 +1535,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 1,
@@ -1599,8 +1599,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1654,8 +1654,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1699,8 +1699,8 @@
       "clusters": [
         {
           "cluster_id": 4,
-          "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Dietary Therapies and Treatments",
+          "label": "Weight Loss Medication Market",
+          "meta_category": "Obesity Treatment and Management",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -1735,7 +1735,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 0,
           "neg": 1,
           "neu": 2,
@@ -1779,7 +1779,7 @@
       "clusters": [
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 2,
@@ -1789,8 +1789,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -1829,7 +1829,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 3,
@@ -1885,7 +1885,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Economic Uncertainty",
+          "meta_category": "Global Economic Turbulence",
           "pos": 3,
           "neg": 0,
           "neu": 0,
@@ -1894,7 +1894,7 @@
         },
         {
           "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
+          "label": "\"Streaming Services Face Profitability\"",
           "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 1,
@@ -1904,7 +1904,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
@@ -1914,8 +1914,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1969,7 +1969,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 7,
           "neg": 6,
@@ -1989,8 +1989,8 @@
         },
         {
           "cluster_id": 13,
-          "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Middle East Oil Crisis",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1999,7 +1999,7 @@
         },
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
@@ -2009,8 +2009,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -2109,7 +2109,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 1,
@@ -2154,7 +2154,7 @@
       "clusters": [
         {
           "cluster_id": 3,
-          "label": "\"AI Investment and Market Trends\"",
+          "label": "\"AI Investment and Market Shifts\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 1,
@@ -2218,7 +2218,7 @@
       "clusters": [
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -2263,7 +2263,7 @@
       "clusters": [
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 1,
@@ -2273,8 +2273,8 @@
         },
         {
           "cluster_id": 17,
-          "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Government Accountability Issues",
+          "label": "Jeffrey Epstein Sex Abuse Scandal",
+          "meta_category": "Financial System Crisis",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -2313,7 +2313,7 @@
       "clusters": [
         {
           "cluster_id": 14,
-          "label": "\"Apple Names New CEO\"",
+          "label": "\"Tim Cook's Legacy at Apple\"",
           "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
@@ -2323,7 +2323,7 @@
         },
         {
           "cluster_id": 10,
-          "label": "Retailers Struggle with Turnaround",
+          "label": "Retailers Struggle with Sales Decline",
           "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 1,
@@ -2363,8 +2363,8 @@
       "clusters": [
         {
           "cluster_id": 19,
-          "label": "Electric Vehicle Market Shifts Globally",
-          "meta_category": "Global Economic Uncertainty",
+          "label": "Electric Vehicles in Global Market",
+          "meta_category": "Global Economic Turbulence",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -2403,7 +2403,7 @@
       "clusters": [
         {
           "cluster_id": 1,
-          "label": "\"Streaming Services Face Mergers\"",
+          "label": "\"Streaming Services Face Profitability\"",
           "meta_category": "Retail Industry Challenges",
           "pos": 1,
           "neg": 1,
