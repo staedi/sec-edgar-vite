@@ -1,6 +1,6 @@
 {
   "mode": "weekly",
-  "updated_at": "2026-04-25T22:51:46.661252+00:00",
+  "updated_at": "2026-04-26T01:05:47.365763+00:00",
   "entities": [
     {
       "entity": "Apple",
@@ -31,7 +31,7 @@
         {
           "cluster_id": 14,
           "label": "\"Apple Names New CEO\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 40,
           "neg": 7,
           "neu": 4,
@@ -41,7 +41,7 @@
         {
           "cluster_id": 17,
           "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Financial Regulation",
+          "meta_category": "Government Accountability Issues",
           "pos": 2,
           "neg": 1,
           "neu": 0,
@@ -51,7 +51,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -111,7 +111,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 13,
           "neg": 2,
           "neu": 0,
@@ -166,7 +166,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 15,
           "neg": 3,
           "neu": 0,
@@ -176,7 +176,7 @@
         {
           "cluster_id": 27,
           "label": "\"AI's Impact on the Workforce\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -186,7 +186,7 @@
         {
           "cluster_id": 14,
           "label": "\"Apple Names New CEO\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 0,
           "neu": 0,
@@ -246,7 +246,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 23,
           "neg": 6,
           "neu": 0,
@@ -256,7 +256,7 @@
         {
           "cluster_id": 14,
           "label": "\"Apple Names New CEO\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -266,7 +266,7 @@
         {
           "cluster_id": 17,
           "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Financial Regulation",
+          "meta_category": "Government Accountability Issues",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -326,7 +326,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 7,
           "neg": 1,
           "neu": 1,
@@ -366,7 +366,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 3,
           "neg": 0,
           "neu": 0,
@@ -411,7 +411,7 @@
         {
           "cluster_id": 13,
           "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 0,
           "neg": 3,
           "neu": 0,
@@ -446,7 +446,7 @@
         {
           "cluster_id": 1,
           "label": "\"Streaming Services Face Mergers\"",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Retail Industry Challenges",
           "pos": 3,
           "neg": 0,
           "neu": 0,
@@ -486,7 +486,7 @@
         {
           "cluster_id": 1,
           "label": "\"Streaming Services Face Mergers\"",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 3,
           "neu": 0,
@@ -531,7 +531,7 @@
         {
           "cluster_id": 10,
           "label": "Retailers Struggle with Turnaround",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 3,
           "neu": 0,
@@ -566,7 +566,7 @@
         {
           "cluster_id": 9,
           "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 3,
           "neg": 0,
           "neu": 0,
@@ -606,7 +606,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 5,
           "neg": 1,
           "neu": 0,
@@ -656,7 +656,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 12,
           "neg": 5,
           "neu": 0,
@@ -666,7 +666,7 @@
         {
           "cluster_id": 27,
           "label": "\"AI's Impact on the Workforce\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 1,
           "neu": 0,
@@ -731,7 +731,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 16,
           "neg": 2,
           "neu": 0,
@@ -741,7 +741,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 1,
           "neg": 8,
           "neu": 0,
@@ -751,7 +751,7 @@
         {
           "cluster_id": 27,
           "label": "\"AI's Impact on the Workforce\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -761,7 +761,7 @@
         {
           "cluster_id": 4,
           "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Dietary Therapies and Treatments",
           "pos": 3,
           "neg": 0,
           "neu": 0,
@@ -771,7 +771,7 @@
         {
           "cluster_id": 14,
           "label": "\"Apple Names New CEO\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 1,
           "neu": 0,
@@ -781,7 +781,7 @@
         {
           "cluster_id": 17,
           "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Financial Regulation",
+          "meta_category": "Government Accountability Issues",
           "pos": 2,
           "neg": 1,
           "neu": 0,
@@ -836,7 +836,7 @@
         {
           "cluster_id": 26,
           "label": "Leading with Confidence and Trust",
-          "meta_category": "Empowering the Next",
+          "meta_category": "Building Trust in Finance",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -846,7 +846,7 @@
         {
           "cluster_id": 14,
           "label": "\"Apple Names New CEO\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -886,7 +886,7 @@
         {
           "cluster_id": 13,
           "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -896,7 +896,7 @@
         {
           "cluster_id": 9,
           "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -936,7 +936,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 4,
           "neg": 1,
           "neu": 0,
@@ -976,7 +976,7 @@
         {
           "cluster_id": 13,
           "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 0,
           "neg": 2,
           "neu": 1,
@@ -1016,7 +1016,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 7,
           "neg": 3,
           "neu": 2,
@@ -1071,7 +1071,7 @@
         {
           "cluster_id": 10,
           "label": "Retailers Struggle with Turnaround",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Retail Industry Challenges",
           "pos": 4,
           "neg": 7,
           "neu": 0,
@@ -1081,7 +1081,7 @@
         {
           "cluster_id": 27,
           "label": "\"AI's Impact on the Workforce\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1091,7 +1091,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1175,7 +1175,7 @@
         {
           "cluster_id": 25,
           "label": "Kevin Warsh's Fed Nomination",
-          "meta_category": "Financial Regulation",
+          "meta_category": "Central Banking Scrutiny",
           "pos": 1,
           "neg": 3,
           "neu": 0,
@@ -1215,7 +1215,7 @@
         {
           "cluster_id": 1,
           "label": "\"Streaming Services Face Mergers\"",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Retail Industry Challenges",
           "pos": 9,
           "neg": 5,
           "neu": 0,
@@ -1255,7 +1255,7 @@
         {
           "cluster_id": 11,
           "label": "US Banks Weather Market Volatility",
-          "meta_category": "Financial Market Turmoil",
+          "meta_category": "Financial Market Turbulence",
           "pos": 4,
           "neg": 1,
           "neu": 0,
@@ -1265,7 +1265,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -1275,7 +1275,7 @@
         {
           "cluster_id": 13,
           "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -1285,7 +1285,7 @@
         {
           "cluster_id": 14,
           "label": "\"Apple Names New CEO\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1295,7 +1295,7 @@
         {
           "cluster_id": 9,
           "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1350,7 +1350,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 1,
@@ -1395,7 +1395,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1405,7 +1405,7 @@
         {
           "cluster_id": 19,
           "label": "Electric Vehicle Market Shifts Globally",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 0,
           "neg": 0,
           "neu": 1,
@@ -1450,7 +1450,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 0,
           "neg": 2,
           "neu": 1,
@@ -1460,7 +1460,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 2,
           "neu": 0,
@@ -1470,7 +1470,7 @@
         {
           "cluster_id": 14,
           "label": "\"Apple Names New CEO\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1480,7 +1480,7 @@
         {
           "cluster_id": 9,
           "label": "\"US Trade Policy Under Scrutiny\"",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1535,7 +1535,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 0,
           "neg": 1,
           "neu": 1,
@@ -1580,7 +1580,7 @@
         {
           "cluster_id": 26,
           "label": "Leading with Confidence and Trust",
-          "meta_category": "Empowering the Next",
+          "meta_category": "Building Trust in Finance",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1590,7 +1590,7 @@
         {
           "cluster_id": 25,
           "label": "Kevin Warsh's Fed Nomination",
-          "meta_category": "Financial Regulation",
+          "meta_category": "Central Banking Scrutiny",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1600,7 +1600,7 @@
         {
           "cluster_id": 13,
           "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1645,7 +1645,7 @@
         {
           "cluster_id": 2,
           "label": "\"Prediction Markets Under Scrutiny\"",
-          "meta_category": "Financial Regulation",
+          "meta_category": "Central Banking Scrutiny",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -1655,7 +1655,7 @@
         {
           "cluster_id": 13,
           "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1700,7 +1700,7 @@
         {
           "cluster_id": 4,
           "label": "GLP-1 Weight Loss Medications",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Dietary Therapies and Treatments",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -1735,7 +1735,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 0,
           "neg": 1,
           "neu": 2,
@@ -1780,7 +1780,7 @@
         {
           "cluster_id": 14,
           "label": "\"Apple Names New CEO\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -1790,7 +1790,7 @@
         {
           "cluster_id": 17,
           "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Financial Regulation",
+          "meta_category": "Government Accountability Issues",
           "pos": 1,
           "neg": 2,
           "neu": 0,
@@ -1830,7 +1830,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 3,
           "neu": 0,
@@ -1840,7 +1840,7 @@
         {
           "cluster_id": 27,
           "label": "\"AI's Impact on the Workforce\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1885,7 +1885,7 @@
         {
           "cluster_id": 8,
           "label": "Fuel Prices Impact Air Travel",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 3,
           "neg": 0,
           "neu": 0,
@@ -1895,7 +1895,7 @@
         {
           "cluster_id": 1,
           "label": "\"Streaming Services Face Mergers\"",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1905,7 +1905,7 @@
         {
           "cluster_id": 14,
           "label": "\"Apple Names New CEO\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1915,7 +1915,7 @@
         {
           "cluster_id": 17,
           "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Financial Regulation",
+          "meta_category": "Government Accountability Issues",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -1970,7 +1970,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 7,
           "neg": 6,
           "neu": 0,
@@ -1980,7 +1980,7 @@
         {
           "cluster_id": 27,
           "label": "\"AI's Impact on the Workforce\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -1990,7 +1990,7 @@
         {
           "cluster_id": 13,
           "label": "Iran Conflict Escalates Globally",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -2000,7 +2000,7 @@
         {
           "cluster_id": 14,
           "label": "\"Apple Names New CEO\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -2010,7 +2010,7 @@
         {
           "cluster_id": 17,
           "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Financial Regulation",
+          "meta_category": "Government Accountability Issues",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -2065,7 +2065,7 @@
         {
           "cluster_id": 2,
           "label": "\"Prediction Markets Under Scrutiny\"",
-          "meta_category": "Financial Regulation",
+          "meta_category": "Central Banking Scrutiny",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -2110,7 +2110,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -2155,7 +2155,7 @@
         {
           "cluster_id": 3,
           "label": "\"AI Investment and Market Trends\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -2219,7 +2219,7 @@
         {
           "cluster_id": 14,
           "label": "\"Apple Names New CEO\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -2264,7 +2264,7 @@
         {
           "cluster_id": 14,
           "label": "\"Apple Names New CEO\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 2,
           "neg": 1,
           "neu": 0,
@@ -2274,7 +2274,7 @@
         {
           "cluster_id": 17,
           "label": "Jeffrey Epstein Investigation Continues",
-          "meta_category": "Financial Regulation",
+          "meta_category": "Government Accountability Issues",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -2314,7 +2314,7 @@
         {
           "cluster_id": 14,
           "label": "\"Apple Names New CEO\"",
-          "meta_category": "AI and Tech",
+          "meta_category": "Artificial Intelligence and Business",
           "pos": 1,
           "neg": 0,
           "neu": 0,
@@ -2324,7 +2324,7 @@
         {
           "cluster_id": 10,
           "label": "Retailers Struggle with Turnaround",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Retail Industry Challenges",
           "pos": 0,
           "neg": 1,
           "neu": 0,
@@ -2364,7 +2364,7 @@
         {
           "cluster_id": 19,
           "label": "Electric Vehicle Market Shifts Globally",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Global Economic Uncertainty",
           "pos": 1,
           "neg": 1,
           "neu": 0,
@@ -2404,7 +2404,7 @@
         {
           "cluster_id": 1,
           "label": "\"Streaming Services Face Mergers\"",
-          "meta_category": "Global Market Uncertainty",
+          "meta_category": "Retail Industry Challenges",
           "pos": 1,
           "neg": 1,
           "neu": 0,

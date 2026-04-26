@@ -1,10 +1,10 @@
 {
   "name": "root",
   "mode": "full",
-  "updated_at": "2026-04-25T22:48:35.653641+00:00",
+  "updated_at": "2026-04-26T01:02:32.424638+00:00",
   "children": [
     {
-      "name": "AI and Tech",
+      "name": "Artificial Intelligence and Business",
       "count": 188,
       "children": [
         {
@@ -900,8 +900,8 @@
       ]
     },
     {
-      "name": "Empowering the Next",
-      "count": 59,
+      "name": "Building Trust in Finance",
+      "count": 43,
       "children": [
         {
           "cluster_id": 26,
@@ -1302,10 +1302,6 @@
               "name": "Berkshire Hathaway"
             },
             {
-              "ticker": "TPR",
-              "name": "Tapestry"
-            },
-            {
               "ticker": "UBER",
               "name": "Uber Technologies"
             },
@@ -1314,12 +1310,16 @@
               "name": "DoorDash"
             },
             {
+              "ticker": "TPR",
+              "name": "Tapestry"
+            },
+            {
               "ticker": "MS",
               "name": "Morgan Stanley"
             },
             {
-              "ticker": "WMT",
-              "name": "Walmart"
+              "ticker": "CRM",
+              "name": "Salesforce"
             },
             {
               "ticker": "NVDA",
@@ -1356,827 +1356,12 @@
               "name": "Samsara"
             }
           ]
-        },
-        {
-          "cluster_id": 7,
-          "name": "Beauty Brands Cater to Gen X",
-          "count": 8,
-          "children": [
-            {
-              "name": "Forgotten no more: Generation X is driving beauty sales",
-              "summary": "Move over, Sephora kids. While younger generations have been buying beauty products in droves, data shows that a different generation holds more spending power: Generation X.",
-              "hash": "355ef19d174a4f57",
-              "chunk_key": "355ef19d174a4f57_c000",
-              "article_date": "2026-04-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "$300 bags, $60 hats: Mid-priced products are a status symbol for young shoppers",
-              "summary": "In fashion, for example, 2000s-era brands like Coach, Kate Spade and Michael Kors reached non-wealthy shoppers in department stores — until many of those consumers turned to fast f…",
-              "hash": "2c6bd41cb56538f9",
-              "chunk_key": "2c6bd41cb56538f9_c003",
-              "article_date": "2026-04-24 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Naomi Watts' menopause message: 'Why is it so taboo when we are half population'",
-              "summary": "In this article Oscar-nominated actress Naomi Watts has continued to have fame on the screen into her 50s, but she is building more of her life story around navigating deeply perso…",
-              "hash": "a8d6bf10090d8590",
-              "chunk_key": "a8d6bf10090d8590_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Why young Americans are buying $200 notebooks from a store in Paris",
-              "summary": "Asia, she says.",
-              "hash": "75b13f21fc109866",
-              "chunk_key": "75b13f21fc109866_c002",
-              "article_date": "2026-04-08 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Thorne on pace for $650 million in sales as Gen Z fuels supplement boom — despite subscription fatigue",
-              "summary": "The vitamins, minerals and supplements market reached $125 billion in the U.S.",
-              "hash": "6d11c727c5b9a9f4",
-              "chunk_key": "6d11c727c5b9a9f4_c001",
-              "article_date": "2026-04-02 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Italy investigates Sephora and Benefit over skincare marketing to children",
-              "summary": "In this article Italian regulators are looking to clamp down on the tween skincare obsession and are investigating the LVMH -owned cosmetic brands Sephora and Benefit over an \"insi…",
-              "hash": "2d7a7d049ad9e1d9",
-              "chunk_key": "2d7a7d049ad9e1d9_c000",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "The price of menstrual products is skyrocketing from inflation, tariffs",
-              "summary": "Rising inflation and ever-changing tariff policies have led to higher prices across store shelves over the past few years, squeezing consumers' budgets.",
-              "hash": "ecb3d0bb776fa62a",
-              "chunk_key": "ecb3d0bb776fa62a_c000",
-              "article_date": "2026-03-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Not just buying 'things': Why China's emotional economy is on the rise",
-              "summary": "This concentration of familial wealth — sometimes termed the \"six pockets\" effect — produced a younger cohort of Chinese consumers materially cushioned by their families in ways th…",
-              "hash": "07ce11b11fd21016",
-              "chunk_key": "07ce11b11fd21016_c003",
-              "article_date": "2026-03-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "TPR",
-              "name": "Tapestry"
-            },
-            {
-              "ticker": "DASH",
-              "name": "DoorDash"
-            },
-            {
-              "ticker": "UBER",
-              "name": "Uber Technologies"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "ULTA",
-              "name": "Ulta Beauty"
-            },
-            {
-              "ticker": "FLEX",
-              "name": "Flex"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "TGT",
-              "name": "Target"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "WMT",
-              "name": "Walmart"
-            },
-            {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "PYPL",
-              "name": "PayPal"
-            }
-          ]
-        },
-        {
-          "cluster_id": 21,
-          "name": "\"Entrepreneurship in the AI Era\"",
-          "count": 8,
-          "children": [
-            {
-              "name": "29-year-old is scaling back her six-figure career to run a bookstore with her husband",
-              "summary": "Merrill and Garing spent around $260,000 on the bookstore between the purchase price and costs for initial improvements.",
-              "hash": "79cf986a4b958d48",
-              "chunk_key": "79cf986a4b958d48_c002",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Bessent: Recent college grads need AI literacy to succeed in today's job market",
-              "summary": "Companies including Amazon, Salesforce and Block cited AI as a reason to lay off tens of thousands of employees in the last year.",
-              "hash": "36888138f77b9db4",
-              "chunk_key": "36888138f77b9db4_c002",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Kardashian ally Emma Grede on being an ambitious woman and billions",
-              "summary": "Then ambition has to be coupled with vision and a plan, and a lot of hard work. \"Ambition needs to find you working,\" Grede said. Ideas are never enough.",
-              "hash": "158361e0bddc10e6",
-              "chunk_key": "158361e0bddc10e6_c002",
-              "article_date": "2026-04-14 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "34-year-old product manager opened a restaurant after being laid off—it brings in up to $140,000 a month",
-              "summary": "Sitting in the kitchen watching Food Network, he'd think, \"I want to recreate that. But I have a different spice cabinet.",
-              "hash": "5fcc4da50a353750",
-              "chunk_key": "5fcc4da50a353750_c001",
-              "article_date": "2026-04-10 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "High school business teacher shares lessons from his $3.8M-a-year side hustle",
-              "summary": "Still, they tried to stay confident. \"We knew we were going to figure out a way how to make it work,\" Corey says.",
-              "hash": "d727159d1bdad6e3",
-              "chunk_key": "d727159d1bdad6e3_c003",
-              "article_date": "2026-04-07 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "How AI is changing American entrepreneurship, small business",
-              "summary": "Yeung and Spicer say they don't take salaries from their new businesses yet.",
-              "hash": "3b55908aae10025f",
-              "chunk_key": "3b55908aae10025f_c003",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "44-year-old left his tech job, started a halal burger joint—his restaurants brought in over $4 million in 2025",
-              "summary": "Technology was his first passion: after earning a degree in management information systems from SUNY Old Westbury, he spent 24 years working in IT.",
-              "hash": "f98ea8cca2252200",
-              "chunk_key": "f98ea8cca2252200_c001",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "CEO of $5B startup once took 'shortcuts' to grow business—until 'alarm bells' went off",
-              "summary": "The company risked joining the ranks of buzzy startups that never figure out how to turn their sky-high valuations into profitable, sustainable businesses — until a moment in April…",
-              "hash": "9d2e5366423320e3",
-              "chunk_key": "9d2e5366423320e3_c001",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "CRM",
-              "name": "Salesforce"
-            },
-            {
-              "ticker": "WMT",
-              "name": "Walmart"
-            },
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "TGT",
-              "name": "Target"
-            },
-            {
-              "ticker": "MS",
-              "name": "Morgan Stanley"
-            },
-            {
-              "ticker": "JAZZ",
-              "name": "Jazz Pharmaceuticals"
-            },
-            {
-              "ticker": "WMT",
-              "name": "Walmart"
-            },
-            {
-              "ticker": "BAC",
-              "name": "Bank of America"
-            }
-          ]
         }
       ]
     },
     {
-      "name": "Financial Market Turmoil",
-      "count": 38,
-      "children": [
-        {
-          "cluster_id": 12,
-          "name": "\"Private Credit Market Concerns Rise\"",
-          "count": 16,
-          "children": [
-            {
-              "name": "The new big tech concentration risk is in bond market, and it's here to stay",
-              "summary": "It's concentration in one industry being affected by technological change. ... Enterprise software stocks are down 60-70%. It is all about selection of business.",
-              "hash": "95064b921e7baede",
-              "chunk_key": "95064b921e7baede_c002",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Violent downturns could test new ETF strategies, warns MFS Investment",
-              "summary": "In this article New innovation in the exchange-traded fund industry could come at a cost to investors during extreme conditions.",
-              "hash": "671ce8f7a1562db5",
-              "chunk_key": "671ce8f7a1562db5_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Blackstone’s Solotar: Investors should separate private credit ‘signal from the noise’",
-              "summary": "Institutional investors have proven for years that private investments provide important balance in a portfolio, with less volatility, longer time horizons and often better long-te…",
-              "hash": "746c2cf12a0754e9",
-              "chunk_key": "746c2cf12a0754e9_c003",
-              "article_date": "2026-04-14 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "How bond market's private credit crisis fears are playing out in fixed-income ETFs",
-              "summary": "Both have seen relatively flat performance since the beginning of the year.",
-              "hash": "0720e1d7bb3674d7",
-              "chunk_key": "0720e1d7bb3674d7_c003",
-              "article_date": "2026-04-11 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "BlackRock rips page from hedge fund playbook, applies it to ETFs",
-              "summary": "In this article BlackRock is applying hedge fund strategies to its exchange-traded fund business.",
-              "hash": "e5eb2f68b141df41",
-              "chunk_key": "e5eb2f68b141df41_c000",
-              "article_date": "2026-04-09 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Blue Owl caps private credit funds redemptions at 5% after steep request levels",
-              "summary": "In this article Blue Owl is experiencing elevated redemption requests for two of its private credit funds, according to letters to shareholders issued Thursday.",
-              "hash": "409820e503f7d78e",
-              "chunk_key": "409820e503f7d78e_c000",
-              "article_date": "2026-04-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "As stocks, bonds fall, and oil hits $100, a futures trade that boomed in 2022 may again be a winner",
-              "summary": "In this article Managed future strategies are gaining renewed attention as investors look for new sources of returns from the market at a time when both stocks and bonds are under …",
-              "hash": "7ee4084c3d5bdf4a",
-              "chunk_key": "7ee4084c3d5bdf4a_c000",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Iran war could deepen Asia private equity's worst fundraising slump in a decade",
-              "summary": "Even as investors grow more selective about fund commitments, the region's largest and more established managers continue to attract capital, signaling a widening gap with their un…",
-              "hash": "792c40cd8e498ce2",
-              "chunk_key": "792c40cd8e498ce2_c002",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Wall Street banks eye comeback as strains emerge in private credit",
-              "summary": "That has made bank lending less competitive versus private credit funds in recent years, said market veterans.",
-              "hash": "af1a72d353532019",
-              "chunk_key": "af1a72d353532019_c002",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Private credit’s ‘zero-loss fantasy’ is ending as rising defaults loom",
-              "summary": "Funds concentrated in volatile sectors or holding covenant-lite loans with weaker protections are also vulnerable, as are highly leveraged healthcare roll-ups, Barrett said.",
-              "hash": "52e91986f0aea724",
-              "chunk_key": "52e91986f0aea724_c003",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Moody's cuts rating on private credit fund co-run by KKR to junk on bad loans",
-              "summary": "In this article Moody's Ratings on Monday downgraded a private credit fund run by KKR and Future Standard to junk amid rising bad loans and a string of weak earnings.",
-              "hash": "42c72ff2d3027733",
-              "chunk_key": "42c72ff2d3027733_c000",
-              "article_date": "2026-03-23 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Apollo gives investors 45% of requested withdrawals from private credit fund",
-              "summary": "In this article Apollo , the asset management giant, told investors in its flagship private credit fund that it will limit withdrawals this quarter to just under half of requests, …",
-              "hash": "2e8a05c9ea38b25a",
-              "chunk_key": "2e8a05c9ea38b25a_c000",
-              "article_date": "2026-03-22 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "When it comes to private credit, 'some caution is reasonable,' advisor says",
-              "summary": "It's some of these semi-liquid funds that are grabbing headlines, due to high redemption requests from investors, who have watched yields fall as overall interest rates have eased …",
-              "hash": "5959bd3617f3edb6",
-              "chunk_key": "5959bd3617f3edb6_c004",
-              "article_date": "2026-03-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Orlando Bravo says some software names hit by AI deserve a valuation cut",
-              "summary": "Apollo Global Management President John Zito recently criticized \"arrogance\" in software valuations by private equity firms, the Wall Street Journal reported Sunday .",
-              "hash": "aaa2cb71c5120aab",
-              "chunk_key": "aaa2cb71c5120aab_c001",
-              "article_date": "2026-03-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Thoma Bravo's Orlando Bravo pushes back on private markets criticism",
-              "summary": "Orlando Bravo, founder and managing partner of Thoma Bravo, pushed back on mounting criticism of private markets, saying deep sector expertise is separating winners from losers as …",
-              "hash": "142f5a1e315e902d",
-              "chunk_key": "142f5a1e315e902d_c000",
-              "article_date": "2026-03-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Apollo exec questions private equity's software loans: 'All the marks are wrong'",
-              "summary": "In this article Apollo's John Zito had a blunt assessment of how private equity firms are valuing their software holdings as shares of comparable public tech companies have plunged…",
-              "hash": "24a6291d631a567a",
-              "chunk_key": "24a6291d631a567a_c000",
-              "article_date": "2026-03-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "APO",
-              "name": "Apollo Global Management"
-            },
-            {
-              "ticker": "OWL",
-              "name": "Blue Owl Capital"
-            },
-            {
-              "ticker": "BX",
-              "name": "Blackstone"
-            },
-            {
-              "ticker": "MS",
-              "name": "Morgan Stanley"
-            },
-            {
-              "ticker": "MCO",
-              "name": "Moody's"
-            },
-            {
-              "ticker": "ARES",
-              "name": "Ares Management"
-            },
-            {
-              "ticker": "STT",
-              "name": "State Street"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AXS",
-              "name": "AXIS Capital"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "CCC",
-              "name": "CCC Intelligent Solutions"
-            },
-            {
-              "ticker": "BRBR",
-              "name": "Bellring Brands"
-            },
-            {
-              "ticker": "SSB",
-              "name": "SouthState Bank"
-            },
-            {
-              "ticker": "STT",
-              "name": "State Street"
-            }
-          ]
-        },
-        {
-          "cluster_id": 11,
-          "name": "US Banks Weather Market Volatility",
-          "count": 13,
-          "children": [
-            {
-              "name": "JPMorgan expands $1.5 trillion economic security splurge into Europe",
-              "summary": "In this article JPMorgan Chase will extend a $1.5 trillion investment program designed to bolster U.S. economic resilience across Europe, the Wall Street giant said on Tuesday.",
-              "hash": "e882e08026b11f1c",
-              "chunk_key": "e882e08026b11f1c_c000",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
-              "summary": "In this article When Goldman Sachs executives were asked about disappointing results in the firm's fixed income division this week, they made it sound as though the trading environ…",
-              "hash": "1a020c0678f50765",
-              "chunk_key": "1a020c0678f50765_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Morgan Stanley tops estimates as trading revenue beats by nearly $1 billion",
-              "summary": "In this article Morgan Stanley on Wednesday posted first-quarter results that topped analyst estimates as the firm's trading operations generated almost $1 billion more in revenue …",
-              "hash": "d36f9aab2b3fb170",
-              "chunk_key": "d36f9aab2b3fb170_c000",
-              "article_date": "2026-04-14 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Bank of America tops estimates, CEO Moynihan says consumer banking is 'healthy'",
-              "summary": "In this article Bank of America , the nation's second-largest lender, beat on the top and bottom lines during the first quarter, bolstered by equities sales and trading.",
-              "hash": "55756e388e68ab10",
-              "chunk_key": "55756e388e68ab10_c000",
-              "article_date": "2026-04-14 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Goldman tops estimates on record equities trading",
-              "summary": "In this article Goldman Sachs on Monday posted first-quarter results that topped expectations on record equities trading results and higher-than-expected investment banking revenue…",
-              "hash": "2bcb4c0353506a0d",
-              "chunk_key": "2bcb4c0353506a0d_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Citigroup beats estimates, boosted by gains in fixed income",
-              "summary": "In this article Citigroup beat on the top and bottom lines during the first quarter.",
-              "hash": "c25971a7a9b6aa0f",
-              "chunk_key": "c25971a7a9b6aa0f_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "JPMorgan tops estimates on Wall Street results, Dimon warns of 'complex' risks",
-              "summary": "In this article JPMorgan Chase on Tuesday posted first-quarter results that topped expectations on stronger-than-expected fixed income and investment banking revenue.",
-              "hash": "6df9277f84c2931a",
-              "chunk_key": "6df9277f84c2931a_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Jamie Dimon in annual letter cites risks in geopolitics, AI and private markets",
-              "summary": "Dimon also said JPMorgan's reaction to revised proposals for Basel 3 Endgame and a global systemically important bank, or GSIB, surcharge — issued by U.S.",
-              "hash": "085a80bf5e38800d",
-              "chunk_key": "085a80bf5e38800d_c001",
-              "article_date": "2026-04-05 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Jamie Dimon says Iran war makes Middle East peace prospects better long-term",
-              "summary": "Dimon, who leads the world's largest bank by market cap, also tied his contrarian Middle East view directly to economics, arguing that the region's need for foreign direct investme…",
-              "hash": "826533165eabac9c",
-              "chunk_key": "826533165eabac9c_c001",
-              "article_date": "2026-03-23 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "JPMorgan taps Dwyane Wade, Tom Brady for athlete wealth management push",
-              "summary": "In this article JPMorgan Chase has recruited some of the biggest names in American sports to help tackle a persistent problem: professional athletes going broke .",
-              "hash": "bd43d8eda89b4470",
-              "chunk_key": "bd43d8eda89b4470_c000",
-              "article_date": "2026-03-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "UniCredit to strengthen stake in Commerzbank to 30%",
-              "summary": "UniCredit has launched an offer to build its stake in Commerzbank above 30%, a key regulatory threshold if the lender is to launch a full takeover bid.",
-              "hash": "f7e3a57777f77b71",
-              "chunk_key": "f7e3a57777f77b71_c000",
-              "article_date": "2026-03-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Inside JPMorgan Chase's push to become the startup worlds new SVB",
-              "summary": "By late April of 2023, JPMorgan found itself looking at buying another wounded California-based bank.",
-              "hash": "a4316bd0e1342076",
-              "chunk_key": "a4316bd0e1342076_c003",
-              "article_date": "2026-03-12 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "JPMorgan reins in lending to private credit firms, marks down software loans",
-              "summary": "In this article JPMorgan Chase is reducing its exposure to the private credit industry by marking down the value of loans held by the bank as collateral, according to a person with…",
-              "hash": "827f6d2c20a8dc66",
-              "chunk_key": "827f6d2c20a8dc66_c000",
-              "article_date": "2026-03-10 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "C",
-              "name": "Citigroup"
-            },
-            {
-              "ticker": "MS",
-              "name": "Morgan Stanley"
-            },
-            {
-              "ticker": "WFC",
-              "name": "Wells Fargo"
-            },
-            {
-              "ticker": "BAC",
-              "name": "Bank of America"
-            },
-            {
-              "ticker": "PLTR",
-              "name": "Palantir Technologies"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "C",
-              "name": "Citigroup"
-            },
-            {
-              "ticker": "FRHC",
-              "name": "Freedom Holding"
-            },
-            {
-              "ticker": "STWD",
-              "name": "Starwood Property Trust"
-            },
-            {
-              "ticker": "JHX",
-              "name": "James Hardie Industries"
-            },
-            {
-              "ticker": "EVR",
-              "name": "Evercore"
-            },
-            {
-              "ticker": "TIGO",
-              "name": "Millicom International"
-            }
-          ]
-        },
-        {
-          "cluster_id": 6,
-          "name": "Mortgage Rates Rise Sharply",
-          "count": 9,
-          "children": [
-            {
-              "name": "Mamdani featured Ken Griffin in pied-a-terre tax promo. Citadel calls it 'shameful'",
-              "summary": "Citadel rebuked New York City Mayor Zohran Mamdani for singling out Chief Executive Officer Ken Griffin in a push for a new pied-à-terre tax, escalating a public dispute over how a…",
-              "hash": "f9b62a304220ba2e",
-              "chunk_key": "f9b62a304220ba2e_c000",
-              "article_date": "2026-04-23 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Zohran Mamdani and the business exodus? NYC office market is up under new mayor",
-              "summary": "In an op-ed he co-authored last week , Fulop warned that any plan to tax the rich and businesses will ripple through the cost equation for every New Yorker.",
-              "hash": "13b3e8f947746907",
-              "chunk_key": "13b3e8f947746907_c001",
-              "article_date": "2026-04-04 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump push for ban on investor homebuying may sacrifice bigger real estate deal",
-              "summary": "The National Association of Realtors has expressed its support for the Senate bill in a statement from its executive vice president and chief advocacy officer Shannon McGahn.",
-              "hash": "aa39e48b7c23ef56",
-              "chunk_key": "aa39e48b7c23ef56_c003",
-              "article_date": "2026-03-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Family offices make opportunistic bets on real estate",
-              "summary": "Jason Ozur, CEO of wealth manager Lido Advisors, said that even with low acquisition prices, investors have to heed many factors, like leverage costs and rising insurance costs, to…",
-              "hash": "1c4d398e59f6502d",
-              "chunk_key": "1c4d398e59f6502d_c003",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Mortgage demand drops more than 10% as rates hit the highest level since October",
-              "summary": "Mortgage rates rose last week to the highest level since last fall, and that pushed mortgage demand off a cliff. Total mortgage application volume dropped 10.",
-              "hash": "697def81134d41a9",
-              "chunk_key": "697def81134d41a9_c000",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Franklin Templeton CEO Jenny Johnson on making 79-year old family business last",
-              "summary": "Nevertheless, a family business has a unique set of risks that need to be handled in a unique way, and many families do not prepare properly. According to PwC's 2023 U.S.",
-              "hash": "f22e2e084fb3a4c6",
-              "chunk_key": "f22e2e084fb3a4c6_c001",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "January new home sales plunge to the lowest pace since 2022",
-              "summary": "Sales of newly built homes in January dropped 17.6% month over month to a seasonally adjusted, annualized pace of 587,000 units, according to the U.S. Census Bureau.",
-              "hash": "3b6a5ac606c7ef61",
-              "chunk_key": "3b6a5ac606c7ef61_c000",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Mortgage refinance demand plunges 19% after interest rates shoot higher",
-              "summary": "Mortgage rates last week jumped to the highest level since the end of last year, causing a slowdown in the growing refinance demand the market had been seeing at the start of this …",
-              "hash": "6f89a3557b5f1d17",
-              "chunk_key": "6f89a3557b5f1d17_c000",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "She owned 5 properties at 25—but says real estate investing was a mistake",
-              "summary": "On social media, \"there's been a popularization of the idea that real estate is somehow a silver bullet in terms of building wealth,\" Caswell says.",
-              "hash": "066619be79715bc5",
-              "chunk_key": "066619be79715bc5_c001",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "APO",
-              "name": "Apollo Global Management"
-            },
-            {
-              "ticker": "BAC",
-              "name": "Bank of America"
-            },
-            {
-              "ticker": "WFC",
-              "name": "Wells Fargo"
-            },
-            {
-              "ticker": "AXP",
-              "name": "American Express"
-            },
-            {
-              "ticker": "HD",
-              "name": "Home Depot"
-            },
-            {
-              "ticker": "CG",
-              "name": "Carlyle Group"
-            },
-            {
-              "ticker": "BLDR",
-              "name": "Builders FirstSource"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "VICI",
-              "name": "VICI Properties"
-            },
-            {
-              "ticker": "CBRE",
-              "name": "CBRE Group"
-            },
-            {
-              "ticker": "DVN",
-              "name": "Devon Energy"
-            },
-            {
-              "ticker": "JLL",
-              "name": "Jones Lang LaSalle"
-            },
-            {
-              "ticker": "FRT",
-              "name": "Federal Realty Investment Trust"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "MRP",
-              "name": "Millrose Properties"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Financial Regulation",
-      "count": 108,
+      "name": "Central Banking Scrutiny",
+      "count": 64,
       "children": [
         {
           "cluster_id": 25,
@@ -2566,334 +1751,6 @@
           ]
         },
         {
-          "cluster_id": 18,
-          "name": "US Government Shutdown Continues",
-          "count": 29,
-          "children": [
-            {
-              "name": "Senate Republicans unveil immigration funding framework as DHS shutdown drags on",
-              "summary": "Graham , R-S.C., said in a statement . \"With this budget resolution, we are moving forward — not backward — on rational immigration policies that secure our border,\" Graham said.",
-              "hash": "f68b6efa67a90af3",
-              "chunk_key": "f68b6efa67a90af3_c001",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Rep. Sheila Cherfilus-McCormick resigns, third House member to quit this month",
-              "summary": "Rep.",
-              "hash": "8b5a0a96ef4d6505",
-              "chunk_key": "8b5a0a96ef4d6505_c000",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Labor Secretary Lori Chavez-DeRemer leaves Trump cabinet, Keith Sonderling takes over",
-              "summary": "Department of Labor Secretary Lori Chavez-DeRemer is resigning from the Trump administration, the White House said Monday.",
-              "hash": "cb159e88b590e23d",
-              "chunk_key": "cb159e88b590e23d_c000",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Swalwell resignation over sexual misconduct prompts rare Ethics panel remarks",
-              "summary": "The panel has often come under fire for its glacial pace, and has been the target of increased scrutiny of late .",
-              "hash": "12dc809f6283aea3",
-              "chunk_key": "12dc809f6283aea3_c001",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "What to know on FISA Section 702: Congress extends controversial surveillance program",
-              "summary": "The House and Senate on Friday approved a short-term extensive of a section of federal law that allows the warrantless surveillance and collection of foreign intelligence, though a…",
-              "hash": "314bf0083274fe24",
-              "chunk_key": "314bf0083274fe24_c000",
-              "article_date": "2026-04-17 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Judge blocks above-ground construction of Trump's WH ballroom, admini appeals",
-              "summary": "The order comes five days after the Court of Appeals told Leon to clarify a prior order he issued on March 31 that enjoined the Trump administration from taking any action to build…",
-              "hash": "a814fa020e567158",
-              "chunk_key": "a814fa020e567158_c001",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "ICE agent charged with assault by Minnesota prosecutors, arrest warrant issued",
-              "summary": "An Immigration and Customs Enforcement agent has been charged with two counts of assault related to a road rage incident by state prosecutors in Minnesota, who have issued a nation…",
-              "hash": "bcec7ff258766488",
-              "chunk_key": "bcec7ff258766488_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Senate overturns Boundary Waters protections, a boon for Chilean mining company",
-              "summary": "Republicans who pushed the resolution lauded the result.",
-              "hash": "de64c59d8f5ef0b8",
-              "chunk_key": "de64c59d8f5ef0b8_c001",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump nominates Erica Schwartz as CDC director",
-              "summary": "President Donald Trump on Thursday nominated Erica Schwartz to serve as director of the Centers for Disease Control and Prevention, concluding a monthslong effort to choose a perma…",
-              "hash": "297a7ff99fb17ced",
-              "chunk_key": "297a7ff99fb17ced_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Treasury Secretary Scott Bessent is preparing banks to collect citizenship data",
-              "summary": "Banks in the U.S. may not like the idea of being forced to collect citizenship data on customers, but Treasury Secretary Scott Bessent says they better be prepared for the task.",
-              "hash": "b9a0cfd874d5621b",
-              "chunk_key": "b9a0cfd874d5621b_c000",
-              "article_date": "2026-04-15 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Eric Swalwell accuser Lonna Drewes says 'he raped me,' will file police report",
-              "summary": "A lawyer for Swalwell did not immediately respond to a request for comment on Drewes' allegations.",
-              "hash": "5cd654679d31eda6",
-              "chunk_key": "5cd654679d31eda6_c001",
-              "article_date": "2026-04-14 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Rep. Eric Swalwell resigns from U.S. House after sexual misconduct allegations",
-              "summary": "Rep. Eric Swalwell, a former Democratic frontrunner in the California gubernatorial race , resigned from Congress on Monday amid sexual misconduct allegations.",
-              "hash": "2349883328ef7799",
-              "chunk_key": "2349883328ef7799_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump's 250-foot 'triumphal arch' would loom over Potomac, new renderings show",
-              "summary": "On Feb. 2, the president posted on social media an image showing India Gate, with the message: \"India's beautiful Triumphal Arch. Ours will be the greatest of them all!\" Rep.",
-              "hash": "c31ff35b8aef2566",
-              "chunk_key": "c31ff35b8aef2566_c001",
-              "article_date": "2026-04-10 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "ICE agents shoot man in California after he 'weaponized' vehicle, DHS says",
-              "summary": "U.S.",
-              "hash": "4ab5b75191de4a70",
-              "chunk_key": "4ab5b75191de4a70_c000",
-              "article_date": "2026-04-07 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump administration: 'Birth tourism' problem should end birthright citizenship",
-              "summary": "A lawyer for the Trump administration during arguments at the Supreme Court on Wednesday leaned hard into his claim that so-called birth tourism is strong evidence that the U.S.",
-              "hash": "1c3655fb8e625649",
-              "chunk_key": "1c3655fb8e625649_c000",
-              "article_date": "2026-04-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "TSA shutdown: GOP's Thune and Johnson boost two-part plan to fund DHS",
-              "summary": "Senate Majority Leader John Thune , R-S.D., and House Speaker Mike Johnson , R-La.",
-              "hash": "aef5bb847686ed05",
-              "chunk_key": "aef5bb847686ed05_c000",
-              "article_date": "2026-04-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump is paying TSA agents — but where is the money coming from?",
-              "summary": "After weeks of long lines at airports and bickering in Congress , Transportation Security Administration agents began to receive pay earlier this week thanks to an executive order …",
-              "hash": "19f1d83d8679ecd2",
-              "chunk_key": "19f1d83d8679ecd2_c000",
-              "article_date": "2026-04-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Pete Hegseth's broker attempted to make defense investments before Iran war: Financial Times",
-              "summary": "In this article A broker for U.S.",
-              "hash": "214221f330cae5a3",
-              "chunk_key": "214221f330cae5a3_c000",
-              "article_date": "2026-03-31 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump push for ban on investor homebuying may sacrifice bigger real estate deal",
-              "summary": "Senate bill, insist on including several community bank deregulatory bills in pending cryptocurrency legislation.",
-              "hash": "aa39e48b7c23ef56",
-              "chunk_key": "aa39e48b7c23ef56_c010",
-              "article_date": "2026-03-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "TSA funding update: Senate tees up House vote to end DHS shutdown",
-              "summary": "The Senate vote is an encouraging step toward ending the shutdown, which resulted in missed paychecks for Transportation Security Administration agents and long lines at airports.",
-              "hash": "6b386833034bcb9c",
-              "chunk_key": "6b386833034bcb9c_c001",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Pricy airfare, airport chaos test travelers' willingness to fly this year",
-              "summary": "Along with higher airfare, travelers are facing challenges at airports this spring. TSA officers have been working without regular pay since Feb.",
-              "hash": "34a3bae07ae6ae0d",
-              "chunk_key": "34a3bae07ae6ae0d_c003",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "TSA officers will start getting paychecks as early as Monday, DHS says",
-              "summary": "Transportation Security Administration officers, who have worked without pay for weeks because of a partial government shutdown , \"should begin seeing paychecks as early as Monday,…",
-              "hash": "68f4011b13ea05b2",
-              "chunk_key": "68f4011b13ea05b2_c000",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Reps Ro Khanna and Tim Burchett to push fraud probe across all 50 states",
-              "summary": "In a statement, Burchett said that \"Taxpayers need to trust that their hard-earned tax dollars are being spent and allocated wisely.",
-              "hash": "61db1cb0bf5df8f3",
-              "chunk_key": "61db1cb0bf5df8f3_c002",
-              "article_date": "2026-03-26 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Warren, Blumenthal: DOD answers lack anti-corruption protocols for Trump children",
-              "summary": "Sen.",
-              "hash": "f88707629f5766e1",
-              "chunk_key": "f88707629f5766e1_c000",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Republicans block Democratic push for Trump Jr. subpoena",
-              "summary": "Republicans on a House Natural Resources subcommittee blocked a Democratic motion to subpoena Donald Trump Jr.",
-              "hash": "cd6326057bb8f7db",
-              "chunk_key": "cd6326057bb8f7db_c000",
-              "article_date": "2026-03-24 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "ICE agents will be deployed to U.S. airports on Monday: Homan",
-              "summary": "More than 400 TSA officers have left their jobs since the start of the shutdown, according to an NBC News report.",
-              "hash": "da1698f6e762be49",
-              "chunk_key": "da1698f6e762be49_c001",
-              "article_date": "2026-03-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump threatens to send ICE agents to airports if DHS shutdown doesn't end",
-              "summary": "President Donald Trump on ​Saturday ​threatened ​to send federal ⁠immigration agents ‌to U.S.",
-              "hash": "60808524b4feb089",
-              "chunk_key": "60808524b4feb089_c000",
-              "article_date": "2026-03-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "DHS nominee Markwayne Mullin gets Senate hearing Wednesday",
-              "summary": "The Senate on Wednesday will begin its consideration of Sen. Markwayne Mullin , R-Okla., to lead the Department of Homeland Security .",
-              "hash": "de927f7abd583017",
-              "chunk_key": "de927f7abd583017_c000",
-              "article_date": "2026-03-18 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "TSA miss first paycheck of shutdown as Senate bickers over DHS funding",
-              "summary": "A debate over immigration and ending the Department of Homeland Security shutdown spilled over onto the Senate floor late Wednesday, as Transportation Security Administration agent…",
-              "hash": "369858ea3f2e06fb",
-              "chunk_key": "369858ea3f2e06fb_c000",
-              "article_date": "2026-03-12 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "NOC",
-              "name": "Northrop Grumman"
-            },
-            {
-              "ticker": "MS",
-              "name": "Morgan Stanley"
-            },
-            {
-              "ticker": "LMT",
-              "name": "Lockheed Martin"
-            },
-            {
-              "ticker": "AAL",
-              "name": "American Airlines Group"
-            },
-            {
-              "ticker": "CARR",
-              "name": "Carrier Global"
-            },
-            {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            },
-            {
-              "ticker": "UAL",
-              "name": "United Airlines"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "TSLA",
-              "name": "Tesla"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            }
-          ]
-        },
-        {
           "cluster_id": 2,
           "name": "\"Prediction Markets Under Scrutiny\"",
           "count": 28,
@@ -3211,144 +2068,349 @@
               "name": "Apellis Pharmaceuticals"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "Dietary Therapies and Treatments",
+      "count": 21,
+      "children": [
         {
-          "cluster_id": 17,
-          "name": "Jeffrey Epstein Investigation Continues",
-          "count": 15,
+          "cluster_id": 4,
+          "name": "GLP-1 Weight Loss Medications",
+          "count": 21,
           "children": [
             {
-              "name": "DOJ watchdog investigating handling of Jeffrey Epstein files",
-              "summary": "The Department of Justice 's internal watchdog said on Thursday that it is investigating the DOJ's compliance with a law requiring that it fully disclose department files about the…",
-              "hash": "754cf92bb18779e3",
-              "chunk_key": "754cf92bb18779e3_c000",
+              "name": "Trump administration moves to reclassify marijuana—what it means for investors",
+              "summary": "In the near term, Kovler says, the move could remove what amounts to a huge tax burden on cannabis firms.",
+              "hash": "62c1c6b75abcc9f9",
+              "chunk_key": "62c1c6b75abcc9f9_c001",
               "article_date": "2026-04-23 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Thief who swiped purse of ex-DHS chief Kristi Noem gets 3 years in prison",
-              "summary": "Bustamante Leiva was later charged with stealing purses in three separate incidents in April 2025. He pleaded guilty on Nov.",
-              "hash": "0ddf711ec8611a52",
-              "chunk_key": "0ddf711ec8611a52_c001",
-              "article_date": "2026-04-22 00:00:00",
+              "name": "Regeneron inks drug pricing deal with Trump, will offer hearing-loss therapy for free",
+              "summary": "In this article Regeneron agreed to lower U.S. drug prices for some Americans as part of a deal with President Donald Trump, the White House said on Thursday.",
+              "hash": "7646b69235f6f958",
+              "chunk_key": "7646b69235f6f958_c000",
+              "article_date": "2026-04-23 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Trump details Cook call to 'kiss my ass,' a stark look at White House dealmaking",
-              "summary": "Amazon insisted it did nothing \"improper,\" according to Variety . Companies outside of Silicon Valley have also gone to great lengths to win over the president.",
-              "hash": "2b2e6461785a0c3b",
-              "chunk_key": "2b2e6461785a0c3b_c006",
+              "name": "Amazon launches GLP-1 weight loss program, promising 'fast, convenient' access",
+              "summary": "In this article Amazon is pushing deeper into the booming weight loss market, unveiling Tuesday a new program that aims to simplify access to popular GLP-1 treatments.",
+              "hash": "2e149716d91d533d",
+              "chunk_key": "2e149716d91d533d_c000",
               "article_date": "2026-04-21 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Gates Foundation reviewing Jeffrey Epstein ties, will slash 20% of staff: WSJ",
-              "summary": "In this article The Gates Foundation has launched an external review of the philanthropy's past ties with notorious sex offender Jeffrey Epstein , The Wall Street Journal reported …",
-              "hash": "e7a89c677da71cdb",
-              "chunk_key": "e7a89c677da71cdb_c000",
-              "article_date": "2026-04-21 00:00:00",
+              "name": "How Trump's psychedelics executive order could unlock stalled cannabis reform",
+              "summary": "It directs agencies like the U.S.",
+              "hash": "6fa409443bbc1aff",
+              "chunk_key": "6fa409443bbc1aff_c001",
+              "article_date": "2026-04-20 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "DOJ charges Southern Poverty Law Center with fraud over secret funding of extremist groups",
-              "summary": "The Department of Justice on Tuesday announced a bombshell 11-count indictment accusing the Southern Poverty Law Center of secretly funding right-wing extremist groups that it clai…",
-              "hash": "7d8696a9d5d3d761",
-              "chunk_key": "7d8696a9d5d3d761_c000",
-              "article_date": "2026-04-21 00:00:00",
+              "name": "RFK Jr.'s peptide policy could boost Hims & Hers as its GLP-1 business evolves",
+              "summary": "In this article As its high-margin compounded GLP-1 business evolves, Hims & Hers Health may be finding a new opportunity in peptides.",
+              "hash": "8948eecf97e9d77d",
+              "chunk_key": "8948eecf97e9d77d_c000",
+              "article_date": "2026-04-16 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "SantaCon promoter arrested for charity fraud, New York federal prosecutors say",
-              "summary": "The president of SantaCon was arrested on Wednesday on a federal criminal indictment accusing him of using the ticketed Christmas bar-crawl event to divert hundreds of thousands of…",
-              "hash": "17ae4d74157eecaa",
-              "chunk_key": "17ae4d74157eecaa_c000",
-              "article_date": "2026-04-15 00:00:00",
+              "name": "The Nasdaq's win streak, Netflix earnings and more: Morning Squawk",
+              "summary": "The move comes after retail investors rushed into Allbirds' stock following its own announcement that it would shift its focus from shoes to AI.",
+              "hash": "32806acb09c89147",
+              "chunk_key": "32806acb09c89147_c002",
+              "article_date": "2026-04-16 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Judge tosses Trump $10B defamation suit against Murdoch, WSJ about Epstein letter",
-              "summary": "A federal judge in Florida on Monday dismissed President Donald Trump 's $10 billion lawsuit against media baron Rupert Murdoch and The Wall Street Journal , which claimed the news…",
-              "hash": "8f7e1e359f080d89",
-              "chunk_key": "8f7e1e359f080d89_c000",
-              "article_date": "2026-04-13 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Epstein victims will get House committee hearing, James Comer says",
-              "summary": "Victims of Jeffrey Epstein will get the chance to speak about the late sex offender's crimes at hearings of the House committee investigating him and his procurer, Ghislaine Maxwel…",
-              "hash": "8849de6f37296edc",
-              "chunk_key": "8849de6f37296edc_c000",
+              "name": "Trump policies, China's biotech boom are ending Europe's pharma powerhouse era",
+              "summary": "U.S., according to research by ING. Today, the U.S. share of R&D has jumped to 55%, while Europe's has plummeted to 26%.",
+              "hash": "fdc47274ab29eeaa",
+              "chunk_key": "fdc47274ab29eeaa_c001",
               "article_date": "2026-04-10 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Melania Trump blasts claims about Jeffrey Epstein and her",
-              "summary": "First lady Melania Trump on Thursday blasted what she described as an array of false claims about her and notorious sex offender Jeffrey Epstein .",
-              "hash": "1c4cb6878c9079d9",
-              "chunk_key": "1c4cb6878c9079d9_c000",
-              "article_date": "2026-04-09 00:00:00",
+              "name": "Former senator shines spotlight on a possible breakthrough for pancreatic cancer",
+              "summary": "In this article Revolution Medicines could be on the cusp of a breakthrough.",
+              "hash": "238f2866fdd2c3f2",
+              "chunk_key": "238f2866fdd2c3f2_c000",
+              "article_date": "2026-04-10 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Epstein files: Bondi won't testify to House panel, Democrats threaten contempt",
-              "summary": "Former Attorney General Pam Bondi will not appear as scheduled on April 14 to testify before the House Oversight and Government Reform Committee about her and the Department of Jus…",
-              "hash": "53b961ed9e133a13",
-              "chunk_key": "53b961ed9e133a13_c000",
-              "article_date": "2026-04-08 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Personal assistant pleads guilty to defrauding elderly couple out of $10 million",
-              "summary": "A New York woman who worked as a personal assistant pleaded guilty to wire fraud on Wednesday for a scheme in which she stole $10 million from her elderly employers, one of whom di…",
-              "hash": "d49391b49aaa058c",
-              "chunk_key": "d49391b49aaa058c_c000",
-              "article_date": "2026-04-08 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Bill Gates interview about Jeffrey Epstein by House Oversight set for June 10",
-              "summary": "Microsoft co-founder Bill Gates will sit for an interview about Jeffrey Epstei n by the House Oversight and Government Reform Committee on June 10, according to a person familiar w…",
-              "hash": "202af36540603319",
-              "chunk_key": "202af36540603319_c000",
-              "article_date": "2026-04-07 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Epstein files: Commerce chief Lutnick set for May 6 interview by House Oversight",
-              "summary": "Commerce Secretary Howard Lutnick is scheduled to appear May 6 before the House Committee on Oversight and Government Reform for an interview about notorious sex offender Jeffrey E…",
-              "hash": "84a1ddd8b92b95e9",
-              "chunk_key": "84a1ddd8b92b95e9_c000",
+              "name": "FDA declines to issue specific guidance on health programs' foreign drug imports",
+              "summary": "The Food and Drug Administration in recent weeks said it would decline to clarify laws that ban the foreign importation of prescription medicines, despite growing evidence of the o…",
+              "hash": "74e73fb329c5078c",
+              "chunk_key": "74e73fb329c5078c_c000",
               "article_date": "2026-04-06 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Epstein victims to get $72.5M from Bank of America settlement",
-              "summary": "The complaint against BoA said that from that year, through 2019, \"Epstein sexually abused Jane Doe on at least 100 occasions, including but not limited to, forcibly touching her, …",
-              "hash": "ff63226533fe0d9d",
-              "chunk_key": "ff63226533fe0d9d_c002",
+              "name": "Trump tariff fallout: Industries grapple with lingering effects one year later",
+              "summary": "Those agreements are part of the president's so-called \"most favored nation\" policy , which ties U.S. drug prices to cheaper ones abroad.",
+              "hash": "cf81c188a66167c4",
+              "chunk_key": "cf81c188a66167c4_c009",
+              "article_date": "2026-04-02 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Eli Lilly opposes White House push to codify most favored nation drug pricing",
+              "summary": "In this article Eli Lilly opposes the White House's push to codify \"most favored nation\" drug pricing into law, CEO Dave Ricks said in an interview with CNBC.",
+              "hash": "9485e29e81005e77",
+              "chunk_key": "9485e29e81005e77_c000",
+              "article_date": "2026-04-01 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "FDA approves Eli Lilly's GLP-1 pill, opening next phase for weight loss drugs",
+              "summary": "The lowest doses of both drugs will cost $149 for cash-paying customers thanks to an agreement the companies struck with the Trump administration last fall.",
+              "hash": "ad0655bcea6d1981",
+              "chunk_key": "ad0655bcea6d1981_c004",
+              "article_date": "2026-04-01 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Eli Lilly reaches deal to bring AI-developed drugs to global market",
+              "summary": "In this article BEIJING — U.S. pharmaceutical giant Eli Lilly has reached a $2.",
+              "hash": "6718b97400bc48b9",
+              "chunk_key": "6718b97400bc48b9_c000",
+              "article_date": "2026-03-30 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Novartis to pay $2 billion for Excellergy, in second multi-billion dollar deal in a week",
+              "summary": "In this article Novartis is planning to buy U.S.",
+              "hash": "ad9f554498ce257d",
+              "chunk_key": "ad9f554498ce257d_c000",
               "article_date": "2026-03-27 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Epstein victims sue Google, Trump administration alleging personal data disclosure",
-              "summary": "In this article A victim of notorious sex predator Jeffrey Epstein filed a class action lawsuit Thursday on behalf of herself and other survivors against the Trump administration a…",
-              "hash": "f1f5d2535608aa8b",
-              "chunk_key": "f1f5d2535608aa8b_c000",
+              "name": "AstraZeneca stock jumps after surprise lung disease trial win",
+              "summary": "In this article AstraZeneca 's stock jumped nearly 5% after Britain's most valuable company said its experimental lung disease medicine met its target in two late-stage clinical tr…",
+              "hash": "df85ab846ed410fa",
+              "chunk_key": "df85ab846ed410fa_c000",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Merck to buy Terns Pharmaceuticals for $6.7 billion to boost cancer pipeline",
+              "summary": "In this article Pharma giant Merck is buying U.S. biotech firm Terns Pharmaceuticals for $6.7 billion, the company said Wednesday.",
+              "hash": "4561f7b5618320e9",
+              "chunk_key": "4561f7b5618320e9_c000",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Indian generic makers trigger price war in GLP-1 drugs — How vulnerable is Novo?",
+              "summary": "India \" on Friday.",
+              "hash": "63db4bfd886081f1",
+              "chunk_key": "63db4bfd886081f1_c003",
+              "article_date": "2026-03-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "GLP-1 drugs are changing how Americans eat. Food companies are racing to catch up",
+              "summary": "The pullback in restaurant visits isn't spread evenly across times of day, according to Dana Baggett, executive director of restaurant client strategy at RRD, which works with more…",
+              "hash": "d677a7aa7ab1a00f",
+              "chunk_key": "d677a7aa7ab1a00f_c003",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Eli Lilly’s obesity drug retatrutide clears first late-stage diabetes trial",
+              "summary": "For example, Custer said patients who want to regulate their blood sugar could benefit from either Zepbound or retatrutide.",
+              "hash": "75cd7200f24cc85f",
+              "chunk_key": "75cd7200f24cc85f_c002",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "FDA approves higher-dose version of Novo Nordisk's obesity drug Wegovy",
+              "summary": "In this article The Food and Drug Administration on Thursday approved a higher-dose version of Novo Nordisk 's blockbuster weight loss injection Wegovy, as the company pushes to wi…",
+              "hash": "72ef398020e8cd7b",
+              "chunk_key": "72ef398020e8cd7b_c000",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Strait of Hormuz standoff puts supply of generic drug prescriptions at risk",
+              "summary": "India have reportedly climbed 200 to 350 percent for some routes, according to Blough.",
+              "hash": "ab665e911083dbc7",
+              "chunk_key": "ab665e911083dbc7_c003",
+              "article_date": "2026-03-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "LLY",
+              "name": "Eli Lilly"
+            },
+            {
+              "ticker": "MRK",
+              "name": "Merck"
+            },
+            {
+              "ticker": "RVMD",
+              "name": "Revolution Medicines"
+            },
+            {
+              "ticker": "REGN",
+              "name": "Regeneron Pharmaceuticals"
+            },
+            {
+              "ticker": "F",
+              "name": "Ford Motor"
+            },
+            {
+              "ticker": "DRI",
+              "name": "Darden Restaurants"
+            },
+            {
+              "ticker": "NYT",
+              "name": "New York Times"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "MRK",
+              "name": "Merck"
+            },
+            {
+              "ticker": "PFE",
+              "name": "Pfizer"
+            },
+            {
+              "ticker": "VKTX",
+              "name": "Viking Therapeutics"
+            },
+            {
+              "ticker": "ROIV",
+              "name": "Roivant Sciences"
+            },
+            {
+              "ticker": "JAZZ",
+              "name": "Jazz Pharmaceuticals"
+            },
+            {
+              "ticker": "GILD",
+              "name": "Gilead Sciences"
+            },
+            {
+              "ticker": "APLS",
+              "name": "Apellis Pharmaceuticals"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Emerging Beauty and Tech",
+      "count": 16,
+      "children": [
+        {
+          "cluster_id": 7,
+          "name": "Beauty Brands Cater to Gen X",
+          "count": 8,
+          "children": [
+            {
+              "name": "Forgotten no more: Generation X is driving beauty sales",
+              "summary": "Move over, Sephora kids. While younger generations have been buying beauty products in droves, data shows that a different generation holds more spending power: Generation X.",
+              "hash": "355ef19d174a4f57",
+              "chunk_key": "355ef19d174a4f57_c000",
+              "article_date": "2026-04-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "$300 bags, $60 hats: Mid-priced products are a status symbol for young shoppers",
+              "summary": "In fashion, for example, 2000s-era brands like Coach, Kate Spade and Michael Kors reached non-wealthy shoppers in department stores — until many of those consumers turned to fast f…",
+              "hash": "2c6bd41cb56538f9",
+              "chunk_key": "2c6bd41cb56538f9_c003",
+              "article_date": "2026-04-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Naomi Watts' menopause message: 'Why is it so taboo when we are half population'",
+              "summary": "In this article Oscar-nominated actress Naomi Watts has continued to have fame on the screen into her 50s, but she is building more of her life story around navigating deeply perso…",
+              "hash": "a8d6bf10090d8590",
+              "chunk_key": "a8d6bf10090d8590_c000",
+              "article_date": "2026-04-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Why young Americans are buying $200 notebooks from a store in Paris",
+              "summary": "Asia, she says.",
+              "hash": "75b13f21fc109866",
+              "chunk_key": "75b13f21fc109866_c002",
+              "article_date": "2026-04-08 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Thorne on pace for $650 million in sales as Gen Z fuels supplement boom — despite subscription fatigue",
+              "summary": "The vitamins, minerals and supplements market reached $125 billion in the U.S.",
+              "hash": "6d11c727c5b9a9f4",
+              "chunk_key": "6d11c727c5b9a9f4_c001",
+              "article_date": "2026-04-02 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Italy investigates Sephora and Benefit over skincare marketing to children",
+              "summary": "In this article Italian regulators are looking to clamp down on the tween skincare obsession and are investigating the LVMH -owned cosmetic brands Sephora and Benefit over an \"insi…",
+              "hash": "2d7a7d049ad9e1d9",
+              "chunk_key": "2d7a7d049ad9e1d9_c000",
               "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "The price of menstrual products is skyrocketing from inflation, tariffs",
+              "summary": "Rising inflation and ever-changing tariff policies have led to higher prices across store shelves over the past few years, squeezing consumers' budgets.",
+              "hash": "ecb3d0bb776fa62a",
+              "chunk_key": "ecb3d0bb776fa62a_c000",
+              "article_date": "2026-03-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Not just buying 'things': Why China's emotional economy is on the rise",
+              "summary": "This concentration of familial wealth — sometimes termed the \"six pockets\" effect — produced a younger cohort of Chinese consumers materially cushioned by their families in ways th…",
+              "hash": "07ce11b11fd21016",
+              "chunk_key": "07ce11b11fd21016_c003",
+              "article_date": "2026-03-21 00:00:00",
               "provider": "CNBC",
               "value": 1
             }
@@ -3359,28 +2421,155 @@
               "name": "Meta Platforms"
             },
             {
-              "ticker": "AAPL",
-              "name": "Apple"
+              "ticker": "DASH",
+              "name": "DoorDash"
+            },
+            {
+              "ticker": "TPR",
+              "name": "Tapestry"
+            },
+            {
+              "ticker": "UBER",
+              "name": "Uber Technologies"
+            },
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet"
+            },
+            {
+              "ticker": "ULTA",
+              "name": "Ulta Beauty"
+            },
+            {
+              "ticker": "PG",
+              "name": "Procter Gamble"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "NVDA",
+              "name": "Nvidia"
+            },
+            {
+              "ticker": "TGT",
+              "name": "Target"
             },
             {
               "ticker": "AMZN",
               "name": "Amazon.com"
             },
             {
-              "ticker": "NXST",
-              "name": "Nexstar Media Group"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
+              "ticker": "WMT",
+              "name": "Walmart"
             },
             {
               "ticker": "JPM",
               "name": "JPMorgan Chase"
             },
             {
-              "ticker": "INTC",
-              "name": "Intel"
+              "ticker": "MSFT",
+              "name": "Microsoft"
+            },
+            {
+              "ticker": "PYPL",
+              "name": "PayPal"
+            }
+          ]
+        },
+        {
+          "cluster_id": 21,
+          "name": "\"Entrepreneurship in the AI Era\"",
+          "count": 8,
+          "children": [
+            {
+              "name": "29-year-old is scaling back her six-figure career to run a bookstore with her husband",
+              "summary": "Merrill and Garing spent around $260,000 on the bookstore between the purchase price and costs for initial improvements.",
+              "hash": "79cf986a4b958d48",
+              "chunk_key": "79cf986a4b958d48_c002",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Bessent: Recent college grads need AI literacy to succeed in today's job market",
+              "summary": "Companies including Amazon, Salesforce and Block cited AI as a reason to lay off tens of thousands of employees in the last year.",
+              "hash": "36888138f77b9db4",
+              "chunk_key": "36888138f77b9db4_c002",
+              "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Kardashian ally Emma Grede on being an ambitious woman and billions",
+              "summary": "Then ambition has to be coupled with vision and a plan, and a lot of hard work. \"Ambition needs to find you working,\" Grede said. Ideas are never enough.",
+              "hash": "158361e0bddc10e6",
+              "chunk_key": "158361e0bddc10e6_c002",
+              "article_date": "2026-04-14 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "34-year-old product manager opened a restaurant after being laid off—it brings in up to $140,000 a month",
+              "summary": "Sitting in the kitchen watching Food Network, he'd think, \"I want to recreate that. But I have a different spice cabinet.",
+              "hash": "5fcc4da50a353750",
+              "chunk_key": "5fcc4da50a353750_c001",
+              "article_date": "2026-04-10 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "High school business teacher shares lessons from his $3.8M-a-year side hustle",
+              "summary": "Still, they tried to stay confident. \"We knew we were going to figure out a way how to make it work,\" Corey says.",
+              "hash": "d727159d1bdad6e3",
+              "chunk_key": "d727159d1bdad6e3_c003",
+              "article_date": "2026-04-07 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "How AI is changing American entrepreneurship, small business",
+              "summary": "Yeung and Spicer say they don't take salaries from their new businesses yet.",
+              "hash": "3b55908aae10025f",
+              "chunk_key": "3b55908aae10025f_c003",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "44-year-old left his tech job, started a halal burger joint—his restaurants brought in over $4 million in 2025",
+              "summary": "Technology was his first passion: after earning a degree in management information systems from SUNY Old Westbury, he spent 24 years working in IT.",
+              "hash": "f98ea8cca2252200",
+              "chunk_key": "f98ea8cca2252200_c001",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "CEO of $5B startup once took 'shortcuts' to grow business—until 'alarm bells' went off",
+              "summary": "The company risked joining the ranks of buzzy startups that never figure out how to turn their sky-high valuations into profitable, sustainable businesses — until a moment in April…",
+              "hash": "9d2e5366423320e3",
+              "chunk_key": "9d2e5366423320e3_c001",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "CRM",
+              "name": "Salesforce"
+            },
+            {
+              "ticker": "NVDA",
+              "name": "Nvidia"
+            },
+            {
+              "ticker": "WMT",
+              "name": "Walmart"
             }
           ],
           "related_tickers_semantic": [
@@ -3393,31 +2582,580 @@
               "name": "Amazon.com"
             },
             {
-              "ticker": "MSFT",
-              "name": "Microsoft"
+              "ticker": "TGT",
+              "name": "Target"
             },
             {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            },
-            {
-              "ticker": "BAC",
-              "name": "Bank of America"
-            },
-            {
-              "ticker": "C",
-              "name": "Citigroup"
+              "ticker": "MS",
+              "name": "Morgan Stanley"
             },
             {
               "ticker": "JAZZ",
               "name": "Jazz Pharmaceuticals"
+            },
+            {
+              "ticker": "WMT",
+              "name": "Walmart"
+            },
+            {
+              "ticker": "BAC",
+              "name": "Bank of America"
             }
           ]
         }
       ]
     },
     {
-      "name": "Financial Year-End Prep",
+      "name": "Financial Market Turbulence",
+      "count": 38,
+      "children": [
+        {
+          "cluster_id": 12,
+          "name": "\"Private Credit Market Concerns Rise\"",
+          "count": 16,
+          "children": [
+            {
+              "name": "The new big tech concentration risk is in bond market, and it's here to stay",
+              "summary": "It's concentration in one industry being affected by technological change. ... Enterprise software stocks are down 60-70%. It is all about selection of business.",
+              "hash": "95064b921e7baede",
+              "chunk_key": "95064b921e7baede_c002",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Violent downturns could test new ETF strategies, warns MFS Investment",
+              "summary": "In this article New innovation in the exchange-traded fund industry could come at a cost to investors during extreme conditions.",
+              "hash": "671ce8f7a1562db5",
+              "chunk_key": "671ce8f7a1562db5_c000",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Blackstone’s Solotar: Investors should separate private credit ‘signal from the noise’",
+              "summary": "Institutional investors have proven for years that private investments provide important balance in a portfolio, with less volatility, longer time horizons and often better long-te…",
+              "hash": "746c2cf12a0754e9",
+              "chunk_key": "746c2cf12a0754e9_c003",
+              "article_date": "2026-04-14 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "How bond market's private credit crisis fears are playing out in fixed-income ETFs",
+              "summary": "Both have seen relatively flat performance since the beginning of the year.",
+              "hash": "0720e1d7bb3674d7",
+              "chunk_key": "0720e1d7bb3674d7_c003",
+              "article_date": "2026-04-11 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "BlackRock rips page from hedge fund playbook, applies it to ETFs",
+              "summary": "In this article BlackRock is applying hedge fund strategies to its exchange-traded fund business.",
+              "hash": "e5eb2f68b141df41",
+              "chunk_key": "e5eb2f68b141df41_c000",
+              "article_date": "2026-04-09 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Blue Owl caps private credit funds redemptions at 5% after steep request levels",
+              "summary": "In this article Blue Owl is experiencing elevated redemption requests for two of its private credit funds, according to letters to shareholders issued Thursday.",
+              "hash": "409820e503f7d78e",
+              "chunk_key": "409820e503f7d78e_c000",
+              "article_date": "2026-04-01 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "As stocks, bonds fall, and oil hits $100, a futures trade that boomed in 2022 may again be a winner",
+              "summary": "In this article Managed future strategies are gaining renewed attention as investors look for new sources of returns from the market at a time when both stocks and bonds are under …",
+              "hash": "7ee4084c3d5bdf4a",
+              "chunk_key": "7ee4084c3d5bdf4a_c000",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Iran war could deepen Asia private equity's worst fundraising slump in a decade",
+              "summary": "Even as investors grow more selective about fund commitments, the region's largest and more established managers continue to attract capital, signaling a widening gap with their un…",
+              "hash": "792c40cd8e498ce2",
+              "chunk_key": "792c40cd8e498ce2_c002",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Wall Street banks eye comeback as strains emerge in private credit",
+              "summary": "That has made bank lending less competitive versus private credit funds in recent years, said market veterans.",
+              "hash": "af1a72d353532019",
+              "chunk_key": "af1a72d353532019_c002",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Private credit’s ‘zero-loss fantasy’ is ending as rising defaults loom",
+              "summary": "Funds concentrated in volatile sectors or holding covenant-lite loans with weaker protections are also vulnerable, as are highly leveraged healthcare roll-ups, Barrett said.",
+              "hash": "52e91986f0aea724",
+              "chunk_key": "52e91986f0aea724_c003",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Moody's cuts rating on private credit fund co-run by KKR to junk on bad loans",
+              "summary": "In this article Moody's Ratings on Monday downgraded a private credit fund run by KKR and Future Standard to junk amid rising bad loans and a string of weak earnings.",
+              "hash": "42c72ff2d3027733",
+              "chunk_key": "42c72ff2d3027733_c000",
+              "article_date": "2026-03-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Apollo gives investors 45% of requested withdrawals from private credit fund",
+              "summary": "In this article Apollo , the asset management giant, told investors in its flagship private credit fund that it will limit withdrawals this quarter to just under half of requests, …",
+              "hash": "2e8a05c9ea38b25a",
+              "chunk_key": "2e8a05c9ea38b25a_c000",
+              "article_date": "2026-03-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "When it comes to private credit, 'some caution is reasonable,' advisor says",
+              "summary": "It's some of these semi-liquid funds that are grabbing headlines, due to high redemption requests from investors, who have watched yields fall as overall interest rates have eased …",
+              "hash": "5959bd3617f3edb6",
+              "chunk_key": "5959bd3617f3edb6_c004",
+              "article_date": "2026-03-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Orlando Bravo says some software names hit by AI deserve a valuation cut",
+              "summary": "Apollo Global Management President John Zito recently criticized \"arrogance\" in software valuations by private equity firms, the Wall Street Journal reported Sunday .",
+              "hash": "aaa2cb71c5120aab",
+              "chunk_key": "aaa2cb71c5120aab_c001",
+              "article_date": "2026-03-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Thoma Bravo's Orlando Bravo pushes back on private markets criticism",
+              "summary": "Orlando Bravo, founder and managing partner of Thoma Bravo, pushed back on mounting criticism of private markets, saying deep sector expertise is separating winners from losers as …",
+              "hash": "142f5a1e315e902d",
+              "chunk_key": "142f5a1e315e902d_c000",
+              "article_date": "2026-03-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Apollo exec questions private equity's software loans: 'All the marks are wrong'",
+              "summary": "In this article Apollo's John Zito had a blunt assessment of how private equity firms are valuing their software holdings as shares of comparable public tech companies have plunged…",
+              "hash": "24a6291d631a567a",
+              "chunk_key": "24a6291d631a567a_c000",
+              "article_date": "2026-03-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "APO",
+              "name": "Apollo Global Management"
+            },
+            {
+              "ticker": "OWL",
+              "name": "Blue Owl Capital"
+            },
+            {
+              "ticker": "BX",
+              "name": "Blackstone"
+            },
+            {
+              "ticker": "MS",
+              "name": "Morgan Stanley"
+            },
+            {
+              "ticker": "MCO",
+              "name": "Moody's"
+            },
+            {
+              "ticker": "ARES",
+              "name": "Ares Management"
+            },
+            {
+              "ticker": "STT",
+              "name": "State Street"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "NVDA",
+              "name": "Nvidia"
+            },
+            {
+              "ticker": "AXS",
+              "name": "AXIS Capital"
+            },
+            {
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
+            },
+            {
+              "ticker": "CCC",
+              "name": "CCC Intelligent Solutions"
+            },
+            {
+              "ticker": "BRBR",
+              "name": "Bellring Brands"
+            },
+            {
+              "ticker": "SSB",
+              "name": "SouthState Bank"
+            },
+            {
+              "ticker": "STT",
+              "name": "State Street"
+            }
+          ]
+        },
+        {
+          "cluster_id": 11,
+          "name": "US Banks Weather Market Volatility",
+          "count": 13,
+          "children": [
+            {
+              "name": "JPMorgan expands $1.5 trillion economic security splurge into Europe",
+              "summary": "In this article JPMorgan Chase will extend a $1.5 trillion investment program designed to bolster U.S. economic resilience across Europe, the Wall Street giant said on Tuesday.",
+              "hash": "e882e08026b11f1c",
+              "chunk_key": "e882e08026b11f1c_c000",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Goldman Sachs bond traders stumbled as Wall Street rivals thrived",
+              "summary": "In this article When Goldman Sachs executives were asked about disappointing results in the firm's fixed income division this week, they made it sound as though the trading environ…",
+              "hash": "1a020c0678f50765",
+              "chunk_key": "1a020c0678f50765_c000",
+              "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Morgan Stanley tops estimates as trading revenue beats by nearly $1 billion",
+              "summary": "In this article Morgan Stanley on Wednesday posted first-quarter results that topped analyst estimates as the firm's trading operations generated almost $1 billion more in revenue …",
+              "hash": "d36f9aab2b3fb170",
+              "chunk_key": "d36f9aab2b3fb170_c000",
+              "article_date": "2026-04-14 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Bank of America tops estimates, CEO Moynihan says consumer banking is 'healthy'",
+              "summary": "In this article Bank of America , the nation's second-largest lender, beat on the top and bottom lines during the first quarter, bolstered by equities sales and trading.",
+              "hash": "55756e388e68ab10",
+              "chunk_key": "55756e388e68ab10_c000",
+              "article_date": "2026-04-14 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Goldman tops estimates on record equities trading",
+              "summary": "In this article Goldman Sachs on Monday posted first-quarter results that topped expectations on record equities trading results and higher-than-expected investment banking revenue…",
+              "hash": "2bcb4c0353506a0d",
+              "chunk_key": "2bcb4c0353506a0d_c000",
+              "article_date": "2026-04-13 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Citigroup beats estimates, boosted by gains in fixed income",
+              "summary": "In this article Citigroup beat on the top and bottom lines during the first quarter.",
+              "hash": "c25971a7a9b6aa0f",
+              "chunk_key": "c25971a7a9b6aa0f_c000",
+              "article_date": "2026-04-13 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "JPMorgan tops estimates on Wall Street results, Dimon warns of 'complex' risks",
+              "summary": "In this article JPMorgan Chase on Tuesday posted first-quarter results that topped expectations on stronger-than-expected fixed income and investment banking revenue.",
+              "hash": "6df9277f84c2931a",
+              "chunk_key": "6df9277f84c2931a_c000",
+              "article_date": "2026-04-13 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Jamie Dimon in annual letter cites risks in geopolitics, AI and private markets",
+              "summary": "Dimon also said JPMorgan's reaction to revised proposals for Basel 3 Endgame and a global systemically important bank, or GSIB, surcharge — issued by U.S.",
+              "hash": "085a80bf5e38800d",
+              "chunk_key": "085a80bf5e38800d_c001",
+              "article_date": "2026-04-05 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Jamie Dimon says Iran war makes Middle East peace prospects better long-term",
+              "summary": "Dimon, who leads the world's largest bank by market cap, also tied his contrarian Middle East view directly to economics, arguing that the region's need for foreign direct investme…",
+              "hash": "826533165eabac9c",
+              "chunk_key": "826533165eabac9c_c001",
+              "article_date": "2026-03-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "JPMorgan taps Dwyane Wade, Tom Brady for athlete wealth management push",
+              "summary": "In this article JPMorgan Chase has recruited some of the biggest names in American sports to help tackle a persistent problem: professional athletes going broke .",
+              "hash": "bd43d8eda89b4470",
+              "chunk_key": "bd43d8eda89b4470_c000",
+              "article_date": "2026-03-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "UniCredit to strengthen stake in Commerzbank to 30%",
+              "summary": "UniCredit has launched an offer to build its stake in Commerzbank above 30%, a key regulatory threshold if the lender is to launch a full takeover bid.",
+              "hash": "f7e3a57777f77b71",
+              "chunk_key": "f7e3a57777f77b71_c000",
+              "article_date": "2026-03-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Inside JPMorgan Chase's push to become the startup worlds new SVB",
+              "summary": "By late April of 2023, JPMorgan found itself looking at buying another wounded California-based bank.",
+              "hash": "a4316bd0e1342076",
+              "chunk_key": "a4316bd0e1342076_c003",
+              "article_date": "2026-03-12 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "JPMorgan reins in lending to private credit firms, marks down software loans",
+              "summary": "In this article JPMorgan Chase is reducing its exposure to the private credit industry by marking down the value of loans held by the bank as collateral, according to a person with…",
+              "hash": "827f6d2c20a8dc66",
+              "chunk_key": "827f6d2c20a8dc66_c000",
+              "article_date": "2026-03-10 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "JPM",
+              "name": "JPMorgan Chase"
+            },
+            {
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
+            },
+            {
+              "ticker": "C",
+              "name": "Citigroup"
+            },
+            {
+              "ticker": "WFC",
+              "name": "Wells Fargo"
+            },
+            {
+              "ticker": "MS",
+              "name": "Morgan Stanley"
+            },
+            {
+              "ticker": "BAC",
+              "name": "Bank of America"
+            },
+            {
+              "ticker": "PLTR",
+              "name": "Palantir Technologies"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
+            },
+            {
+              "ticker": "C",
+              "name": "Citigroup"
+            },
+            {
+              "ticker": "FRHC",
+              "name": "Freedom Holding"
+            },
+            {
+              "ticker": "STWD",
+              "name": "Starwood Property Trust"
+            },
+            {
+              "ticker": "JHX",
+              "name": "James Hardie Industries"
+            },
+            {
+              "ticker": "EVR",
+              "name": "Evercore"
+            },
+            {
+              "ticker": "TIGO",
+              "name": "Millicom International"
+            }
+          ]
+        },
+        {
+          "cluster_id": 6,
+          "name": "Mortgage Rates Rise Sharply",
+          "count": 9,
+          "children": [
+            {
+              "name": "Mamdani featured Ken Griffin in pied-a-terre tax promo. Citadel calls it 'shameful'",
+              "summary": "Citadel rebuked New York City Mayor Zohran Mamdani for singling out Chief Executive Officer Ken Griffin in a push for a new pied-à-terre tax, escalating a public dispute over how a…",
+              "hash": "f9b62a304220ba2e",
+              "chunk_key": "f9b62a304220ba2e_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Zohran Mamdani and the business exodus? NYC office market is up under new mayor",
+              "summary": "In an op-ed he co-authored last week , Fulop warned that any plan to tax the rich and businesses will ripple through the cost equation for every New Yorker.",
+              "hash": "13b3e8f947746907",
+              "chunk_key": "13b3e8f947746907_c001",
+              "article_date": "2026-04-04 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump push for ban on investor homebuying may sacrifice bigger real estate deal",
+              "summary": "The National Association of Realtors has expressed its support for the Senate bill in a statement from its executive vice president and chief advocacy officer Shannon McGahn.",
+              "hash": "aa39e48b7c23ef56",
+              "chunk_key": "aa39e48b7c23ef56_c003",
+              "article_date": "2026-03-28 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Family offices make opportunistic bets on real estate",
+              "summary": "Jason Ozur, CEO of wealth manager Lido Advisors, said that even with low acquisition prices, investors have to heed many factors, like leverage costs and rising insurance costs, to…",
+              "hash": "1c4d398e59f6502d",
+              "chunk_key": "1c4d398e59f6502d_c003",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Mortgage demand drops more than 10% as rates hit the highest level since October",
+              "summary": "Mortgage rates rose last week to the highest level since last fall, and that pushed mortgage demand off a cliff. Total mortgage application volume dropped 10.",
+              "hash": "697def81134d41a9",
+              "chunk_key": "697def81134d41a9_c000",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Franklin Templeton CEO Jenny Johnson on making 79-year old family business last",
+              "summary": "Nevertheless, a family business has a unique set of risks that need to be handled in a unique way, and many families do not prepare properly. According to PwC's 2023 U.S.",
+              "hash": "f22e2e084fb3a4c6",
+              "chunk_key": "f22e2e084fb3a4c6_c001",
+              "article_date": "2026-03-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "January new home sales plunge to the lowest pace since 2022",
+              "summary": "Sales of newly built homes in January dropped 17.6% month over month to a seasonally adjusted, annualized pace of 587,000 units, according to the U.S. Census Bureau.",
+              "hash": "3b6a5ac606c7ef61",
+              "chunk_key": "3b6a5ac606c7ef61_c000",
+              "article_date": "2026-03-19 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Mortgage refinance demand plunges 19% after interest rates shoot higher",
+              "summary": "Mortgage rates last week jumped to the highest level since the end of last year, causing a slowdown in the growing refinance demand the market had been seeing at the start of this …",
+              "hash": "6f89a3557b5f1d17",
+              "chunk_key": "6f89a3557b5f1d17_c000",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "She owned 5 properties at 25—but says real estate investing was a mistake",
+              "summary": "On social media, \"there's been a popularization of the idea that real estate is somehow a silver bullet in terms of building wealth,\" Caswell says.",
+              "hash": "066619be79715bc5",
+              "chunk_key": "066619be79715bc5_c001",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "BAC",
+              "name": "Bank of America"
+            },
+            {
+              "ticker": "WFC",
+              "name": "Wells Fargo"
+            },
+            {
+              "ticker": "APO",
+              "name": "Apollo Global Management"
+            },
+            {
+              "ticker": "AXP",
+              "name": "American Express"
+            },
+            {
+              "ticker": "HD",
+              "name": "Home Depot"
+            },
+            {
+              "ticker": "CG",
+              "name": "Carlyle Group"
+            },
+            {
+              "ticker": "BLDR",
+              "name": "Builders FirstSource"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "VICI",
+              "name": "VICI Properties"
+            },
+            {
+              "ticker": "CBRE",
+              "name": "CBRE Group"
+            },
+            {
+              "ticker": "DVN",
+              "name": "Devon Energy"
+            },
+            {
+              "ticker": "JLL",
+              "name": "Jones Lang LaSalle"
+            },
+            {
+              "ticker": "FRT",
+              "name": "Federal Realty Investment Trust"
+            },
+            {
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
+            },
+            {
+              "ticker": "MRP",
+              "name": "Millrose Properties"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Financial Planning and Tax",
       "count": 47,
       "children": [
         {
@@ -3624,16 +3362,16 @@
               "name": "SoFi Technologies"
             },
             {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            },
-            {
               "ticker": "SCHW",
               "name": "Charles Schwab"
             },
             {
               "ticker": "WFC",
               "name": "Wells Fargo"
+            },
+            {
+              "ticker": "JPM",
+              "name": "JPMorgan Chase"
             }
           ],
           "related_tickers_semantic": [
@@ -4023,8 +3761,8 @@
       ]
     },
     {
-      "name": "Global Market Uncertainty",
-      "count": 497,
+      "name": "Global Economic Uncertainty",
+      "count": 442,
       "children": [
         {
           "cluster_id": 13,
@@ -4953,262 +4691,6 @@
           ]
         },
         {
-          "cluster_id": 4,
-          "name": "GLP-1 Weight Loss Medications",
-          "count": 21,
-          "children": [
-            {
-              "name": "Trump administration moves to reclassify marijuana—what it means for investors",
-              "summary": "In the near term, Kovler says, the move could remove what amounts to a huge tax burden on cannabis firms.",
-              "hash": "62c1c6b75abcc9f9",
-              "chunk_key": "62c1c6b75abcc9f9_c001",
-              "article_date": "2026-04-23 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Regeneron inks drug pricing deal with Trump, will offer hearing-loss therapy for free",
-              "summary": "In this article Regeneron agreed to lower U.S. drug prices for some Americans as part of a deal with President Donald Trump, the White House said on Thursday.",
-              "hash": "7646b69235f6f958",
-              "chunk_key": "7646b69235f6f958_c000",
-              "article_date": "2026-04-23 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Amazon launches GLP-1 weight loss program, promising 'fast, convenient' access",
-              "summary": "In this article Amazon is pushing deeper into the booming weight loss market, unveiling Tuesday a new program that aims to simplify access to popular GLP-1 treatments.",
-              "hash": "2e149716d91d533d",
-              "chunk_key": "2e149716d91d533d_c000",
-              "article_date": "2026-04-21 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "How Trump's psychedelics executive order could unlock stalled cannabis reform",
-              "summary": "It directs agencies like the U.S.",
-              "hash": "6fa409443bbc1aff",
-              "chunk_key": "6fa409443bbc1aff_c001",
-              "article_date": "2026-04-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "RFK Jr.'s peptide policy could boost Hims & Hers as its GLP-1 business evolves",
-              "summary": "In this article As its high-margin compounded GLP-1 business evolves, Hims & Hers Health may be finding a new opportunity in peptides.",
-              "hash": "8948eecf97e9d77d",
-              "chunk_key": "8948eecf97e9d77d_c000",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "The Nasdaq's win streak, Netflix earnings and more: Morning Squawk",
-              "summary": "The move comes after retail investors rushed into Allbirds' stock following its own announcement that it would shift its focus from shoes to AI.",
-              "hash": "32806acb09c89147",
-              "chunk_key": "32806acb09c89147_c002",
-              "article_date": "2026-04-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump policies, China's biotech boom are ending Europe's pharma powerhouse era",
-              "summary": "U.S., according to research by ING. Today, the U.S. share of R&D has jumped to 55%, while Europe's has plummeted to 26%.",
-              "hash": "fdc47274ab29eeaa",
-              "chunk_key": "fdc47274ab29eeaa_c001",
-              "article_date": "2026-04-10 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Former senator shines spotlight on a possible breakthrough for pancreatic cancer",
-              "summary": "In this article Revolution Medicines could be on the cusp of a breakthrough.",
-              "hash": "238f2866fdd2c3f2",
-              "chunk_key": "238f2866fdd2c3f2_c000",
-              "article_date": "2026-04-10 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "FDA declines to issue specific guidance on health programs' foreign drug imports",
-              "summary": "The Food and Drug Administration in recent weeks said it would decline to clarify laws that ban the foreign importation of prescription medicines, despite growing evidence of the o…",
-              "hash": "74e73fb329c5078c",
-              "chunk_key": "74e73fb329c5078c_c000",
-              "article_date": "2026-04-06 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump tariff fallout: Industries grapple with lingering effects one year later",
-              "summary": "Those agreements are part of the president's so-called \"most favored nation\" policy , which ties U.S. drug prices to cheaper ones abroad.",
-              "hash": "cf81c188a66167c4",
-              "chunk_key": "cf81c188a66167c4_c009",
-              "article_date": "2026-04-02 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Eli Lilly opposes White House push to codify most favored nation drug pricing",
-              "summary": "In this article Eli Lilly opposes the White House's push to codify \"most favored nation\" drug pricing into law, CEO Dave Ricks said in an interview with CNBC.",
-              "hash": "9485e29e81005e77",
-              "chunk_key": "9485e29e81005e77_c000",
-              "article_date": "2026-04-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "FDA approves Eli Lilly's GLP-1 pill, opening next phase for weight loss drugs",
-              "summary": "The lowest doses of both drugs will cost $149 for cash-paying customers thanks to an agreement the companies struck with the Trump administration last fall.",
-              "hash": "ad0655bcea6d1981",
-              "chunk_key": "ad0655bcea6d1981_c004",
-              "article_date": "2026-04-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Eli Lilly reaches deal to bring AI-developed drugs to global market",
-              "summary": "In this article BEIJING — U.S. pharmaceutical giant Eli Lilly has reached a $2.",
-              "hash": "6718b97400bc48b9",
-              "chunk_key": "6718b97400bc48b9_c000",
-              "article_date": "2026-03-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Novartis to pay $2 billion for Excellergy, in second multi-billion dollar deal in a week",
-              "summary": "In this article Novartis is planning to buy U.S.",
-              "hash": "ad9f554498ce257d",
-              "chunk_key": "ad9f554498ce257d_c000",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "AstraZeneca stock jumps after surprise lung disease trial win",
-              "summary": "In this article AstraZeneca 's stock jumped nearly 5% after Britain's most valuable company said its experimental lung disease medicine met its target in two late-stage clinical tr…",
-              "hash": "df85ab846ed410fa",
-              "chunk_key": "df85ab846ed410fa_c000",
-              "article_date": "2026-03-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Merck to buy Terns Pharmaceuticals for $6.7 billion to boost cancer pipeline",
-              "summary": "In this article Pharma giant Merck is buying U.S. biotech firm Terns Pharmaceuticals for $6.7 billion, the company said Wednesday.",
-              "hash": "4561f7b5618320e9",
-              "chunk_key": "4561f7b5618320e9_c000",
-              "article_date": "2026-03-25 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Indian generic makers trigger price war in GLP-1 drugs — How vulnerable is Novo?",
-              "summary": "India \" on Friday.",
-              "hash": "63db4bfd886081f1",
-              "chunk_key": "63db4bfd886081f1_c003",
-              "article_date": "2026-03-23 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "GLP-1 drugs are changing how Americans eat. Food companies are racing to catch up",
-              "summary": "The pullback in restaurant visits isn't spread evenly across times of day, according to Dana Baggett, executive director of restaurant client strategy at RRD, which works with more…",
-              "hash": "d677a7aa7ab1a00f",
-              "chunk_key": "d677a7aa7ab1a00f_c003",
-              "article_date": "2026-03-20 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Eli Lilly’s obesity drug retatrutide clears first late-stage diabetes trial",
-              "summary": "For example, Custer said patients who want to regulate their blood sugar could benefit from either Zepbound or retatrutide.",
-              "hash": "75cd7200f24cc85f",
-              "chunk_key": "75cd7200f24cc85f_c002",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "FDA approves higher-dose version of Novo Nordisk's obesity drug Wegovy",
-              "summary": "In this article The Food and Drug Administration on Thursday approved a higher-dose version of Novo Nordisk 's blockbuster weight loss injection Wegovy, as the company pushes to wi…",
-              "hash": "72ef398020e8cd7b",
-              "chunk_key": "72ef398020e8cd7b_c000",
-              "article_date": "2026-03-19 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Strait of Hormuz standoff puts supply of generic drug prescriptions at risk",
-              "summary": "India have reportedly climbed 200 to 350 percent for some routes, according to Blough.",
-              "hash": "ab665e911083dbc7",
-              "chunk_key": "ab665e911083dbc7_c003",
-              "article_date": "2026-03-16 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "LLY",
-              "name": "Eli Lilly"
-            },
-            {
-              "ticker": "MRK",
-              "name": "Merck"
-            },
-            {
-              "ticker": "RVMD",
-              "name": "Revolution Medicines"
-            },
-            {
-              "ticker": "REGN",
-              "name": "Regeneron Pharmaceuticals"
-            },
-            {
-              "ticker": "F",
-              "name": "Ford Motor"
-            },
-            {
-              "ticker": "DRI",
-              "name": "Darden Restaurants"
-            },
-            {
-              "ticker": "NYT",
-              "name": "New York Times"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "MRK",
-              "name": "Merck"
-            },
-            {
-              "ticker": "PFE",
-              "name": "Pfizer"
-            },
-            {
-              "ticker": "VKTX",
-              "name": "Viking Therapeutics"
-            },
-            {
-              "ticker": "ROIV",
-              "name": "Roivant Sciences"
-            },
-            {
-              "ticker": "JAZZ",
-              "name": "Jazz Pharmaceuticals"
-            },
-            {
-              "ticker": "GILD",
-              "name": "Gilead Sciences"
-            },
-            {
-              "ticker": "APLS",
-              "name": "Apellis Pharmaceuticals"
-            }
-          ]
-        },
-        {
           "cluster_id": 19,
           "name": "Electric Vehicle Market Shifts Globally",
           "count": 20,
@@ -5776,16 +5258,16 @@
               "name": "FedEx"
             },
             {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
+              "ticker": "C",
+              "name": "Citigroup"
             },
             {
               "ticker": "WMT",
               "name": "Walmart"
             },
             {
-              "ticker": "C",
-              "name": "Citigroup"
+              "ticker": "JPM",
+              "name": "JPMorgan Chase"
             }
           ],
           "related_tickers_semantic": [
@@ -5818,7 +5300,549 @@
               "name": "Tesla"
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "Government Accountability Issues",
+      "count": 44,
+      "children": [
+        {
+          "cluster_id": 18,
+          "name": "US Government Shutdown Continues",
+          "count": 29,
+          "children": [
+            {
+              "name": "Senate Republicans unveil immigration funding framework as DHS shutdown drags on",
+              "summary": "Graham , R-S.C., said in a statement . \"With this budget resolution, we are moving forward — not backward — on rational immigration policies that secure our border,\" Graham said.",
+              "hash": "f68b6efa67a90af3",
+              "chunk_key": "f68b6efa67a90af3_c001",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Rep. Sheila Cherfilus-McCormick resigns, third House member to quit this month",
+              "summary": "Rep.",
+              "hash": "8b5a0a96ef4d6505",
+              "chunk_key": "8b5a0a96ef4d6505_c000",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Labor Secretary Lori Chavez-DeRemer leaves Trump cabinet, Keith Sonderling takes over",
+              "summary": "Department of Labor Secretary Lori Chavez-DeRemer is resigning from the Trump administration, the White House said Monday.",
+              "hash": "cb159e88b590e23d",
+              "chunk_key": "cb159e88b590e23d_c000",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Swalwell resignation over sexual misconduct prompts rare Ethics panel remarks",
+              "summary": "The panel has often come under fire for its glacial pace, and has been the target of increased scrutiny of late .",
+              "hash": "12dc809f6283aea3",
+              "chunk_key": "12dc809f6283aea3_c001",
+              "article_date": "2026-04-20 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "What to know on FISA Section 702: Congress extends controversial surveillance program",
+              "summary": "The House and Senate on Friday approved a short-term extensive of a section of federal law that allows the warrantless surveillance and collection of foreign intelligence, though a…",
+              "hash": "314bf0083274fe24",
+              "chunk_key": "314bf0083274fe24_c000",
+              "article_date": "2026-04-17 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Judge blocks above-ground construction of Trump's WH ballroom, admini appeals",
+              "summary": "The order comes five days after the Court of Appeals told Leon to clarify a prior order he issued on March 31 that enjoined the Trump administration from taking any action to build…",
+              "hash": "a814fa020e567158",
+              "chunk_key": "a814fa020e567158_c001",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "ICE agent charged with assault by Minnesota prosecutors, arrest warrant issued",
+              "summary": "An Immigration and Customs Enforcement agent has been charged with two counts of assault related to a road rage incident by state prosecutors in Minnesota, who have issued a nation…",
+              "hash": "bcec7ff258766488",
+              "chunk_key": "bcec7ff258766488_c000",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Senate overturns Boundary Waters protections, a boon for Chilean mining company",
+              "summary": "Republicans who pushed the resolution lauded the result.",
+              "hash": "de64c59d8f5ef0b8",
+              "chunk_key": "de64c59d8f5ef0b8_c001",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump nominates Erica Schwartz as CDC director",
+              "summary": "President Donald Trump on Thursday nominated Erica Schwartz to serve as director of the Centers for Disease Control and Prevention, concluding a monthslong effort to choose a perma…",
+              "hash": "297a7ff99fb17ced",
+              "chunk_key": "297a7ff99fb17ced_c000",
+              "article_date": "2026-04-16 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Treasury Secretary Scott Bessent is preparing banks to collect citizenship data",
+              "summary": "Banks in the U.S. may not like the idea of being forced to collect citizenship data on customers, but Treasury Secretary Scott Bessent says they better be prepared for the task.",
+              "hash": "b9a0cfd874d5621b",
+              "chunk_key": "b9a0cfd874d5621b_c000",
+              "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Eric Swalwell accuser Lonna Drewes says 'he raped me,' will file police report",
+              "summary": "A lawyer for Swalwell did not immediately respond to a request for comment on Drewes' allegations.",
+              "hash": "5cd654679d31eda6",
+              "chunk_key": "5cd654679d31eda6_c001",
+              "article_date": "2026-04-14 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Rep. Eric Swalwell resigns from U.S. House after sexual misconduct allegations",
+              "summary": "Rep. Eric Swalwell, a former Democratic frontrunner in the California gubernatorial race , resigned from Congress on Monday amid sexual misconduct allegations.",
+              "hash": "2349883328ef7799",
+              "chunk_key": "2349883328ef7799_c000",
+              "article_date": "2026-04-13 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump's 250-foot 'triumphal arch' would loom over Potomac, new renderings show",
+              "summary": "On Feb. 2, the president posted on social media an image showing India Gate, with the message: \"India's beautiful Triumphal Arch. Ours will be the greatest of them all!\" Rep.",
+              "hash": "c31ff35b8aef2566",
+              "chunk_key": "c31ff35b8aef2566_c001",
+              "article_date": "2026-04-10 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "ICE agents shoot man in California after he 'weaponized' vehicle, DHS says",
+              "summary": "U.S.",
+              "hash": "4ab5b75191de4a70",
+              "chunk_key": "4ab5b75191de4a70_c000",
+              "article_date": "2026-04-07 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump administration: 'Birth tourism' problem should end birthright citizenship",
+              "summary": "A lawyer for the Trump administration during arguments at the Supreme Court on Wednesday leaned hard into his claim that so-called birth tourism is strong evidence that the U.S.",
+              "hash": "1c3655fb8e625649",
+              "chunk_key": "1c3655fb8e625649_c000",
+              "article_date": "2026-04-01 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "TSA shutdown: GOP's Thune and Johnson boost two-part plan to fund DHS",
+              "summary": "Senate Majority Leader John Thune , R-S.D., and House Speaker Mike Johnson , R-La.",
+              "hash": "aef5bb847686ed05",
+              "chunk_key": "aef5bb847686ed05_c000",
+              "article_date": "2026-04-01 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump is paying TSA agents — but where is the money coming from?",
+              "summary": "After weeks of long lines at airports and bickering in Congress , Transportation Security Administration agents began to receive pay earlier this week thanks to an executive order …",
+              "hash": "19f1d83d8679ecd2",
+              "chunk_key": "19f1d83d8679ecd2_c000",
+              "article_date": "2026-04-01 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Pete Hegseth's broker attempted to make defense investments before Iran war: Financial Times",
+              "summary": "In this article A broker for U.S.",
+              "hash": "214221f330cae5a3",
+              "chunk_key": "214221f330cae5a3_c000",
+              "article_date": "2026-03-31 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump push for ban on investor homebuying may sacrifice bigger real estate deal",
+              "summary": "Senate bill, insist on including several community bank deregulatory bills in pending cryptocurrency legislation.",
+              "hash": "aa39e48b7c23ef56",
+              "chunk_key": "aa39e48b7c23ef56_c010",
+              "article_date": "2026-03-28 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "TSA funding update: Senate tees up House vote to end DHS shutdown",
+              "summary": "The Senate vote is an encouraging step toward ending the shutdown, which resulted in missed paychecks for Transportation Security Administration agents and long lines at airports.",
+              "hash": "6b386833034bcb9c",
+              "chunk_key": "6b386833034bcb9c_c001",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Pricy airfare, airport chaos test travelers' willingness to fly this year",
+              "summary": "Along with higher airfare, travelers are facing challenges at airports this spring. TSA officers have been working without regular pay since Feb.",
+              "hash": "34a3bae07ae6ae0d",
+              "chunk_key": "34a3bae07ae6ae0d_c003",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "TSA officers will start getting paychecks as early as Monday, DHS says",
+              "summary": "Transportation Security Administration officers, who have worked without pay for weeks because of a partial government shutdown , \"should begin seeing paychecks as early as Monday,…",
+              "hash": "68f4011b13ea05b2",
+              "chunk_key": "68f4011b13ea05b2_c000",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Reps Ro Khanna and Tim Burchett to push fraud probe across all 50 states",
+              "summary": "In a statement, Burchett said that \"Taxpayers need to trust that their hard-earned tax dollars are being spent and allocated wisely.",
+              "hash": "61db1cb0bf5df8f3",
+              "chunk_key": "61db1cb0bf5df8f3_c002",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Warren, Blumenthal: DOD answers lack anti-corruption protocols for Trump children",
+              "summary": "Sen.",
+              "hash": "f88707629f5766e1",
+              "chunk_key": "f88707629f5766e1_c000",
+              "article_date": "2026-03-25 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Republicans block Democratic push for Trump Jr. subpoena",
+              "summary": "Republicans on a House Natural Resources subcommittee blocked a Democratic motion to subpoena Donald Trump Jr.",
+              "hash": "cd6326057bb8f7db",
+              "chunk_key": "cd6326057bb8f7db_c000",
+              "article_date": "2026-03-24 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "ICE agents will be deployed to U.S. airports on Monday: Homan",
+              "summary": "More than 400 TSA officers have left their jobs since the start of the shutdown, according to an NBC News report.",
+              "hash": "da1698f6e762be49",
+              "chunk_key": "da1698f6e762be49_c001",
+              "article_date": "2026-03-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump threatens to send ICE agents to airports if DHS shutdown doesn't end",
+              "summary": "President Donald Trump on ​Saturday ​threatened ​to send federal ⁠immigration agents ‌to U.S.",
+              "hash": "60808524b4feb089",
+              "chunk_key": "60808524b4feb089_c000",
+              "article_date": "2026-03-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "DHS nominee Markwayne Mullin gets Senate hearing Wednesday",
+              "summary": "The Senate on Wednesday will begin its consideration of Sen. Markwayne Mullin , R-Okla., to lead the Department of Homeland Security .",
+              "hash": "de927f7abd583017",
+              "chunk_key": "de927f7abd583017_c000",
+              "article_date": "2026-03-18 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "TSA miss first paycheck of shutdown as Senate bickers over DHS funding",
+              "summary": "A debate over immigration and ending the Department of Homeland Security shutdown spilled over onto the Senate floor late Wednesday, as Transportation Security Administration agent…",
+              "hash": "369858ea3f2e06fb",
+              "chunk_key": "369858ea3f2e06fb_c000",
+              "article_date": "2026-03-12 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "NOC",
+              "name": "Northrop Grumman"
+            },
+            {
+              "ticker": "MS",
+              "name": "Morgan Stanley"
+            },
+            {
+              "ticker": "LMT",
+              "name": "Lockheed Martin"
+            },
+            {
+              "ticker": "CARR",
+              "name": "Carrier Global"
+            },
+            {
+              "ticker": "JPM",
+              "name": "JPMorgan Chase"
+            },
+            {
+              "ticker": "UAL",
+              "name": "United Airlines"
+            },
+            {
+              "ticker": "AAL",
+              "name": "American Airlines Group"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "NVDA",
+              "name": "Nvidia"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "TSLA",
+              "name": "Tesla"
+            },
+            {
+              "ticker": "MSFT",
+              "name": "Microsoft"
+            },
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet"
+            },
+            {
+              "ticker": "AAPL",
+              "name": "Apple"
+            },
+            {
+              "ticker": "META",
+              "name": "Meta Platforms"
+            }
+          ]
         },
+        {
+          "cluster_id": 17,
+          "name": "Jeffrey Epstein Investigation Continues",
+          "count": 15,
+          "children": [
+            {
+              "name": "DOJ watchdog investigating handling of Jeffrey Epstein files",
+              "summary": "The Department of Justice 's internal watchdog said on Thursday that it is investigating the DOJ's compliance with a law requiring that it fully disclose department files about the…",
+              "hash": "754cf92bb18779e3",
+              "chunk_key": "754cf92bb18779e3_c000",
+              "article_date": "2026-04-23 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Thief who swiped purse of ex-DHS chief Kristi Noem gets 3 years in prison",
+              "summary": "Bustamante Leiva was later charged with stealing purses in three separate incidents in April 2025. He pleaded guilty on Nov.",
+              "hash": "0ddf711ec8611a52",
+              "chunk_key": "0ddf711ec8611a52_c001",
+              "article_date": "2026-04-22 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump details Cook call to 'kiss my ass,' a stark look at White House dealmaking",
+              "summary": "Amazon insisted it did nothing \"improper,\" according to Variety . Companies outside of Silicon Valley have also gone to great lengths to win over the president.",
+              "hash": "2b2e6461785a0c3b",
+              "chunk_key": "2b2e6461785a0c3b_c006",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Gates Foundation reviewing Jeffrey Epstein ties, will slash 20% of staff: WSJ",
+              "summary": "In this article The Gates Foundation has launched an external review of the philanthropy's past ties with notorious sex offender Jeffrey Epstein , The Wall Street Journal reported …",
+              "hash": "e7a89c677da71cdb",
+              "chunk_key": "e7a89c677da71cdb_c000",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "DOJ charges Southern Poverty Law Center with fraud over secret funding of extremist groups",
+              "summary": "The Department of Justice on Tuesday announced a bombshell 11-count indictment accusing the Southern Poverty Law Center of secretly funding right-wing extremist groups that it clai…",
+              "hash": "7d8696a9d5d3d761",
+              "chunk_key": "7d8696a9d5d3d761_c000",
+              "article_date": "2026-04-21 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "SantaCon promoter arrested for charity fraud, New York federal prosecutors say",
+              "summary": "The president of SantaCon was arrested on Wednesday on a federal criminal indictment accusing him of using the ticketed Christmas bar-crawl event to divert hundreds of thousands of…",
+              "hash": "17ae4d74157eecaa",
+              "chunk_key": "17ae4d74157eecaa_c000",
+              "article_date": "2026-04-15 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Judge tosses Trump $10B defamation suit against Murdoch, WSJ about Epstein letter",
+              "summary": "A federal judge in Florida on Monday dismissed President Donald Trump 's $10 billion lawsuit against media baron Rupert Murdoch and The Wall Street Journal , which claimed the news…",
+              "hash": "8f7e1e359f080d89",
+              "chunk_key": "8f7e1e359f080d89_c000",
+              "article_date": "2026-04-13 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Epstein victims will get House committee hearing, James Comer says",
+              "summary": "Victims of Jeffrey Epstein will get the chance to speak about the late sex offender's crimes at hearings of the House committee investigating him and his procurer, Ghislaine Maxwel…",
+              "hash": "8849de6f37296edc",
+              "chunk_key": "8849de6f37296edc_c000",
+              "article_date": "2026-04-10 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Melania Trump blasts claims about Jeffrey Epstein and her",
+              "summary": "First lady Melania Trump on Thursday blasted what she described as an array of false claims about her and notorious sex offender Jeffrey Epstein .",
+              "hash": "1c4cb6878c9079d9",
+              "chunk_key": "1c4cb6878c9079d9_c000",
+              "article_date": "2026-04-09 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Epstein files: Bondi won't testify to House panel, Democrats threaten contempt",
+              "summary": "Former Attorney General Pam Bondi will not appear as scheduled on April 14 to testify before the House Oversight and Government Reform Committee about her and the Department of Jus…",
+              "hash": "53b961ed9e133a13",
+              "chunk_key": "53b961ed9e133a13_c000",
+              "article_date": "2026-04-08 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Personal assistant pleads guilty to defrauding elderly couple out of $10 million",
+              "summary": "A New York woman who worked as a personal assistant pleaded guilty to wire fraud on Wednesday for a scheme in which she stole $10 million from her elderly employers, one of whom di…",
+              "hash": "d49391b49aaa058c",
+              "chunk_key": "d49391b49aaa058c_c000",
+              "article_date": "2026-04-08 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Bill Gates interview about Jeffrey Epstein by House Oversight set for June 10",
+              "summary": "Microsoft co-founder Bill Gates will sit for an interview about Jeffrey Epstei n by the House Oversight and Government Reform Committee on June 10, according to a person familiar w…",
+              "hash": "202af36540603319",
+              "chunk_key": "202af36540603319_c000",
+              "article_date": "2026-04-07 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Epstein files: Commerce chief Lutnick set for May 6 interview by House Oversight",
+              "summary": "Commerce Secretary Howard Lutnick is scheduled to appear May 6 before the House Committee on Oversight and Government Reform for an interview about notorious sex offender Jeffrey E…",
+              "hash": "84a1ddd8b92b95e9",
+              "chunk_key": "84a1ddd8b92b95e9_c000",
+              "article_date": "2026-04-06 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Epstein victims to get $72.5M from Bank of America settlement",
+              "summary": "The complaint against BoA said that from that year, through 2019, \"Epstein sexually abused Jane Doe on at least 100 occasions, including but not limited to, forcibly touching her, …",
+              "hash": "ff63226533fe0d9d",
+              "chunk_key": "ff63226533fe0d9d_c002",
+              "article_date": "2026-03-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Epstein victims sue Google, Trump administration alleging personal data disclosure",
+              "summary": "In this article A victim of notorious sex predator Jeffrey Epstein filed a class action lawsuit Thursday on behalf of herself and other survivors against the Trump administration a…",
+              "hash": "f1f5d2535608aa8b",
+              "chunk_key": "f1f5d2535608aa8b_c000",
+              "article_date": "2026-03-26 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "META",
+              "name": "Meta Platforms"
+            },
+            {
+              "ticker": "AAPL",
+              "name": "Apple"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "NXST",
+              "name": "Nexstar Media Group"
+            },
+            {
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
+            },
+            {
+              "ticker": "JPM",
+              "name": "JPMorgan Chase"
+            },
+            {
+              "ticker": "INTC",
+              "name": "Intel"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "NVDA",
+              "name": "Nvidia"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "MSFT",
+              "name": "Microsoft"
+            },
+            {
+              "ticker": "JPM",
+              "name": "JPMorgan Chase"
+            },
+            {
+              "ticker": "BAC",
+              "name": "Bank of America"
+            },
+            {
+              "ticker": "C",
+              "name": "Citigroup"
+            },
+            {
+              "ticker": "JAZZ",
+              "name": "Jazz Pharmaceuticals"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Retail Industry Challenges",
+      "count": 34,
+      "children": [
         {
           "cluster_id": 10,
           "name": "Retailers Struggle with Turnaround",
