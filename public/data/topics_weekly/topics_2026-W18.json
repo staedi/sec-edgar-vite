@@ -1,7 +1,7 @@
 {
   "name": "root",
-  "mode": "recent",
-  "updated_at": "2026-04-26T22:13:57.754431+00:00",
+  "mode": "weekly",
+  "updated_at": "2026-04-26T22:13:57.758207+00:00",
   "children": [
     {
       "name": "Autonomous Vehicle Safety",
@@ -21,9 +21,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
+          ]
         }
       ]
     },
@@ -54,18 +52,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "QCOM",
-              "name": "Qualcomm"
-            },
-            {
-              "ticker": "GM",
-              "name": "General Motors"
-            }
-          ],
-          "related_tickers_semantic": []
+          ]
         },
         {
           "cluster_id": 19,
@@ -89,54 +76,6 @@
               "article_date": "2026-04-23 00:00:00",
               "provider": "CNBC",
               "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "SNOW",
-              "name": "Snowflake"
-            },
-            {
-              "ticker": "CRM",
-              "name": "Salesforce"
-            },
-            {
-              "ticker": "PLTR",
-              "name": "Palantir Technologies"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "INTC",
-              "name": "Intel"
-            },
-            {
-              "ticker": "ORCL",
-              "name": "Oracle"
-            },
-            {
-              "ticker": "CSCO",
-              "name": "Cisco Systems"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
             }
           ]
         }
@@ -187,9 +126,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
+          ]
         },
         {
           "cluster_id": 12,
@@ -205,9 +142,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
+          ]
         }
       ]
     },
@@ -229,14 +164,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "MS",
-              "name": "Morgan Stanley"
-            }
-          ],
-          "related_tickers_semantic": []
+          ]
         }
       ]
     },
@@ -285,66 +213,6 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            },
-            {
-              "ticker": "SSNC",
-              "name": "SS&C Technologies"
-            },
-            {
-              "ticker": "GE",
-              "name": "GE Aerospace"
-            },
-            {
-              "ticker": "LMT",
-              "name": "Lockheed Martin"
-            },
-            {
-              "ticker": "BA",
-              "name": "Boeing"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "ARES",
-              "name": "Ares Management"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "GE",
-              "name": "GE Aerospace"
-            },
-            {
-              "ticker": "BAH",
-              "name": "Booz Allen Hamilton Holding"
-            },
-            {
-              "ticker": "HWM",
-              "name": "Howmet Aerospace"
-            },
-            {
-              "ticker": "RBC",
-              "name": "RBC Bearings"
-            },
-            {
-              "ticker": "LOAR",
-              "name": "Loar"
-            },
-            {
-              "ticker": "ST",
-              "name": "Sensata Technologies Holding"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            }
           ]
         },
         {
@@ -388,66 +256,6 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "INTC",
-              "name": "Intel"
-            },
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMD",
-              "name": "Advanced Micro Devices"
-            },
-            {
-              "ticker": "SNDK",
-              "name": "Sandisk"
-            },
-            {
-              "ticker": "MU",
-              "name": "Micron Technology"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMD",
-              "name": "Advanced Micro Devices"
-            },
-            {
-              "ticker": "INTC",
-              "name": "Intel"
-            },
-            {
-              "ticker": "JHX",
-              "name": "James Hardie Industries"
-            },
-            {
-              "ticker": "ANET",
-              "name": "Arista Networks"
-            },
-            {
-              "ticker": "PSN",
-              "name": "Parsons"
-            },
-            {
-              "ticker": "AMAT",
-              "name": "Applied Materials"
-            }
           ]
         },
         {
@@ -473,62 +281,6 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "CMCSA",
-              "name": "Comcast"
-            },
-            {
-              "ticker": "NFLX",
-              "name": "Netflix"
-            },
-            {
-              "ticker": "TMUS",
-              "name": "T-Mobile US"
-            },
-            {
-              "ticker": "DIS",
-              "name": "Walt Disney"
-            },
-            {
-              "ticker": "VSNT",
-              "name": "Versant Media Group"
-            },
-            {
-              "ticker": "WBD",
-              "name": "Warner Bros Discovery"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "CMCSA",
-              "name": "Comcast"
-            },
-            {
-              "ticker": "TIGO",
-              "name": "Millicom International"
-            },
-            {
-              "ticker": "CHTR",
-              "name": "Charter Communications"
-            },
-            {
-              "ticker": "LBRDK",
-              "name": "Liberty Broadband"
-            },
-            {
-              "ticker": "CCI",
-              "name": "Crown Castle"
-            },
-            {
-              "ticker": "TMUS",
-              "name": "T-Mobile US"
-            },
-            {
-              "ticker": "JHX",
-              "name": "James Hardie Industries"
-            }
           ]
         },
         {
@@ -553,66 +305,6 @@
               "article_date": "2026-04-22 00:00:00",
               "provider": "CNBC",
               "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "STZ",
-              "name": "Constellation Brands"
-            },
-            {
-              "ticker": "VRSN",
-              "name": "VeriSign,"
-            },
-            {
-              "ticker": "BRK-B",
-              "name": "Berkshire Hathaway"
-            },
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
-            },
-            {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            },
-            {
-              "ticker": "KR",
-              "name": "Kroger"
-            },
-            {
-              "ticker": "CAT",
-              "name": "Caterpillar"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "BEN",
-              "name": "Franklin Resources"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "UNH",
-              "name": "UnitedHealth Group"
-            },
-            {
-              "ticker": "BLK",
-              "name": "BlackRock"
-            },
-            {
-              "ticker": "VNOM",
-              "name": "Viper Energy"
-            },
-            {
-              "ticker": "BHF",
-              "name": "Brighthouse Financial"
-            },
-            {
-              "ticker": "PKG",
-              "name": "Packaging of America"
             }
           ]
         }
@@ -654,9 +346,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
+          ]
         }
       ]
     },
@@ -705,54 +395,6 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "BKR",
-              "name": "Baker Hughes"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "MSCI",
-              "name": "MSCI"
-            },
-            {
-              "ticker": "C",
-              "name": "Citigroup"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "CVX",
-              "name": "Chevron"
-            },
-            {
-              "ticker": "BKR",
-              "name": "Baker Hughes"
-            },
-            {
-              "ticker": "DVN",
-              "name": "Devon Energy"
-            },
-            {
-              "ticker": "OVV",
-              "name": "Ovintiv"
-            },
-            {
-              "ticker": "FANG",
-              "name": "Diamondback Energy"
-            },
-            {
-              "ticker": "CTRA",
-              "name": "Coterra Energy"
-            },
-            {
-              "ticker": "APA",
-              "name": "APA (US)"
-            }
           ]
         },
         {
@@ -787,9 +429,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
+          ]
         },
         {
           "cluster_id": 10,
@@ -814,9 +454,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
+          ]
         },
         {
           "cluster_id": 15,
@@ -832,9 +470,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
+          ]
         }
       ]
     },
@@ -856,9 +492,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
+          ]
         }
       ]
     },
@@ -943,18 +577,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "BAC",
-              "name": "Bank of America"
-            },
-            {
-              "ticker": "EVR",
-              "name": "Evercore"
-            }
-          ],
-          "related_tickers_semantic": []
+          ]
         },
         {
           "cluster_id": 0,
@@ -978,50 +601,6 @@
               "article_date": "2026-04-24 00:00:00",
               "provider": "CNBC",
               "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "DE",
-              "name": "Deere"
-            },
-            {
-              "ticker": "CAT",
-              "name": "Caterpillar"
-            },
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "ROIV",
-              "name": "Roivant Sciences"
-            },
-            {
-              "ticker": "MTCH",
-              "name": "Match Group"
-            },
-            {
-              "ticker": "UNH",
-              "name": "UnitedHealth Group"
-            },
-            {
-              "ticker": "HSIC",
-              "name": "Henry Schein"
-            },
-            {
-              "ticker": "RMD",
-              "name": "Resmed"
-            },
-            {
-              "ticker": "TTD",
-              "name": "Trade Desk"
             }
           ]
         },
@@ -1048,50 +627,6 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "C",
-              "name": "Citigroup"
-            },
-            {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            },
-            {
-              "ticker": "WMT",
-              "name": "Walmart"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "TSLA",
-              "name": "Tesla"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
-            },
-            {
-              "ticker": "BAC",
-              "name": "Bank of America"
-            }
           ]
         }
       ]
@@ -1114,9 +649,7 @@
               "provider": "CNBC",
               "value": 1
             }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
+          ]
         }
       ]
     }
