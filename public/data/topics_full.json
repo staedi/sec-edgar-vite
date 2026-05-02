@@ -1,7 +1,7 @@
 {
   "name": "root",
   "mode": "full",
-  "updated_at": "2026-05-02T03:18:25.441469+00:00",
+  "updated_at": "2026-05-02T08:33:16.644016+00:00",
   "children": [
     {
       "name": "Emerging Tech Regulatory Frontiers",
@@ -133,20 +133,20 @@
               "name": "Churchill Downs"
             },
             {
-              "ticker": "MCO",
-              "name": "Moody's"
-            },
-            {
               "ticker": "FDS",
               "name": "Factset Research Systems"
             },
             {
-              "ticker": "MORN",
-              "name": "Morningstar"
+              "ticker": "MCO",
+              "name": "Moody's"
             },
             {
               "ticker": "COIN",
               "name": "Coinbase Global"
+            },
+            {
+              "ticker": "MORN",
+              "name": "Morningstar"
             }
           ],
           "related_tickers_semantic": [
@@ -419,12 +419,12 @@
               "name": "Exxon Mobil"
             },
             {
-              "ticker": "AAL",
-              "name": "American Airlines Group"
-            },
-            {
               "ticker": "UAL",
               "name": "United Airlines"
+            },
+            {
+              "ticker": "AAL",
+              "name": "American Airlines Group"
             }
           ],
           "related_tickers_semantic": [
@@ -585,16 +585,16 @@
               "name": "Alphabet"
             },
             {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
+              "ticker": "PYPL",
+              "name": "PayPal"
             },
             {
               "ticker": "AAPL",
               "name": "Apple"
             },
             {
-              "ticker": "PYPL",
-              "name": "PayPal"
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
             },
             {
               "ticker": "ORCL",
@@ -688,16 +688,16 @@
               "name": "JPMorgan Chase"
             },
             {
-              "ticker": "BAM",
-              "name": "Brookfield Asset Management"
-            },
-            {
               "ticker": "UBER",
               "name": "Uber Technologies"
             },
             {
               "ticker": "AMZN",
               "name": "Amazon.com"
+            },
+            {
+              "ticker": "BAM",
+              "name": "Brookfield Asset Management"
             }
           ],
           "related_tickers_semantic": [
@@ -770,16 +770,16 @@
               "name": "Meta Platforms"
             },
             {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
               "ticker": "GOOG",
               "name": "Alphabet"
             },
             {
               "ticker": "MSFT",
               "name": "Microsoft"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
             }
           ],
           "related_tickers_semantic": [

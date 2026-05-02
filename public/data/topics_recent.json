@@ -1,7 +1,7 @@
 {
   "name": "root",
   "mode": "recent",
-  "updated_at": "2026-05-02T03:19:41.287592+00:00",
+  "updated_at": "2026-05-02T08:34:26.088312+00:00",
   "children": [
     {
       "name": "Emerging Tech Regulatory Frontiers",
@@ -91,16 +91,16 @@
               "name": "Churchill Downs"
             },
             {
-              "ticker": "MORN",
-              "name": "Morningstar"
+              "ticker": "COIN",
+              "name": "Coinbase Global"
             },
             {
               "ticker": "MCO",
               "name": "Moody's"
             },
             {
-              "ticker": "COIN",
-              "name": "Coinbase Global"
+              "ticker": "MORN",
+              "name": "Morningstar"
             },
             {
               "ticker": "FDS",
@@ -512,16 +512,16 @@
               "name": "JPMorgan Chase"
             },
             {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
+              "ticker": "UBER",
+              "name": "Uber Technologies"
             },
             {
               "ticker": "BAM",
               "name": "Brookfield Asset Management"
             },
             {
-              "ticker": "UBER",
-              "name": "Uber Technologies"
+              "ticker": "AMZN",
+              "name": "Amazon.com"
             }
           ],
           "related_tickers_semantic": [
@@ -603,16 +603,16 @@
               "name": "Alphabet"
             },
             {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
+              "ticker": "PYPL",
+              "name": "PayPal"
             },
             {
               "ticker": "AAPL",
               "name": "Apple"
             },
             {
-              "ticker": "PYPL",
-              "name": "PayPal"
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
             },
             {
               "ticker": "ORCL",
