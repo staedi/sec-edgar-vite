@@ -1,678 +1,16 @@
 {
   "name": "root",
   "mode": "recent",
-  "updated_at": "2026-05-01T23:13:20.132571+00:00",
+  "updated_at": "2026-05-02T03:19:41.287592+00:00",
   "children": [
     {
-      "name": "AI's Impact on Industries",
-      "count": 15,
+      "name": "Emerging Tech Regulatory Frontiers",
+      "count": 6,
       "children": [
         {
-          "cluster_id": 40,
-          "name": "AI Market Volatility Risks",
-          "count": 4,
-          "children": [
-            {
-              "name": "Google cloud growth tops Microsoft and Amazon as all three beat estimates on AI demand",
-              "summary": "All three top cloud infrastructure providers surpassed analyst estimates in earnings reports late Wednesday, but Google was the standout, generating its fastest growth rate on reco…",
-              "hash": "2265309c3bc7f291",
-              "chunk_key": "2265309c3bc7f291_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "AI boom: Big Tech capital expenditures now seen topping $1 trillion in 2027Â",
-              "summary": "Wall Street analysts estimate total AI capital expenditures could now climb above $1 trillion in 2027, following even bigger spending plans unveiled by the hyperscalers during Wedn…",
-              "hash": "8d47c8f128d75130",
-              "chunk_key": "8d47c8f128d75130_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Markets are underpricing the risk of Middle East AI pullback, says tech investor",
-              "summary": "Selby's AI strategy is to avoid the crowds.",
-              "hash": "59d2a7263a3d04fb",
-              "chunk_key": "59d2a7263a3d04fb_c003",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "OpenAI reportedly missed revenue targets. Oracle and chip stocks are falling",
-              "summary": "Shares of companies tied to artificial intelligence infrastructure tumbled in early trading Tuesday after a report that OpenAI has fallen short of internal growth expectations, rai…",
-              "hash": "8aa1f65b47d2013a",
-              "chunk_key": "8aa1f65b47d2013a_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "C",
-              "name": "Citigroup"
-            },
-            {
-              "ticker": "AVGO",
-              "name": "Broadcom"
-            },
-            {
-              "ticker": "AMD",
-              "name": "Advanced Micro Devices"
-            },
-            {
-              "ticker": "ORCL",
-              "name": "Oracle"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMD",
-              "name": "Advanced Micro Devices"
-            },
-            {
-              "ticker": "ORCL",
-              "name": "Oracle"
-            },
-            {
-              "ticker": "SRE",
-              "name": "Sempra"
-            },
-            {
-              "ticker": "ANET",
-              "name": "Arista Networks"
-            },
-            {
-              "ticker": "SSNC",
-              "name": "SS&C Technologies"
-            },
-            {
-              "ticker": "BAM",
-              "name": "Brookfield Asset Management"
-            }
-          ]
-        },
-        {
-          "cluster_id": 33,
-          "name": "Space and Defense Investment Boom",
+          "cluster_id": 1,
+          "name": "China's AI and Autonomous Vehicles",
           "count": 3,
-          "children": [
-            {
-              "name": "Blue Owl shares surge after private credit firm cites 10X gains from SpaceX",
-              "summary": "Shares of Blue Owl , the private credit firm at the center of recent jitters over exposure to software companies, jumped 10% in trading Thursday after executives disclosed sizable …",
-              "hash": "bd9ea38d8256449a",
-              "chunk_key": "bd9ea38d8256449a_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "True Anomaly raises $650M support space interceptor production for Trump's Golden Dome",
-              "summary": "True Anomaly , a Colorado-based startup building space interceptors for President Donald Trump 's sweeping Golden Dome project , raised $650 million, the company said on Tuesday.",
-              "hash": "996c4c0750f66cf2",
-              "chunk_key": "996c4c0750f66cf2_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Investors not panicking about Iran or memory before big tech earnings",
-              "summary": "Despite a roughly 50% jump in oil prices since the start of the war and an almost 80% increase this year, the group has held up well on Wall Street, with only Microsoft down for th…",
-              "hash": "f42bf9674e980550",
-              "chunk_key": "f42bf9674e980550_c001",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "OWL",
-              "name": "Blue Owl Capital"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "BKR",
-              "name": "Baker Hughes"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "ORCL",
-              "name": "Oracle"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "TRMB",
-              "name": "Trimble"
-            },
-            {
-              "ticker": "RTX",
-              "name": "RTX"
-            },
-            {
-              "ticker": "BAH",
-              "name": "Booz Allen Hamilton Holding"
-            },
-            {
-              "ticker": "GD",
-              "name": "General Dynamics"
-            },
-            {
-              "ticker": "TRGP",
-              "name": "Targa Resources"
-            }
-          ]
-        },
-        {
-          "cluster_id": 27,
-          "name": "Intel's AI Chip Renaissance",
-          "count": 2,
-          "children": [
-            {
-              "name": "AI boom: Big Tech capital expenditures now seen topping $1 trillion in 2027Â",
-              "summary": "for various custom [application-specific integrated circuits] programs (TPU, Trainium, Maia and MTIA),\" according to Evercore analysts, who touted \"an acute focus on agentic-AI as …",
-              "hash": "8d47c8f128d75130",
-              "chunk_key": "8d47c8f128d75130_c003",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Intel's stock more than doubles in April, best month in chipmaker's 55 years on Nasdaq",
-              "summary": "Intel's only major outside commitment for foundry so far came from Elon Musk .",
-              "hash": "7ef1c538c76c6632",
-              "chunk_key": "7ef1c538c76c6632_c004",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "BAC",
-              "name": "Bank of America"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "AMD",
-              "name": "Advanced Micro Devices"
-            },
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "APO",
-              "name": "Apollo Global Management"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMD",
-              "name": "Advanced Micro Devices"
-            },
-            {
-              "ticker": "CNXC",
-              "name": "Concentrix"
-            },
-            {
-              "ticker": "ENTG",
-              "name": "Entegris"
-            },
-            {
-              "ticker": "APTV",
-              "name": "Aptiv"
-            },
-            {
-              "ticker": "RBRK",
-              "name": "Rubrik"
-            },
-            {
-              "ticker": "MU",
-              "name": "Micron Technology"
-            }
-          ]
-        },
-        {
-          "cluster_id": 32,
-          "name": "Meta's AI Investment Strategy",
-          "count": 2,
-          "children": [
-            {
-              "name": "AI boom: Big Tech capital expenditures now seen topping $1 trillion in 2027Â",
-              "summary": "The scompany spent $72 billion on capex in 2025, and is expecting to double that in 2026 to between $125 billion and $145 billion.",
-              "hash": "8d47c8f128d75130",
-              "chunk_key": "8d47c8f128d75130_c002",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Meta's new AI model shows promise, but Wall Street wants to see Zuckerberg's strategy",
-              "summary": "When Meta revealed Muse Spark earlier this month, it was pitched as the first major AI model to be spawned from Meta Superintelligence Labs, led by Alexandr Wang, the company's chi…",
-              "hash": "efb5cfb12365a0f4",
-              "chunk_key": "efb5cfb12365a0f4_c002",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "EVR",
-              "name": "Evercore"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "BAC",
-              "name": "Bank of America"
-            },
-            {
-              "ticker": "AVGO",
-              "name": "Broadcom"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMD",
-              "name": "Advanced Micro Devices"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            }
-          ]
-        },
-        {
-          "cluster_id": 39,
-          "name": "AI Adoption in Finance",
-          "count": 2,
-          "children": [
-            {
-              "name": "OpenAI brings its models to Amazon's cloud after ending exclusivity with Microsoft",
-              "summary": "Matt and the whole AWS team.",
-              "hash": "05562e0081796d28",
-              "chunk_key": "05562e0081796d28_c001",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Pentagon AI chief confirms DOD's use of Google, says reliance on one model 'never a good thing'",
-              "summary": "Pentagon AI chief Cameron Stanley confirmed to CNBC that the Department of Defense is expanding its use of Google's Gemini artificial intelligence model, about two months after the…",
-              "hash": "028ef5ef4244e2c7",
-              "chunk_key": "028ef5ef4244e2c7_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "AVGO",
-              "name": "Broadcom"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "TSLA",
-              "name": "Tesla"
-            },
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "BAM",
-              "name": "Brookfield Asset Management"
-            },
-            {
-              "ticker": "HPE",
-              "name": "Hewlett Packard Enterprise"
-            },
-            {
-              "ticker": "WDAY",
-              "name": "Workday"
-            }
-          ]
-        },
-        {
-          "cluster_id": 35,
-          "name": "\"AI Researchers Leave Big Tech\"",
-          "count": 1,
-          "children": [
-            {
-              "name": "Meta, Google, OpenAI among Big Tech seeing staff leave to launch own AI labs",
-              "summary": "Ricursive Intelligence, which picked up $335 million across two rounds in December and January after being founded in September, is building AI tools to help with chip design.",
-              "hash": "0fad7c461349c779",
-              "chunk_key": "0fad7c461349c779_c002",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            }
-          ],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 38,
-          "name": "\"Tech Giants Face Uncertainty\"",
-          "count": 1,
-          "children": [
-            {
-              "name": "Investors not panicking about Iran or memory before big tech earnings",
-              "summary": "AI chipmaker Cerebras said in its IPO prospectus earlier this month that data center power charges take up \"a significant portion\" of the company's operating expenses.",
-              "hash": "f42bf9674e980550",
-              "chunk_key": "f42bf9674e980550_c004",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "NDAQ",
-              "name": "Nasdaq"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "ORCL",
-              "name": "Oracle"
-            },
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "INTC",
-              "name": "Intel"
-            },
-            {
-              "ticker": "SRE",
-              "name": "Sempra"
-            },
-            {
-              "ticker": "FRMI",
-              "name": "Fermi"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "HPE",
-              "name": "Hewlett Packard Enterprise"
-            },
-            {
-              "ticker": "EQIX",
-              "name": "Equinix"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "China's Emerging Tech Revolution",
-      "count": 5,
-      "children": [
-        {
-          "cluster_id": 15,
-          "name": "China's Stricter Tech Regulations",
-          "count": 2,
-          "children": [
-            {
-              "name": "Meta-Manus deal draws the line in China's AI race with the U.S.",
-              "summary": "Many other China-affiliated tech startups, including fast-fashion giant Shein , have attempted similar business structures to reduce their Chinese footprint — dubbed \" Singapore wa…",
-              "hash": "e19daa9e231c55a6",
-              "chunk_key": "e19daa9e231c55a6_c001",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Op-ed: Why China blocked the Meta-Manus deal and what it says about AI race",
-              "summary": "These are not typical features of a conventional antitrust inquiry.",
-              "hash": "1e6f70709184e2b2",
-              "chunk_key": "1e6f70709184e2b2_c002",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "QCOM",
-              "name": "Qualcomm"
-            },
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "SRE",
-              "name": "Sempra"
-            },
-            {
-              "ticker": "CCC",
-              "name": "CCC Intelligent Solutions"
-            },
-            {
-              "ticker": "AS",
-              "name": "Amer Sports"
-            },
-            {
-              "ticker": "CDNS",
-              "name": "Cadence Design Systems"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "DJT",
-              "name": "Trump Media Technology Group"
-            }
-          ]
-        },
-        {
-          "cluster_id": 14,
-          "name": "BYD Faces Labor Abuse Allegations",
-          "count": 1,
-          "children": [
-            {
-              "name": "CNBC Daily Open: Hawkish hold from BOJ sets central bank stage",
-              "summary": "BYD has become the first Chinese business to be raised in the European Parliament over allegations of labor abuses in Hungary, CNBC has learned, following a watchdog's investigatio…",
-              "hash": "f04016092cf308bc",
-              "chunk_key": "f04016092cf308bc_c002",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 19,
-          "name": "China's AI and Robotics Push",
-          "count": 1,
-          "children": [
-            {
-              "name": "Chinas self-driving truck leaders say AI breakthroughs wont accelerate rollout  heres why",
-              "summary": "BEIJING — While AI updates make headlines every few weeks, those advances are not enough to get self-driving vehicles on the road more quickly.",
-              "hash": "ecb385e38b88af60",
-              "chunk_key": "ecb385e38b88af60_c000",
-              "article_date": "2026-04-29 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 20,
-          "name": "\"China's Electric Vehicle Technology Boom\"",
-          "count": 1,
           "children": [
             {
               "name": "Chinas EV price war turns into AI arms race beyond cheaper cars",
@@ -682,71 +20,49 @@
               "article_date": "2026-04-30 00:00:00",
               "provider": "CNBC",
               "value": 1
+            },
+            {
+              "name": "Chinas self-driving truck leaders say AI breakthroughs wont accelerate rollout  heres why",
+              "summary": "BEIJING — While AI updates make headlines every few weeks, those advances are not enough to get self-driving vehicles on the road more quickly.",
+              "hash": "ecb385e38b88af60",
+              "chunk_key": "ecb385e38b88af60_c000",
+              "article_date": "2026-04-29 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Meta-Manus deal draws the line in China's AI race with the U.S.",
+              "summary": "Many other China-affiliated tech startups, including fast-fashion giant Shein , have attempted similar business structures to reduce their Chinese footprint — dubbed \" Singapore wa…",
+              "hash": "e19daa9e231c55a6",
+              "chunk_key": "e19daa9e231c55a6_c001",
+              "article_date": "2026-04-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
             }
           ],
           "related_tickers_named": [
             {
               "ticker": "NVDA",
               "name": "Nvidia"
-            }
-          ],
-          "related_tickers_semantic": []
-        }
-      ]
-    },
-    {
-      "name": "Entrepreneurial Growth Strategies",
-      "count": 2,
-      "children": [
-        {
-          "cluster_id": 0,
-          "name": "\"Starting Small, Scaling Up\"",
-          "count": 2,
-          "children": [
-            {
-              "name": "Gen Zers are making thousands a month running snail-mail subscription clubs",
-              "summary": "Most of the clubs gain traction on social media, with over 150,000 posts tagged with \"Snail Mail\" on TikTok.",
-              "hash": "b3672351cd1007fb",
-              "chunk_key": "b3672351cd1007fb_c001",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
             },
             {
-              "name": "Couple launched a burrito spot in a Home Depot parking lot—their two restaurants brought in $2.3 million in sales in 2025",
-              "summary": "A few weeks later, they saw that he had published a rave review about LJ's Lil' Cafe for Eater, a national publication that covers food and dining.",
-              "hash": "29da7de85b994f21",
-              "chunk_key": "29da7de85b994f21_c003",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "HD",
-              "name": "Home Depot"
+              "ticker": "META",
+              "name": "Meta Platforms"
             }
           ],
           "related_tickers_semantic": []
-        }
-      ]
-    },
-    {
-      "name": "Financial Market Predictions",
-      "count": 7,
-      "children": [
+        },
         {
-          "cluster_id": 10,
-          "name": "Prediction Markets and Gaming",
-          "count": 4,
+          "cluster_id": 3,
+          "name": "Crypto Market Regulatory Challenges",
+          "count": 3,
           "children": [
             {
-              "name": "Six months out, control of the Senate is a dead heat, traders on Kalshi say",
-              "summary": "Control of the U.S. Senate in this year's midterms remains a tossup just over six months from election day, according to traders on prediction markets platform Kalshi.",
-              "hash": "969421e357ccc846",
-              "chunk_key": "969421e357ccc846_c000",
-              "article_date": "2026-05-01 00:00:00",
+              "name": "Bitcoin surged in April, but weak buyer demand makes the rally vulnerable",
+              "summary": "Bitcoin surged in April, but its run could be on shaky ground, according to crypto data provider CryptoQuant. The flagship crypto coin gained 12.",
+              "hash": "24c9f06cf38591ae",
+              "chunk_key": "24c9f06cf38591ae_c000",
+              "article_date": "2026-04-30 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
@@ -755,102 +71,7 @@
               "summary": "Interstate Horseracing Act of 1978, offering wagers on horses requires explicit permission from the host race track, the horsemen's group made up of owners and trainers and the sta…",
               "hash": "8455a0789a9a0c4a",
               "chunk_key": "8455a0789a9a0c4a_c001",
-              "article_date": "2026-05-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "U.S. senators ban themselves from prediction markets trading",
-              "summary": "The U.S. Senate on Thursday unanimously passed a rule barring senators from trading on prediction markets effective immediately.",
-              "hash": "f017df92b71082c9",
-              "chunk_key": "f017df92b71082c9_c000",
               "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "First Vegas-style casino opens in New York City",
-              "summary": "New York City's first full-scale casino with live table games opened to gamblers Tuesday, more than a decade after voters approved an expansion of gambling in the state.",
-              "hash": "d2bbca9b3e2df790",
-              "chunk_key": "d2bbca9b3e2df790_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "CHDN",
-              "name": "Churchill Downs"
-            },
-            {
-              "ticker": "BAC",
-              "name": "Bank of America"
-            },
-            {
-              "ticker": "MGM",
-              "name": "MGM Resorts International"
-            },
-            {
-              "ticker": "WYNN",
-              "name": "Wynn Resorts"
-            },
-            {
-              "ticker": "CZR",
-              "name": "Caesars Entertainment"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "LVS",
-              "name": "Las Vegas Sands"
-            },
-            {
-              "ticker": "WYNN",
-              "name": "Wynn Resorts"
-            },
-            {
-              "ticker": "MGM",
-              "name": "MGM Resorts International"
-            },
-            {
-              "ticker": "CZR",
-              "name": "Caesars Entertainment"
-            },
-            {
-              "ticker": "VICI",
-              "name": "VICI Properties"
-            },
-            {
-              "ticker": "BYD",
-              "name": "Boyd Gaming"
-            },
-            {
-              "ticker": "CHDN",
-              "name": "Churchill Downs"
-            }
-          ]
-        },
-        {
-          "cluster_id": 16,
-          "name": "Crypto Market Trends and Insights",
-          "count": 3,
-          "children": [
-            {
-              "name": "Bitcoin surged in April, but weak buyer demand makes the rally vulnerable",
-              "summary": "Bitcoin surged in April, but its run could be on shaky ground, according to crypto data provider CryptoQuant. The flagship crypto coin gained 12.",
-              "hash": "24c9f06cf38591ae",
-              "chunk_key": "24c9f06cf38591ae_c000",
-              "article_date": "2026-05-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Musk and Altman go to trial, GM earnings, Spotify's fitness push and more in Morning Squawk",
-              "summary": "Now, perps account for more than 70% of total volume on centralized crypto exchanges, according to CoinGecko. Perps can offer as much as 100-times leverage on an investment.",
-              "hash": "64f88a192872bfa8",
-              "chunk_key": "64f88a192872bfa8_c002",
-              "article_date": "2026-04-28 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
@@ -866,20 +87,8 @@
           ],
           "related_tickers_named": [
             {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "GM",
-              "name": "General Motors"
-            },
-            {
-              "ticker": "ORCL",
-              "name": "Oracle"
-            },
-            {
-              "ticker": "COIN",
-              "name": "Coinbase Global"
+              "ticker": "CHDN",
+              "name": "Churchill Downs"
             },
             {
               "ticker": "MORN",
@@ -888,6 +97,10 @@
             {
               "ticker": "MCO",
               "name": "Moody's"
+            },
+            {
+              "ticker": "COIN",
+              "name": "Coinbase Global"
             },
             {
               "ticker": "FDS",
@@ -900,56 +113,52 @@
               "name": "Coinbase Global"
             },
             {
-              "ticker": "ICE",
-              "name": "Intercontinental Exchange"
-            },
-            {
-              "ticker": "HOOD",
-              "name": "Robinhood Markets"
-            },
-            {
-              "ticker": "CTRA",
-              "name": "Coterra Energy"
-            },
-            {
-              "ticker": "MS",
-              "name": "Morgan Stanley"
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
             },
             {
               "ticker": "USB",
               "name": "US Bancorp"
             },
             {
-              "ticker": "PYPL",
-              "name": "PayPal"
+              "ticker": "VIRT",
+              "name": "Virtu Financial"
+            },
+            {
+              "ticker": "BLK",
+              "name": "BlackRock"
+            },
+            {
+              "ticker": "NVDA",
+              "name": "Nvidia"
             }
           ]
         }
       ]
     },
     {
-      "name": "Global Economic Uncertainty",
-      "count": 41,
+      "name": "Global Geopolitical Tensions",
+      "count": 19,
       "children": [
         {
-          "cluster_id": 11,
-          "name": "Federal Reserve Policy Uncertainty",
-          "count": 15,
+          "cluster_id": 2,
+          "name": "Powell's Future at the Fed",
+          "count": 12,
           "children": [
-            {
-              "name": "Pirro keeps pressure on Fed's Powell despite dropping probe",
-              "summary": "U.S.",
-              "hash": "6f94b0c7d21447fa",
-              "chunk_key": "6f94b0c7d21447fa_c000",
-              "article_date": "2026-05-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
             {
               "name": "Fed dissenters explain 'no' votes",
               "summary": "Federal Reserve officials who voted this week against the post-meeting statement said they didn't think it was appropriate to signal that the next interest rate move would be lower…",
               "hash": "d0fcc2adf336deef",
               "chunk_key": "d0fcc2adf336deef_c000",
+              "article_date": "2026-05-01 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Pirro keeps pressure on Fed's Powell despite dropping probe",
+              "summary": "U.S.",
+              "hash": "6f94b0c7d21447fa",
+              "chunk_key": "6f94b0c7d21447fa_c000",
               "article_date": "2026-05-01 00:00:00",
               "provider": "CNBC",
               "value": 1
@@ -964,28 +173,19 @@
               "value": 1
             },
             {
-              "name": "Kalshi users called it: Powell says he will stay on as Fed governor after chair term ends",
-              "summary": "Federal Reserve Chairman Jerome Powell said Wednesday he would stay on as governor after his term as chief ends, an event participants on Kalshi called.",
-              "hash": "db6e1d7db5956125",
-              "chunk_key": "db6e1d7db5956125_c000",
+              "name": "Six months out, control of the Senate is a dead heat, traders on Kalshi say",
+              "summary": "Control of the U.S. Senate in this year's midterms remains a tossup just over six months from election day, according to traders on prediction markets platform Kalshi.",
+              "hash": "969421e357ccc846",
+              "chunk_key": "969421e357ccc846_c000",
               "article_date": "2026-04-30 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Powell says he will continue to serve as a Fed governor",
-              "summary": "Markets already had largely expected to keep its key interest rate steady, with the bigger question over Powell's future.",
-              "hash": "a01bc013bd011a3d",
-              "chunk_key": "a01bc013bd011a3d_c001",
-              "article_date": "2026-04-29 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Core inflation rate hit 3.2% in March; GDP grew 2% in Q1; jobless claims lowest since 1969",
-              "summary": "It was the lowest reading since September 1969 for a labor market that has been in a low-hire, low-fire mode for most of the past year.",
-              "hash": "8abd1d08d008f977",
-              "chunk_key": "8abd1d08d008f977_c001",
+              "name": "Kalshi users called it: Powell says he will stay on as Fed governor after chair term ends",
+              "summary": "Federal Reserve Chairman Jerome Powell said Wednesday he would stay on as governor after his term as chief ends, an event participants on Kalshi called.",
+              "hash": "db6e1d7db5956125",
+              "chunk_key": "db6e1d7db5956125_c000",
               "article_date": "2026-04-29 00:00:00",
               "provider": "CNBC",
               "value": 1
@@ -1000,44 +200,26 @@
               "value": 1
             },
             {
-              "name": "European stocks mixed as Trump considers Iran peace proposal",
-              "summary": "The ECB and BOE both publish their latest monetary policy decisions on Thursday, with economists expecting the central banks to stand pat on their benchmark interest rates at their…",
-              "hash": "600ac10df3c1ad78",
-              "chunk_key": "600ac10df3c1ad78_c003",
-              "article_date": "2026-04-28 00:00:00",
+              "name": "Core inflation rate hit 3.2% in March; GDP grew 2% in Q1; jobless claims lowest since 1969",
+              "summary": "It was the lowest reading since September 1969 for a labor market that has been in a low-hire, low-fire mode for most of the past year.",
+              "hash": "8abd1d08d008f977",
+              "chunk_key": "8abd1d08d008f977_c001",
+              "article_date": "2026-04-29 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
-              "name": "Treasury yields rise as U.S.-Iran peace talks hit an impasse",
-              "summary": "Meanwhile, investors will also be looking ahead to the Fed's monetary policy meeting on Wednesday, during which outgoing Fed chair Jerome Powell is widely expected to keep interest…",
-              "hash": "42f6c2bcff9cf10c",
-              "chunk_key": "42f6c2bcff9cf10c_c001",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Inflation could get in the way of Warsh's desire to cut rates, CNBC survey finds",
-              "summary": "Efforts by Fed Chair nominee Kevin Warsh to satisfy President Donald Trump 's demands for lower interest rates look likely to be stymied by high oil prices and inflation, according…",
-              "hash": "c195b3713648d459",
-              "chunk_key": "c195b3713648d459_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Jamie Dimon warns of 'some kind of bond crisis' ahead as global debt risks build",
-              "summary": "JPMorgan Chase CEO Jamie Dimon on Tuesday warned that rising government debt levels could trigger a crisis in the bond market, urging policymakers to act before markets force their…",
-              "hash": "a581e8066c14cb0c",
-              "chunk_key": "a581e8066c14cb0c_c000",
-              "article_date": "2026-04-28 00:00:00",
+              "name": "Powell says he will continue to serve as a Fed governor",
+              "summary": "Markets already had largely expected to keep its key interest rate steady, with the bigger question over Powell's future.",
+              "hash": "a01bc013bd011a3d",
+              "chunk_key": "a01bc013bd011a3d_c001",
+              "article_date": "2026-04-29 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
             {
               "name": "Here's everything to expect when the Fed issues its latest rate decision Wednesday",
-              "summary": "Unless something unexpected pops up, the chair's designated successor, Kevin Warsh, appears on track to take over when Powell's term ends in May.",
+              "summary": "We expect a strong consensus to stay on hold for now, with only one dissent, as in March.",
               "hash": "cbf1195202879bb4",
               "chunk_key": "cbf1195202879bb4_c001",
               "article_date": "2026-04-28 00:00:00",
@@ -1063,10 +245,10 @@
               "value": 1
             },
             {
-              "name": "Bank of Japan keeps policy rate steady while raising inflation forecast on Iran war worries",
-              "summary": "Japan had narrowly avoided a technical recession in the last quarter of 2025, with the country's economy growing at a revised 0.3% quarter on quarter and 1.3% year-on-year.",
-              "hash": "689a972c2140c3ba",
-              "chunk_key": "689a972c2140c3ba_c001",
+              "name": "Jamie Dimon warns of 'some kind of bond crisis' ahead as global debt risks build",
+              "summary": "JPMorgan Chase CEO Jamie Dimon on Tuesday warned that rising government debt levels could trigger a crisis in the bond market, urging policymakers to act before markets force their…",
+              "hash": "a581e8066c14cb0c",
+              "chunk_key": "a581e8066c14cb0c_c000",
               "article_date": "2026-04-27 00:00:00",
               "provider": "CNBC",
               "value": 1
@@ -1082,6 +264,10 @@
               "name": "Ferguson Enterprises"
             },
             {
+              "ticker": "BAC",
+              "name": "Bank of America"
+            },
+            {
               "ticker": "MS",
               "name": "Morgan Stanley"
             },
@@ -1092,40 +278,49 @@
           ],
           "related_tickers_semantic": [
             {
-              "ticker": "NVDA",
-              "name": "Nvidia"
+              "ticker": "AFRM",
+              "name": "Affirm"
             },
             {
-              "ticker": "MSFT",
-              "name": "Microsoft"
+              "ticker": "COLB",
+              "name": "Columbia Banking System"
             },
             {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
+              "ticker": "ICE",
+              "name": "Intercontinental Exchange"
             },
             {
-              "ticker": "JPM",
-              "name": "JPMorgan Chase"
+              "ticker": "PB",
+              "name": "Prosperity Bancshares,"
             },
             {
-              "ticker": "PYPL",
-              "name": "PayPal"
+              "ticker": "RF",
+              "name": "Regions Financial"
             },
             {
-              "ticker": "V",
-              "name": "Visa"
+              "ticker": "STT",
+              "name": "State Street"
             },
             {
-              "ticker": "SBUX",
-              "name": "Starbucks"
+              "ticker": "USB",
+              "name": "US Bancorp"
             }
           ]
         },
         {
-          "cluster_id": 31,
-          "name": "Oil Prices Amid Middle East Tensions",
-          "count": 7,
+          "cluster_id": 6,
+          "name": "Oil Prices Rise Amid Conflict",
+          "count": 4,
           "children": [
+            {
+              "name": "Spirit Airlines prepares to shut down after failing to reach bailout deal",
+              "summary": "It faced rising labor and other costs, changing consumer tastes toward more upscale travel and a engine recall.",
+              "hash": "2413cbe28572ff00",
+              "chunk_key": "2413cbe28572ff00_c001",
+              "article_date": "2026-05-01 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
             {
               "name": "U.S. oil prices will exceed Iran wartime high as conflict drags on, Kalshi traders say",
               "summary": "Western Texas Intermediate crude futures haven't hit their highs in 2026 yet, according to traders on Kalshi.",
@@ -1145,47 +340,11 @@
               "value": 1
             },
             {
-              "name": "U.S. is 'being humiliated by Iran,' says Germany's Merz",
-              "summary": "The Iran war hits net energy importers like the European Union and U.K.",
-              "hash": "5d875f78268d9afd",
-              "chunk_key": "5d875f78268d9afd_c002",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "United Arab Emirates leaving OPEC, effective May 1",
-              "summary": "The United Arab Emirates announced Tuesday that it will exit OPEC on May 1, in a major blow to the cartel that coordinates production among many of the world's largest oil producer…",
-              "hash": "642c033b3c460669",
-              "chunk_key": "642c033b3c460669_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Brent oil tops $111 per barrel as traders weigh Iran’s Strait of Hormuz proposal",
-              "summary": "U.S. crude oil prices rose more than 4% Tuesday on reports that President Donald Trump is dissatisfied with Iran's proposal to reopen the Strait of Hormuz.",
-              "hash": "3ced286969504e97",
-              "chunk_key": "3ced286969504e97_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "BP profits more than double, beating expectations as Iran war boosts oil prices",
-              "summary": "British energy major BP on Tuesday reported that first-quarter profits more than doubled from a year ago, following a surge in oil and gas prices driven by the Middle East conflict…",
-              "hash": "bbb9453a3841dbbc",
-              "chunk_key": "bbb9453a3841dbbc_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "UAE's OPEC exit: What it means for the oil cartel's future and for crude prices",
-              "summary": "The United Arab Emirates' exit from OPEC this week will weaken the influence of the cartel and its leader Saudi Arabia on the oil market, a development that could prove bearish for…",
-              "hash": "106da74854b0ca74",
-              "chunk_key": "106da74854b0ca74_c000",
-              "article_date": "2026-04-28 00:00:00",
+              "name": "Here's why surging oil prices may not derail the consumer trade",
+              "summary": "Wall Street is already looking beyond Big Tech quarterly results.",
+              "hash": "9d609ab76c1ccde6",
+              "chunk_key": "9d609ab76c1ccde6_c000",
+              "article_date": "2026-04-29 00:00:00",
               "provider": "CNBC",
               "value": 1
             }
@@ -1196,273 +355,15 @@
               "name": "Exxon Mobil"
             },
             {
-              "ticker": "NYT",
-              "name": "New York Times"
+              "ticker": "AAL",
+              "name": "American Airlines Group"
             },
             {
-              "ticker": "C",
-              "name": "Citigroup"
+              "ticker": "UAL",
+              "name": "United Airlines"
             }
           ],
           "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AM",
-              "name": "Antero Midstream"
-            },
-            {
-              "ticker": "FCX",
-              "name": "Freeport-McMoRan"
-            },
-            {
-              "ticker": "EXE",
-              "name": "Expand Energy"
-            },
-            {
-              "ticker": "MU",
-              "name": "Micron Technology"
-            }
-          ]
-        },
-        {
-          "cluster_id": 13,
-          "name": "Retirement Savings and Financial Security",
-          "count": 6,
-          "children": [
-            {
-              "name": "I got accepted into Yale University—here's what I wrote in my college essay that made me stand out",
-              "summary": "It's clear you value the two-way street of building relationships with others; reaping the benefits of being surrounded by community and paying it forward by \"showing up\" for them,…",
-              "hash": "f76dce5e975a9f74",
-              "chunk_key": "f76dce5e975a9f74_c004",
-              "article_date": "2026-05-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Legislative action could increase U.S. retirement wealth up to 77%, research finds",
-              "summary": "President Donald Trump signed an executive order Thursday to create a new way to save for retirement for workers who don't currently have access to a 401(k) or another workplace pl…",
-              "hash": "5d10084bc989fd98",
-              "chunk_key": "5d10084bc989fd98_c000",
-              "article_date": "2026-05-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Gen Zers are making thousands a month running snail-mail subscription clubs",
-              "summary": "Conversions from CAD to USD were done using the OANDA conversion rate of 1 CAD to 0.73076 USD on April 30, 2026. All amounts are rounded to the nearest dollar.",
-              "hash": "b3672351cd1007fb",
-              "chunk_key": "b3672351cd1007fb_c005",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump administration finalizes federal student loan caps",
-              "summary": "The Department of Education on Thursday finalized the student loan overhaul introduced in President Donald Trump's \" big beautiful bill ,\" also known as the Working Families Tax Cu…",
-              "hash": "71fca674f87e69b4",
-              "chunk_key": "71fca674f87e69b4_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Couple launched a burrito spot in a Home Depot parking lot—their two restaurants brought in $2.3 million in sales in 2025",
-              "summary": "Then you need to learn how to make effective small talk.",
-              "hash": "29da7de85b994f21",
-              "chunk_key": "29da7de85b994f21_c005",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Women tend to be 'risk-appropriate' investors, expert says: How that helps",
-              "summary": "Many studies show that women tend to invest more conservatively than men. In times of wild market swings, their approach can pay off. Since the Feb.",
-              "hash": "1ea8ef143a2d8f72",
-              "chunk_key": "1ea8ef143a2d8f72_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "HD",
-              "name": "Home Depot"
-            },
-            {
-              "ticker": "MORN",
-              "name": "Morningstar"
-            }
-          ],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 34,
-          "name": "Iran Conflict and Market Volatility",
-          "count": 6,
-          "children": [
-            {
-              "name": "CNBC Daily Open: Hawkish hold from BOJ sets central bank stage",
-              "summary": "The Iran war hits the two-mark month today, with White House press secretary Karoline Leavitt confirming President Donald Trump and his national security team on Monday discussed I…",
-              "hash": "f04016092cf308bc",
-              "chunk_key": "f04016092cf308bc_c001",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Asia-Pacific markets trade mostly lower as investors assess latest U.S.-Iran signals",
-              "summary": "Asia-Pacific markets closed mostly lower Tuesday as investors weighed developments in U.S.-Iran negotiations. U.S.",
-              "hash": "5ff67772fd6903eb",
-              "chunk_key": "5ff67772fd6903eb_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "European stocks mixed as Trump considers Iran peace proposal",
-              "summary": "LONDON — European stocks were mixed on Tuesday as investors awaited Washington's response to Iranian peace proposals and reacted to earnings reports from several regional companies…",
-              "hash": "600ac10df3c1ad78",
-              "chunk_key": "600ac10df3c1ad78_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Treasury yields rise as U.S.-Iran peace talks hit an impasse",
-              "summary": "U.S. Treasury yields rose on Tuesday as investors awaited developments on negotiations between the U.S. and Iran, which hit an impasse over the weekend. The yield on the 10-year U.",
-              "hash": "42f6c2bcff9cf10c",
-              "chunk_key": "42f6c2bcff9cf10c_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Musk and Altman go to trial, GM earnings, Spotify's fitness push and more in Morning Squawk",
-              "summary": "This is CNBC's Morning Squawk newsletter. Subscribe here to receive future editions in your inbox. Happy Tuesday.",
-              "hash": "64f88a192872bfa8",
-              "chunk_key": "64f88a192872bfa8_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "S&P 500 futures slip as oil rises, Nasdaq futures slide on OpenAI report",
-              "summary": "S&P 500 and Nasdaq-100 futures fell on Tuesday, weighed down by a rise in oil prices as well as a report that pointed to weakness in OpenAI.",
-              "hash": "e7832e121d452126",
-              "chunk_key": "e7832e121d452126_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "GM",
-              "name": "General Motors"
-            },
-            {
-              "ticker": "ORCL",
-              "name": "Oracle"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "VZ",
-              "name": "Verizon Communications"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            }
-          ]
-        },
-        {
-          "cluster_id": 1,
-          "name": "Airlines Navigate Fuel Price Surge",
-          "count": 4,
-          "children": [
-            {
-              "name": "Spirit Airlines prepares to shut down after failing to reach bailout deal",
-              "summary": "Spirit Airlines is preparing to shut down after the iconic budget airline failed to reach a deal for a lifeline, according to people familiar with the matter.",
-              "hash": "2413cbe28572ff00",
-              "chunk_key": "2413cbe28572ff00_c000",
-              "article_date": "2026-05-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Airbus reports falling profits as jet deliveries slow",
-              "summary": "Airbus reported quarterly profits that halved from a year ago late Tuesday, as deliveries of its best-selling aircraft slowed. First-quarter sales came in at 12.",
-              "hash": "dc84b60b43bddf9c",
-              "chunk_key": "dc84b60b43bddf9c_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "U.S. airlines are hiking fares — and travelers keep booking",
-              "summary": "U.S. airlines have reported that the Iran war is adding more than $6 billion and counting to their costs this year.",
-              "hash": "6f3dfb2e8838e4ac",
-              "chunk_key": "6f3dfb2e8838e4ac_c001",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "JetBlue is full steam ahead on Fort Lauderdale, regardless of Spirit's fate",
-              "summary": "JetBlue Airways is moving forward with its flight plans at Fort Lauderdale–Hollywood International Airport, its president said, regardless of whether the airport's No.",
-              "hash": "93b54178b4e0ee14",
-              "chunk_key": "93b54178b4e0ee14_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
             {
               "ticker": "UAL",
               "name": "United Airlines"
@@ -1472,51 +373,46 @@
               "name": "American Airlines Group"
             },
             {
-              "ticker": "CARR",
-              "name": "Carrier Global"
+              "ticker": "LUV",
+              "name": "Southwest Airlines"
+            },
+            {
+              "ticker": "SEE",
+              "name": "Sealed AIR"
+            },
+            {
+              "ticker": "ALK",
+              "name": "Alaska Air Group"
+            },
+            {
+              "ticker": "OVV",
+              "name": "Ovintiv"
             },
             {
               "ticker": "BA",
               "name": "Boeing"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "BA",
-              "name": "Boeing"
-            },
-            {
-              "ticker": "GE",
-              "name": "GE Aerospace"
-            },
-            {
-              "ticker": "UAL",
-              "name": "United Airlines"
-            },
-            {
-              "ticker": "LOAR",
-              "name": "Loar"
-            },
-            {
-              "ticker": "HON",
-              "name": "Honeywell International"
-            },
-            {
-              "ticker": "RBC",
-              "name": "RBC Bearings"
             }
           ]
         },
         {
-          "cluster_id": 9,
-          "name": "US Tariffs Refunds Expected",
-          "count": 2,
+          "cluster_id": 4,
+          "name": "Trump's Trade and Military Actions",
+          "count": 3,
           "children": [
             {
               "name": "Trump says he's raising EU auto tariffs to 25%",
               "summary": "He then said he would increase the global rate to 15% . The EU in February had warned that its trade deal with the U.S.",
               "hash": "91c4e2189db6b61d",
               "chunk_key": "91c4e2189db6b61d_c001",
+              "article_date": "2026-05-01 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Trump tells Congress hostilities in Iran 'have terminated' at war powers deadline",
+              "summary": "President Donald Trump told Congress on Friday that hostilities in Iran \"have terminated\" since he imposed a two-week ceasefire on April 7 that has been extended.",
+              "hash": "2b76bc1560d75199",
+              "chunk_key": "2b76bc1560d75199_c000",
               "article_date": "2026-05-01 00:00:00",
               "provider": "CNBC",
               "value": 1
@@ -1533,18 +429,24 @@
           ],
           "related_tickers_named": [],
           "related_tickers_semantic": []
-        },
+        }
+      ]
+    },
+    {
+      "name": "Higher Education Scandals",
+      "count": 1,
+      "children": [
         {
-          "cluster_id": 26,
-          "name": "Energy Volatility Surges Worldwide",
+          "cluster_id": 0,
+          "name": "Bard College President's Ties to Epstein",
           "count": 1,
           "children": [
             {
-              "name": "Here's why surging oil prices may not derail the consumer trade",
-              "summary": "Wall Street is already looking beyond Big Tech quarterly results.",
-              "hash": "9d609ab76c1ccde6",
-              "chunk_key": "9d609ab76c1ccde6_c000",
-              "article_date": "2026-04-29 00:00:00",
+              "name": "Bard President Botstein retiring after Jeffrey Epstein ties detailed",
+              "summary": "Bard College President Leon Botstein announced Friday that he will retire at the end of June after 51 years leading the prestigious New York liberal arts school, a day after a law …",
+              "hash": "4fb67776e863fd7a",
+              "chunk_key": "4fb67776e863fd7a_c000",
+              "article_date": "2026-05-01 00:00:00",
               "provider": "CNBC",
               "value": 1
             }
@@ -1555,349 +457,11 @@
       ]
     },
     {
-      "name": "Market Trends and Mergers",
-      "count": 27,
+      "name": "Market Volatility and Leadership",
+      "count": 13,
       "children": [
         {
-          "cluster_id": 18,
-          "name": "Options Market Analysis and Trades",
-          "count": 6,
-          "children": [
-            {
-              "name": "Tech stocks close out best month since start of Covid pandemic in 2020",
-              "summary": "The tech-heavy Nasdaq Composite climbed 15.29% in April, its biggest monthly gain since the start of the Covid pandemic in April 2020.",
-              "hash": "7caaabb61b1e21f6",
-              "chunk_key": "7caaabb61b1e21f6_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Apple's stock has gone nowhere for 6 months. Traders expect a wild ride Thursday night",
-              "summary": "For a stock that's gone nowhere for six months, Apple sure has options traders excited. Implied volatility in the stock suggests a 3.",
-              "hash": "00a7a291879b2850",
-              "chunk_key": "00a7a291879b2850_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Alphabet is winning the AI revolution. Here's how Mike Khouw is trading it",
-              "summary": "Alphabet (aka \"Google\") is clearly firing on all cylinders, more cylinders perhaps than the Street even realized it had. The quarter was frankly a blowout.",
-              "hash": "a30b72c30410de29",
-              "chunk_key": "a30b72c30410de29_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Traders bet Nvidia's stock will return to record highs soon",
-              "summary": "Shares of Nvidia fell a bit on Tuesday after a WSJ report raised questions about OpenAI growth targets and the whole AI complex.",
-              "hash": "abe7d16023acf1a2",
-              "chunk_key": "abe7d16023acf1a2_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Traders brace for $800 billion in earnings-related stock movement",
-              "summary": "Get ready. Wenesday night is the main event for earnings season, with Alphabet , Amazon , Meta and Microsoft – four of the \"Magnificent Seven\" — set to report.",
-              "hash": "5078015387b236b8",
-              "chunk_key": "5078015387b236b8_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Meta shares look 'iffy' into earnings. How to trade it",
-              "summary": "Meta heads into earnings Wednesday after the bell with the fundamentals case largely intact.",
-              "hash": "599a84cf2cdbad1b",
-              "chunk_key": "599a84cf2cdbad1b_c000",
-              "article_date": "2026-04-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
-            },
-            {
-              "ticker": "AMZN",
-              "name": "Amazon.com"
-            },
-            {
-              "ticker": "MSFT",
-              "name": "Microsoft"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "MU",
-              "name": "Micron Technology"
-            },
-            {
-              "ticker": "INTC",
-              "name": "Intel"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMD",
-              "name": "Advanced Micro Devices"
-            },
-            {
-              "ticker": "ANET",
-              "name": "Arista Networks"
-            },
-            {
-              "ticker": "WMB",
-              "name": "Williams"
-            },
-            {
-              "ticker": "CBOE",
-              "name": "Cboe Global Markets"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "INTC",
-              "name": "Intel"
-            }
-          ]
-        },
-        {
-          "cluster_id": 28,
-          "name": "\"Retail Earnings Beat Expectations\"",
-          "count": 6,
-          "children": [
-            {
-              "name": "Roblox shares plummet 18% as child safety measures weigh on bookings",
-              "summary": "Roblox shares plummeted 18% on Friday after the company reported first-quarter earnings as its new child safety measures weighed on bookings.",
-              "hash": "c781d37d7bd7a1a9",
-              "chunk_key": "c781d37d7bd7a1a9_c000",
-              "article_date": "2026-05-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Reddit reports 69% jump in revenue, topping analyst estimates",
-              "summary": "Reddit reported better-than-expected profit and revenue in its first-quarter earnings report on Thursday, and also issued an optimistic forecast.",
-              "hash": "4dcc2ce78610d008",
-              "chunk_key": "4dcc2ce78610d008_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Spotify stock plummets after earnings beat expectations as guidance disappoints",
-              "summary": "Shares of Swedish audio-streamer Spotify fell 9% in premarket trading after soft guidance overshadowed an earnings beat.",
-              "hash": "066f510fe07850f1",
-              "chunk_key": "066f510fe07850f1_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Coca-Cola tops estimates, raises earnings outlook as global beverage demand rises",
-              "summary": "Coca-Cola on Tuesday reported quarterly earnings and revenue that topped analysts' expectations, fueled by higher demand for its beverages.",
-              "hash": "f0d5781d8370ff6f",
-              "chunk_key": "f0d5781d8370ff6f_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "UPS beats Wall Street estimates on top and bottom lines",
-              "summary": "United Parcel Service on Tuesday posted first-quarter earnings results that beat on the top and bottom lines. Shares of the delivery giant sank roughly 3% in premarket trading.",
-              "hash": "1d82fb3665ee50b0",
-              "chunk_key": "1d82fb3665ee50b0_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Starbucks raises full-year outlook as turnaround takes hold — despite gas prices",
-              "summary": "Wall Street was expecting, based on a survey of analysts by LSEG: Starbucks reported fiscal second-quarter net income attributable to the company of $510.",
-              "hash": "2ccd79c2f3a10d6c",
-              "chunk_key": "2ccd79c2f3a10d6c_c001",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "UPS",
-              "name": "United Parcel Service"
-            },
-            {
-              "ticker": "SBUX",
-              "name": "Starbucks"
-            },
-            {
-              "ticker": "META",
-              "name": "Meta Platforms"
-            },
-            {
-              "ticker": "RDDT",
-              "name": "Reddit"
-            },
-            {
-              "ticker": "RBLX",
-              "name": "Roblox"
-            },
-            {
-              "ticker": "KO",
-              "name": "Coca-Cola"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMGN",
-              "name": "Amgen"
-            },
-            {
-              "ticker": "SPGI",
-              "name": "S&P Global"
-            },
-            {
-              "ticker": "JHX",
-              "name": "James Hardie Industries"
-            },
-            {
-              "ticker": "UNH",
-              "name": "UnitedHealth Group"
-            },
-            {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
-            },
-            {
-              "ticker": "AGO",
-              "name": "Assured Guaranty"
-            }
-          ]
-        },
-        {
-          "cluster_id": 30,
-          "name": "Apple's Q2 Earnings Report",
-          "count": 5,
-          "children": [
-            {
-              "name": "Apple's stock rallies as company cites iPhone, Mac demand in raising guidance",
-              "summary": "Apple shares jumped more than 3% on Friday after the iPhone maker reported better-than-expected quarterly results and issued revenue guidance for the current period that sailed pas…",
-              "hash": "4962576f73d52744",
-              "chunk_key": "4962576f73d52744_c000",
-              "article_date": "2026-05-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Rivian renegotiates DOE loan to $4.5 billion, adjusts capacity plans for new plant",
-              "summary": "Rivian Automotive on Thursday said it has renegotiated a $6.57 billion loan from the U.S. Department of Energy down to $4.",
-              "hash": "a14871836462d7a7",
-              "chunk_key": "a14871836462d7a7_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Apple revenue guidance tops estimates on booming iPhone, Mac demand",
-              "summary": "Apple issued a better-than-expected revenue forecast for the current period after beating on sales and earnings in the fiscal second quarter.",
-              "hash": "ef8f48d00d1c5fec",
-              "chunk_key": "ef8f48d00d1c5fec_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "What traders think Apple will talk about on its earnings call",
-              "summary": "On Apple's first earnings call since the company announced its planned C-suite changes, traders on Kalshi think the company may discuss its creator studio, streaming platform and a…",
-              "hash": "ec0be17efae8529d",
-              "chunk_key": "ec0be17efae8529d_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "CATL declines nearly 7% as the Chinese battery maker unveils $5 billion share placement",
-              "summary": "Shares of China's Contemporary Amperex Technology declined 6.81% Tuesday after the EV battery giant unveiled plans for a roughly $5 billion equity offering in Hong Kong .",
-              "hash": "cb43b159f7507347",
-              "chunk_key": "cb43b159f7507347_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "AAPL",
-              "name": "Apple"
-            },
-            {
-              "ticker": "GOOG",
-              "name": "Alphabet"
-            },
-            {
-              "ticker": "MS",
-              "name": "Morgan Stanley"
-            },
-            {
-              "ticker": "RIVN",
-              "name": "Rivian Automotive"
-            },
-            {
-              "ticker": "UBER",
-              "name": "Uber Technologies"
-            }
-          ],
-          "related_tickers_semantic": [
-            {
-              "ticker": "NVDA",
-              "name": "Nvidia"
-            },
-            {
-              "ticker": "AMGN",
-              "name": "Amgen"
-            },
-            {
-              "ticker": "TTC",
-              "name": "Toro"
-            },
-            {
-              "ticker": "EXEL",
-              "name": "Exelixis"
-            },
-            {
-              "ticker": "APTV",
-              "name": "Aptiv"
-            },
-            {
-              "ticker": "LCID",
-              "name": "Lucid Group"
-            }
-          ]
-        },
-        {
-          "cluster_id": 5,
+          "cluster_id": 8,
           "name": "Berkshire Hathaway's Leadership Transition",
           "count": 4,
           "children": [
@@ -1952,92 +516,65 @@
               "name": "Amazon.com"
             },
             {
-              "ticker": "UBER",
-              "name": "Uber Technologies"
-            },
-            {
               "ticker": "BAM",
               "name": "Brookfield Asset Management"
+            },
+            {
+              "ticker": "UBER",
+              "name": "Uber Technologies"
             }
           ],
           "related_tickers_semantic": [
-            {
-              "ticker": "BEN",
-              "name": "Franklin Resources"
-            },
             {
               "ticker": "BRK-B",
               "name": "Berkshire Hathaway"
             },
             {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
+              "ticker": "DVN",
+              "name": "Devon Energy"
             },
             {
-              "ticker": "IVZ",
-              "name": "Invesco"
+              "ticker": "BOKF",
+              "name": "BOK Financial"
             },
             {
-              "ticker": "MSCI",
-              "name": "MSCI"
+              "ticker": "OXY",
+              "name": "Occidental Petroleum"
             },
             {
-              "ticker": "XP",
-              "name": "XP"
+              "ticker": "UNH",
+              "name": "UnitedHealth Group"
             },
             {
-              "ticker": "BHF",
-              "name": "Brighthouse Financial"
+              "ticker": "BEPC",
+              "name": "Brookfield Renewable"
+            },
+            {
+              "ticker": "HLNE",
+              "name": "Hamilton Lane"
             }
           ]
         },
         {
-          "cluster_id": 21,
-          "name": "\"Global Impact of MFN Policy\"",
-          "count": 2,
+          "cluster_id": 10,
+          "name": "\"Financial Market Trends and Analysis\"",
+          "count": 4,
           "children": [
             {
-              "name": "Hershey says GLP-1s are driving higher gum and mint sales",
-              "summary": "Hershey is seeing higher sales for its mints and gum — thanks to the growing use of GLP-1 drugs.",
-              "hash": "8e6025ffab4cc972",
-              "chunk_key": "8e6025ffab4cc972_c000",
-              "article_date": "2026-04-29 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Novartis CEO warns reality of Trump's drug pricing policy will set in over 'the next 18 months'",
-              "summary": "Novartis ' CEO warned Tuesday that the U.S.",
-              "hash": "993a3651af73acab",
-              "chunk_key": "993a3651af73acab_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "HSY",
-              "name": "Hershey"
-            },
-            {
-              "ticker": "C",
-              "name": "Citigroup"
-            }
-          ],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 25,
-          "name": "Tech Giants Post Strong Earnings",
-          "count": 2,
-          "children": [
-            {
-              "name": "Atlassian stock soars 29% after earnings show strong cloud, data center growth",
-              "summary": "Atlassian shares jumped more than 29% on Friday after the software company topped Wall Street's expectations for the fiscal third quarter, reporting strong cloud growth and data ce…",
-              "hash": "aafcecbe696b260e",
-              "chunk_key": "aafcecbe696b260e_c000",
+              "name": "Roblox shares plummet 18% as child safety measures weigh on bookings",
+              "summary": "Roblox shares plummeted 18% on Friday after the company reported first-quarter earnings as its new child safety measures weighed on bookings.",
+              "hash": "c781d37d7bd7a1a9",
+              "chunk_key": "c781d37d7bd7a1a9_c000",
               "article_date": "2026-05-01 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Blue Owl shares surge after private credit firm cites 10X gains from SpaceX",
+              "summary": "Shares of Blue Owl , the private credit firm at the center of recent jitters over exposure to software companies, jumped 10% in trading Thursday after executives disclosed sizable …",
+              "hash": "bd9ea38d8256449a",
+              "chunk_key": "bd9ea38d8256449a_c000",
+              "article_date": "2026-04-29 00:00:00",
               "provider": "CNBC",
               "value": 1
             },
@@ -2049,6 +586,182 @@
               "article_date": "2026-04-28 00:00:00",
               "provider": "CNBC",
               "value": 1
+            },
+            {
+              "name": "OpenAI reportedly missed revenue targets. Oracle and chip stocks are falling",
+              "summary": "Shares of companies tied to artificial intelligence infrastructure fell Tuesday after a report that OpenAI has fallen short of internal growth expectations, raising fresh questions…",
+              "hash": "8aa1f65b47d2013a",
+              "chunk_key": "8aa1f65b47d2013a_c000",
+              "article_date": "2026-04-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet"
+            },
+            {
+              "ticker": "GS",
+              "name": "Goldman Sachs Group"
+            },
+            {
+              "ticker": "AAPL",
+              "name": "Apple"
+            },
+            {
+              "ticker": "PYPL",
+              "name": "PayPal"
+            },
+            {
+              "ticker": "ORCL",
+              "name": "Oracle"
+            },
+            {
+              "ticker": "OWL",
+              "name": "Blue Owl Capital"
+            },
+            {
+              "ticker": "RBLX",
+              "name": "Roblox"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "RBLX",
+              "name": "Roblox"
+            },
+            {
+              "ticker": "META",
+              "name": "Meta Platforms"
+            },
+            {
+              "ticker": "JHX",
+              "name": "James Hardie Industries"
+            },
+            {
+              "ticker": "BLK",
+              "name": "BlackRock"
+            },
+            {
+              "ticker": "CBOE",
+              "name": "Cboe Global Markets"
+            },
+            {
+              "ticker": "ETSY",
+              "name": "ETSY"
+            },
+            {
+              "ticker": "EQIX",
+              "name": "Equinix"
+            }
+          ]
+        },
+        {
+          "cluster_id": 7,
+          "name": "Earnings Season Volatility Analysis",
+          "count": 3,
+          "children": [
+            {
+              "name": "Alphabet is winning the AI revolution. Here's how Mike Khouw is trading it",
+              "summary": "Alphabet (aka \"Google\") is clearly firing on all cylinders, more cylinders perhaps than the Street even realized it had. The quarter was frankly a blowout.",
+              "hash": "a30b72c30410de29",
+              "chunk_key": "a30b72c30410de29_c000",
+              "article_date": "2026-04-30 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Traders brace for $800 billion in earnings-related stock movement",
+              "summary": "Get ready. Wenesday night is the main event for earnings season, with Alphabet , Amazon , Meta and Microsoft – four of the \"Magnificent Seven\" — set to report.",
+              "hash": "5078015387b236b8",
+              "chunk_key": "5078015387b236b8_c000",
+              "article_date": "2026-04-28 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "Meta shares look 'iffy' into earnings. How to trade it",
+              "summary": "Meta heads into earnings Wednesday after the bell with the fundamentals case largely intact.",
+              "hash": "599a84cf2cdbad1b",
+              "chunk_key": "599a84cf2cdbad1b_c000",
+              "article_date": "2026-04-27 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            }
+          ],
+          "related_tickers_named": [
+            {
+              "ticker": "META",
+              "name": "Meta Platforms"
+            },
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet"
+            },
+            {
+              "ticker": "MSFT",
+              "name": "Microsoft"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            }
+          ],
+          "related_tickers_semantic": [
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet"
+            },
+            {
+              "ticker": "NVDA",
+              "name": "Nvidia"
+            },
+            {
+              "ticker": "INTC",
+              "name": "Intel"
+            },
+            {
+              "ticker": "MSFT",
+              "name": "Microsoft"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon.com"
+            },
+            {
+              "ticker": "AAPL",
+              "name": "Apple"
+            },
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet"
+            }
+          ]
+        },
+        {
+          "cluster_id": 9,
+          "name": "Apple's Q2 Earnings and Outlook",
+          "count": 2,
+          "children": [
+            {
+              "name": "Apple's stock rallies as company cites iPhone, Mac demand in raising guidance",
+              "summary": "Apple shares jumped more than 3% on Friday after the iPhone maker reported better-than-expected quarterly results and issued revenue guidance for the current period that sailed pas…",
+              "hash": "4962576f73d52744",
+              "chunk_key": "4962576f73d52744_c000",
+              "article_date": "2026-05-01 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "What traders think Apple will talk about on its earnings call",
+              "summary": "On Apple's first earnings call since the company announced its planned C-suite changes, traders on Kalshi think the company may discuss its creator studio, streaming platform and a…",
+              "hash": "ec0be17efae8529d",
+              "chunk_key": "ec0be17efae8529d_c000",
+              "article_date": "2026-04-29 00:00:00",
+              "provider": "CNBC",
+              "value": 1
             }
           ],
           "related_tickers_named": [
@@ -2057,318 +770,70 @@
               "name": "Apple"
             },
             {
-              "ticker": "GS",
-              "name": "Goldman Sachs Group"
+              "ticker": "MS",
+              "name": "Morgan Stanley"
             },
             {
               "ticker": "GOOG",
               "name": "Alphabet"
-            },
-            {
-              "ticker": "PYPL",
-              "name": "PayPal"
             }
           ],
           "related_tickers_semantic": [
             {
-              "ticker": "PYPL",
-              "name": "PayPal"
+              "ticker": "AAPL",
+              "name": "Apple"
             },
             {
-              "ticker": "COF",
-              "name": "Capital One Financial"
+              "ticker": "UNH",
+              "name": "UnitedHealth Group"
             },
             {
-              "ticker": "WU",
-              "name": "Western Union"
+              "ticker": "SWKS",
+              "name": "Skyworks Solutions"
             },
             {
-              "ticker": "META",
-              "name": "Meta Platforms"
+              "ticker": "INTC",
+              "name": "Intel"
             },
             {
-              "ticker": "PFE",
-              "name": "Pfizer"
+              "ticker": "HPE",
+              "name": "Hewlett Packard Enterprise"
             },
             {
-              "ticker": "MTB",
-              "name": "M&T Bank"
+              "ticker": "MCD",
+              "name": "McDonald's"
             },
             {
-              "ticker": "JHX",
-              "name": "James Hardie Industries"
+              "ticker": "AMAT",
+              "name": "Applied Materials"
             }
           ]
-        },
-        {
-          "cluster_id": 29,
-          "name": "GM's Q1 Earnings Surpass",
-          "count": 2,
-          "children": [
-            {
-              "name": "GM is set to report earnings before the bell. Here's what Wall Street expects",
-              "summary": "The Detroit automaker changed its 2026 guidance to include adjusted earnings before interest and taxes of between $13.5 billion and $15.5 billion, or $11.50 to $13.",
-              "hash": "b23688c8893eeda2",
-              "chunk_key": "b23688c8893eeda2_c001",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "GM: Iran war causing cost increases, but pricey vehicles continue to sell",
-              "summary": "On a broader basis, GM on Tuesday said its first-quarter performance is expected to offset incremental increases in commodity and freight costs — including from logistics and highe…",
-              "hash": "475634803318fcc4",
-              "chunk_key": "475634803318fcc4_c002",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "GM",
-              "name": "General Motors"
-            }
-          ],
-          "related_tickers_semantic": []
         }
       ]
     },
     {
-      "name": "Middle East Economic Tensions",
+      "name": "Media Regulation Enforcement",
       "count": 2,
       "children": [
         {
-          "cluster_id": 24,
-          "name": "US-Iran Diplomatic Deadlock",
-          "count": 2,
-          "children": [
-            {
-              "name": "Trump tells Congress hostilities in Iran 'have terminated' at war powers deadline",
-              "summary": "President Donald Trump told Congress on Friday that hostilities in Iran \"have terminated\" since he imposed a two-week ceasefire on April 7 that has been extended.",
-              "hash": "2b76bc1560d75199",
-              "chunk_key": "2b76bc1560d75199_c000",
-              "article_date": "2026-05-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "U.S. is 'being humiliated by Iran,' says Germany's Merz",
-              "summary": "The U.S.",
-              "hash": "5d875f78268d9afd",
-              "chunk_key": "5d875f78268d9afd_c000",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
-        }
-      ]
-    },
-    {
-      "name": "Preparing for Higher Education",
-      "count": 2,
-      "children": [
-        {
-          "cluster_id": 12,
-          "name": "Preparing for College Summer",
-          "count": 2,
-          "children": [
-            {
-              "name": "I got accepted into Yale University—here's what I wrote in my college essay that made me stand out",
-              "summary": "Research has become an invaluable tool, helping me find answers to my biggest questions with ease.",
-              "hash": "f76dce5e975a9f74",
-              "chunk_key": "f76dce5e975a9f74_c003",
-              "article_date": "2026-05-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "I’ve coached kids who got into Harvard: What not to do when planning your kids' summer",
-              "summary": "As an independent counselor, I've spent almost 10 years working with hundreds of high-achieving high school students and their families on college planning.",
-              "hash": "c725a737b2f757cf",
-              "chunk_key": "c725a737b2f757cf_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
-        }
-      ]
-    },
-    {
-      "name": "Professional Sports Market Trends",
-      "count": 1,
-      "children": [
-        {
-          "cluster_id": 23,
-          "name": "\"Sports Valuations Reach Record Highs\"",
-          "count": 1,
-          "children": [
-            {
-              "name": "Pricey NFL, NBA ownership stakes are pushing investors to smaller leagues",
-              "summary": "NFL has funneled all the way down to the bottom of the sports food chain, said Rick Horrow, CEO of Horrow Sports Ventures. \"Major League Cricket was at $5 million.",
-              "hash": "576eebd56c771bc8",
-              "chunk_key": "576eebd56c771bc8_c003",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
-        }
-      ]
-    },
-    {
-      "name": "US Politics in Crisis",
-      "count": 12,
-      "children": [
-        {
-          "cluster_id": 4,
-          "name": "US Government Shutdown Continues",
-          "count": 4,
-          "children": [
-            {
-              "name": "House strips MAHA-hated pesticide provisions from farm bill",
-              "summary": "The House of Representatives on Thursday stripped a set of controversial provisions aimed at protecting pesticide manufacturers from the farm bill , following a Make America Health…",
-              "hash": "2ac43006ab95f437",
-              "chunk_key": "2ac43006ab95f437_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "DHS shutdown set to end after House passes bill to fund TSA, most of agency",
-              "summary": "President Donald Trump on Thursday signed a bill to fund most of the Department of Homeland Security, effectively ending the partial government shutdown that began in February.",
-              "hash": "9bcdb1d7ebe977a4",
-              "chunk_key": "9bcdb1d7ebe977a4_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Congress passes short-term FISA Section 702 extension just before deadline",
-              "summary": "The House on Thursday passed on a vote of 261-111 a 45-day extension of a controversial foreign surveillance program , voting just as the program was set to expire.",
-              "hash": "250a48c94313e6cf",
-              "chunk_key": "250a48c94313e6cf_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "DHS shutdown: Congressional dysfunction imperils pay for TSA, Secret Service",
-              "summary": "But that emergency funding could dry up by May 1, according to Trump administration officials.",
-              "hash": "1860e06151673d45",
-              "chunk_key": "1860e06151673d45_c001",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 6,
-          "name": "James Comey Indicted Again",
-          "count": 3,
-          "children": [
-            {
-              "name": "Pirro keeps pressure on Fed's Powell despite dropping probe",
-              "summary": "Trump said shortly after that he thought the investigation was still going. \"It's not dropped,\" Trump told reporters on April 25.",
-              "hash": "6f94b0c7d21447fa",
-              "chunk_key": "6f94b0c7d21447fa_c001",
-              "article_date": "2026-05-01 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "James Comey charged with threatening Trump's life in ‘8647’ seashell post",
-              "summary": "Around four months later, however, he was indicted in Virginia on one count each of making a false statement to Congress and obstruction.",
-              "hash": "79c0fef0017125d1",
-              "chunk_key": "79c0fef0017125d1_c003",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "DOJ's handling of Epstein files to get congressional watchdog scrutiny",
-              "summary": "Congress' independent watchdog plans to open an investigation into the Department of Justice 's handling of files related to the late sex offender Jeffrey Epstein , according to Se…",
-              "hash": "e0bcde086ed51af0",
-              "chunk_key": "e0bcde086ed51af0_c000",
-              "article_date": "2026-04-27 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 8,
-          "name": "Trump's White House Ballroom Plan",
-          "count": 3,
-          "children": [
-            {
-              "name": "Trump picks Nicole Saphier for surgeon general after pulling Casey Means",
-              "summary": "President Donald Trump on Thursday said he will nominate Dr. Nicole Saphier as the next U.S. surgeon general after pulling his previous pick, Dr.",
-              "hash": "a8899ec4790ff822",
-              "chunk_key": "a8899ec4790ff822_c000",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "Trump says 'I don't think about' another assassination attempt",
-              "summary": "The 31-year-old California resident, who has worked as a tutor, was tackled by Secret Service officers at a security checkpoint in the Washington Hilton, a floor above where Trump …",
-              "hash": "3ed408eca3efbcc0",
-              "chunk_key": "3ed408eca3efbcc0_c001",
-              "article_date": "2026-04-30 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
-            {
-              "name": "White House ballroom unlikely to get WHCD buy-in or end events elsewhere: Critics",
-              "summary": "A Secret Service agent thwarted that attempt. \"The ballroom is a vanity project; it's not a national security project,\" Canter said.",
-              "hash": "342070de3af92770",
-              "chunk_key": "342070de3af92770_c005",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            }
-          ],
-          "related_tickers_named": [
-            {
-              "ticker": "HLT",
-              "name": "Hilton Worldwide"
-            }
-          ],
-          "related_tickers_semantic": []
-        },
-        {
-          "cluster_id": 7,
+          "cluster_id": 5,
           "name": "FCC Cracks Down on Disney",
           "count": 2,
           "children": [
-            {
-              "name": "FCC launches review of Disney broadcast licenses years ahead of schedule",
-              "summary": "Disney's affiliates, which are operated by broadcast station owners like Nexstar Media Group.",
-              "hash": "b8f5a9003eb4b9c6",
-              "chunk_key": "b8f5a9003eb4b9c6_c002",
-              "article_date": "2026-04-28 00:00:00",
-              "provider": "CNBC",
-              "value": 1
-            },
             {
               "name": "ABC faces renewed Trump backlash, Kimmel says comments not a call for violence",
               "summary": "And they know that.",
               "hash": "6ba06b281d0d7867",
               "chunk_key": "6ba06b281d0d7867_c001",
+              "article_date": "2026-04-28 00:00:00",
+              "provider": "CNBC",
+              "value": 1
+            },
+            {
+              "name": "FCC launches review of Disney broadcast licenses years ahead of schedule",
+              "summary": "Disney's affiliates, which are operated by broadcast station owners like Nexstar Media Group.",
+              "hash": "b8f5a9003eb4b9c6",
+              "chunk_key": "b8f5a9003eb4b9c6_c002",
               "article_date": "2026-04-27 00:00:00",
               "provider": "CNBC",
               "value": 1
